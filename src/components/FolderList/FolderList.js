@@ -4,21 +4,15 @@ import "./FolderList.scss";
 class FolderList extends React.Component {
   render() {
     const { title, children } = this.props;
+    const guid = this.props.children[0].guid;
     const kids = children.filter(item => {
       return item.children;
     });
-    console.log(title, this.props.handleClick);
     if (title) {
       return (
-        <React.Fragment key={this.props.guid}>
+        <React.Fragment key={guid}>
           <li className="menu-item">
-            <a
-              onClick={() => {
-                this.props.handleClick(this.props, this.props.folder);
-              }}
-            >
-              {title}
-            </a>
+            <a id={guid}>{title}</a>
           </li>
 
           {kids &&
@@ -38,14 +32,13 @@ class FolderList extends React.Component {
       );
     } else {
       return (
-        <React.Fragment key={this.props.guid}>
+        <React.Fragment key={guid}>
           {kids &&
             kids.map(kid => (
               <FolderList
                 key={kid.guid}
                 title={kid.title}
                 children={kid.children}
-                handleClick={this.handleClick}
               />
             ))}
         </React.Fragment>
