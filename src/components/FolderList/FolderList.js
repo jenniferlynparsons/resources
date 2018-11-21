@@ -4,15 +4,17 @@ import "./FolderList.scss";
 class FolderList extends React.Component {
   render() {
     const { title, children } = this.props;
+    const guid = this.props.children[0].guid;
     const kids = children.filter(item => {
       return item.children;
     });
-    console.log(title, this.props.handleClick);
+    console.log(this.props);
     if (title) {
       return (
-        <React.Fragment key={this.props.guid}>
+        <React.Fragment key={guid}>
           <li className="menu-item">
             <a
+              id={guid}
               onClick={() => {
                 this.props.handleClick(this.props, this.props.folder);
               }}
@@ -38,7 +40,7 @@ class FolderList extends React.Component {
       );
     } else {
       return (
-        <React.Fragment key={this.props.guid}>
+        <React.Fragment key={guid}>
           {kids &&
             kids.map(kid => (
               <FolderList
