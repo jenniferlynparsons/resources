@@ -2,6 +2,7 @@
 node_modules
 remote-repo/
 coverage/
+dist/
 *.log*
 chrome-user-data
 *.sublime-project

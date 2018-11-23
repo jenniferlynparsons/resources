@@ -10,10 +10,10 @@ class FolderList extends React.Component {
     // console.log(this.props);
     if (title) {
       return (
-        <React.Fragment key={guid}>
+        <React.Fragment key={"fragment-" + guid}>
           <li className="menu-item">
             <a
-              id={guid}
+              id={"link=" + guid}
               onClick={() => {
                 this.props.handleClick(this.props, this.props.folder);
               }}
@@ -24,10 +24,9 @@ class FolderList extends React.Component {
 
           {kids &&
             kids.map(kid => (
-              <li>
+              <li key={"nested-li-folder-" + kid.guid}>
                 <ul className="menu-list">
                   <FolderList
-                    key={kid.guid}
                     title={kid.title}
                     children={kid.children}
                     handleClick={this.handleClick}

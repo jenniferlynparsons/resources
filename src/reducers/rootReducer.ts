@@ -1,6 +1,6 @@
 import { combineReducers } from "redux";
-import links from "./bookmarksReducer";
+import children from "./bookmarksReducer";
 
 export default combineReducers({
-  links
+  children
 });
