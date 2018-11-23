@@ -26005,7 +26005,8 @@ function fetchLinks() {
     return getLinks().then(function (json) {
       console.log("fetch links ", exports.fetchLinksSuccess(json));
       dispatch(exports.fetchLinksSuccess(json));
-      return json;
+      console.log("json ", json.children);
+      return json.children;
     }).catch(function (error) {
       return dispatch(exports.fetchLinksFailure(error));
     });
@@ -28151,7 +28152,8 @@ function (_react_1$default$Comp) {
     // };
     value: function componentDidMount() {
       this.props.dispatch(actions_1.fetchLinks());
-      console.log("state ", this.props);
+      console.log("dispatched ", this.props.dispatch(actions_1.fetchLinks()));
+      console.log("dispatched props ", this.props);
     }
   }, {
     key: "render",
@@ -28195,7 +28197,8 @@ function mapStateToProps(state) {
     loading: state.links.loading,
     error: state.links.error
   };
-  console.log("props ", props);
+  console.log("mapStateToProps props ", props);
+  console.log("mapStateToProps state ", state);
   return props;
 }
 

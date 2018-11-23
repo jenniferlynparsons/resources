@@ -14,7 +14,8 @@ export function fetchLinks() {
       .then(json => {
         console.log("fetch links ", fetchLinksSuccess(json));
         dispatch(fetchLinksSuccess(json));
-        return json;
+        console.log("json ", json.children);
+        return json.children;
       })
       .catch(error => dispatch(fetchLinksFailure(error)));
   };
