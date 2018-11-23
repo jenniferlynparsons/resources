@@ -1,5 +1,4 @@
 import React from "react";
-import "./FolderList.scss";
 
 class FolderList extends React.Component {
   render() {
@@ -8,7 +7,7 @@ class FolderList extends React.Component {
     const kids = children.filter(item => {
       return item.children;
     });
-    console.log(this.props);
+    // console.log(this.props);
     if (title) {
       return (
         <React.Fragment key={guid}>
