@@ -45,7 +45,7 @@ export default function linkReducer(state = initialState, action) {
       return {
         ...state,
         loading: false,
-        links: action.payload.links
+        children: action.payload.children
       };
 
     case FETCH_LINKS_FAILURE:
@@ -58,7 +58,7 @@ export default function linkReducer(state = initialState, action) {
         ...state,
         loading: false,
         error: action.payload.error,
-        links: []
+        children: []
       };
 
     default:
