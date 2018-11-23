@@ -12,7 +12,7 @@ export function fetchLinks() {
     dispatch(fetchLinksBegin());
     return getLinks()
       .then(json => {
-        console.log(fetchLinksSuccess(json));
+        console.log("fetch links ", fetchLinksSuccess(json));
         dispatch(fetchLinksSuccess(json));
         return json;
       })

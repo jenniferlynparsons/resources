@@ -12,6 +12,7 @@ class Bookmarks extends React.Component<Props, State> {
 
   componentDidMount() {
     this.props.dispatch(fetchLinks());
+    console.log("state ", this.props);
   }
 
   render() {
@@ -58,7 +59,7 @@ function mapStateToProps(state) {
     loading: state.links.loading,
     error: state.links.error
   };
-  console.log(props);
+  console.log("props ", props);
   return props;
 }
 
