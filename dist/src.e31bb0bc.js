@@ -26135,7 +26135,29 @@ var bookmarksReducer_1 = __importDefault(require("./bookmarksReducer"));
 exports.default = redux_1.combineReducers({
   links: bookmarksReducer_1.default
 });
-},{"redux":"../node_modules/redux/es/redux.js","./bookmarksReducer":"reducers/bookmarksReducer.ts"}],"store.js":[function(require,module,exports) {
+},{"redux":"../node_modules/redux/es/redux.js","./bookmarksReducer":"reducers/bookmarksReducer.ts"}],"../node_modules/redux-devtools-extension/index.js":[function(require,module,exports) {
+"use strict";
+
+var compose = require('redux').compose;
+
+exports.__esModule = true;
+exports.composeWithDevTools = (
+  typeof window !== 'undefined' && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ ?
+    window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ :
+    function() {
+      if (arguments.length === 0) return undefined;
+      if (typeof arguments[0] === 'object') return compose;
+      return compose.apply(null, arguments);
+    }
+);
+
+exports.devToolsEnhancer = (
+  typeof window !== 'undefined' && window.__REDUX_DEVTOOLS_EXTENSION__ ?
+    window.__REDUX_DEVTOOLS_EXTENSION__ :
+    function() { return function(noop) { return noop; } }
+);
+
+},{"redux":"../node_modules/redux/es/redux.js"}],"store.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -26149,12 +26171,14 @@ var _reduxThunk = _interopRequireDefault(require("redux-thunk"));
 
 var _rootReducer = _interopRequireDefault(require("./reducers/rootReducer"));
 
+var _reduxDevtoolsExtension = require("redux-devtools-extension");
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var store = (0, _redux.createStore)(_rootReducer.default, (0, _redux.applyMiddleware)(_reduxThunk.default));
+var store = (0, _redux.createStore)(_rootReducer.default, (0, _reduxDevtoolsExtension.composeWithDevTools)((0, _redux.applyMiddleware)(_reduxThunk.default)));
 var _default = store;
 exports.default = _default;
-},{"redux":"../node_modules/redux/es/redux.js","redux-thunk":"../node_modules/redux-thunk/es/index.js","./reducers/rootReducer":"reducers/rootReducer.ts"}],"../node_modules/warning/browser.js":[function(require,module,exports) {
+},{"redux":"../node_modules/redux/es/redux.js","redux-thunk":"../node_modules/redux-thunk/es/index.js","./reducers/rootReducer":"reducers/rootReducer.ts","redux-devtools-extension":"../node_modules/redux-devtools-extension/index.js"}],"../node_modules/warning/browser.js":[function(require,module,exports) {
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -28367,7 +28391,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "40513" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "36377" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
