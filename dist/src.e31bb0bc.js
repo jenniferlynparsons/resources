@@ -28193,7 +28193,7 @@ function (_react_1$default$Comp) {
 
 function mapStateToProps(state) {
   var props = {
-    links: state.links,
+    links: state.links.links,
     loading: state.links.loading,
     error: state.links.error
   };
@@ -28394,7 +28394,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "36377" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "42841" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

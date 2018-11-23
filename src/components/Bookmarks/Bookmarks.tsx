@@ -56,7 +56,7 @@ class Bookmarks extends React.Component<Props, State> {
 
 function mapStateToProps(state) {
   const props = {
-    links: state.links,
+    links: state.links.links,
     loading: state.links.loading,
     error: state.links.error
   };
