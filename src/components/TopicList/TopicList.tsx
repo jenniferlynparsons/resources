@@ -1,32 +1,23 @@
 import React from "react";
+import { Props, State } from "../../interfaces";
 
-class TopicList extends React.Component {
+class TopicList extends React.Component<Props, State> {
   render() {
-    // console.log(this.props);
-    if (this.props.topic.guid) {
-      return (
-        <section className=" content">
-          <h2>
-            {this.props.folder} - {this.props.topic.title}
-          </h2>
-          <ul>
-            {this.props.topic.children.map(function(bookmark) {
-              return (
-                <li key={bookmark.id}>
-                  <a href={bookmark.uri}>{bookmark.title}</a>
-                </li>
-              );
-            })}
-          </ul>
-        </section>
-      );
-    } else {
-      return (
-        <section className="section">
-          <p>Choose a topic</p>
-        </section>
-      );
-    }
+    // console.log("topic props", this.props);
+
+    return (
+      <ul>
+        {this.props.children.map(bookmark => {
+          if (!bookmark.children) {
+            return (
+              <li key={bookmark.id}>
+                <a href={bookmark.uri}>{bookmark.title}</a>
+              </li>
+            );
+          }
+        })}
+      </ul>
+    );
   }
 }
 
