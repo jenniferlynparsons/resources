@@ -25957,163 +25957,36 @@ var _connect = _interopRequireDefault(require("./connect/connect"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
-},{"./components/Provider":"../node_modules/react-redux/es/components/Provider.js","./components/connectAdvanced":"../node_modules/react-redux/es/components/connectAdvanced.js","./connect/connect":"../node_modules/react-redux/es/connect/connect.js"}],"../node_modules/redux-thunk/es/index.js":[function(require,module,exports) {
+},{"./components/Provider":"../node_modules/react-redux/es/components/Provider.js","./components/connectAdvanced":"../node_modules/react-redux/es/components/connectAdvanced.js","./connect/connect":"../node_modules/react-redux/es/connect/connect.js"}],"reducers/bookmarksReducer.ts":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = void 0;
-
-function createThunkMiddleware(extraArgument) {
-  return function (_ref) {
-    var dispatch = _ref.dispatch,
-        getState = _ref.getState;
-    return function (next) {
-      return function (action) {
-        if (typeof action === 'function') {
-          return action(dispatch, getState, extraArgument);
-        }
-
-        return next(action);
-      };
-    };
-  };
-}
-
-var thunk = createThunkMiddleware();
-thunk.withExtraArgument = createThunkMiddleware;
-var _default = thunk;
-exports.default = _default;
-},{}],"actions.ts":[function(require,module,exports) {
-"use strict"; // // import jsonResponse from "./bookmarkData.json";
-// function getLinks() {
-//   // console.log(jsonResponse);
-//   return fetch("http://localhost:1234/bookmarkData.json")
-//     .then(handleErrors)
-//     .then(res => res.json());
-// }
-// export function fetchLinks() {
-//   return dispatch => {
-//     dispatch(fetchLinksBegin());
-//     return getLinks()
-//       .then(json => {
-//         console.log("fetch links ", fetchLinksSuccess(json));
-//         dispatch(fetchLinksSuccess(json));
-//         console.log("json ", json.children);
-//         return json.children;
-//       })
-//       .catch(error => dispatch(fetchLinksFailure(error)));
-//   };
-// }
-// // Handle HTTP errors since fetch won't.
-// function handleErrors(response) {
-//   if (!response.ok) {
-//     throw Error(response.statusText);
-//   }
-//   return response;
-// }
-// export const FETCH_LINKS_BEGIN = "FETCH_LINKS_BEGIN";
-// export const FETCH_LINKS_SUCCESS = "FETCH_LINKS_SUCCESS";
-// export const FETCH_LINKS_FAILURE = "FETCH_LINKS_FAILURE";
-// export const fetchLinksBegin = () => ({
-//   type: FETCH_LINKS_BEGIN
-// });
-// export const fetchLinksSuccess = links => ({
-//   type: FETCH_LINKS_SUCCESS,
-//   payload: { links }
-// });
-// export const fetchLinksFailure = error => ({
-//   type: FETCH_LINKS_FAILURE,
-//   payload: { error }
-// });
-},{}],"reducers/bookmarksReducer.ts":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-}); // import { Bookmark } from "../interfaces";
-
-var actions_1 = require("../actions");
-
 var initialState = {
-  title: "Initial State",
-  children: [{
-    guid: "OwPXyxBt7K2o",
-    title: "talks to watch",
-    children: [{
-      guid: "IFI70vGC7Rlz",
-      title: "General",
-      children: [{
-        guid: "b98dms6IKL5o",
-        title: "Awesome Talks",
-        uri: "https://awesometalks.party/"
-      }]
-    }]
-  }]
+  topic: {},
+  folder: "",
+  parent: "",
+  title: "",
+  children: []
 };
 
-function linkReducer() {
+exports.default = function () {
   var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : initialState;
   var action = arguments.length > 1 ? arguments[1] : undefined;
 
   switch (action.type) {
-    case actions_1.FETCH_LINKS_BEGIN:
-      // Mark the state as "loading" so we can show a spinner or something
-      // Also, reset any errors. We're starting fresh.
+    case "FILTER_LINKS":
+      // console.log("payload", action.payload);
       return Object.assign({}, state, {
-        loading: true,
-        error: null
-      });
-
-    case actions_1.FETCH_LINKS_SUCCESS:
-      // All done: set loading "false".
-      // Also, replace the items with the ones from the server
-      return Object.assign({}, state, {
-        loading: false,
-        children: action.payload.children
-      });
-
-    case actions_1.FETCH_LINKS_FAILURE:
-      // The request failed, but it did stop, so set loading to "false".
-      // Save the error, and we can display it somewhere
-      // Since it failed, we don't have items to display anymore, so set it empty.
-      // This is up to you and your app though: maybe you want to keep the items
-      // around! Do whatever seems right.
-      return Object.assign({}, state, {
-        loading: false,
-        error: action.payload.error,
-        children: []
+        topic: action.payload
       });
 
     default:
-      // ALWAYS have a default case in a reducer
       return state;
   }
-}
-
-exports.default = linkReducer;
-},{"../actions":"actions.ts"}],"reducers/rootReducer.ts":[function(require,module,exports) {
-"use strict";
-
-var __importDefault = this && this.__importDefault || function (mod) {
-  return mod && mod.__esModule ? mod : {
-    "default": mod
-  };
 };
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var redux_1 = require("redux");
-
-var bookmarksReducer_1 = __importDefault(require("./bookmarksReducer"));
-
-exports.default = redux_1.combineReducers({
-  children: bookmarksReducer_1.default
-});
-},{"redux":"../node_modules/redux/es/redux.js","./bookmarksReducer":"reducers/bookmarksReducer.ts"}],"../node_modules/redux-devtools-extension/index.js":[function(require,module,exports) {
+},{}],"../node_modules/redux-devtools-extension/index.js":[function(require,module,exports) {
 "use strict";
 
 var compose = require('redux').compose;
@@ -26160,6 +26033,8 @@ exports.saveLinks = function (data) {
 };
 },{}],"bookmarkData.json":[function(require,module,exports) {
 module.exports = {
+  "folder": "",
+  "topic": {},
   "children": [{
     "guid": "OwPXyxBt7K2o",
     "title": "talks to watch",
@@ -26230,7 +26105,7 @@ module.exports = {
         "uri": "https://github.com/hellerve/programming-talks"
       }, {
         "guid": "U1Q_Bck5dTfS",
-        "title": "You can\xE2\x80\x99t go wrong watching JavaScript talks \xE2\x80\x93 Mozilla Hacks \xE2\x80\x93 the Web developer blog",
+        "title": "You can\xE2\x80\x99t go wrong watching JavaScript talks - Mozilla Hacks - the Web developer blog",
         "index": 5,
         "dateAdded": 1.518626676449e15,
         "lastModified": 1.54272570939e15,
@@ -26280,7 +26155,7 @@ module.exports = {
         "uri": "https://www.wearedevelopers.com/videos/"
       }, {
         "guid": "VN_E0gT5xjN6",
-        "title": "Past Talks \xE2\x80\x93 Deconstruct",
+        "title": "Past Talks - Deconstruct",
         "index": 10,
         "dateAdded": 1.52814843329e15,
         "lastModified": 1.54272570946e15,
@@ -26291,7 +26166,7 @@ module.exports = {
         "uri": "https://www.deconstructconf.com/2017"
       }, {
         "guid": "ClYvX60dzGLt",
-        "title": "Keep Betting on JavaScript by Kyle Simpson \xC2\u02C7 JSCamp Barcelona 2018 - YouTube",
+        "title": "Keep Betting on JavaScript by Kyle Simpson - JSCamp Barcelona 2018 - YouTube",
         "index": 11,
         "dateAdded": 1.53511268314e15,
         "lastModified": 1.542725709465e15,
@@ -26526,70 +26401,6 @@ module.exports = {
         "iconuri": "https://open.appacademy.io/apple-touch-icon.e5587902.png",
         "type": "text/x-moz-place",
         "uri": "https://open.appacademy.io/signup/free"
-      }]
-    }]
-  }, {
-    "guid": "9Y_gVhY_nKu8",
-    "title": "mentoring stuff",
-    "index": 2,
-    "dateAdded": 1.48952670212e15,
-    "lastModified": 1.542725737428e15,
-    "id": 101,
-    "typeCode": 2,
-    "type": "text/x-moz-place-container",
-    "children": [{
-      "guid": "tWqq1Z4UrQq8",
-      "title": "General",
-      "index": 0,
-      "dateAdded": 1.542725729777e15,
-      "lastModified": 1.542725737428e15,
-      "id": 6358,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "children": [{
-        "guid": "_Oad-S-kGYIB",
-        "title": "Create UML Diagrams | Gliffy",
-        "index": 0,
-        "dateAdded": 1.477138012078e15,
-        "lastModified": 1.542725737356e15,
-        "id": 4281,
-        "typeCode": 1,
-        "tags": "mentoring stuff",
-        "type": "text/x-moz-place",
-        "uri": "https://www.gliffy.com/uses/uml-software/"
-      }, {
-        "guid": "xq3KzbvO5Zqc",
-        "title": "CS50 - YouTube",
-        "index": 1,
-        "dateAdded": 1.477157572314e15,
-        "lastModified": 1.54272573739e15,
-        "id": 5705,
-        "typeCode": 1,
-        "tags": "mentoring stuff",
-        "type": "text/x-moz-place",
-        "uri": "https://www.youtube.com/user/cs50tv/videos"
-      }, {
-        "guid": "pTlAX8LBC7kZ",
-        "title": "Untitled Diagram.xml - draw.io",
-        "index": 2,
-        "dateAdded": 1.477157626001e15,
-        "lastModified": 1.542725737407e15,
-        "id": 5169,
-        "typeCode": 1,
-        "tags": "mentoring stuff",
-        "type": "text/x-moz-place",
-        "uri": "https://www.draw.io/"
-      }, {
-        "guid": "n3Yh4k6Y1V7X",
-        "title": "Java OOPs Concepts - Javatpoint",
-        "index": 3,
-        "dateAdded": 1.477245880852e15,
-        "lastModified": 1.542725737428e15,
-        "id": 5027,
-        "typeCode": 1,
-        "tags": "mentoring stuff",
-        "type": "text/x-moz-place",
-        "uri": "http://www.javatpoint.com/java-oops-concepts"
       }]
     }]
   }, {
@@ -26848,7 +26659,7 @@ module.exports = {
         "uri": "https://boagworld.com/accessibility/accessibility-is-not-what-you-think/"
       }, {
         "guid": "svLNnk5wZNDH",
-        "title": "Accessibility is not a feature. \xE2\x80\x94 Ethan Marcotte",
+        "title": "Accessibility is not a feature. - Ethan Marcotte",
         "index": 18,
         "dateAdded": 1.541185240089e15,
         "lastModified": 1.542726010759e15,
@@ -26859,7 +26670,7 @@ module.exports = {
         "uri": "https://ethanmarcotte.com/wrote/accessibility-is-not-a-feature/"
       }, {
         "guid": "a01KYTw6ZEjw",
-        "title": "Design for Real Life: An Interview with Sara Wachter-Boettcher \xC2\u02C7 An A List Apart Article",
+        "title": "Design for Real Life: An Interview with Sara Wachter-Boettcher - An A List Apart Article",
         "index": 19,
         "dateAdded": 1.541185247622e15,
         "lastModified": 1.542726010768e15,
@@ -27083,7 +26894,7 @@ module.exports = {
         "uri": "https://learnxinyminutes.com/"
       }, {
         "guid": "X6ee1TD-vBbV",
-        "title": "Cheatsheets \xE2\x80\x94 for web development and more",
+        "title": "Cheatsheets - for web development and more",
         "index": 4,
         "dateAdded": 1.491068527431e15,
         "lastModified": 1.542725762373e15,
@@ -27104,7 +26915,7 @@ module.exports = {
         "uri": "http://norvig.com/21-days.html"
       }, {
         "guid": "deGPP1s86C6F",
-        "title": "Modern JavaScript Explained For Dinosaurs \xE2\x80\x93 Node.js Collection \xE2\x80\x93 Medium",
+        "title": "Modern JavaScript Explained For Dinosaurs - Node.js Collection - Medium",
         "index": 6,
         "dateAdded": 1.519843743435e15,
         "lastModified": 1.54272576239e15,
@@ -27164,7 +26975,7 @@ module.exports = {
         "uri": "https://doc.lagout.org/"
       }, {
         "guid": "4E0k2Frm79CT",
-        "title": "Getting free of toxic tech culture \xE2\x80\x93 Valerie Aurora's blog",
+        "title": "Getting free of toxic tech culture - Valerie Aurora's blog",
         "index": 12,
         "dateAdded": 1.52959172657e15,
         "lastModified": 1.542725762491e15,
@@ -27297,7 +27108,7 @@ module.exports = {
         "uri": "https://thoughtbot.com/upcase/videos/elm-a-front-end-language-with-style"
       }, {
         "guid": "UgVvfu4nDibc",
-        "title": "Hello World \xC2\u02C7 Elm Tutorial",
+        "title": "Hello World - Elm Tutorial",
         "index": 2,
         "dateAdded": 1.48500884795e15,
         "lastModified": 1.48500884795e15,
@@ -27308,7 +27119,7 @@ module.exports = {
         "uri": "https://www.elm-tutorial.org/en/01-foundations/01-hello.html"
       }, {
         "guid": "tHSLcnNTCMyS",
-        "title": "Introduction \xC2\u02C7 An Introduction to Elm",
+        "title": "Introduction - An Introduction to Elm",
         "index": 3,
         "dateAdded": 1.518626539564e15,
         "lastModified": 1.518626539564e15,
@@ -27337,7 +27148,7 @@ module.exports = {
         "type": "text/x-moz-place-container",
         "children": [{
           "guid": "KY4gKJRhFtPi",
-          "title": "Shadow CLJS User\xE2\x80\x99s Guide",
+          "title": "Shadow CLJS User - Guide",
           "index": 0,
           "dateAdded": 1.517874972966e15,
           "lastModified": 1.517874972966e15,
@@ -27347,7 +27158,7 @@ module.exports = {
           "uri": "https://shadow-cljs.github.io/docs/UsersGuide.html"
         }, {
           "guid": "rovs8eIDXsLm",
-          "title": "ClojureScript: JavaScript Interop \xE2\x80\x93 Rafal Spacjer blog",
+          "title": "ClojureScript: JavaScript Interop - Rafal Spacjer blog",
           "index": 1,
           "dateAdded": 1.494545205219e15,
           "lastModified": 1.494545205219e15,
@@ -27380,7 +27191,7 @@ module.exports = {
           "uri": "http://escherize.com/cljsfiddle/"
         }, {
           "guid": "H79plWzPS71Z",
-          "title": "Getting Started \xC2\u02C7 cognitect/transit-cljs Wiki",
+          "title": "Getting Started - cognitect/transit-cljs Wiki",
           "index": 4,
           "dateAdded": 1.488639723822e15,
           "lastModified": 1.488639723822e15,
@@ -27477,7 +27288,7 @@ module.exports = {
         "uri": "https://github.com/bbatsov/clojure-style-guide"
       }, {
         "guid": "wM5sxOwsKi_B",
-        "title": "4clojure \xE2\x80\x93 Welcome!",
+        "title": "4clojure - Welcome!",
         "index": 4,
         "dateAdded": 1.488852423132e15,
         "lastModified": 1.488852423132e15,
@@ -27520,7 +27331,7 @@ module.exports = {
         "uri": "http://www.fullstackclojure.com/"
       }, {
         "guid": "4CD2FVETR0TC",
-        "title": "ClojureScript: a frontend language designed for efficient state management \xE2\x80\x93 Medium",
+        "title": "ClojureScript: a frontend language designed for efficient state management - Medium",
         "index": 8,
         "dateAdded": 1.488635029126e15,
         "lastModified": 1.488635029126e15,
@@ -27531,7 +27342,7 @@ module.exports = {
         "uri": "https://medium.com/@roman01la/clojurescript-a-frontend-language-designed-for-efficient-state-management-52f145c2fee3#.41dz2ujuz"
       }, {
         "guid": "Z2S_GsY5eS7f",
-        "title": "Introduction \xC2\u02C7 Clojure - building a simple web app",
+        "title": "Introduction - Clojure - building a simple web app",
         "index": 9,
         "dateAdded": 1.488639348553e15,
         "lastModified": 1.488639348553e15,
@@ -27707,7 +27518,7 @@ module.exports = {
         "uri": "http://quil.info/examples"
       }, {
         "guid": "fND_pM5eycq4",
-        "title": "a smol comic about clojure \xE2\x80\x94\xC2\xA0daiyi",
+        "title": "a smol comic about clojure -\xC2\xA0daiyi",
         "index": 25,
         "dateAdded": 1.500488690467e15,
         "lastModified": 1.500488690467e15,
@@ -27862,7 +27673,7 @@ module.exports = {
         "uri": "https://www.fullstackpython.com/"
       }, {
         "guid": "GeGz7Px0Fomi",
-        "title": "Underdog.io Blog \xE2\x80\x94 Python for JavaScript Developers",
+        "title": "Underdog.io Blog - Python for JavaScript Developers",
         "index": 1,
         "dateAdded": 1.485008737507e15,
         "lastModified": 1.485008737507e15,
@@ -27884,7 +27695,7 @@ module.exports = {
         "uri": "http://hg.toolness.com/python-for-js-programmers/raw-file/tip/PythonForJsProgrammers.html"
       }, {
         "guid": "b09a9A0wEQN-",
-        "title": "The Python Tutorial \xE2\x80\x94 Python 3.6.0 documentation",
+        "title": "The Python Tutorial - Python 3.6.0 documentation",
         "index": 3,
         "dateAdded": 1.485008759446e15,
         "lastModified": 1.485008759446e15,
@@ -27950,7 +27761,7 @@ module.exports = {
         "uri": "http://www.diveintopython.net/"
       }, {
         "guid": "Ex4sOpB9Vi_7",
-        "title": "The Hitchhiker\xE2\x80\x99s Guide to Python! \xE2\x80\x94 The Hitchhiker's Guide to Python",
+        "title": "The Hitchhiker - Guide to Python! - The Hitchhiker's Guide to Python",
         "index": 9,
         "dateAdded": 1.488066796058e15,
         "lastModified": 1.488066796058e15,
@@ -27983,7 +27794,7 @@ module.exports = {
         "uri": "https://www.fullstackpython.com/"
       }, {
         "guid": "gv0manUnhH9F",
-        "title": "Table of Contents \xE2\x80\x94 How to Think like a Computer Scientist: Interactive Edition",
+        "title": "Table of Contents - How to Think like a Computer Scientist: Interactive Edition",
         "index": 12,
         "dateAdded": 1.538152110585e15,
         "lastModified": 1.538152110585e15,
@@ -28208,7 +28019,7 @@ module.exports = {
         "uri": "http://www.lynda.com/course20/Developer-Programming-Foundations-tutorials/Making-most-course/83603/90427-4.html"
       }, {
         "guid": "NX_Jra4wSUtC",
-        "title": "JavaScript \xE2\x80\x94 Map vs. ForEach \xE2\x80\x93 codeburst",
+        "title": "JavaScript - Map vs. ForEach - codeburst",
         "index": 7,
         "dateAdded": 1.513570453335e15,
         "lastModified": 1.513570453335e15,
@@ -28234,7 +28045,7 @@ module.exports = {
         "uri": "https://chalarangelo.github.io/30-seconds-of-code/"
       }, {
         "guid": "_Ku6f4LJrAx0",
-        "title": "ES6 for Everyone \xE2\x80\x94 The best way to learn modern ES6 JavaScript",
+        "title": "ES6 for Everyone - The best way to learn modern ES6 JavaScript",
         "index": 9,
         "dateAdded": 1.470958278385e15,
         "lastModified": 1.470958278385e15,
@@ -28289,7 +28100,7 @@ module.exports = {
         "uri": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
       }, {
         "guid": "S9yy9gj4It4Z",
-        "title": "JavaScript 30 \xE2\x80\x94 Build 30 things with vanilla JS in 30 days with 30 tutorials",
+        "title": "JavaScript 30 - Build 30 things with vanilla JS in 30 days with 30 tutorials",
         "index": 14,
         "dateAdded": 1.487834910101e15,
         "lastModified": 1.487834910101e15,
@@ -28343,7 +28154,7 @@ module.exports = {
         "uri": "http://frontend.turing.io/lessons/module-3/es6-spread-and-rest-operators.html"
       }, {
         "guid": "yDEyQl-XVGNm",
-        "title": "Master the JavaScript Interview \xE2\x80\x93 JavaScript Scene \xE2\x80\x93 Medium",
+        "title": "Master the JavaScript Interview - JavaScript Scene - Medium",
         "index": 19,
         "dateAdded": 1.519850822099e15,
         "lastModified": 1.519850822099e15,
@@ -28496,7 +28307,7 @@ module.exports = {
           "uri": "https://www.coursera.org/learn/ruby-on-rails-intro?siteID=jU79Zysihs4-fKq8xCTXCugg0RhWA45qCA&utm_content=10&utm_medium=partners&utm_source=linkshare&utm_campaign=jU79Zysihs4"
         }, {
           "guid": "L4j9d6_bYF8h",
-          "title": "How I finally learned Rails \xE2\x80\x93 Ruby on Rails \xE2\x80\x93 Medium",
+          "title": "How I finally learned Rails - Ruby on Rails - Medium",
           "index": 10,
           "dateAdded": 1.52069957189e15,
           "lastModified": 1.52069957189e15,
@@ -28526,7 +28337,7 @@ module.exports = {
           "uri": "https://www.justinweiss.com/"
         }, {
           "guid": "VPuCBH6u6FsB",
-          "title": "rails/rails_application_templates.md at master \xC2\u02C7 rails/rails",
+          "title": "rails/rails_application_templates.md at master - rails/rails",
           "index": 13,
           "dateAdded": 1.52130030145e15,
           "lastModified": 1.52130030145e15,
@@ -28576,7 +28387,7 @@ module.exports = {
           "uri": "https://nowaker.net/post/ruby-on-rails-a-static-site-generator.html"
         }, {
           "guid": "Ejw-eE5rCcQV",
-          "title": "Rails Authorization with Pundit \xE2\x80\x93 freeCodeCamp",
+          "title": "Rails Authorization with Pundit - freeCodeCamp",
           "index": 18,
           "dateAdded": 1.52667577282e15,
           "lastModified": 1.52667577282e15,
@@ -28616,7 +28427,7 @@ module.exports = {
         "type": "text/x-moz-place-container",
         "children": [{
           "guid": "oMZoD9B4CKdO",
-          "title": "Rails Console Magic Tricks \xE2\x80\x93 Luis Vasconcellos \xE2\x80\x93 Medium",
+          "title": "Rails Console Magic Tricks - Luis Vasconcellos - Medium",
           "index": 0,
           "dateAdded": 1.535747968713e15,
           "lastModified": 1.535747968713e15,
@@ -28778,7 +28589,7 @@ module.exports = {
           "uri": "https://rubyonrails-link.slack.com/messages/C05054QPL/"
         }, {
           "guid": "A0x0LHGqelRv",
-          "title": "Home \xC2\u02C7 railslink/resources Wiki",
+          "title": "Home - railslink/resources Wiki",
           "index": 5,
           "dateAdded": 1.52191477553e15,
           "lastModified": 1.52191477553e15,
@@ -28827,7 +28638,7 @@ module.exports = {
             "uri": "http://blog.flatironschool.com/how-params-works-in-rails/"
           }, {
             "guid": "Ow2hnSLGM9s8",
-            "title": "Params in Rails: Where do they come from? \xE2\x80\x93 Launch School \xE2\x80\x93 Medium",
+            "title": "Params in Rails: Where do they come from? - Launch School - Medium",
             "index": 1,
             "dateAdded": 1.534530537982e15,
             "lastModified": 1.534530537982e15,
@@ -28867,7 +28678,7 @@ module.exports = {
             "uri": "https://www.sitepoint.com/complex-rails-forms-with-nested-attributes/"
           }, {
             "guid": "x_vx3nHUf5up",
-            "title": "Complex Nesting Forms in Rails \xE2\x80\x93 Olivia Chang \xE2\x80\x93 Medium",
+            "title": "Complex Nesting Forms in Rails - Olivia Chang - Medium",
             "index": 5,
             "dateAdded": 1.534530570046e15,
             "lastModified": 1.534530570046e15,
@@ -28887,7 +28698,7 @@ module.exports = {
           "type": "text/x-moz-place-container",
           "children": [{
             "guid": "Gp5LFxeS62ko",
-            "title": "Drifting Ruby \xE2\x80\x93 Ruby on Rails Screencasts & Blog",
+            "title": "Drifting Ruby - Ruby on Rails Screencasts & Blog",
             "index": 0,
             "dateAdded": 1.534884480959e15,
             "lastModified": 1.534884480959e15,
@@ -28957,7 +28768,7 @@ module.exports = {
             "uri": "https://www.youtube.com/channel/UCIQmhQxCvLHRr3Beku77tww/videos"
           }, {
             "guid": "dIvowURpNC4T",
-            "title": "RubyTapas \xE2\x80\x93 Short Screencasts of Gourmet Ruby, by Avdi Grimm",
+            "title": "RubyTapas - Short Screencasts of Gourmet Ruby, by Avdi Grimm",
             "index": 7,
             "dateAdded": 1.534884500929e15,
             "lastModified": 1.534884500929e15,
@@ -29007,7 +28818,7 @@ module.exports = {
             "uri": "https://ruby.libhunt.com/"
           }, {
             "guid": "lHxJeuTA_ltj",
-            "title": "Virtuous Code | \"The three virtues of a programmer: laziness, impatience, and hubris\" \xE2\x80\x94 Larry Wall",
+            "title": "Virtuous Code | \"The three virtues of a programmer: laziness, impatience, and hubris\" - Larry Wall",
             "index": 12,
             "dateAdded": 1.534884577342e15,
             "lastModified": 1.534884577342e15,
@@ -29083,7 +28894,7 @@ module.exports = {
         "uri": "https://docs.gitlab.com/ee/development/testing_guide/best_practices.html?utm_source=newsletter_mailer&utm_medium=email&utm_campaign=weekly"
       }, {
         "guid": "HJPzjNjVLzBi",
-        "title": "_Why: A Tale Of A Post-Modern Genius \xE2\x80\x94 Smashing Magazine",
+        "title": "_Why: A Tale Of A Post-Modern Genius - Smashing Magazine",
         "index": 7,
         "dateAdded": 1.52072372399e15,
         "lastModified": 1.52072372399e15,
@@ -29103,7 +28914,7 @@ module.exports = {
         "uri": "https://viewsourcecode.org/why/"
       }, {
         "guid": "g2-hMctdX8Tc",
-        "title": "Episode List \xE2\x80\x93 RubyTapas",
+        "title": "Episode List - RubyTapas",
         "index": 9,
         "dateAdded": 1.535573802457e15,
         "lastModified": 1.535573802457e15,
@@ -29113,7 +28924,7 @@ module.exports = {
         "uri": "https://www.rubytapas.com/episode-list/"
       }, {
         "guid": "uQt8OgOqKWfj",
-        "title": "Mehdi Farsi \xE2\x80\x93 Medium",
+        "title": "Mehdi Farsi - Medium",
         "index": 10,
         "dateAdded": 1.535568691019e15,
         "lastModified": 1.535568691019e15,
@@ -29254,7 +29065,7 @@ module.exports = {
         "uri": "http://jasonkim.ca/projects/just_enough_ruby_to_get_by/"
       }, {
         "guid": "Qc6anpyRiPC1",
-        "title": "Blog \xE2\x80\x93 DayDreams in Ruby",
+        "title": "Blog - DayDreams in Ruby",
         "index": 23,
         "dateAdded": 1.504017499328e15,
         "lastModified": 1.504017499328e15,
@@ -29265,7 +29076,7 @@ module.exports = {
         "uri": "http://daydreamsinruby.com/blog/"
       }, {
         "guid": "puxYznh5_e8q",
-        "title": "Learning Ruby: From Zero to Hero \xE2\x80\x93 freeCodeCamp",
+        "title": "Learning Ruby: From Zero to Hero - freeCodeCamp",
         "index": 24,
         "dateAdded": 1.505402311311e15,
         "lastModified": 1.505402311311e15,
@@ -29345,7 +29156,7 @@ module.exports = {
         "uri": "https://www.bloc.io/ruby-warrior#/"
       }, {
         "guid": "K2N4ONMOxLnq",
-        "title": "Ruby gotchas for the JavaScript developer \xE2\x80\u02D8 The Calendly Blog",
+        "title": "Ruby gotchas for the JavaScript developer - The Calendly Blog",
         "index": 30,
         "dateAdded": 1.541162826117e15,
         "lastModified": 1.541162826117e15,
@@ -29437,7 +29248,7 @@ module.exports = {
         "uri": "https://thenewstack.io/ebooks/"
       }, {
         "guid": "GCR8WNBUoQQa",
-        "title": "A quick introduction to web security \xE2\x80\x93 freeCodeCamp",
+        "title": "A quick introduction to web security - freeCodeCamp",
         "index": 3,
         "dateAdded": 1.535160232237e15,
         "lastModified": 1.542726030441e15,
@@ -29468,7 +29279,7 @@ module.exports = {
         "uri": "https://github.com/dwyl/learn-hapi"
       }, {
         "guid": "2n6feU1XvH5r",
-        "title": "Expressive, dynamic, robust CSS \xE2\x80\x94 expressive, robust, feature-rich CSS preprocessor",
+        "title": "Expressive, dynamic, robust CSS - expressive, robust, feature-rich CSS preprocessor",
         "index": 1,
         "dateAdded": 1.458601922629e15,
         "lastModified": 1.458601922629e15,
@@ -29570,7 +29381,7 @@ module.exports = {
       "type": "text/x-moz-place-container",
       "children": [{
         "guid": "MQi2z1V6xAP-",
-        "title": "Where to put code in mocha/jasmine tests \xE2\x80\x93 Medium",
+        "title": "Where to put code in mocha/jasmine tests - Medium",
         "index": 0,
         "dateAdded": 1.490486682572e15,
         "lastModified": 1.490486682572e15,
@@ -29581,7 +29392,7 @@ module.exports = {
         "uri": "https://medium.com/@kentcdodds/where-to-put-code-in-mocha-jasmine-tests-24aade62fd7e#.lrs5jcd7s"
       }, {
         "guid": "wXwLMzlXlYEF",
-        "title": "5 Questions Every Unit Test Must Answer \xE2\x80\x93 JavaScript Scene \xE2\x80\x93 Medium",
+        "title": "5 Questions Every Unit Test Must Answer - JavaScript Scene - Medium",
         "index": 1,
         "dateAdded": 1.491680150941e15,
         "lastModified": 1.491680150941e15,
@@ -29814,7 +29625,7 @@ module.exports = {
         "uri": "http://discrete.gr/complexity/"
       }, {
         "guid": "crhflGp4s8Yf",
-        "title": "IDEA \xE2\x80\x93 nonverbal algorithm assembly instructions",
+        "title": "IDEA - nonverbal algorithm assembly instructions",
         "index": 2,
         "dateAdded": 1.52133231243e15,
         "lastModified": 1.52133231243e15,
@@ -29856,7 +29667,7 @@ module.exports = {
         "uri": "https://en.wikipedia.org/wiki/Singleton_pattern"
       }, {
         "guid": "CJqNWb9TfzQj",
-        "title": "Publish\xE2\x80\x93subscribe pattern - Wikipedia",
+        "title": "Publish-subscribe pattern - Wikipedia",
         "index": 2,
         "dateAdded": 1.477245925853e15,
         "lastModified": 1.477245925853e15,
@@ -30161,7 +29972,7 @@ module.exports = {
         "type": "text/x-moz-place-container",
         "children": [{
           "guid": "RGAZcKukYCwF",
-          "title": "How Flexbox works \xE2\x80\x94 explained with big, colorful, animated gifs",
+          "title": "How Flexbox works - explained with big, colorful, animated gifs",
           "index": 0,
           "dateAdded": 1.487792841278e15,
           "lastModified": 1.487792841278e15,
@@ -30172,7 +29983,7 @@ module.exports = {
           "uri": "https://medium.freecodecamp.com/an-animated-guide-to-flexbox-d280cf6afc35#.usw5eg4ys"
         }, {
           "guid": "5K0Jsy-PAnIN",
-          "title": "New flexbox guides on MDN \xE2\x80\x93 Mozilla Hacks \xE2\x80\x93 the Web developer blog",
+          "title": "New flexbox guides on MDN - Mozilla Hacks - the Web developer blog",
           "index": 1,
           "dateAdded": 1.516337394102e15,
           "lastModified": 1.516337394102e15,
@@ -30192,7 +30003,7 @@ module.exports = {
           "uri": "https://www.sketchingwithcss.com/samplechapter/cheatsheet.html?__s=pqrjss1c6jtwbv8jwtp5"
         }, {
           "guid": "ERK2Fx5JmXyj",
-          "title": "Solved by Flexbox \xE2\x80\x94 Cleaner, hack-free CSS",
+          "title": "Solved by Flexbox - Cleaner, hack-free CSS",
           "index": 3,
           "dateAdded": 1.50973337278e15,
           "lastModified": 1.50973337278e15,
@@ -30245,7 +30056,7 @@ module.exports = {
         "type": "text/x-moz-place-container",
         "children": [{
           "guid": "MtIqr1tzel9f",
-          "title": "CSS Grid \xE2\x80\x94 Learn all about CSS Grid with Wes Bos in this free video series!",
+          "title": "CSS Grid - Learn all about CSS Grid with Wes Bos in this free video series!",
           "index": 0,
           "dateAdded": 1.516336521608e15,
           "lastModified": 1.516336521608e15,
@@ -30255,7 +30066,7 @@ module.exports = {
           "uri": "https://cssgrid.io/"
         }, {
           "guid": "MvJhPKtW6MIs",
-          "title": "Debugging CSS Grid Layouts With Firefox Grid Inspector \xE2\x80\x94 Smashing Magazine",
+          "title": "Debugging CSS Grid Layouts With Firefox Grid Inspector - Smashing Magazine",
           "index": 1,
           "dateAdded": 1.512752461564e15,
           "lastModified": 1.512752461564e15,
@@ -30265,7 +30076,7 @@ module.exports = {
           "uri": "https://www.smashingmagazine.com/2017/12/grid-inspector/"
         }, {
           "guid": "2hFtsJVgUzkt",
-          "title": "Learn CSS Grid in 5 Minutes \xE2\x80\x93 freeCodeCamp",
+          "title": "Learn CSS Grid in 5 Minutes - freeCodeCamp",
           "index": 2,
           "dateAdded": 1.512712027736e15,
           "lastModified": 1.512712027736e15,
@@ -30388,7 +30199,7 @@ module.exports = {
         "uri": "https://picnicss.com/"
       }, {
         "guid": "z4KP8wQSDQo5",
-        "title": "Layouts \xE2\x80\x93 Pure",
+        "title": "Layouts - Pure",
         "index": 1,
         "dateAdded": 1.53023006359e15,
         "lastModified": 1.53023006359e15,
@@ -30398,7 +30209,7 @@ module.exports = {
         "uri": "https://purecss.io/layouts/"
       }, {
         "guid": "G6GbuJk11H4j",
-        "title": "Home \xC2\u02C7 Marx",
+        "title": "Home - Marx",
         "index": 2,
         "dateAdded": 1.519233874378e15,
         "lastModified": 1.519233874378e15,
@@ -30442,7 +30253,7 @@ module.exports = {
         "uri": "http://usewing.ml/"
       }, {
         "guid": "MtHn4XO_3eSK",
-        "title": "PaperCSS \xE2\x80\u02D8 the less formal CSS framework",
+        "title": "PaperCSS - the less formal CSS framework",
         "index": 6,
         "dateAdded": 1.516338606038e15,
         "lastModified": 1.516338606038e15,
@@ -30462,7 +30273,7 @@ module.exports = {
         "uri": "https://jenil.github.io/chota/"
       }, {
         "guid": "HMbtJqdoacKM",
-        "title": "Svelte \xE2\x80\u02D8 The magical disappearing UI framework",
+        "title": "Svelte - The magical disappearing UI framework",
         "index": 8,
         "dateAdded": 1.506898874884e15,
         "lastModified": 1.506898874884e15,
@@ -30472,7 +30283,7 @@ module.exports = {
         "uri": "https://svelte.technology/blog/the-zen-of-just-writing-css?utm_source=ponyfoo+weekly&utm_medium=email&utm_campaign=80"
       }, {
         "guid": "oaEUxF_o3Vd-",
-        "title": "Gutenberg \xE2\x80\x94 A Meaningful Web Typography Starter Kit",
+        "title": "Gutenberg - A Meaningful Web Typography Starter Kit",
         "index": 9,
         "dateAdded": 1.519233753194e15,
         "lastModified": 1.519233753194e15,
@@ -30532,7 +30343,7 @@ module.exports = {
         "uri": "https://github.com/yuanchuan/CSS-at"
       }, {
         "guid": "VVlgloyMoU5g",
-        "title": "GitHub's CSS \xC2\u02C7 @mdo",
+        "title": "GitHub's CSS - @mdo",
         "index": 1,
         "dateAdded": 1.52959110568e15,
         "lastModified": 1.52959110568e15,
@@ -30643,7 +30454,7 @@ module.exports = {
         "uri": "https://www.hacksplaining.com/"
       }, {
         "guid": "LMWzDcibYQpK",
-        "title": "Design documents: maybe the only record of what the hell you were thinking \xE2\x80\x94 No Idea Blog",
+        "title": "Design documents: maybe the only record of what the hell you were thinking - No Idea Blog",
         "index": 4,
         "dateAdded": 1.53548963069e15,
         "lastModified": 1.542726066018e15,
@@ -30822,7 +30633,7 @@ module.exports = {
       "type": "text/x-moz-place-container",
       "children": [{
         "guid": "pxocfmr6eyku",
-        "title": "Reason \xC2\u02C7 Reason lets you write simple, fast and quality type safe code while leveraging both the JavaScript & OCaml ecosystems.",
+        "title": "Reason - Reason lets you write simple, fast and quality type safe code while leveraging both the JavaScript & OCaml ecosystems.",
         "index": 0,
         "dateAdded": 1.518200959988e15,
         "lastModified": 1.518200959988e15,
@@ -30882,7 +30693,7 @@ module.exports = {
       "type": "text/x-moz-place-container",
       "children": [{
         "guid": "Hceo9PKppkP9",
-        "title": "React Top-Level API \xE2\x80\x93 React",
+        "title": "React Top-Level API - React",
         "index": 0,
         "dateAdded": 1.541085026966e15,
         "lastModified": 1.541085026966e15,
@@ -30922,7 +30733,7 @@ module.exports = {
         "type": "text/x-moz-place-container",
         "children": [{
           "guid": "tiffwt24Uxri",
-          "title": "Rock Solid React.js Foundations: A Beginner\xE2\x80\x99s Guide",
+          "title": "Rock Solid React.js Foundations: A Beginner - Guide",
           "index": 0,
           "dateAdded": 1.519338110333e15,
           "lastModified": 1.519338110333e15,
@@ -30952,7 +30763,7 @@ module.exports = {
           "uri": "https://reactjs.org/"
         }, {
           "guid": "1YDqCjK8wjFW",
-          "title": "How Virtual-DOM and diffing works in React \xE2\x80\x93 Gethyl George Kurian \xE2\x80\x93 Medium",
+          "title": "How Virtual-DOM and diffing works in React - Gethyl George Kurian - Medium",
           "index": 3,
           "dateAdded": 1.519338128887e15,
           "lastModified": 1.519338128887e15,
@@ -31005,7 +30816,7 @@ module.exports = {
         "uri": "http://www.thegreatcodeadventure.com/building-a-simple-crud-app-with-react-redux-part-1/"
       }, {
         "guid": "KUQLY4WX_aQw",
-        "title": "Getting started with ES6 and React \xE2\x80\x94 by building a Minimal Todo App - Hashnode",
+        "title": "Getting started with ES6 and React - by building a Minimal Todo App - Hashnode",
         "index": 6,
         "dateAdded": 1.498316537399e15,
         "lastModified": 1.498316537399e15,
@@ -31048,7 +30859,7 @@ module.exports = {
         "uri": "http://reactkungfu.com/2015/10/the-difference-between-virtual-dom-and-dom/"
       }, {
         "guid": "_86Sto20z8w1",
-        "title": "React Tools \xE2\x80\x94 Syntax Podcast 001",
+        "title": "React Tools - Syntax Podcast 001",
         "index": 10,
         "dateAdded": 1.49948348363e15,
         "lastModified": 1.49948348363e15,
@@ -31059,7 +30870,7 @@ module.exports = {
         "uri": "https://syntax.fm/"
       }, {
         "guid": "XoXYbl5wyWn1",
-        "title": "javascript/react at master \xC2\u02C7 airbnb/javascript",
+        "title": "javascript/react at master - airbnb/javascript",
         "index": 11,
         "dateAdded": 1.499483569805e15,
         "lastModified": 1.499483569805e15,
@@ -31134,7 +30945,7 @@ module.exports = {
         "uri": "http://nodeschool.io/#workshopper-list"
       }, {
         "guid": "C8licGmAikd2",
-        "title": "KeystoneJS \xC2\u02C7 Getting Started",
+        "title": "KeystoneJS - Getting Started",
         "index": 4,
         "dateAdded": 1.458601940612e15,
         "lastModified": 1.458601940612e15,
@@ -31166,7 +30977,7 @@ module.exports = {
       "type": "text/x-moz-place-container",
       "children": [{
         "guid": "FCENo-BOHiyb",
-        "title": "Building a desktop application with Electron \xE2\x80\x93 Developers Writing \xE2\x80\x93 Medium",
+        "title": "Building a desktop application with Electron - Developers Writing - Medium",
         "index": 0,
         "dateAdded": 1.52657808586e15,
         "lastModified": 1.52657808586e15,
@@ -31186,7 +30997,7 @@ module.exports = {
       "type": "text/x-moz-place-container",
       "children": [{
         "guid": "APov8KKEBOV0",
-        "title": "Introduction \xE2\x80\x94 Vue.js",
+        "title": "Introduction - Vue.js",
         "index": 0,
         "dateAdded": 1.52086447027e15,
         "lastModified": 1.530373843952e15,
@@ -31207,7 +31018,7 @@ module.exports = {
         "uri": "https://css-tricks.com/building-a-rss-viewer-with-vue-part-1/"
       }, {
         "guid": "KOeYg1bgNmXr",
-        "title": "From zero to hero with Vue \xE2\x80\x94 Up and running \xE2\x80\x93 Indrek Lasn \xE2\x80\x93 Medium",
+        "title": "From zero to hero with Vue - Up and running - Indrek Lasn - Medium",
         "index": 2,
         "dateAdded": 1.536608652444e15,
         "lastModified": 1.536608652444e15,
@@ -31293,395 +31104,6 @@ module.exports = {
       }]
     }]
   }, {
-    "guid": "jChiOWAXggfj",
-    "title": "Projects",
-    "index": 13,
-    "dateAdded": 1.518969424316e15,
-    "lastModified": 1.542726080544e15,
-    "id": 193,
-    "typeCode": 2,
-    "type": "text/x-moz-place-container",
-    "children": [{
-      "guid": "unFlN8OXhkp5",
-      "title": "General",
-      "index": 0,
-      "dateAdded": 1.54272607314e15,
-      "lastModified": 1.542726080544e15,
-      "id": 6372,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "children": [{
-        "guid": "rSnegdT7BZRY",
-        "title": "PaperCall.io",
-        "index": 0,
-        "dateAdded": 1.53020141434e15,
-        "lastModified": 1.542726080313e15,
-        "id": 5923,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://www.papercall.io/"
-      }, {
-        "guid": "L_EcTVfTOEMJ",
-        "title": "Slidewriter.io: Create presentations as fast as you write",
-        "index": 1,
-        "dateAdded": 1.52324279379e15,
-        "lastModified": 1.5427260804e15,
-        "id": 966,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://slidewriter.io/"
-      }, {
-        "guid": "QACuagKCzkLu",
-        "title": "5 Essential Ingredients for an Awesome Tech Talk \xE2\x80\x93 David Neal \xE2\x80\x93 Medium",
-        "index": 2,
-        "dateAdded": 1.53505442584e15,
-        "lastModified": 1.542726080484e15,
-        "id": 6064,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://medium.com/@reverentgeek/5-essential-ingredients-for-an-awesome-tech-talk-2e5778b2cb5a"
-      }, {
-        "guid": "-Yz_2srfU1_D",
-        "title": "Cheap Bots, Done Quick!",
-        "index": 3,
-        "dateAdded": 1.460678701059e15,
-        "lastModified": 1.542726080512e15,
-        "id": 360,
-        "typeCode": 1,
-        "tags": "compsci,selfcare",
-        "iconuri": "https://cheapbotsdonequick.com/apple-touch-icon.png",
-        "type": "text/x-moz-place",
-        "uri": "http://cheapbotsdonequick.com/"
-      }, {
-        "guid": "nhDRwDUYUmEY",
-        "title": "Plans & Pricing \xC2\u02C7 GitBook",
-        "index": 4,
-        "dateAdded": 1.52056148985e15,
-        "lastModified": 1.542726080544e15,
-        "id": 650,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://www.gitbook.com/pricing"
-      }]
-    }, {
-      "guid": "3xXuk9RkVRpw",
-      "title": "worlds of code",
-      "index": 1,
-      "dateAdded": 1.528145502561e15,
-      "lastModified": 1.52814639946e15,
-      "id": 5840,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "children": [{
-        "guid": "LF-QBYZzY-mF",
-        "title": "GitHub, Glitch and the Future of Social Coding \xE2\x80\x93 Glitch \xE2\x80\x93 Medium",
-        "index": 0,
-        "dateAdded": 1.52814545569e15,
-        "lastModified": 1.52814545569e15,
-        "id": 5844,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://medium.com/glitch/github-glitch-and-the-future-of-social-coding-5e6faa45c8f2"
-      }, {
-        "guid": "Loe-lIRmN0Ya",
-        "title": "What is Glitch? \xE2\x80\x93 Glitch \xE2\x80\x93 Medium",
-        "index": 1,
-        "dateAdded": 1.52814565355e15,
-        "lastModified": 1.52814565355e15,
-        "id": 5849,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://medium.com/glitch/what-is-glitch-90cd75e40277"
-      }, {
-        "guid": "r_TEu5NLdP05",
-        "title": "Everything is for beginners \xE2\x80\x93 Emma Robbins \xE2\x80\x93 Medium",
-        "index": 2,
-        "dateAdded": 1.52814639946e15,
-        "lastModified": 1.52814639946e15,
-        "id": 5850,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://medium.com/@emmarobbins_51556/everything-is-for-beginners-d2b52394d8ae"
-      }]
-    }, {
-      "guid": "dptNm0MtzWSs",
-      "title": "todos",
-      "index": 2,
-      "dateAdded": 1.48952670212e15,
-      "lastModified": 1.489359909315e15,
-      "id": 178,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "children": [{
-        "guid": "bUkcu-RVJmdd",
-        "title": "TODO in HTML5 and plain JavaScript",
-        "index": 0,
-        "dateAdded": 1.489359901994e15,
-        "lastModified": 1.489359901994e15,
-        "id": 4428,
-        "typeCode": 1,
-        "tags": "todos",
-        "type": "text/x-moz-place",
-        "uri": "https://code-maven.com/todo-in-html-and-javascript"
-      }, {
-        "guid": "tlTOhUhGz1ZI",
-        "title": "A Simple AJAX Example | AJAX Basics | Treehouse",
-        "index": 1,
-        "dateAdded": 1.489359909315e15,
-        "lastModified": 1.489359909315e15,
-        "id": 5455,
-        "typeCode": 1,
-        "tags": "todos",
-        "type": "text/x-moz-place",
-        "uri": "https://teamtreehouse.com/library/ajax-basics/ajax-concepts/a-simple-ajax-example"
-      }]
-    }, {
-      "guid": "-kLS7UtgVhaR",
-      "title": "technical blogging",
-      "index": 3,
-      "dateAdded": 1.504017582703e15,
-      "lastModified": 1.504017605012e15,
-      "id": 72,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "children": [{
-        "guid": "TBt_0dH0irzB",
-        "title": "How to do technical blogging",
-        "index": 0,
-        "dateAdded": 1.504017592646e15,
-        "lastModified": 1.504017592646e15,
-        "id": 1204,
-        "typeCode": 1,
-        "tags": "technical blogging",
-        "type": "text/x-moz-place",
-        "uri": "https://dev.to/yelluw/how-to-do-technical-blogging"
-      }, {
-        "guid": "aIHdfr9tmGXx",
-        "title": "How to Build an Online Presence as a Junior Developer",
-        "index": 1,
-        "dateAdded": 1.504017605012e15,
-        "lastModified": 1.504017605012e15,
-        "id": 4328,
-        "typeCode": 1,
-        "tags": "technical blogging",
-        "type": "text/x-moz-place",
-        "uri": "https://dev.to/samjarman/how-to-build-an-online-presence-as-a-junior-developer?utm_source=News+from+The+Recompiler&utm_campaign=1c246e6c7d-EMAIL_CAMPAIGN_2017_08_11&utm_medium=email&utm_term=0_131cefd51c-1c246e6c7d-64268001&mc_cid=1c246e6c7d&mc_eid=ba7d83b054"
-      }, {
-        "guid": "L51QNdEDUAz8",
-        "title": "Carbon",
-        "index": 2,
-        "dateAdded": 1.5067445059e15,
-        "lastModified": 1.5067445059e15,
-        "id": 1483,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://carbon.now.sh/"
-      }]
-    }, {
-      "guid": "mlgzzbTMAh9-",
-      "title": "hacktoberfest 2017",
-      "index": 4,
-      "dateAdded": 1.505401615608e15,
-      "lastModified": 1.506966304013e15,
-      "id": 198,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "children": [{
-        "guid": "2p5U_8AA1BHW",
-        "title": "CodeTriage",
-        "index": 0,
-        "dateAdded": 1.505401642902e15,
-        "lastModified": 1.505401642902e15,
-        "id": 1772,
-        "typeCode": 1,
-        "tags": "hacktoberfest 2017",
-        "type": "text/x-moz-place",
-        "uri": "https://www.codetriage.com/?language=JavaScript&page=3"
-      }, {
-        "guid": "gkaF6CRHZfB2",
-        "title": "Notebook.ai",
-        "index": 1,
-        "dateAdded": 1.505401666657e15,
-        "lastModified": 1.505401666657e15,
-        "id": 1779,
-        "typeCode": 1,
-        "tags": "hacktoberfest 2017",
-        "type": "text/x-moz-place",
-        "uri": "https://www.notebook.ai/"
-      }, {
-        "guid": "Fxr8tykWhkIo",
-        "title": "Introduction | bobtail.js",
-        "index": 2,
-        "dateAdded": 1.505401690228e15,
-        "lastModified": 1.505401690228e15,
-        "id": 591,
-        "typeCode": 1,
-        "tags": "hacktoberfest 2017",
-        "type": "text/x-moz-place",
-        "uri": "http://bobtailjs.io/"
-      }, {
-        "guid": "FrRTsW97ws00",
-        "title": "julianguyen/ifme: Open source app to share mental health experiences with loved ones",
-        "index": 3,
-        "dateAdded": 1.506965289834e15,
-        "lastModified": 1.506965289834e15,
-        "id": 407,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://github.com/julianguyen/ifme"
-      }, {
-        "guid": "3Xz49tddCcVa",
-        "title": "input & textarea have browser-defined font in Chrome \xC2\u02C7 Issue #65 \xC2\u02C7 kbrsh/wing",
-        "index": 4,
-        "dateAdded": 1.506966304013e15,
-        "lastModified": 1.506966304013e15,
-        "id": 2031,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://github.com/kbrsh/wing/issues/65"
-      }, {
-        "guid": "j4rxigo13hIX",
-        "title": "Hacktoberfest Checker",
-        "index": 5,
-        "dateAdded": 1.507351910694e15,
-        "lastModified": 1.507351910694e15,
-        "id": 1858,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://hacktoberfestchecker.herokuapp.com/?username=jenniferlynparsons"
-      }]
-    }, {
-      "guid": "PF0Vfbn8fnI6",
-      "title": "masto bots",
-      "index": 5,
-      "dateAdded": 1.511198517207e15,
-      "lastModified": 1.511198580188e15,
-      "id": 137,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "children": [{
-        "guid": "N_-M6izhdxks",
-        "title": "Dashboard | Uptime Robot",
-        "index": 0,
-        "dateAdded": 1.511198799809e15,
-        "lastModified": 1.511198799809e15,
-        "id": 546,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://uptimerobot.com/dashboard.php#"
-      }, {
-        "guid": "gfUmvVxN23eC",
-        "title": "bot.js \xE2\x80\x93 self-care-mastodon",
-        "index": 1,
-        "dateAdded": 1.511198600854e15,
-        "lastModified": 1.511198600854e15,
-        "id": 409,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://glitch.com/edit/#!/self-care-mastodon?path=bot.js:1:0"
-      }, {
-        "guid": "bmNJrEg8I-xs",
-        "title": "botsin.space",
-        "index": 2,
-        "dateAdded": 1.511198594486e15,
-        "lastModified": 1.511198594486e15,
-        "id": 350,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://botsin.space/web/accounts/18065"
-      }, {
-        "guid": "oLq6MQ8gFG6w",
-        "title": "Mastodon.py \xE2\x80\x94 Mastodon.py 1.1.1 documentation",
-        "index": 3,
-        "dateAdded": 1.511198574416e15,
-        "lastModified": 1.511198574416e15,
-        "id": 1921,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://mastodonpy.readthedocs.io/en/latest/"
-      }, {
-        "guid": "vPRuDq8mIVwj",
-        "title": "mastodon-bot",
-        "index": 4,
-        "dateAdded": 1.511198580188e15,
-        "lastModified": 1.511198580188e15,
-        "id": 1958,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://tinysubversions.com/notes/mastodon-bot/"
-      }, {
-        "guid": "9Wr7w3yVoVfV",
-        "title": "ineffyble/TootTime: Mastodon bot that toots the time",
-        "index": 5,
-        "dateAdded": 1.511198585211e15,
-        "lastModified": 1.511198585211e15,
-        "id": 1947,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://github.com/ineffyble/TootTime"
-      }, {
-        "guid": "L1BDY1Ve5_fS",
-        "title": "theZacAttacks/RemindMeBot: a little ruby bot for setting up reminders for users on mastodon",
-        "index": 6,
-        "dateAdded": 1.511198559469e15,
-        "lastModified": 1.511198559469e15,
-        "id": 1520,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://github.com/theZacAttacks/RemindMeBot"
-      }, {
-        "guid": "GEfP0hJVv1Mn",
-        "title": "Noiob / darksoulsmsgs \xE2\x80\x94 Bitbucket",
-        "index": 7,
-        "dateAdded": 1.511198569678e15,
-        "lastModified": 1.511198569678e15,
-        "id": 1949,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://bitbucket.org/Noiob/darksoulsmsgs"
-      }, {
-        "guid": "FaWVCqRKfaF3",
-        "title": "ananas 1.0.0b4 : Python Package Index",
-        "index": 8,
-        "dateAdded": 1.511198564558e15,
-        "lastModified": 1.511198564558e15,
-        "id": 1948,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://pypi.python.org/pypi/ananas/1.0.0b4"
-      }, {
-        "guid": "CFMuZcLiY5FI",
-        "title": "jennifermf/masto-bot: A pretty simple Python3 script which posts random lines from a .txt file to a Mastodon account.",
-        "index": 9,
-        "dateAdded": 1.51120338378e15,
-        "lastModified": 1.51120338378e15,
-        "id": 1382,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://github.com/jennifermf/masto-bot"
-      }, {
-        "guid": "Xsvhkpok3JRY",
-        "title": "polymerwitch/SupportBot: A framework for making social media bots for multiple networks",
-        "index": 10,
-        "dateAdded": 1.511198546789e15,
-        "lastModified": 1.511198546789e15,
-        "id": 1954,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://github.com/polymerwitch/SupportBot"
-      }, {
-        "guid": "L9EpYLbusv99",
-        "title": "Chronister/ananas: The Python Bot Framework for Mastodon",
-        "index": 11,
-        "dateAdded": 1.511198541633e15,
-        "lastModified": 1.511198541633e15,
-        "id": 1953,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://github.com/chronister/ananas"
-      }]
-    }]
-  }, {
     "guid": "7L99A3mt2svZ",
     "title": "General Dev",
     "index": 14,
@@ -31752,7 +31174,7 @@ module.exports = {
         "uri": "https://github.com/30-seconds/30-seconds-of-code#readme"
       }, {
         "guid": "0jiDmuW6GnZz",
-        "title": "Do You Really Know CORS? \xE2\x80\x93 PerformantCode.com",
+        "title": "Do You Really Know CORS? - PerformantCode.com",
         "index": 5,
         "dateAdded": 1.542123631147e15,
         "lastModified": 1.542726095395e15,
@@ -31842,7 +31264,7 @@ module.exports = {
         "uri": "https://softwareengineering.stackexchange.com/questions/37242/what-process-do-you-normally-use-when-attempting-to-debug-a-problem-issue-bug-wi"
       }, {
         "guid": "HoRolQbGyhuV",
-        "title": "Questions to ask yourself when debugging \xE2\x80\x93 The Web and all that Jazz",
+        "title": "Questions to ask yourself when debugging - The Web and all that Jazz",
         "index": 2,
         "dateAdded": 1.53755051459e15,
         "lastModified": 1.53755051459e15,
@@ -31872,7 +31294,7 @@ module.exports = {
         "uri": "https://revelry.co/debugging-tips/"
       }, {
         "guid": "Ki-zHwEOJJkh",
-        "title": "Ten Questions To Ask Yourself When You Debug < \xE2\x80\u015A > \xE2\x80\x93 dev <tech> tips & tricks \xE2\x80\x93 Medium",
+        "title": "Ten Questions To Ask Yourself When You Debug < \xE2\x80\u015A > - dev <tech> tips & tricks - Medium",
         "index": 5,
         "dateAdded": 1.537550534801e15,
         "lastModified": 1.537550534801e15,
@@ -31882,7 +31304,7 @@ module.exports = {
         "uri": "https://medium.com/devtechtipstricks/my-personal-top-10-art-of-debugging-problems-in-software-12fb0a01832"
       }, {
         "guid": "_sUIJD5Aoqvk",
-        "title": "Debugging \xE2\x80\x94 How to Think like a Computer Scientist: Interactive Edition",
+        "title": "Debugging - How to Think like a Computer Scientist: Interactive Edition",
         "index": 6,
         "dateAdded": 1.537550541179e15,
         "lastModified": 1.537550541179e15,
@@ -31892,7 +31314,7 @@ module.exports = {
         "uri": "http://interactivepython.org/runestone/static/CS152f17/Appendices/errorsAndDebug.html"
       }, {
         "guid": "vtNoSdMM_uIc",
-        "title": "Debugging \xE2\x80\x94 How to Think like a Computer Scientist: Interactive Edition",
+        "title": "Debugging - How to Think like a Computer Scientist: Interactive Edition",
         "index": 7,
         "dateAdded": 1.539292007785e15,
         "lastModified": 1.539292007785e15,
@@ -31902,7 +31324,7 @@ module.exports = {
         "uri": "http://interactivepython.org/runestone/static/CS152f17/Appendices/errorsAndDebug.html"
       }, {
         "guid": "SFufbUB4zTkx",
-        "title": "3. Debugging Interlude 1 \xE2\x80\x94 How to Think like a Computer Scientist: Interactive Edition",
+        "title": "3. Debugging Interlude 1 - How to Think like a Computer Scientist: Interactive Edition",
         "index": 8,
         "dateAdded": 1.539292013276e15,
         "lastModified": 1.539292013276e15,
@@ -31932,7 +31354,7 @@ module.exports = {
       "type": "text/x-moz-place-container",
       "children": [{
         "guid": "yJb4a2x1TiWM",
-        "title": "Leveling Up \xE2\x80\x93 Chelsea Troy",
+        "title": "Leveling Up - Chelsea Troy",
         "index": 0,
         "dateAdded": 1.53935950042e15,
         "lastModified": 1.542725786351e15,
@@ -31942,7 +31364,7 @@ module.exports = {
         "uri": "https://chelseatroy.com/category/leveling-up/"
       }, {
         "guid": "W94LnLJNYs15",
-        "title": "The Prose Garden | get pragpub, the magazine for today\xE2\x80\x99s software developers",
+        "title": "The Prose Garden | get pragpub, the magazine for today - software developers",
         "index": 1,
         "dateAdded": 1.53486400921e15,
         "lastModified": 1.54272578636e15,
@@ -31952,7 +31374,7 @@ module.exports = {
         "uri": "https://theprosegarden.com/"
       }, {
         "guid": "ahcZy6p3oGiK",
-        "title": "Offscreen Magazine \xE2\x80\x93 The Human Side of Technology",
+        "title": "Offscreen Magazine - The Human Side of Technology",
         "index": 2,
         "dateAdded": 1.533910787447e15,
         "lastModified": 1.542725786366e15,
@@ -31962,7 +31384,7 @@ module.exports = {
         "uri": "https://www.offscreenmag.com/"
       }, {
         "guid": "AStYihWkyTzG",
-        "title": "The Recompiler \xE2\x80\x93 a magazine about building better technology, together",
+        "title": "The Recompiler - a magazine about building better technology, together",
         "index": 3,
         "dateAdded": 1.533910751899e15,
         "lastModified": 1.54272578637e15,
@@ -32066,7 +31488,7 @@ module.exports = {
         "uri": "http://programming-motherfucker.com/become.html"
       }, {
         "guid": "GcYQibYpp1EF",
-        "title": "Morning Cup of Coding \xE2\x80\x94 Human Readable",
+        "title": "Morning Cup of Coding - Human Readable",
         "index": 13,
         "dateAdded": 1.535494348408e15,
         "lastModified": 1.542725786486e15,
@@ -32076,7 +31498,7 @@ module.exports = {
         "uri": "https://www.humanreadablemag.com/morningcupofcoding/"
       }, {
         "guid": "yRozLOgCELK1",
-        "title": "Andy Bell \xE2\x80\x93 Medium",
+        "title": "Andy Bell - Medium",
         "index": 14,
         "dateAdded": 1.53556127024e15,
         "lastModified": 1.54272578651e15,
@@ -32096,7 +31518,7 @@ module.exports = {
         "uri": "https://webcomponents.club/"
       }, {
         "guid": "nGPxlSFN9Cbc",
-        "title": "Frank Chimero \xC2\u02C7 Writing",
+        "title": "Frank Chimero - Writing",
         "index": 16,
         "dateAdded": 1.538347451832e15,
         "lastModified": 1.542725786534e15,
@@ -32126,7 +31548,7 @@ module.exports = {
         "uri": "http://quotes.cat-v.org/programming/"
       }, {
         "guid": "jDVZ77NpR8iw",
-        "title": "Blog home \xC2\u02C7 Ana Ulin",
+        "title": "Blog home - Ana Ulin",
         "index": 19,
         "dateAdded": 1.542037463274e15,
         "lastModified": 1.542725786577e15,
@@ -32167,7 +31589,7 @@ module.exports = {
         "uri": "http://astrum.nodividestudio.com/"
       }, {
         "guid": "aDskmq9DfxB8",
-        "title": "Design for Developers: Specific Steps to Improve Your Website Design \xE2\x80\x93 Tania Rascia",
+        "title": "Design for Developers: Specific Steps to Improve Your Website Design - Tania Rascia",
         "index": 1,
         "dateAdded": 1.52183592708e15,
         "lastModified": 1.542725800114e15,
@@ -32217,7 +31639,7 @@ module.exports = {
         "uri": "http://print.pm/"
       }, {
         "guid": "FPdGC_BkSRqt",
-        "title": "Adele \xE2\x80\x93 Design Systems and Pattern Libraries Repository",
+        "title": "Adele - Design Systems and Pattern Libraries Repository",
         "index": 6,
         "dateAdded": 1.53928655682e15,
         "lastModified": 1.54272580021e15,
@@ -32380,7 +31802,7 @@ module.exports = {
       "type": "text/x-moz-place-container",
       "children": [{
         "guid": "nzuNPA4yUYqu",
-        "title": "Engineering Growth Framework \xE2\x80\x93 Medium",
+        "title": "Engineering Growth Framework - Medium",
         "index": 0,
         "dateAdded": 1.536679062111e15,
         "lastModified": 1.542725823286e15,
@@ -32410,7 +31832,7 @@ module.exports = {
         "uri": "https://gist.github.com/cecyc/6365ebb46ec408907a62f1d4d1336111"
       }, {
         "guid": "T1wwLJ6_9H_L",
-        "title": "Sharing Our Engineering Ladder \xE2\x80\x94 RTR Dress Code",
+        "title": "Sharing Our Engineering Ladder - RTR Dress Code",
         "index": 3,
         "dateAdded": 1.536679067913e15,
         "lastModified": 1.542725823355e15,
@@ -32420,7 +31842,7 @@ module.exports = {
         "uri": "http://dresscode.renttherunway.com/blog/ladder"
       }, {
         "guid": "DWG5IrP4KSGW",
-        "title": "Leveling Up \xE2\x80\x93 Chelsea Troy",
+        "title": "Leveling Up - Chelsea Troy",
         "index": 4,
         "dateAdded": 1.536679073201e15,
         "lastModified": 1.542725823368e15,
@@ -32430,7 +31852,7 @@ module.exports = {
         "uri": "https://chelseatroy.com/category/leveling-up/"
       }, {
         "guid": "qwFTFNEV-ZQG",
-        "title": "Your Professional Growth Questionnaire \xE2\x80\x93 Rands in Repose",
+        "title": "Your Professional Growth Questionnaire - Rands in Repose",
         "index": 5,
         "dateAdded": 1.536679082988e15,
         "lastModified": 1.542725823408e15,
@@ -32440,7 +31862,7 @@ module.exports = {
         "uri": "http://randsinrepose.com/archives/your-professional-growth-questionnaire/"
       }, {
         "guid": "S6HnFWMQpGMt",
-        "title": "nealford.com \xE2\x80\u02D8 Build Your Own Technology Radar",
+        "title": "nealford.com - Build Your Own Technology Radar",
         "index": 6,
         "dateAdded": 1.536681540487e15,
         "lastModified": 1.54272582343e15,
@@ -32531,7 +31953,7 @@ module.exports = {
         "uri": "https://www.coedethics.org/"
       }, {
         "guid": "VC2aZfrlK_Yq",
-        "title": "Is Your Product Designed to Be Calm? \xE2\x80\x93 Amber Case \xE2\x80\x93 Medium",
+        "title": "Is Your Product Designed to Be Calm? - Amber Case - Medium",
         "index": 5,
         "dateAdded": 1.541604844261e15,
         "lastModified": 1.542725834399e15,
@@ -32554,9 +31976,7 @@ exports.default = void 0;
 
 var _redux = require("redux");
 
-var _reduxThunk = _interopRequireDefault(require("redux-thunk"));
-
-var _rootReducer = _interopRequireDefault(require("./reducers/rootReducer"));
+var _bookmarksReducer = _interopRequireDefault(require("./reducers/bookmarksReducer"));
 
 var _reduxDevtoolsExtension = require("redux-devtools-extension");
 
@@ -32568,11 +31988,12 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 // there is surely a better way to do this, but for now it magically works. on assignment, it loads the result into localStorage!
 var linkData = (0, _storage.saveLinks)(_bookmarkData.default);
-var persistedState = (0, _storage.loadLinks)();
-var store = (0, _redux.createStore)(_rootReducer.default, persistedState);
+var persistedState = (0, _storage.loadLinks)(); // console.log("persisted state", persistedState);
+
+var store = (0, _redux.createStore)(_bookmarksReducer.default, persistedState, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 var _default = store;
 exports.default = _default;
-},{"redux":"../node_modules/redux/es/redux.js","redux-thunk":"../node_modules/redux-thunk/es/index.js","./reducers/rootReducer":"reducers/rootReducer.ts","redux-devtools-extension":"../node_modules/redux-devtools-extension/index.js","./storage":"storage.ts","./bookmarkData.json":"bookmarkData.json"}],"../node_modules/warning/browser.js":[function(require,module,exports) {
+},{"redux":"../node_modules/redux/es/redux.js","./reducers/bookmarksReducer":"reducers/bookmarksReducer.ts","redux-devtools-extension":"../node_modules/redux-devtools-extension/index.js","./storage":"storage.ts","./bookmarkData.json":"bookmarkData.json"}],"../node_modules/warning/browser.js":[function(require,module,exports) {
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -34409,11 +33830,13 @@ function (_react_1$default$Comp) {
 
       var _this$props = this.props,
           title = _this$props.title,
-          children = _this$props.children;
+          children = _this$props.children,
+          handleClick = _this$props.handleClick,
+          parent = _this$props.parent;
       var guid = this.props.children[0].guid;
       var kids = children.filter(function (item) {
         return item.children;
-      }); // console.log(this.props);
+      }); // console.log("folderlist props ", this.props);
 
       if (title) {
         return react_1.default.createElement(react_1.default.Fragment, {
@@ -34423,7 +33846,7 @@ function (_react_1$default$Comp) {
         }, react_1.default.createElement("a", {
           id: "link=" + guid,
           onClick: function onClick() {
-            _this.props.handleClick(_this.props, _this.props.folder);
+            handleClick(_this.props);
           }
         }, title)), kids && kids.map(function (kid) {
           return react_1.default.createElement("li", {
@@ -34432,8 +33855,10 @@ function (_react_1$default$Comp) {
             className: "menu-list"
           }, react_1.default.createElement(FolderList, {
             title: kid.title,
+            parent: title,
             children: kid.children,
-            handleClick: _this.handleClick
+            guid: kid.guid,
+            handleClick: handleClick
           })));
         }));
       } else {
@@ -34443,8 +33868,10 @@ function (_react_1$default$Comp) {
           return react_1.default.createElement(FolderList, {
             key: kid.guid,
             title: kid.title,
+            guid: kid.guid,
+            parent: parent,
             children: kid.children,
-            handleClick: _this.handleClick
+            handleClick: handleClick
           });
         }));
       }
@@ -34452,24 +33879,7 @@ function (_react_1$default$Comp) {
   }]);
 
   return FolderList;
-}(react_1.default.Component); // <ul className="menu-list">
-//   {this.props.topics.map(topic => {
-//     if (!topic.uri) {
-//       return (
-//         <li key={topic.guid}>
-//           <a
-//             onClick={() => {
-//               this.props.everything.handleClick(topic, this.props.folder);
-//             }}
-//           >
-//             {topic.title}
-//           </a>
-//         </li>
-//       );
-//     }
-//   })}
-// </ul>
-
+}(react_1.default.Component);
 
 exports.default = FolderList;
 },{"react":"../node_modules/react/index.js"}],"components/FolderList/index.ts":[function(require,module,exports) {
@@ -34488,7 +33898,22 @@ Object.defineProperty(exports, "__esModule", {
 var FolderList_1 = __importDefault(require("./FolderList"));
 
 exports.default = FolderList_1.default;
-},{"./FolderList":"components/FolderList/FolderList.tsx"}],"components/Bookmarks/Bookmarks.tsx":[function(require,module,exports) {
+},{"./FolderList":"components/FolderList/FolderList.tsx"}],"actions.ts":[function(require,module,exports) {
+"use strict"; // export const FETCH_LINKS_BEGIN = "FETCH_LINKS_BEGIN";
+// export const FETCH_LINKS_SUCCESS = "FETCH_LINKS_SUCCESS";
+// export const FETCH_LINKS_FAILURE = "FETCH_LINKS_FAILURE";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+exports.filterLinks = function (topic) {
+  return {
+    type: "FILTER_LINKS",
+    payload: topic
+  };
+};
+},{}],"components/Folders/Folders.tsx":[function(require,module,exports) {
 "use strict";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -34521,38 +33946,30 @@ Object.defineProperty(exports, "__esModule", {
 
 var react_1 = __importDefault(require("react"));
 
-var react_redux_1 = require("react-redux"); // import TopicList from "../TopicList";
-
+var react_redux_1 = require("react-redux");
 
 var FolderList_1 = __importDefault(require("../FolderList"));
 
-var Bookmarks =
+var actions_1 = require("../../actions");
+
+var Folders =
 /*#__PURE__*/
 function (_react_1$default$Comp) {
-  _inherits(Bookmarks, _react_1$default$Comp);
+  _inherits(Folders, _react_1$default$Comp);
 
-  function Bookmarks() {
-    _classCallCheck(this, Bookmarks);
+  function Folders() {
+    _classCallCheck(this, Folders);
 
-    return _possibleConstructorReturn(this, _getPrototypeOf(Bookmarks).apply(this, arguments));
+    return _possibleConstructorReturn(this, _getPrototypeOf(Folders).apply(this, arguments));
   }
 
-  _createClass(Bookmarks, [{
+  _createClass(Folders, [{
     key: "render",
-    // handleClick = (t, f) => {
-    //   this.setState({ currentTopic: t, folder: f });
-    // };
     value: function render() {
-      console.log(this.props);
-      return react_1.default.createElement("section", {
-        className: "section"
-      }, react_1.default.createElement("div", {
-        className: "container content"
-      }, react_1.default.createElement("h1", {
-        className: ""
-      }, "Software Engineering Resources")), react_1.default.createElement("div", {
-        className: "columns"
-      }, react_1.default.createElement("aside", {
+      var _this = this;
+
+      // console.log(this.props);
+      return react_1.default.createElement("aside", {
         className: "menu column is-one-quarter"
       }, this.props.children.map(function (folder) {
         return react_1.default.createElement(react_1.default.Fragment, {
@@ -34562,24 +33979,36 @@ function (_react_1$default$Comp) {
         }, folder.title), react_1.default.createElement("ul", {
           className: "menu-list"
         }, react_1.default.createElement(FolderList_1.default, {
-          children: folder.children
+          parent: folder.title,
+          children: folder.children,
+          guid: folder.guid,
+          handleClick: _this.props.handleClick
         })));
-      }))));
+      }));
     }
   }]);
 
-  return Bookmarks;
+  return Folders;
 }(react_1.default.Component);
 
-function mapStateToProps(state) {
-  var props = {
-    children: state.children
+var mapStateToProps = function mapStateToProps(state) {
+  return {
+    children: state.children,
+    topic: state.topic,
+    folder: state.folder
   };
-  return props;
-}
+};
 
-exports.default = react_redux_1.connect(mapStateToProps)(Bookmarks);
-},{"react":"../node_modules/react/index.js","react-redux":"../node_modules/react-redux/es/index.js","../FolderList":"components/FolderList/index.ts"}],"components/Bookmarks/index.ts":[function(require,module,exports) {
+var mapDispatchToProps = function mapDispatchToProps(dispatch) {
+  return {
+    handleClick: function handleClick(t) {
+      dispatch(actions_1.filterLinks(t));
+    }
+  };
+};
+
+exports.default = react_redux_1.connect(mapStateToProps, mapDispatchToProps)(Folders);
+},{"react":"../node_modules/react/index.js","react-redux":"../node_modules/react-redux/es/index.js","../FolderList":"components/FolderList/index.ts","../../actions":"actions.ts"}],"components/Folders/index.ts":[function(require,module,exports) {
 "use strict";
 
 var __importDefault = this && this.__importDefault || function (mod) {
@@ -34592,10 +34021,189 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var Bookmarks_1 = __importDefault(require("./Bookmarks"));
+var Folders_1 = __importDefault(require("./Folders"));
 
-exports.default = Bookmarks_1.default;
-},{"./Bookmarks":"components/Bookmarks/Bookmarks.tsx"}],"components/Footer/Footer.tsx":[function(require,module,exports) {
+exports.default = Folders_1.default;
+},{"./Folders":"components/Folders/Folders.tsx"}],"components/TopicList/TopicList.tsx":[function(require,module,exports) {
+"use strict";
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var react_1 = __importDefault(require("react"));
+
+var TopicList =
+/*#__PURE__*/
+function (_react_1$default$Comp) {
+  _inherits(TopicList, _react_1$default$Comp);
+
+  function TopicList() {
+    _classCallCheck(this, TopicList);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(TopicList).apply(this, arguments));
+  }
+
+  _createClass(TopicList, [{
+    key: "render",
+    value: function render() {
+      // console.log("topic props", this.props);
+      return react_1.default.createElement("ul", null, this.props.children.map(function (bookmark) {
+        if (!bookmark.children) {
+          return react_1.default.createElement("li", {
+            key: bookmark.id
+          }, react_1.default.createElement("a", {
+            href: bookmark.uri
+          }, bookmark.title));
+        }
+      }));
+    }
+  }]);
+
+  return TopicList;
+}(react_1.default.Component);
+
+exports.default = TopicList;
+},{"react":"../node_modules/react/index.js"}],"components/TopicList/index.ts":[function(require,module,exports) {
+"use strict";
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var TopicList_1 = __importDefault(require("./TopicList"));
+
+exports.default = TopicList_1.default;
+},{"./TopicList":"components/TopicList/TopicList.tsx"}],"components/Topic/Topic.tsx":[function(require,module,exports) {
+"use strict";
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var react_1 = __importDefault(require("react"));
+
+var react_redux_1 = require("react-redux");
+
+var TopicList_1 = __importDefault(require("../TopicList"));
+
+var Topic =
+/*#__PURE__*/
+function (_react_1$default$Comp) {
+  _inherits(Topic, _react_1$default$Comp);
+
+  function Topic() {
+    _classCallCheck(this, Topic);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(Topic).apply(this, arguments));
+  }
+
+  _createClass(Topic, [{
+    key: "render",
+    value: function render() {
+      console.log("topic props", this.props);
+
+      if (this.props.topic.guid) {
+        return react_1.default.createElement("div", {
+          className: "column"
+        }, react_1.default.createElement("section", {
+          className: " content"
+        }, react_1.default.createElement("h2", null, this.props.folder, " - ", this.props.topic.title), react_1.default.createElement(TopicList_1.default, {
+          children: this.props.children
+        })));
+      } else {
+        return react_1.default.createElement("div", {
+          className: "column"
+        }, react_1.default.createElement("section", {
+          className: "section"
+        }, react_1.default.createElement("p", null, "Choose a topic")));
+      }
+    }
+  }]);
+
+  return Topic;
+}(react_1.default.Component);
+
+var mapStateToProps = function mapStateToProps(state) {
+  return {
+    children: state.topic.children,
+    topic: state.topic || "",
+    folder: state.topic.parent || ""
+  };
+};
+
+exports.default = react_redux_1.connect(mapStateToProps)(Topic);
+},{"react":"../node_modules/react/index.js","react-redux":"../node_modules/react-redux/es/index.js","../TopicList":"components/TopicList/index.ts"}],"components/Topic/index.ts":[function(require,module,exports) {
+"use strict";
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var Topic_1 = __importDefault(require("./Topic"));
+
+exports.default = Topic_1.default;
+},{"./Topic":"components/Topic/Topic.tsx"}],"components/Footer/Footer.tsx":[function(require,module,exports) {
 "use strict";
 
 var __importDefault = this && this.__importDefault || function (mod) {
@@ -34611,9 +34219,7 @@ Object.defineProperty(exports, "__esModule", {
 var react_1 = __importDefault(require("react"));
 
 var Footer = function Footer() {
-  return react_1.default.createElement("footer", null, react_1.default.createElement("p", null, "Created with love by", " ", react_1.default.createElement("a", {
-    href: "http://jenniferlynparsons.net"
-  }, "Jennifer Lyn Parsons")));
+  return react_1.default.createElement("footer", null, react_1.default.createElement("p", null));
 };
 
 exports.default = Footer;
@@ -34683,7 +34289,9 @@ var store_1 = __importDefault(require("../../store"));
 
 var NavBar_1 = __importDefault(require("../NavBar"));
 
-var Bookmarks_1 = __importDefault(require("../Bookmarks"));
+var Folders_1 = __importDefault(require("../Folders"));
+
+var Topic_1 = __importDefault(require("../Topic"));
 
 var Footer_1 = __importDefault(require("../Footer"));
 
@@ -34707,7 +34315,15 @@ function (_react_1$default$Comp) {
     value: function render() {
       return react_1.default.createElement("div", null, react_1.default.createElement(NavBar_1.default, null), react_1.default.createElement(react_redux_1.Provider, {
         store: store_1.default
-      }, react_1.default.createElement(Bookmarks_1.default, null)), react_1.default.createElement(Footer_1.default, null));
+      }, react_1.default.createElement("section", {
+        className: "section"
+      }, react_1.default.createElement("div", {
+        className: "container content"
+      }, react_1.default.createElement("h1", {
+        className: ""
+      }, "Software Engineering Resources")), react_1.default.createElement("div", {
+        className: "columns"
+      }, react_1.default.createElement(Folders_1.default, null), react_1.default.createElement(Topic_1.default, null)))), react_1.default.createElement(Footer_1.default, null));
     }
   }]);
 
@@ -34715,7 +34331,7 @@ function (_react_1$default$Comp) {
 }(react_1.default.Component);
 
 exports.default = App;
-},{"react":"../node_modules/react/index.js","react-redux":"../node_modules/react-redux/es/index.js","../../store":"store.js","../NavBar":"components/NavBar/index.tsx","../Bookmarks":"components/Bookmarks/index.ts","../Footer":"components/Footer/index.tsx","../../../node_modules/bulma/bulma.sass":"../node_modules/bulma/bulma.sass","../../common_styles/global.scss":"common_styles/global.scss"}],"components/App/index.ts":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-redux":"../node_modules/react-redux/es/index.js","../../store":"store.js","../NavBar":"components/NavBar/index.tsx","../Folders":"components/Folders/index.ts","../Topic":"components/Topic/index.ts","../Footer":"components/Footer/index.tsx","../../../node_modules/bulma/bulma.sass":"../node_modules/bulma/bulma.sass","../../common_styles/global.scss":"common_styles/global.scss"}],"components/App/index.ts":[function(require,module,exports) {
 "use strict";
 
 var __importDefault = this && this.__importDefault || function (mod) {
@@ -34770,7 +34386,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "33771" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "42717" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

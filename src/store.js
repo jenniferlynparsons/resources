@@ -1,6 +1,5 @@
 import { createStore, applyMiddleware } from "redux";
-import thunk from "redux-thunk";
-import rootReducer from "./reducers/rootReducer";
+import bookmarksReducer from "./reducers/bookmarksReducer";
 import { composeWithDevTools } from "redux-devtools-extension";
 import { loadLinks, saveLinks } from "./storage";
 import links from "./bookmarkData.json";
@@ -9,6 +8,11 @@ import links from "./bookmarkData.json";
 const linkData = saveLinks(links);
 
 const persistedState = loadLinks();
+// console.log("persisted state", persistedState);
 
-const store = createStore(rootReducer, persistedState);
+const store = createStore(
+  bookmarksReducer,
+  persistedState,
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+);
 export default store;

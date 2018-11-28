@@ -1,13 +1,14 @@
 import React from "react";
+import { Props, State } from "../../interfaces";
 
-class FolderList extends React.Component {
+class FolderList extends React.Component<Props, State> {
   render() {
-    const { title, children } = this.props;
+    const { title, children, handleClick, parent } = this.props;
     const guid = this.props.children[0].guid;
     const kids = children.filter(item => {
       return item.children;
     });
-    // console.log(this.props);
+    // console.log("folderlist props ", this.props);
     if (title) {
       return (
         <React.Fragment key={"fragment-" + guid}>
@@ -15,7 +16,7 @@ class FolderList extends React.Component {
             <a
               id={"link=" + guid}
               onClick={() => {
-                this.props.handleClick(this.props, this.props.folder);
+                handleClick(this.props);
               }}
             >
               {title}
@@ -28,8 +29,10 @@ class FolderList extends React.Component {
                 <ul className="menu-list">
                   <FolderList
                     title={kid.title}
+                    parent={title}
                     children={kid.children}
-                    handleClick={this.handleClick}
+                    guid={kid.guid}
+                    handleClick={handleClick}
                   />
                 </ul>
               </li>
@@ -44,8 +47,10 @@ class FolderList extends React.Component {
               <FolderList
                 key={kid.guid}
                 title={kid.title}
+                guid={kid.guid}
+                parent={parent}
                 children={kid.children}
-                handleClick={this.handleClick}
+                handleClick={handleClick}
               />
             ))}
         </React.Fragment>
@@ -53,23 +58,5 @@ class FolderList extends React.Component {
     }
   }
 }
-
-// <ul className="menu-list">
-//   {this.props.topics.map(topic => {
-//     if (!topic.uri) {
-//       return (
-//         <li key={topic.guid}>
-//           <a
-//             onClick={() => {
-//               this.props.everything.handleClick(topic, this.props.folder);
-//             }}
-//           >
-//             {topic.title}
-//           </a>
-//         </li>
-//       );
-//     }
-//   })}
-// </ul>
 
 export default FolderList;
