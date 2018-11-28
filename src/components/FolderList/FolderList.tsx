@@ -8,7 +8,6 @@ class FolderList extends React.Component<Props, State> {
     const kids = children.filter(item => {
       return item.children;
     });
-    // console.log("folderlist props ", this.props);
     if (title) {
       return (
         <React.Fragment key={"fragment-" + guid}>

@@ -1,11 +1,9 @@
-import { RouteComponentProps } from "@reach/router";
-
 export interface Action {
   type: string;
   payload: object;
 }
-export interface Bookmark {
-  children: Bookmark[];
+export interface Link {
+  children: Link[];
   dateAdded: string;
   guid: string;
   id: string;
@@ -18,82 +16,56 @@ export interface Bookmark {
 }
 
 export interface Topic {
-  title: string;
-  folder: string;
-  parent: string;
   children: [];
-}
-
-export type Folder = string;
-
-export interface Props extends RouteComponentProps {
-  children: Bookmark[];
   dateAdded: string;
   guid: string;
   id: string;
   index: string;
   lastModified: string;
+  parent: string;
   title: string;
   type: string;
   typeCode: string;
+  uri: string;
+}
+
+export type FolderTitle = string;
+
+export interface Folder {
+  children: [];
+  guid: string;
+  parent: string;
+  title: string;
+}
+
+export interface Props {
+  children: Link[];
+  dateAdded: string;
   folder: string;
-  topic: Topic;
+  folders: [];
+  guid: string;
   handleClick: (t: object) => void;
+  id: string;
+  index: string;
+  lastModified: string;
+  parent: string;
+  title: string;
+  topic: Topic;
+  type: string;
+  typeCode: string;
 }
 
 export interface State {
-  topic: Topic;
-  folder: string;
-  children: Bookmark[];
+  children: Link[];
   dateAdded: string;
+  folder: string;
   guid: string;
+  handleClick: (t: object) => void;
   id: string;
   index: string;
   lastModified: string;
   title: string;
+  topic: Topic;
   type: string;
   typeCode: string;
-  handleClick: (t: object) => void;
-}
-
-export interface Source {
-  guid: string;
-  title: string;
-  index: number;
-  dateAdded: string;
-  lastModified: number;
-  id: number;
-  typeCode: number;
-  type: string;
-  children: {
-    guid: string;
-    title: string;
-    index: number;
-    dateAdded: number;
-    lastModified: number;
-    id: number;
-    typeCode: number;
-    type: string;
-
-    children: {
-      guid: string;
-      title: string;
-      index: number;
-      dateAdded: number;
-      lastModified: number;
-      id: number;
-      typeCode: number;
-      type: string;
-      children: {
-        guid: string;
-        title: string;
-        index: number;
-        dateAdded: number;
-        lastModified: number;
-        id: number;
-        typeCode: number;
-        type: string;
-      };
-    };
-  };
 }

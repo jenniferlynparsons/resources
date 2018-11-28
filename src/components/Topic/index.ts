@@ -1,3 +1,3 @@
-import Topic from "./Topic";
+import TopicContainer from "./TopicContainer";
 
-export default Topic;
+export default TopicContainer;
