@@ -1,3 +1,3 @@
-import Folders from "./Folders";
+import FoldersContainer from "./FoldersContainer";
 
-export default Folders;
+export default FoldersContainer;

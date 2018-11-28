@@ -1,17 +1,22 @@
 import { State, Action } from "../interfaces";
 
 const initialState = {
-  topic: {},
+  children: [],
+  dateAdded: "",
   folder: "",
-  parent: "",
+  guid: "",
+  id: "",
+  index: "",
+  lastModified: "",
   title: "",
-  children: []
+  topic: {},
+  type: "",
+  typeCode: ""
 };
 
 export default (state: State = initialState, action: Action): State => {
   switch (action.type) {
     case "FILTER_LINKS":
-      // console.log("payload", action.payload);
       return { ...state, topic: action.payload };
 
     default:

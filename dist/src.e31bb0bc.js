@@ -25964,11 +25964,17 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 var initialState = {
-  topic: {},
+  children: [],
+  dateAdded: "",
   folder: "",
-  parent: "",
+  guid: "",
+  id: "",
+  index: "",
+  lastModified: "",
   title: "",
-  children: []
+  topic: {},
+  type: "",
+  typeCode: ""
 };
 
 exports.default = function () {
@@ -25977,7 +25983,6 @@ exports.default = function () {
 
   switch (action.type) {
     case "FILTER_LINKS":
-      // console.log("payload", action.payload);
       return Object.assign({}, state, {
         topic: action.payload
       });
@@ -31986,10 +31991,9 @@ var _bookmarkData = _interopRequireDefault(require("./bookmarkData.json"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-// there is surely a better way to do this, but for now it magically works. on assignment, it loads the result into localStorage!
+// there is surely a better way to do this, but for now it magically works. on assignment, it loads the result into localStorage.
 var linkData = (0, _storage.saveLinks)(_bookmarkData.default);
-var persistedState = (0, _storage.loadLinks)(); // console.log("persisted state", persistedState);
-
+var persistedState = (0, _storage.loadLinks)();
 var store = (0, _redux.createStore)(_bookmarksReducer.default, persistedState, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 var _default = store;
 exports.default = _default;
@@ -32050,7 +32054,7 @@ function (_react_1$default$Comp) {
       var guid = this.props.children[0].guid;
       var kids = children.filter(function (item) {
         return item.children;
-      }); // console.log("folderlist props ", this.props);
+      });
 
       if (title) {
         return react_1.default.createElement(react_1.default.Fragment, {
@@ -32112,10 +32116,43 @@ Object.defineProperty(exports, "__esModule", {
 var FolderList_1 = __importDefault(require("./FolderList"));
 
 exports.default = FolderList_1.default;
-},{"./FolderList":"components/FolderList/FolderList.tsx"}],"actions.ts":[function(require,module,exports) {
-"use strict"; // export const FETCH_LINKS_BEGIN = "FETCH_LINKS_BEGIN";
-// export const FETCH_LINKS_SUCCESS = "FETCH_LINKS_SUCCESS";
-// export const FETCH_LINKS_FAILURE = "FETCH_LINKS_FAILURE";
+},{"./FolderList":"components/FolderList/FolderList.tsx"}],"components/Folders/Folders.tsx":[function(require,module,exports) {
+"use strict";
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var react_1 = __importDefault(require("react"));
+
+var FolderList_1 = __importDefault(require("../FolderList"));
+
+exports.Folders = function (props) {
+  return react_1.default.createElement("div", {
+    className: "menu column is-one-quarter"
+  }, props.folders.map(function (folder) {
+    return react_1.default.createElement(react_1.default.Fragment, {
+      key: folder.guid
+    }, react_1.default.createElement("p", {
+      className: "menu-label"
+    }, folder.title), react_1.default.createElement("ul", {
+      className: "menu-list"
+    }, react_1.default.createElement(FolderList_1.default, {
+      parent: folder.title,
+      children: folder.children,
+      guid: folder.guid,
+      handleClick: props.handleClick
+    })));
+  }));
+};
+},{"react":"../node_modules/react/index.js","../FolderList":"components/FolderList/index.ts"}],"actions.ts":[function(require,module,exports) {
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -32127,7 +32164,7 @@ exports.filterLinks = function (topic) {
     payload: topic
   };
 };
-},{}],"components/Folders/Folders.tsx":[function(require,module,exports) {
+},{}],"components/Folders/FoldersContainer.tsx":[function(require,module,exports) {
 "use strict";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -32162,47 +32199,32 @@ var react_1 = __importDefault(require("react"));
 
 var react_redux_1 = require("react-redux");
 
-var FolderList_1 = __importDefault(require("../FolderList"));
+var Folders_1 = require("./Folders");
 
 var actions_1 = require("../../actions");
 
-var Folders =
+var FoldersContainer =
 /*#__PURE__*/
 function (_react_1$default$Comp) {
-  _inherits(Folders, _react_1$default$Comp);
+  _inherits(FoldersContainer, _react_1$default$Comp);
 
-  function Folders() {
-    _classCallCheck(this, Folders);
+  function FoldersContainer() {
+    _classCallCheck(this, FoldersContainer);
 
-    return _possibleConstructorReturn(this, _getPrototypeOf(Folders).apply(this, arguments));
+    return _possibleConstructorReturn(this, _getPrototypeOf(FoldersContainer).apply(this, arguments));
   }
 
-  _createClass(Folders, [{
+  _createClass(FoldersContainer, [{
     key: "render",
     value: function render() {
-      var _this = this;
-
-      // console.log(this.props);
-      return react_1.default.createElement("div", {
-        className: "menu column is-one-quarter"
-      }, this.props.children.map(function (folder) {
-        return react_1.default.createElement(react_1.default.Fragment, {
-          key: folder.guid
-        }, react_1.default.createElement("p", {
-          className: "menu-label"
-        }, folder.title), react_1.default.createElement("ul", {
-          className: "menu-list"
-        }, react_1.default.createElement(FolderList_1.default, {
-          parent: folder.title,
-          children: folder.children,
-          guid: folder.guid,
-          handleClick: _this.props.handleClick
-        })));
-      }));
+      return react_1.default.createElement(Folders_1.Folders, {
+        folders: this.props.children,
+        handleClick: this.props.handleClick
+      });
     }
   }]);
 
-  return Folders;
+  return FoldersContainer;
 }(react_1.default.Component);
 
 var mapStateToProps = function mapStateToProps(state) {
@@ -32221,8 +32243,8 @@ var mapDispatchToProps = function mapDispatchToProps(dispatch) {
   };
 };
 
-exports.default = react_redux_1.connect(mapStateToProps, mapDispatchToProps)(Folders);
-},{"react":"../node_modules/react/index.js","react-redux":"../node_modules/react-redux/es/index.js","../FolderList":"components/FolderList/index.ts","../../actions":"actions.ts"}],"components/Folders/index.ts":[function(require,module,exports) {
+exports.default = react_redux_1.connect(mapStateToProps, mapDispatchToProps)(FoldersContainer);
+},{"react":"../node_modules/react/index.js","react-redux":"../node_modules/react-redux/es/index.js","./Folders":"components/Folders/Folders.tsx","../../actions":"actions.ts"}],"components/Folders/index.ts":[function(require,module,exports) {
 "use strict";
 
 var __importDefault = this && this.__importDefault || function (mod) {
@@ -32235,10 +32257,10 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var Folders_1 = __importDefault(require("./Folders"));
+var FoldersContainer_1 = __importDefault(require("./FoldersContainer"));
 
-exports.default = Folders_1.default;
-},{"./Folders":"components/Folders/Folders.tsx"}],"components/TopicList/TopicList.tsx":[function(require,module,exports) {
+exports.default = FoldersContainer_1.default;
+},{"./FoldersContainer":"components/Folders/FoldersContainer.tsx"}],"components/LinkList/LinkList.tsx":[function(require,module,exports) {
 "use strict";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -32271,38 +32293,37 @@ Object.defineProperty(exports, "__esModule", {
 
 var react_1 = __importDefault(require("react"));
 
-var TopicList =
+var LinkList =
 /*#__PURE__*/
 function (_react_1$default$Comp) {
-  _inherits(TopicList, _react_1$default$Comp);
+  _inherits(LinkList, _react_1$default$Comp);
 
-  function TopicList() {
-    _classCallCheck(this, TopicList);
+  function LinkList() {
+    _classCallCheck(this, LinkList);
 
-    return _possibleConstructorReturn(this, _getPrototypeOf(TopicList).apply(this, arguments));
+    return _possibleConstructorReturn(this, _getPrototypeOf(LinkList).apply(this, arguments));
   }
 
-  _createClass(TopicList, [{
+  _createClass(LinkList, [{
     key: "render",
     value: function render() {
-      // console.log("topic props", this.props);
-      return react_1.default.createElement("ul", null, this.props.children.map(function (bookmark) {
-        if (!bookmark.children) {
+      return react_1.default.createElement("ul", null, this.props.children.map(function (link) {
+        if (!link.children) {
           return react_1.default.createElement("li", {
-            key: bookmark.id
+            key: link.id
           }, react_1.default.createElement("a", {
-            href: bookmark.uri
-          }, bookmark.title));
+            href: link.uri
+          }, link.title));
         }
       }));
     }
   }]);
 
-  return TopicList;
+  return LinkList;
 }(react_1.default.Component);
 
-exports.default = TopicList;
-},{"react":"../node_modules/react/index.js"}],"components/TopicList/index.ts":[function(require,module,exports) {
+exports.default = LinkList;
+},{"react":"../node_modules/react/index.js"}],"components/LinkList/index.ts":[function(require,module,exports) {
 "use strict";
 
 var __importDefault = this && this.__importDefault || function (mod) {
@@ -32315,10 +32336,48 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var TopicList_1 = __importDefault(require("./TopicList"));
+var LinkList_1 = __importDefault(require("./LinkList"));
 
-exports.default = TopicList_1.default;
-},{"./TopicList":"components/TopicList/TopicList.tsx"}],"components/Topic/Topic.tsx":[function(require,module,exports) {
+exports.default = LinkList_1.default;
+},{"./LinkList":"components/LinkList/LinkList.tsx"}],"components/Topic/Topic.tsx":[function(require,module,exports) {
+"use strict";
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var react_1 = __importDefault(require("react"));
+
+var LinkList_1 = __importDefault(require("../LinkList"));
+
+exports.Topic = function (props) {
+  if (props.topic.guid) {
+    return react_1.default.createElement("div", {
+      className: "column is-three-quarters"
+    }, react_1.default.createElement("section", {
+      className: "content"
+    }, react_1.default.createElement("h2", {
+      className: "is-size-4 has-text-weight-bold"
+    }, props.folder, " - ", props.topic.title), react_1.default.createElement(LinkList_1.default, {
+      children: props.children
+    })));
+  } else {
+    return react_1.default.createElement("div", {
+      className: "column is-three-quarters"
+    }, react_1.default.createElement("section", {
+      className: "content"
+    }, react_1.default.createElement("h2", {
+      className: "is-size-4 has-text-weight-bold"
+    }, "Choose a topic"), react_1.default.createElement("p", null, "Click a topic from the menu to get started!")));
+  }
+};
+},{"react":"../node_modules/react/index.js","../LinkList":"components/LinkList/index.ts"}],"components/Topic/TopicContainer.tsx":[function(require,module,exports) {
 "use strict";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -32353,47 +32412,31 @@ var react_1 = __importDefault(require("react"));
 
 var react_redux_1 = require("react-redux");
 
-var TopicList_1 = __importDefault(require("../TopicList"));
+var Topic_1 = require("./Topic");
 
-var Topic =
+var TopicContainer =
 /*#__PURE__*/
 function (_react_1$default$Comp) {
-  _inherits(Topic, _react_1$default$Comp);
+  _inherits(TopicContainer, _react_1$default$Comp);
 
-  function Topic() {
-    _classCallCheck(this, Topic);
+  function TopicContainer() {
+    _classCallCheck(this, TopicContainer);
 
-    return _possibleConstructorReturn(this, _getPrototypeOf(Topic).apply(this, arguments));
+    return _possibleConstructorReturn(this, _getPrototypeOf(TopicContainer).apply(this, arguments));
   }
 
-  _createClass(Topic, [{
+  _createClass(TopicContainer, [{
     key: "render",
     value: function render() {
-      console.log("topic props", this.props);
-
-      if (this.props.topic.guid) {
-        return react_1.default.createElement("div", {
-          className: "column is-three-quarters"
-        }, react_1.default.createElement("section", {
-          className: "content"
-        }, react_1.default.createElement("h2", {
-          className: "is-size-4 has-text-weight-bold"
-        }, this.props.folder, " - ", this.props.topic.title), react_1.default.createElement(TopicList_1.default, {
-          children: this.props.children
-        })));
-      } else {
-        return react_1.default.createElement("div", {
-          className: "column is-three-quarters"
-        }, react_1.default.createElement("section", {
-          className: "content"
-        }, react_1.default.createElement("h2", {
-          className: "is-size-4 has-text-weight-bold"
-        }, "Choose a topic"), react_1.default.createElement("p", null, "Click a topic from the menu to get started!")));
-      }
+      return react_1.default.createElement(Topic_1.Topic, {
+        children: this.props.children,
+        topic: this.props.topic,
+        folder: this.props.folder
+      });
     }
   }]);
 
-  return Topic;
+  return TopicContainer;
 }(react_1.default.Component);
 
 var mapStateToProps = function mapStateToProps(state) {
@@ -32404,8 +32447,8 @@ var mapStateToProps = function mapStateToProps(state) {
   };
 };
 
-exports.default = react_redux_1.connect(mapStateToProps)(Topic);
-},{"react":"../node_modules/react/index.js","react-redux":"../node_modules/react-redux/es/index.js","../TopicList":"components/TopicList/index.ts"}],"components/Topic/index.ts":[function(require,module,exports) {
+exports.default = react_redux_1.connect(mapStateToProps)(TopicContainer);
+},{"react":"../node_modules/react/index.js","react-redux":"../node_modules/react-redux/es/index.js","./Topic":"components/Topic/Topic.tsx"}],"components/Topic/index.ts":[function(require,module,exports) {
 "use strict";
 
 var __importDefault = this && this.__importDefault || function (mod) {
@@ -32418,46 +32461,10 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var Topic_1 = __importDefault(require("./Topic"));
+var TopicContainer_1 = __importDefault(require("./TopicContainer"));
 
-exports.default = Topic_1.default;
-},{"./Topic":"components/Topic/Topic.tsx"}],"components/Footer/Footer.tsx":[function(require,module,exports) {
-"use strict";
-
-var __importDefault = this && this.__importDefault || function (mod) {
-  return mod && mod.__esModule ? mod : {
-    "default": mod
-  };
-};
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var react_1 = __importDefault(require("react"));
-
-var Footer = function Footer() {
-  return react_1.default.createElement("footer", null, react_1.default.createElement("p", null));
-};
-
-exports.default = Footer;
-},{"react":"../node_modules/react/index.js"}],"components/Footer/index.tsx":[function(require,module,exports) {
-"use strict";
-
-var __importDefault = this && this.__importDefault || function (mod) {
-  return mod && mod.__esModule ? mod : {
-    "default": mod
-  };
-};
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var Footer_1 = __importDefault(require("./Footer"));
-
-exports.default = Footer_1.default;
-},{"./Footer":"components/Footer/Footer.tsx"}],"../node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+exports.default = TopicContainer_1.default;
+},{"./TopicContainer":"components/Topic/TopicContainer.tsx"}],"../node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -32576,8 +32583,6 @@ var Folders_1 = __importDefault(require("../Folders"));
 
 var Topic_1 = __importDefault(require("../Topic"));
 
-var Footer_1 = __importDefault(require("../Footer"));
-
 require("../../../node_modules/bulma/bulma.sass");
 
 require("../../common_styles/global.scss");
@@ -32596,7 +32601,7 @@ function (_react_1$default$Comp) {
   _createClass(App, [{
     key: "render",
     value: function render() {
-      return react_1.default.createElement("div", null, react_1.default.createElement(react_redux_1.Provider, {
+      return react_1.default.createElement(react_redux_1.Provider, {
         store: store_1.default
       }, react_1.default.createElement("div", {
         className: "container"
@@ -32616,7 +32621,7 @@ function (_react_1$default$Comp) {
         className: "section"
       }, react_1.default.createElement("div", {
         className: "columns"
-      }, react_1.default.createElement(Folders_1.default, null), react_1.default.createElement(Topic_1.default, null))))), react_1.default.createElement(Footer_1.default, null));
+      }, react_1.default.createElement(Folders_1.default, null), react_1.default.createElement(Topic_1.default, null)))));
     }
   }]);
 
@@ -32624,7 +32629,7 @@ function (_react_1$default$Comp) {
 }(react_1.default.Component);
 
 exports.default = App;
-},{"react":"../node_modules/react/index.js","react-redux":"../node_modules/react-redux/es/index.js","../../store":"store.js","../Folders":"components/Folders/index.ts","../Topic":"components/Topic/index.ts","../Footer":"components/Footer/index.tsx","../../../node_modules/bulma/bulma.sass":"../node_modules/bulma/bulma.sass","../../common_styles/global.scss":"common_styles/global.scss"}],"components/App/index.ts":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-redux":"../node_modules/react-redux/es/index.js","../../store":"store.js","../Folders":"components/Folders/index.ts","../Topic":"components/Topic/index.ts","../../../node_modules/bulma/bulma.sass":"../node_modules/bulma/bulma.sass","../../common_styles/global.scss":"common_styles/global.scss"}],"components/App/index.ts":[function(require,module,exports) {
 "use strict";
 
 var __importDefault = this && this.__importDefault || function (mod) {
@@ -32679,7 +32684,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39509" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39789" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
