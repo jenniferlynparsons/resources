@@ -8,9 +8,9 @@ class Topic extends React.Component<Props, State> {
     console.log("topic props", this.props);
     if (this.props.topic.guid) {
       return (
-        <div className="column">
-          <section className=" content">
-            <h2>
+        <div className="column is-three-quarters">
+          <section className="content">
+            <h2 className="is-size-4 has-text-weight-bold">
               {this.props.folder} - {this.props.topic.title}
             </h2>
             <TopicList children={this.props.children} />
@@ -19,9 +19,10 @@ class Topic extends React.Component<Props, State> {
       );
     } else {
       return (
-        <div className="column">
-          <section className="section">
-            <p>Choose a topic</p>
+        <div className="column is-three-quarters">
+          <section className="content">
+            <h2 className="is-size-4 has-text-weight-bold">Choose a topic</h2>
+            <p>Click a topic from the menu to get started!</p>
           </section>
         </div>
       );

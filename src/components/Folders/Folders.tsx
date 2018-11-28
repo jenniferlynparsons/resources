@@ -9,7 +9,7 @@ class Folders extends React.Component<Props, State> {
     // console.log(this.props);
 
     return (
-      <aside className="menu column is-one-quarter">
+      <div className="menu column is-one-quarter">
         {this.props.children.map(folder => {
           return (
             <React.Fragment key={folder.guid}>
@@ -25,7 +25,7 @@ class Folders extends React.Component<Props, State> {
             </React.Fragment>
           );
         })}
-      </aside>
+      </div>
     );
   }
 }
