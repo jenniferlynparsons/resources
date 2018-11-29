@@ -3,10 +3,10 @@ import { FolderListProps } from "../../interfaces";
 
 class FolderList extends React.Component<FolderListProps, {}> {
   render() {
-    const { title, children, handleClick, parent } = this.props;
-    const guid = this.props.children[0].guid;
-    const kids = children.filter(item => {
-      return item.children;
+    const { title, links, handleClick, parent } = this.props;
+    const guid = this.props.links[0].guid;
+    const kids = links.filter(item => {
+      return item.links;
     });
     if (title) {
       return (
@@ -29,7 +29,7 @@ class FolderList extends React.Component<FolderListProps, {}> {
                   <FolderList
                     title={kid.title}
                     parent={title}
-                    children={kid.children}
+                    links={kid.links}
                     guid={kid.guid}
                     handleClick={handleClick}
                   />
@@ -48,7 +48,7 @@ class FolderList extends React.Component<FolderListProps, {}> {
                 title={kid.title}
                 guid={kid.guid}
                 parent={parent}
-                children={kid.children}
+                links={kid.links}
                 handleClick={handleClick}
               />
             ))}

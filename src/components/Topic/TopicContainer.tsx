@@ -7,7 +7,7 @@ class TopicContainer extends React.Component<TopicProps, TopicState> {
   render() {
     return (
       <Topic
-        children={this.props.children}
+        links={this.props.links}
         topic={this.props.topic}
         folder={this.props.folder}
       />
@@ -16,7 +16,7 @@ class TopicContainer extends React.Component<TopicProps, TopicState> {
 }
 
 const mapStateToProps = (state: AppState) => ({
-  children: state.topic.children,
+  links: state.topic.links,
   topic: state.topic || "",
   folder: state.topic.parent || ""
 });

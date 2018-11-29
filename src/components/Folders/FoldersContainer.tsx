@@ -10,16 +10,13 @@ class FoldersContainer extends React.Component<
 > {
   render() {
     return (
-      <Folders
-        children={this.props.children}
-        handleClick={this.props.handleClick}
-      />
+      <Folders links={this.props.links} handleClick={this.props.handleClick} />
     );
   }
 }
 
 const mapStateToProps = (state: AppState) => ({
-  children: state.children,
+  links: state.links,
   topic: state.topic,
   folder: state.folder
 });

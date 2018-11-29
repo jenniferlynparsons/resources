@@ -3,7 +3,7 @@ export interface Action {
   payload: object;
 }
 export interface Link {
-  children: Link[];
+  links: Link[];
   dateAdded: string;
   guid: string;
   id: string;
@@ -16,21 +16,12 @@ export interface Link {
 }
 
 export interface TopicProps {
-  children: Link[];
-  dateAdded: string;
+  links: Link[];
   folder: string;
-  guid: string;
-  handleClick: (t: object) => void;
-  id: string;
-  index: string;
-  lastModified: string;
-  title: string;
   topic: TopicProps;
-  type: string;
-  typeCode: string;
 }
 export interface TopicState {
-  children: Link[];
+  links: Link[];
   dateAdded: string;
   folder: string;
   guid: string;
@@ -47,18 +38,18 @@ export interface TopicState {
 export type FolderTitle = string;
 
 export interface FolderProps {
-  children: [];
+  links: [];
   handleClick: (t: object) => void;
 }
 export interface FoldersContainerProps {
-  children: [];
+  links: [];
   topic: TopicProps;
   folder: FolderTitle;
   handleClick: (t: object) => void;
 }
 
 export interface FolderListProps {
-  children: Link[];
+  links: Link[];
   guid: string;
   handleClick: (t: object) => void;
   parent: string;
@@ -66,7 +57,7 @@ export interface FolderListProps {
 }
 
 export interface AppProps {
-  children: Link[];
+  links: Link[];
   dateAdded: string;
   folder: string;
   guid: string;
@@ -80,7 +71,7 @@ export interface AppProps {
   typeCode: string;
 }
 export interface AppState {
-  children: Link[];
+  links: Link[];
   dateAdded: string;
   folder: string;
   guid: string;

@@ -10,7 +10,7 @@ export const Topic = (props: TopicProps) => {
           <h2 className="is-size-4 has-text-weight-bold">
             {props.folder} - {props.topic.title}
           </h2>
-          <LinkList children={props.children} />
+          <LinkList links={props.links} />
         </section>
       </div>
     );

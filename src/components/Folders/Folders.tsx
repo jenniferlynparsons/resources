@@ -5,7 +5,7 @@ import FolderList from "../FolderList";
 export const Folders = (props: FolderProps) => {
   return (
     <div className="menu column is-one-quarter">
-      {props.children.map(folder => {
+      {props.links.map(folder => {
         return (
           <React.Fragment key={folder.guid}>
             <p className="menu-label">{folder.title}</p>
@@ -13,7 +13,7 @@ export const Folders = (props: FolderProps) => {
               <FolderList
                 title={folder.title}
                 parent={folder.title}
-                children={folder.children}
+                links={folder.links}
                 guid={folder.guid}
                 handleClick={props.handleClick}
               />
