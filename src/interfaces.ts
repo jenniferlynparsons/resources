@@ -4,7 +4,14 @@ export interface Action {
 }
 
 export type LinksProps = [
-  { id: string; guid: string; uri?: string; title: string; links: LinksProps }
+  {
+    id: string;
+    guid: string;
+    uri?: string;
+    title: string;
+    typeCode: number;
+    links: LinksProps;
+  }
 ];
 
 export interface LinkListProps {
@@ -42,6 +49,7 @@ export interface FolderListProps {
   parent: string;
   title: string;
   key?: string;
+  typeCode: number;
 }
 export interface AppState {
   links: LinksProps;

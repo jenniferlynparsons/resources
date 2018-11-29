@@ -16,6 +16,7 @@ export const Folders = (props: FolderProps) => {
                 links={folder.links}
                 guid={folder.guid}
                 handleClick={props.handleClick}
+                typeCode={folder.typeCode}
               />
             </ul>
           </React.Fragment>

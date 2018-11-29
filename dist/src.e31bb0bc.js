@@ -26988,7 +26988,7 @@ module.exports = {
     "dateAdded": 1.518626621755e15,
     "lastModified": 1.542725709498e15,
     "id": 135,
-    "typeCode": 2,
+    "typeCode": 3,
     "type": "text/x-moz-place-container",
     "links": [{
       "guid": "IFI70vGC7Rlz",
@@ -27149,7 +27149,7 @@ module.exports = {
     "dateAdded": 1.487834781137e15,
     "lastModified": 1.542725724562e15,
     "id": 107,
-    "typeCode": 2,
+    "typeCode": 3,
     "type": "text/x-moz-place-container",
     "links": [{
       "guid": "7K9dr6suItWK",
@@ -27356,7 +27356,7 @@ module.exports = {
     "dateAdded": 1.50401750547e15,
     "lastModified": 1.542725749492e15,
     "id": 187,
-    "typeCode": 2,
+    "typeCode": 3,
     "type": "text/x-moz-place-container",
     "links": [{
       "guid": "2U15zLoc4zgC",
@@ -27408,7 +27408,7 @@ module.exports = {
     "dateAdded": 1.53054741683e15,
     "lastModified": 1.542726010774e15,
     "id": 5929,
-    "typeCode": 2,
+    "typeCode": 3,
     "type": "text/x-moz-place-container",
     "links": [{
       "guid": "4g1lT-NK25BW",
@@ -27785,7 +27785,7 @@ module.exports = {
     "dateAdded": 1.518979949883e15,
     "lastModified": 1.542725762587e15,
     "id": 82,
-    "typeCode": 2,
+    "typeCode": 3,
     "type": "text/x-moz-place-container",
     "links": [{
       "guid": "hdleV85icS6l",
@@ -28019,7 +28019,7 @@ module.exports = {
     "dateAdded": 1.518969300736e15,
     "lastModified": 1.542726018707e15,
     "id": 201,
-    "typeCode": 2,
+    "typeCode": 3,
     "type": "text/x-moz-place-container",
     "links": [{
       "guid": "IhpkA-6G3kuV",
@@ -30151,7 +30151,7 @@ module.exports = {
     "dateAdded": 1.491680150941e15,
     "lastModified": 1.542726030441e15,
     "id": 118,
-    "typeCode": 2,
+    "typeCode": 3,
     "type": "text/x-moz-place-container",
     "links": [{
       "guid": "YrUxlK56ShYX",
@@ -30407,7 +30407,7 @@ module.exports = {
     "dateAdded": 1.4514287212e15,
     "lastModified": 1.542726042107e15,
     "id": 170,
-    "typeCode": 2,
+    "typeCode": 3,
     "type": "text/x-moz-place-container",
     "links": [{
       "guid": "JBJKx2pmujHq",
@@ -30725,7 +30725,7 @@ module.exports = {
     "dateAdded": 1.518969331106e15,
     "lastModified": 1.542726054498e15,
     "id": 106,
-    "typeCode": 2,
+    "typeCode": 3,
     "type": "text/x-moz-place-container",
     "links": [{
       "guid": "h7BqJlWcszym",
@@ -31346,7 +31346,7 @@ module.exports = {
     "dateAdded": 1.518969352175e15,
     "lastModified": 1.542726066047e15,
     "id": 138,
-    "typeCode": 2,
+    "typeCode": 3,
     "type": "text/x-moz-place-container",
     "links": [{
       "guid": "IYUiGIvKOR0N",
@@ -31566,7 +31566,7 @@ module.exports = {
     "dateAdded": 1.518969363384e15,
     "lastModified": 1.541085026966e15,
     "id": 144,
-    "typeCode": 2,
+    "typeCode": 3,
     "type": "text/x-moz-place-container",
     "links": [{
       "guid": "P1q-ya4Sif2-",
@@ -31981,7 +31981,7 @@ module.exports = {
     "dateAdded": 1.51896938752e15,
     "lastModified": 1.542725775465e15,
     "id": 98,
-    "typeCode": 2,
+    "typeCode": 3,
     "type": "text/x-moz-place-container",
     "links": [{
       "guid": "NVoMtucfUu1l",
@@ -32056,7 +32056,7 @@ module.exports = {
     "dateAdded": 1.51898062173e15,
     "lastModified": 1.542726095395e15,
     "id": 93,
-    "typeCode": 2,
+    "typeCode": 3,
     "type": "text/x-moz-place-container",
     "links": [{
       "guid": "84D68Xk6tkXC",
@@ -32287,7 +32287,7 @@ module.exports = {
     "dateAdded": 1.520559842496e15,
     "lastModified": 1.542725786577e15,
     "id": 197,
-    "typeCode": 2,
+    "typeCode": 3,
     "type": "text/x-moz-place-container",
     "links": [{
       "guid": "4zvocafrijji",
@@ -32512,7 +32512,7 @@ module.exports = {
     "dateAdded": 1.52183593099e15,
     "lastModified": 1.542725800245e15,
     "id": 114,
-    "typeCode": 2,
+    "typeCode": 3,
     "type": "text/x-moz-place-container",
     "links": [{
       "guid": "BS4BlLEo5Q8t",
@@ -32622,7 +32622,7 @@ module.exports = {
     "dateAdded": 1.535112710607e15,
     "lastModified": 1.542725811632e15,
     "id": 6010,
-    "typeCode": 2,
+    "typeCode": 3,
     "type": "text/x-moz-place-container",
     "links": [{
       "guid": "Uc7OEeMrFePk",
@@ -32735,7 +32735,7 @@ module.exports = {
     "dateAdded": 1.536679053334e15,
     "lastModified": 1.54272582345e15,
     "id": 6178,
-    "typeCode": 2,
+    "typeCode": 3,
     "type": "text/x-moz-place-container",
     "links": [{
       "guid": "MrZYJkC7Uu6g",
@@ -32835,7 +32835,7 @@ module.exports = {
     "dateAdded": 1.52657865487e15,
     "lastModified": 1.542725834399e15,
     "id": 195,
-    "typeCode": 2,
+    "typeCode": 3,
     "type": "text/x-moz-place-container",
     "links": [{
       "guid": "ojGGSnqAmHPI",
@@ -32991,13 +32991,14 @@ function (_react_1$default$Comp) {
           title = _this$props.title,
           links = _this$props.links,
           handleClick = _this$props.handleClick,
-          parent = _this$props.parent;
+          parent = _this$props.parent,
+          typeCode = _this$props.typeCode;
       var guid = this.props.links[0].guid;
       var kids = links.filter(function (item) {
         return item.links;
       });
 
-      if (title) {
+      if (typeCode === 2) {
         return react_1.default.createElement(react_1.default.Fragment, {
           key: "fragment-" + guid
         }, react_1.default.createElement("li", {
@@ -33017,7 +33018,8 @@ function (_react_1$default$Comp) {
             handleClick: handleClick,
             links: kid.links,
             parent: title,
-            title: kid.title
+            title: kid.title,
+            typeCode: kid.typeCode
           })));
         }));
       } else {
@@ -33030,7 +33032,8 @@ function (_react_1$default$Comp) {
             key: kid.guid,
             links: kid.links,
             parent: parent,
-            title: kid.title
+            title: kid.title,
+            typeCode: kid.typeCode
           });
         }));
       }
@@ -33089,7 +33092,8 @@ exports.Folders = function (props) {
       parent: folder.title,
       links: folder.links,
       guid: folder.guid,
-      handleClick: props.handleClick
+      handleClick: props.handleClick,
+      typeCode: folder.typeCode
     })));
   }));
 };

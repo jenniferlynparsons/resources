@@ -3,12 +3,12 @@ import { FolderListProps } from "../../interfaces";
 
 class FolderList extends React.Component<FolderListProps, {}> {
   render() {
-    const { title, links, handleClick, parent } = this.props;
+    const { title, links, handleClick, parent, typeCode } = this.props;
     const guid = this.props.links[0].guid;
     const kids = links.filter(item => {
       return item.links;
     });
-    if (title) {
+    if (typeCode === 2) {
       return (
         <React.Fragment key={"fragment-" + guid}>
           <li className="menu-item">
@@ -32,6 +32,7 @@ class FolderList extends React.Component<FolderListProps, {}> {
                     links={kid.links}
                     parent={title}
                     title={kid.title}
+                    typeCode={kid.typeCode}
                   />
                 </ul>
               </li>
@@ -50,6 +51,7 @@ class FolderList extends React.Component<FolderListProps, {}> {
                 links={kid.links}
                 parent={parent}
                 title={kid.title}
+                typeCode={kid.typeCode}
               />
             ))}
         </React.Fragment>
