@@ -27,11 +27,11 @@ class FolderList extends React.Component<FolderListProps, {}> {
               <li key={"nested-li-folder-" + kid.guid}>
                 <ul className="menu-list">
                   <FolderList
-                    title={kid.title}
-                    parent={title}
-                    links={kid.links}
                     guid={kid.guid}
                     handleClick={handleClick}
+                    links={kid.links}
+                    parent={title}
+                    title={kid.title}
                   />
                 </ul>
               </li>
@@ -44,12 +44,12 @@ class FolderList extends React.Component<FolderListProps, {}> {
           {kids &&
             kids.map(kid => (
               <FolderList
-                key={kid.guid}
-                title={kid.title}
                 guid={kid.guid}
-                parent={parent}
-                links={kid.links}
                 handleClick={handleClick}
+                key={kid.guid}
+                links={kid.links}
+                parent={parent}
+                title={kid.title}
               />
             ))}
         </React.Fragment>

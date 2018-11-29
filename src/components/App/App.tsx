@@ -1,13 +1,12 @@
 import React from "react";
 import { Provider } from "react-redux";
-import { AppProps } from "../../interfaces";
 import store from "../../store";
 import Folders from "../Folders";
 import Topic from "../Topic";
 import "../../../node_modules/bulma/bulma.sass";
 import "../../common_styles/global.scss";
 
-class App extends React.Component<AppProps, {}> {
+class App extends React.Component<{}, {}> {
   render() {
     return (
       <Provider store={store}>

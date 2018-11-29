@@ -33013,11 +33013,11 @@ function (_react_1$default$Comp) {
           }, react_1.default.createElement("ul", {
             className: "menu-list"
           }, react_1.default.createElement(FolderList, {
-            title: kid.title,
-            parent: title,
-            links: kid.links,
             guid: kid.guid,
-            handleClick: handleClick
+            handleClick: handleClick,
+            links: kid.links,
+            parent: title,
+            title: kid.title
           })));
         }));
       } else {
@@ -33025,12 +33025,12 @@ function (_react_1$default$Comp) {
           key: guid
         }, kids && kids.map(function (kid) {
           return react_1.default.createElement(FolderList, {
-            key: kid.guid,
-            title: kid.title,
             guid: kid.guid,
-            parent: parent,
+            handleClick: handleClick,
+            key: kid.guid,
             links: kid.links,
-            handleClick: handleClick
+            parent: parent,
+            title: kid.title
           });
         }));
       }
@@ -33373,7 +33373,9 @@ function (_react_1$default$Comp) {
       return react_1.default.createElement(Topic_1.Topic, {
         links: this.props.links,
         topic: this.props.topic,
-        folder: this.props.folder
+        folder: this.props.folder,
+        title: "",
+        guid: ""
       });
     }
   }]);

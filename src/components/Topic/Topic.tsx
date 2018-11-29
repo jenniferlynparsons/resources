@@ -1,8 +1,8 @@
-import React from "react";
+import React, { SFC } from "react";
 import { TopicProps } from "../../interfaces";
 import LinkList from "../LinkList";
 
-export const Topic = (props: TopicProps) => {
+export const Topic: SFC<TopicProps> = props => {
   if (props.topic.guid) {
     return (
       <div className="column is-three-quarters">

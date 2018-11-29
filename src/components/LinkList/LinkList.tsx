@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from "../../interfaces";
+import { LinkListProps } from "../../interfaces";
 
-class LinkList extends React.Component<Link, {}> {
+class LinkList extends React.Component<LinkListProps, {}> {
   render() {
     return (
       <ul>
