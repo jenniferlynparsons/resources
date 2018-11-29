@@ -1,21 +1,24 @@
 import React from "react";
-import { Props, State } from "../../interfaces";
+import { FoldersContainerProps, AppState } from "../../interfaces";
 import { connect } from "react-redux";
 import { Folders } from "./Folders";
 import { filterLinks } from "../../actions";
 
-class FoldersContainer extends React.Component<Props, State> {
+class FoldersContainer extends React.Component<
+  FoldersContainerProps,
+  AppState
+> {
   render() {
     return (
       <Folders
-        folders={this.props.children}
+        children={this.props.children}
         handleClick={this.props.handleClick}
       />
     );
   }
 }
 
-const mapStateToProps = (state: State) => ({
+const mapStateToProps = (state: AppState) => ({
   children: state.children,
   topic: state.topic,
   folder: state.folder

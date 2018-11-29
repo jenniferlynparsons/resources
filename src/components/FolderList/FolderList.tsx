@@ -1,7 +1,7 @@
 import React from "react";
-import { Props, State } from "../../interfaces";
+import { FolderListProps } from "../../interfaces";
 
-class FolderList extends React.Component<Props, State> {
+class FolderList extends React.Component<FolderListProps, {}> {
   render() {
     const { title, children, handleClick, parent } = this.props;
     const guid = this.props.children[0].guid;

@@ -1,8 +1,8 @@
 import React from "react";
-import { Props } from "../../interfaces";
+import { TopicProps } from "../../interfaces";
 import LinkList from "../LinkList";
 
-export const Topic = (props: Props) => {
+export const Topic = (props: TopicProps) => {
   if (props.topic.guid) {
     return (
       <div className="column is-three-quarters">
