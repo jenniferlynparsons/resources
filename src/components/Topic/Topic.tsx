@@ -3,12 +3,12 @@ import { TopicProps } from "../../interfaces";
 import LinkList from "../LinkList";
 
 export const Topic: SFC<TopicProps> = props => {
-  if (props.topic.guid) {
+  if (props.guid) {
     return (
       <div className="column is-three-quarters">
         <section className="content">
           <h2 className="is-size-4 has-text-weight-bold">
-            {props.folder} - {props.topic.title}
+            {props.folder} - {props.title}
           </h2>
           <LinkList links={props.links} />
         </section>

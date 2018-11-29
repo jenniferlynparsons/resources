@@ -8,10 +8,9 @@ class TopicContainer extends React.Component<TopicContainerProps> {
     return (
       <Topic
         links={this.props.links}
-        topic={this.props.topic}
+        title={this.props.topic.title}
+        guid={this.props.topic.guid}
         folder={this.props.folder}
-        title=""
-        guid=""
       />
     );
   }

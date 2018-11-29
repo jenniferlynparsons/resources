@@ -33299,14 +33299,14 @@ var react_1 = __importDefault(require("react"));
 var LinkList_1 = __importDefault(require("../LinkList"));
 
 exports.Topic = function (props) {
-  if (props.topic.guid) {
+  if (props.guid) {
     return react_1.default.createElement("div", {
       className: "column is-three-quarters"
     }, react_1.default.createElement("section", {
       className: "content"
     }, react_1.default.createElement("h2", {
       className: "is-size-4 has-text-weight-bold"
-    }, props.folder, " - ", props.topic.title), react_1.default.createElement(LinkList_1.default, {
+    }, props.folder, " - ", props.title), react_1.default.createElement(LinkList_1.default, {
       links: props.links
     })));
   } else {
@@ -33372,10 +33372,9 @@ function (_react_1$default$Comp) {
     value: function render() {
       return react_1.default.createElement(Topic_1.Topic, {
         links: this.props.links,
-        topic: this.props.topic,
-        folder: this.props.folder,
-        title: "",
-        guid: ""
+        title: this.props.topic.title,
+        guid: this.props.topic.guid,
+        folder: this.props.folder
       });
     }
   }]);

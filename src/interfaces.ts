@@ -4,7 +4,7 @@ export interface Action {
 }
 
 export type LinksProps = [
-  { id: string; uri?: string; title: string; links: LinksProps }
+  { id: string; guid: string; uri?: string; title: string; links: LinksProps }
 ];
 
 export interface LinkListProps {
@@ -13,10 +13,8 @@ export interface LinkListProps {
 export interface TopicProps {
   links: LinksProps;
   folder?: string;
-  topic: {
-    title: string;
-    guid: string;
-  };
+  title: string;
+  guid: string;
   parent?: string;
 }
 
