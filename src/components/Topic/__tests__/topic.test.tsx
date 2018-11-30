@@ -1,11 +1,9 @@
 import React from "react";
 import { shallow } from "enzyme";
-import toJson from "enzyme-to-json";
-import configureStore from "redux-mock-store";
-import Topic from "..";
+import { Topic } from "../Topic";
 
 const shortMockTopic = {
-  folder: "Humane Tech"
+  folder: "Humane Tech",
   guid: "l2evbvL4pQvN",
   title: "humane tech",
   index: 19,
@@ -65,20 +63,32 @@ const shortMockTopic = {
 };
 
 describe("<Topic />", () => {
-    test("it works", () => {
-      const component = shallow(<Topic links={shortMockTopic.links} title={shortMockTopic.title} folder={shortMockTopic.folder} guid={shortMockTopic.guid}/>);
+  test("it has a list if a the data exists", () => {
+    const component = shallow(
+      <Topic
+        links={shortMockTopic.links}
+        title={shortMockTopic.title}
+        folder={shortMockTopic.folder}
+        guid={shortMockTopic.guid}
+      />
+    );
 
-      expect(
-        component.containsMatchingElement(
-          <div className="column is-three-quarters">
-        <section className="content">
-          <h2 className="is-size-4 has-text-weight-bold">
-            Humane Tech - humane tech
-          </h2>
-          <LinkList links={props.links} />
-        </section>
-      </div>
-        )
-      ).toBeTruthy();
-    });
+    expect(
+      component.containsMatchingElement(
+        <h2 className="is-size-4 has-text-weight-bold">
+          Humane Tech - humane tech
+        </h2>
+      )
+    ).toBeTruthy();
+  });
+  test("if there's no data, show the default message", () => {
+    const component = shallow(
+      <Topic links={[]} title={""} folder={""} guid={""} />
+    );
+    expect(
+      component.containsMatchingElement(
+        <p>Click a topic from the menu to get started!</p>
+      )
+    ).toBeTruthy();
+  });
 });
