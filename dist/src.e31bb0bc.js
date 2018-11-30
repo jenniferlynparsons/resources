@@ -33254,13 +33254,11 @@ function (_react_1$default$Comp) {
     key: "render",
     value: function render() {
       return react_1.default.createElement("ul", null, this.props.links.map(function (link) {
-        if (!link.links) {
-          return react_1.default.createElement("li", {
-            key: link.id
-          }, react_1.default.createElement("a", {
-            href: link.uri
-          }, link.title));
-        }
+        return react_1.default.createElement("li", {
+          key: link.id
+        }, react_1.default.createElement("a", {
+          href: link.uri
+        }, link.title));
       }));
     }
   }]);

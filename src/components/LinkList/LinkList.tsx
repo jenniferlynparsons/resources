@@ -6,13 +6,11 @@ class LinkList extends React.Component<LinkListProps, {}> {
     return (
       <ul>
         {this.props.links.map(link => {
-          if (!link.links) {
-            return (
-              <li key={link.id}>
-                <a href={link.uri}>{link.title}</a>
-              </li>
-            );
-          }
+          return (
+            <li key={link.id}>
+              <a href={link.uri}>{link.title}</a>
+            </li>
+          );
         })}
       </ul>
     );

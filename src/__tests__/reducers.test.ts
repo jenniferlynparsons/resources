@@ -1,19 +1,5 @@
 import reducer from "../reducers/bookmarksReducer";
 
-const initialState = {
-  children: [],
-  dateAdded: "",
-  folder: "",
-  guid: "",
-  id: "",
-  index: "",
-  lastModified: "",
-  title: "",
-  topic: {},
-  type: "",
-  typeCode: ""
-};
-
 const mockTopic = {
   title: "General",
   guid: "IFI70vGC7Rlz",
@@ -187,6 +173,20 @@ const mockTopic = {
         "https://archive.org/details/pyohio_2018-The_Modern_CommandLine_Tool_Stack_Pipenv_Click_and_Friends"
     }
   ]
+};
+
+const initialState = {
+  children: [],
+  dateAdded: "",
+  folder: "",
+  guid: "",
+  id: "",
+  index: "",
+  lastModified: "",
+  title: "",
+  topic: {},
+  type: "",
+  typeCode: ""
 };
 
 const expectedState = {
