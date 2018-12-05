@@ -1,16 +1,16 @@
-import React from "react";
-import { Props } from "../../interfaces";
+import React, { SFC } from "react";
+import { TopicProps } from "../../interfaces";
 import LinkList from "../LinkList";
 
-export const Topic = (props: Props) => {
-  if (props.topic.guid) {
+export const Topic: SFC<TopicProps> = props => {
+  if (props.guid) {
     return (
       <div className="column is-three-quarters">
         <section className="content">
           <h2 className="is-size-4 has-text-weight-bold">
-            {props.folder} - {props.topic.title}
+            {props.folder} - {props.title}
           </h2>
-          <LinkList children={props.children} />
+          <LinkList links={props.links} />
         </section>
       </div>
     );

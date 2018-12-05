@@ -2,70 +2,57 @@ export interface Action {
   type: string;
   payload: object;
 }
-export interface Link {
-  children: Link[];
-  dateAdded: string;
-  guid: string;
-  id: string;
-  index: string;
-  lastModified: string;
+
+export type LinksProps = [
+  {
+    id: string;
+    guid: string;
+    uri?: string;
+    title: string;
+    typeCode: number;
+    links: LinksProps;
+  }
+];
+
+export interface LinkListProps {
+  links: LinksProps;
+}
+export interface TopicProps {
+  links: LinksProps;
+  folder?: string;
   title: string;
-  type: string;
-  typeCode: string;
-  uri: string;
+  guid: string;
+  parent?: string;
 }
 
-export interface Topic {
-  children: [];
-  dateAdded: string;
-  guid: string;
-  id: string;
-  index: string;
-  lastModified: string;
-  parent: string;
-  title: string;
-  type: string;
-  typeCode: string;
-  uri: string;
+export interface TopicContainerProps {
+  links: LinksProps;
+  topic: TopicProps;
+  folder: FolderTitle;
 }
 
 export type FolderTitle = string;
 
-export interface Folder {
-  children: [];
-  guid: string;
-  parent: string;
-  title: string;
+export interface FolderProps {
+  links: LinksProps;
+  handleClick: (t: object) => void;
+}
+export interface FoldersContainerProps {
+  links: LinksProps;
+  handleClick: (t: object) => void;
 }
 
-export interface Props {
-  children: Link[];
-  dateAdded: string;
-  folder: string;
-  folders: [];
+export interface FolderListProps {
   guid: string;
   handleClick: (t: object) => void;
-  id: string;
-  index: string;
-  lastModified: string;
+  links: LinksProps;
   parent: string;
   title: string;
-  topic: Topic;
-  type: string;
-  typeCode: string;
+  key?: string;
+  typeCode: number;
 }
-
-export interface State {
-  children: Link[];
-  dateAdded: string;
+export interface AppState {
+  links: LinksProps;
   folder: string;
-  guid: string;
-  handleClick: (t: object) => void;
-  id: string;
-  index: string;
-  lastModified: string;
-  title: string;
-  topic: Topic;
-  type: string;
-  typeCode: string;
+  topic: TopicProps;
 }

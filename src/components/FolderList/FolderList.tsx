@@ -1,14 +1,14 @@
 import React from "react";
-import { Props, State } from "../../interfaces";
+import { FolderListProps } from "../../interfaces";
 
-class FolderList extends React.Component<Props, State> {
+class FolderList extends React.Component<FolderListProps, {}> {
   render() {
-    const { title, children, handleClick, parent } = this.props;
-    const guid = this.props.children[0].guid;
-    const kids = children.filter(item => {
-      return item.children;
+    const { title, links, handleClick, parent, typeCode } = this.props;
+    const guid = this.props.links[0].guid;
+    const kids = links.filter(item => {
+      return item.links;
     });
-    if (title) {
+    if (typeCode === 2) {
       return (
         <React.Fragment key={"fragment-" + guid}>
           <li className="menu-item">
@@ -27,11 +27,12 @@ class FolderList extends React.Component<Props, State> {
               <li key={"nested-li-folder-" + kid.guid}>
                 <ul className="menu-list">
                   <FolderList
-                    title={kid.title}
-                    parent={title}
-                    children={kid.children}
                     guid={kid.guid}
                     handleClick={handleClick}
+                    links={kid.links}
+                    parent={title}
+                    title={kid.title}
+                    typeCode={kid.typeCode}
                   />
                 </ul>
               </li>
@@ -44,12 +45,13 @@ class FolderList extends React.Component<Props, State> {
           {kids &&
             kids.map(kid => (
               <FolderList
-                key={kid.guid}
-                title={kid.title}
                 guid={kid.guid}
-                parent={parent}
-                children={kid.children}
                 handleClick={handleClick}
+                key={kid.guid}
+                links={kid.links}
+                parent={parent}
+                title={kid.title}
+                typeCode={kid.typeCode}
               />
             ))}
         </React.Fragment>
