@@ -26977,1042 +26977,11 @@ exports.saveLinks = function (data) {
   } catch (err) {// Ignore write errors
   }
 };
-},{}],"bookmarkData.json":[function(require,module,exports) {
+},{}],"bookmarkDataSample.json":[function(require,module,exports) {
 module.exports = {
   "folder": "",
   "topic": {},
   "links": [{
-    "guid": "OwPXyxBt7K2o",
-    "title": "talks to watch",
-    "index": 0,
-    "dateAdded": 1.518626621755e15,
-    "lastModified": 1.542725709498e15,
-    "id": 135,
-    "typeCode": 3,
-    "type": "text/x-moz-place-container",
-    "links": [{
-      "guid": "IFI70vGC7Rlz",
-      "title": "General",
-      "index": 0,
-      "dateAdded": 1.542725694895e15,
-      "lastModified": 1.542725709498e15,
-      "id": 6356,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "links": [{
-        "guid": "b98dms6IKL5o",
-        "title": "Awesome Talks",
-        "index": 0,
-        "dateAdded": 1.52814843991e15,
-        "lastModified": 1.542725709314e15,
-        "id": 5855,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://awesometalks.party/"
-      }, {
-        "guid": "6PTEz1FaMr45",
-        "title": "AllThingsSmitty/must-watch-javascript: A useful list of must-watch talks about JavaScript",
-        "index": 1,
-        "dateAdded": 1.518626661197e15,
-        "lastModified": 1.542725709322e15,
-        "id": 353,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://github.com/AllThingsSmitty/must-watch-javascript"
-      }, {
-        "guid": "Wys04xymtDQf",
-        "title": "GitHub - AllThingsSmitty/must-watch-css: A useful list of must-watch talks about CSS",
-        "index": 2,
-        "dateAdded": 1.518895554637e15,
-        "lastModified": 1.542725709329e15,
-        "id": 418,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://github.com/AllThingsSmitty/must-watch-css"
-      }, {
-        "guid": "fbQgOaCq_no-",
-        "title": "bolshchikov/js-must-watch: Must-watch videos about javascript",
-        "index": 3,
-        "dateAdded": 1.518626666132e15,
-        "lastModified": 1.542725709334e15,
-        "id": 435,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://github.com/bolshchikov/js-must-watch"
-      }, {
-        "guid": "PxPBbgV-qRE_",
-        "title": "hellerve/programming-talks: Awesome & Interesting Talks concerning Programming",
-        "index": 4,
-        "dateAdded": 1.51862667175e15,
-        "lastModified": 1.54272570934e15,
-        "id": 494,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://github.com/hellerve/programming-talks"
-      }, {
-        "guid": "U1Q_Bck5dTfS",
-        "title": "You can\xE2\x80\x99t go wrong watching JavaScript talks - Mozilla Hacks - the Web developer blog",
-        "index": 5,
-        "dateAdded": 1.518626676449e15,
-        "lastModified": 1.54272570939e15,
-        "id": 495,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://hacks.mozilla.org/2014/12/you-cant-go-wrong-watching-javascript-talks/"
-      }, {
-        "guid": "PtGhul3JwU_P",
-        "title": "Great programming talks to watch on your lunch break",
-        "index": 6,
-        "dateAdded": 1.518626681751e15,
-        "lastModified": 1.542725709419e15,
-        "id": 1083,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://medium.com/statuscode/great-programming-talks-to-watch-on-your-lunch-break-8b13e139929e"
-      }, {
-        "guid": "r3g553S7Fx7t",
-        "title": "L\u0102\u0160onie Watson | On CSS accessibility and drinking tea | CSS Day 2016 on Vimeo",
-        "index": 7,
-        "dateAdded": 1.51890249139e15,
-        "lastModified": 1.542725709434e15,
-        "id": 896,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://vimeo.com/180566024"
-      }, {
-        "guid": "H58plR9acv-4",
-        "title": "(1) Bartek Szopka: Everything you never wanted to know about JavaScript numbers -- JSConf EU 2013 - YouTube",
-        "index": 8,
-        "dateAdded": 1.52366690392e15,
-        "lastModified": 1.542725709443e15,
-        "id": 946,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://www.youtube.com/watch?v=MqHDDtVYJRI"
-      }, {
-        "guid": "pyvcAXa033hP",
-        "title": "Videos - WeAreDevelopers Events",
-        "index": 9,
-        "dateAdded": 1.534426157441e15,
-        "lastModified": 1.542725709452e15,
-        "id": 6006,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://www.wearedevelopers.com/videos/"
-      }, {
-        "guid": "VN_E0gT5xjN6",
-        "title": "Past Talks - Deconstruct",
-        "index": 10,
-        "dateAdded": 1.52814843329e15,
-        "lastModified": 1.54272570946e15,
-        "id": 5845,
-        "typeCode": 1,
-        "iconuri": "https://www.deconstructconf.com/favicon-96x96.png",
-        "type": "text/x-moz-place",
-        "uri": "https://www.deconstructconf.com/2017"
-      }, {
-        "guid": "ClYvX60dzGLt",
-        "title": "Keep Betting on JavaScript by Kyle Simpson - JSCamp Barcelona 2018 - YouTube",
-        "index": 11,
-        "dateAdded": 1.53511268314e15,
-        "lastModified": 1.542725709465e15,
-        "id": 6102,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://www.youtube.com/watch?v=lDLQA6lQSFg"
-      }, {
-        "guid": "Eknuls6E3KGG",
-        "title": "(8) CSS Grid in 45 Minutes! - YouTube",
-        "index": 12,
-        "dateAdded": 1.535112690673e15,
-        "lastModified": 1.542725709469e15,
-        "id": 6103,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://www.youtube.com/watch?v=DCZdCKjnBCs&__s=qkfef9as73eevst9dudk&utm_source=drip&utm_medium=email&utm_campaign=CSS+Grid+in+45+Minutes%21+"
-      }, {
-        "guid": "o-Xlnw3Mtmc5",
-        "title": "The Modern Command-Line Tool Stack: Pipenv, Click, and Friends : Matt Behrens : Free Download, Borrow, and Streaming : Internet Archive",
-        "index": 13,
-        "dateAdded": 1.535160243021e15,
-        "lastModified": 1.542725709498e15,
-        "id": 6111,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://archive.org/details/pyohio_2018-The_Modern_CommandLine_Tool_Stack_Pipenv_Click_and_Friends"
-      }]
-    }]
-  }, {
-    "guid": "Dw_T5LKv6YJT",
-    "title": "code study",
-    "index": 1,
-    "dateAdded": 1.487834781137e15,
-    "lastModified": 1.542725724562e15,
-    "id": 107,
-    "typeCode": 3,
-    "type": "text/x-moz-place-container",
-    "links": [{
-      "guid": "7K9dr6suItWK",
-      "title": "General",
-      "index": 0,
-      "dateAdded": 1.542725714888e15,
-      "lastModified": 1.542725724562e15,
-      "id": 6357,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "links": [{
-        "guid": "AorkqFbOriNe",
-        "title": "Tutorial Playlists | Level Up Tutorials",
-        "index": 0,
-        "dateAdded": 1.541604883203e15,
-        "lastModified": 1.542725724354e15,
-        "id": 6332,
-        "typeCode": 1,
-        "iconuri": "https://www.leveluptutorials.com/android-chrome-192x192.png",
-        "type": "text/x-moz-place",
-        "uri": "https://www.leveluptutorials.com/tutorials"
-      }, {
-        "guid": "hiRY5d_Rj_S3",
-        "title": "Reverse a String | Free Code Camp",
-        "index": 1,
-        "dateAdded": 1.48783484441e15,
-        "lastModified": 1.542725724386e15,
-        "id": 4800,
-        "typeCode": 1,
-        "tags": "code study",
-        "type": "text/x-moz-place",
-        "uri": "https://www.freecodecamp.com/challenges/reverse-a-string"
-      }, {
-        "guid": "KcJuQNLrhwC3",
-        "title": "Full Stack Foundations | Udacity",
-        "index": 2,
-        "dateAdded": 1.488862976645e15,
-        "lastModified": 1.542725724397e15,
-        "id": 3397,
-        "typeCode": 1,
-        "tags": "code study",
-        "type": "text/x-moz-place",
-        "uri": "https://www.udacity.com/course/full-stack-foundations--ud088?utm_medium=referral&utm_campaign=api"
-      }, {
-        "guid": "Y8ZG558j926J",
-        "title": "Bento - Learn to code and be a self-taught expert programmer",
-        "index": 3,
-        "dateAdded": 1.491055818188e15,
-        "lastModified": 1.542725724403e15,
-        "id": 4167,
-        "typeCode": 1,
-        "tags": "code study",
-        "type": "text/x-moz-place",
-        "uri": "https://bento.io/"
-      }, {
-        "guid": "vBn39qujly-d",
-        "title": "Find the best online programming courses & tutorials - Hackr.io",
-        "index": 4,
-        "dateAdded": 1.49309057223e15,
-        "lastModified": 1.542725724408e15,
-        "id": 1882,
-        "typeCode": 1,
-        "tags": "code study",
-        "type": "text/x-moz-place",
-        "uri": "https://hackr.io/"
-      }, {
-        "guid": "jNL00SMiy32r",
-        "title": "thenewboston - Video Tutorials on Programming and More",
-        "index": 5,
-        "dateAdded": 1.503329825636e15,
-        "lastModified": 1.542725724412e15,
-        "id": 4894,
-        "typeCode": 1,
-        "tags": "code study",
-        "type": "text/x-moz-place",
-        "uri": "https://thenewboston.com/"
-      }, {
-        "guid": "Szdt0l_caA89",
-        "title": "Learn the \"Right Parts\" of ES6 JavaScript features with Kyle Simpson",
-        "index": 6,
-        "dateAdded": 1.503329846161e15,
-        "lastModified": 1.542725724452e15,
-        "id": 1615,
-        "typeCode": 1,
-        "tags": "code study",
-        "type": "text/x-moz-place",
-        "uri": "https://frontendmasters.com/courses/es6-right-parts/"
-      }, {
-        "guid": "YD3vne3F9TQw",
-        "title": "Learn the Deep Foundations of JavaScript with Kyle Simpson",
-        "index": 7,
-        "dateAdded": 1.503329854088e15,
-        "lastModified": 1.54272572447e15,
-        "id": 1776,
-        "typeCode": 1,
-        "tags": "code study",
-        "type": "text/x-moz-place",
-        "uri": "https://frontendmasters.com/courses/javascript-foundations/"
-      }, {
-        "guid": "S741WFyRdcjr",
-        "title": "Learn Data Structure and Algorithms in JavaScript - Ace that Interview",
-        "index": 8,
-        "dateAdded": 1.503329870201e15,
-        "lastModified": 1.542725724479e15,
-        "id": 1460,
-        "typeCode": 1,
-        "tags": "code study",
-        "type": "text/x-moz-place",
-        "uri": "https://frontendmasters.com/courses/data-structures-algorithms/"
-      }, {
-        "guid": "sOLLm85NLmxs",
-        "title": "Learn Advanced JavaScript from the Master Developers",
-        "index": 9,
-        "dateAdded": 1.503329883291e15,
-        "lastModified": 1.542725724487e15,
-        "id": 5355,
-        "typeCode": 1,
-        "tags": "code study",
-        "type": "text/x-moz-place",
-        "uri": "https://frontendmasters.com/courses/advanced-javascript/"
-      }, {
-        "guid": "CKE9fBkUllaF",
-        "title": "Testing JavaScript Applications (feat. React and Redux)",
-        "index": 10,
-        "dateAdded": 1.503329896442e15,
-        "lastModified": 1.542725724494e15,
-        "id": 2905,
-        "typeCode": 1,
-        "tags": "code study",
-        "type": "text/x-moz-place",
-        "uri": "https://frontendmasters.com/courses/testing-javascript/"
-      }, {
-        "guid": "8gpxNOodBgpo",
-        "title": "Master Chrome Developer Tools with Jon Kuperman",
-        "index": 11,
-        "dateAdded": 1.503329905207e15,
-        "lastModified": 1.542725724504e15,
-        "id": 2697,
-        "typeCode": 1,
-        "tags": "code study",
-        "type": "text/x-moz-place",
-        "uri": "https://frontendmasters.com/courses/chrome-dev-tools/"
-      }, {
-        "guid": "1BzSwzUpIjT7",
-        "title": "Learn Sass Preprocessor to Write Readable and Maintainable CSS",
-        "index": 12,
-        "dateAdded": 1.503329915311e15,
-        "lastModified": 1.54272572453e15,
-        "id": 2101,
-        "typeCode": 1,
-        "tags": "code study",
-        "type": "text/x-moz-place",
-        "uri": "https://frontendmasters.com/courses/sass/"
-      }, {
-        "guid": "9okap7_sHZDK",
-        "title": "Programing Language Tutorials Index",
-        "index": 13,
-        "dateAdded": 1.503330226867e15,
-        "lastModified": 1.542725724538e15,
-        "id": 2764,
-        "typeCode": 1,
-        "tags": "code study",
-        "type": "text/x-moz-place",
-        "uri": "http://xahlee.info/comp/comp_lang_tutorials_index.html"
-      }, {
-        "guid": "UjT6o1jhhm4T",
-        "title": "Confreaks TV | Events",
-        "index": 14,
-        "dateAdded": 1.503330971297e15,
-        "lastModified": 1.542725724544e15,
-        "id": 3981,
-        "typeCode": 1,
-        "tags": "code study",
-        "type": "text/x-moz-place",
-        "uri": "https://confreaks.tv/events?page=2"
-      }, {
-        "guid": "ypn9elhmJUC8",
-        "title": "codebar - Tutorials by codebar",
-        "index": 15,
-        "dateAdded": 1.503331095497e15,
-        "lastModified": 1.542725724549e15,
-        "id": 1730,
-        "typeCode": 1,
-        "tags": "code study",
-        "type": "text/x-moz-place",
-        "uri": "http://tutorials.codebar.io/"
-      }, {
-        "guid": "Ni9cBY6HU8Ov",
-        "title": "App Academy Open",
-        "index": 16,
-        "dateAdded": 1.542035955028e15,
-        "lastModified": 1.542725724562e15,
-        "id": 6336,
-        "typeCode": 1,
-        "iconuri": "https://open.appacademy.io/apple-touch-icon.e5587902.png",
-        "type": "text/x-moz-place",
-        "uri": "https://open.appacademy.io/signup/free"
-      }]
-    }]
-  }, {
-    "guid": "gkW8fGNnFIgq",
-    "title": "conferences",
-    "index": 3,
-    "dateAdded": 1.50401750547e15,
-    "lastModified": 1.542725749492e15,
-    "id": 187,
-    "typeCode": 3,
-    "type": "text/x-moz-place-container",
-    "links": [{
-      "guid": "2U15zLoc4zgC",
-      "title": "General",
-      "index": 0,
-      "dateAdded": 1.542725741761e15,
-      "lastModified": 1.542725749492e15,
-      "id": 6359,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "links": [{
-        "guid": "1wNfIeWn0RTw",
-        "title": "Catskills Conf 2017",
-        "index": 0,
-        "dateAdded": 1.504017514137e15,
-        "lastModified": 1.542725749429e15,
-        "id": 2296,
-        "typeCode": 1,
-        "tags": "conferences",
-        "type": "text/x-moz-place",
-        "uri": "http://www.catskillsconf.com/?utm_source=News+from+The+Recompiler&utm_campaign=1c246e6c7d-EMAIL_CAMPAIGN_2017_08_11&utm_medium=email&utm_term=0_131cefd51c-1c246e6c7d-64268001&mc_cid=1c246e6c7d&mc_eid=ba7d83b054#about"
-      }, {
-        "guid": "gLZ8XbprvufF",
-        "title": "Empire Conf - New York City, October 11-13, 2017",
-        "index": 1,
-        "dateAdded": 1.504017522802e15,
-        "lastModified": 1.542725749463e15,
-        "id": 2000,
-        "typeCode": 1,
-        "tags": "conferences",
-        "type": "text/x-moz-place",
-        "uri": "http://2017.empireconf.org/#schedule"
-      }, {
-        "guid": "suzYy0KO__ol",
-        "title": "Offline Camp",
-        "index": 2,
-        "dateAdded": 1.508951570851e15,
-        "lastModified": 1.542725749492e15,
-        "id": 2033,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://offlinefirst.org/camp/"
-      }]
-    }]
-  }, {
-    "guid": "laDLcuD0q_az",
-    "title": "Accessibility",
-    "index": 4,
-    "dateAdded": 1.53054741683e15,
-    "lastModified": 1.542726010774e15,
-    "id": 5929,
-    "typeCode": 3,
-    "type": "text/x-moz-place-container",
-    "links": [{
-      "guid": "4g1lT-NK25BW",
-      "title": "General",
-      "index": 0,
-      "dateAdded": 1.542725997074e15,
-      "lastModified": 1.542726010774e15,
-      "id": 6367,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "links": [{
-        "guid": "U2knc8374ORf",
-        "title": "Accessibility - Learn web development | MDN",
-        "index": 0,
-        "dateAdded": 1.53054741683e15,
-        "lastModified": 1.542726010586e15,
-        "id": 5940,
-        "typeCode": 1,
-        "iconuri": "https://developer.mozilla.org/static/img/favicon144.e7e21ca263ca.png",
-        "type": "text/x-moz-place",
-        "uri": "https://developer.mozilla.org/en-US/docs/Learn/Accessibility"
-      }, {
-        "guid": "RbGQyZZI-_gm",
-        "title": "WebAIM: Web Accessibility In Mind",
-        "index": 1,
-        "dateAdded": 1.53054748205e15,
-        "lastModified": 1.542726010594e15,
-        "id": 5932,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://webaim.org/"
-      }, {
-        "guid": "tp6mI9x3_Syi",
-        "title": "Pa11y",
-        "index": 2,
-        "dateAdded": 1.53054743625e15,
-        "lastModified": 1.5427260106e15,
-        "id": 5938,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://pa11y.org/"
-      }, {
-        "guid": "fI9HZKLdEC_m",
-        "title": "WAVE Evaluation Tool - Chrome Web Store",
-        "index": 3,
-        "dateAdded": 1.53054745271e15,
-        "lastModified": 1.542726010605e15,
-        "id": 5936,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh"
-      }, {
-        "guid": "JuJ6yA8nzRPN",
-        "title": "axe | Deque",
-        "index": 4,
-        "dateAdded": 1.535474503443e15,
-        "lastModified": 1.54272601061e15,
-        "id": 6120,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://www.deque.com/axe/"
-      }, {
-        "guid": "CSbzZWh1z5g0",
-        "title": "Web Accessibility Evaluation Tools List",
-        "index": 5,
-        "dateAdded": 1.535470582741e15,
-        "lastModified": 1.542726010616e15,
-        "id": 6118,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://www.w3.org/WAI/ER/tools/?q=command-line-tool"
-      }, {
-        "guid": "fqzjR-3V8t8j",
-        "title": "7 web accessibility myths | Humanising Technology Blog",
-        "index": 6,
-        "dateAdded": 1.5305480412e15,
-        "lastModified": 1.542726010624e15,
-        "id": 5937,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://www.nomensa.com/blog/2012/7-web-accessibility-myths-2"
-      }, {
-        "guid": "6bwy4olkjsLG",
-        "title": "Accessibility Weekly",
-        "index": 7,
-        "dateAdded": 1.53054822975e15,
-        "lastModified": 1.542726010628e15,
-        "id": 5933,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://a11yweekly.com/"
-      }, {
-        "guid": "83e0zI7gFMFM",
-        "title": "(9) Madalyn Parker - Uncharted territory: using aXe to forge a path - YouTube",
-        "index": 8,
-        "dateAdded": 1.535475071363e15,
-        "lastModified": 1.542726010651e15,
-        "id": 6115,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://www.youtube.com/watch?v=JWqHioGOELs&index=14&list=PL37ZVnwpeshH2dgOfKBH1UOgOT198ZzZy&t=2s"
-      }, {
-        "guid": "IeWqtlqGKiBP",
-        "title": "Accessibility for Teams",
-        "index": 9,
-        "dateAdded": 1.53236296913e15,
-        "lastModified": 1.542726010659e15,
-        "id": 5954,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://accessibility.digital.gov/"
-      }, {
-        "guid": "wWh1R7J0KBBb",
-        "title": "minimal web mnmlist",
-        "index": 10,
-        "dateAdded": 1.535054267996e15,
-        "lastModified": 1.542726010664e15,
-        "id": 6094,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://mnmlist.com/w/"
-      }, {
-        "guid": "L1W9QSMQiYXF",
-        "title": "The Web I Want - DEV Community ",
-        "index": 11,
-        "dateAdded": 1.535123023903e15,
-        "lastModified": 1.542726010672e15,
-        "id": 6029,
-        "typeCode": 1,
-        "iconuri": "https://practicaldev-herokuapp-com.freetls.fastly.net/assets/android-icon-192x192-6811870d496c3bcac25db2e002b136df9d95a00d17a53c6e0fabce74c733c7d1.png",
-        "type": "text/x-moz-place",
-        "uri": "https://dev.to/quii/the-web-i-want-43o"
-      }, {
-        "guid": "GPcWKNX9I2el",
-        "title": "DIY Accessibility Checklists | Web Access",
-        "index": 12,
-        "dateAdded": 1.537377290982e15,
-        "lastModified": 1.542726010676e15,
-        "id": 6196,
-        "typeCode": 1,
-        "iconuri": "https://webaccess.berkeley.edu/profiles/openberkeley/themes/openberkeley_theme_brand/favicon.ico",
-        "type": "text/x-moz-place",
-        "uri": "https://webaccess.berkeley.edu/evaluating/self-assessment/diy-accessibility-checklists"
-      }, {
-        "guid": "ppk4gvZKKZf2",
-        "title": "Introducing Trashy.css | CSS-Tricks",
-        "index": 13,
-        "dateAdded": 1.53840247978e15,
-        "lastModified": 1.54272601068e15,
-        "id": 6247,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://css-tricks.com/introducing-trashy-css/"
-      }, {
-        "guid": "o2pf4-H-MTd1",
-        "title": "hidden content",
-        "index": 14,
-        "dateAdded": 1.538402497641e15,
-        "lastModified": 1.542726010685e15,
-        "id": 6246,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://stevefaulkner.github.io/HTML5accessibility/tests/hidden-2016.html"
-      }, {
-        "guid": "dM02cROWGU17",
-        "title": "BBC - My Web My Way - Home",
-        "index": 15,
-        "dateAdded": 1.539286373491e15,
-        "lastModified": 1.542726010689e15,
-        "id": 6265,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://www.bbc.co.uk/accessibility/"
-      }, {
-        "guid": "IVs_B6kT11vl",
-        "title": "Assistive technology tools you can test with at no cost - Accessibility in government",
-        "index": 16,
-        "dateAdded": 1.539658033874e15,
-        "lastModified": 1.542726010702e15,
-        "id": 6276,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://accessibility.blog.gov.uk/2018/09/27/assistive-technology-tools-you-can-use-at-no-cost/"
-      }, {
-        "guid": "i8OqVSn4ewEC",
-        "title": "Accessibility is Not What You Think",
-        "index": 17,
-        "dateAdded": 1.541185235607e15,
-        "lastModified": 1.542726010727e15,
-        "id": 6319,
-        "typeCode": 1,
-        "iconuri": "https://boagworld.com/wp-content/themes/boagworld-2016/img/fav-boagworld-320.png",
-        "type": "text/x-moz-place",
-        "uri": "https://boagworld.com/accessibility/accessibility-is-not-what-you-think/"
-      }, {
-        "guid": "svLNnk5wZNDH",
-        "title": "Accessibility is not a feature. - Ethan Marcotte",
-        "index": 18,
-        "dateAdded": 1.541185240089e15,
-        "lastModified": 1.542726010759e15,
-        "id": 6320,
-        "typeCode": 1,
-        "iconuri": "https://ethanmarcotte.com/touchicon-196.png",
-        "type": "text/x-moz-place",
-        "uri": "https://ethanmarcotte.com/wrote/accessibility-is-not-a-feature/"
-      }, {
-        "guid": "a01KYTw6ZEjw",
-        "title": "Design for Real Life: An Interview with Sara Wachter-Boettcher - An A List Apart Article",
-        "index": 19,
-        "dateAdded": 1.541185247622e15,
-        "lastModified": 1.542726010768e15,
-        "id": 6321,
-        "typeCode": 1,
-        "iconuri": "https://alistapart.com/components/assets/img/favicons/apple-touch-icon-152x152.png",
-        "type": "text/x-moz-place",
-        "uri": "https://alistapart.com/article/design-for-real-life-interview-with-sara-wachter-boettcher"
-      }, {
-        "guid": "G7usP5CQP34N",
-        "title": "Microsoft Design",
-        "index": 20,
-        "dateAdded": 1.54118525374e15,
-        "lastModified": 1.542726010774e15,
-        "id": 6322,
-        "typeCode": 1,
-        "iconuri": "https://www.microsoft.com/design/icons/apple-touch-icon-180x180.png",
-        "type": "text/x-moz-place",
-        "uri": "https://www.microsoft.com/design/inclusive/"
-      }]
-    }, {
-      "guid": "kj1DRd8GIeIN",
-      "title": "Typography",
-      "index": 1,
-      "dateAdded": 1.53054806419e15,
-      "lastModified": 1.530547604783e15,
-      "id": 5928,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "links": [{
-        "guid": "zsh1idaO_rzC",
-        "title": "Letter and symbol misrecognition in highly legible typefaces for general, children, dyslexic, visually impaired and ageing readers [2018 third edition] - Journal - Typography.Guru",
-        "index": 0,
-        "dateAdded": 1.530547604783e15,
-        "lastModified": 1.530547604783e15,
-        "id": 5939,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://typography.guru/journal/letters-symbols-misrecognition/"
-      }, {
-        "guid": "zt5OVX61jepB",
-        "title": "Dyslexie Font - Home",
-        "index": 1,
-        "dateAdded": 1.530547585867e15,
-        "lastModified": 1.530547585867e15,
-        "id": 5931,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://www.dyslexiefont.com/en/home/"
-      }]
-    }, {
-      "guid": "R9pHa3eAYX60",
-      "title": "Colors",
-      "index": 2,
-      "dateAdded": 1.53054807555e15,
-      "lastModified": 1.53054807555e15,
-      "id": 5927,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "links": [{
-        "guid": "9mSrjojLnD2X",
-        "title": "Best Color Contrast Checkers for Accessibility Testing - Vance Bell, Philadelphia, PA",
-        "index": 0,
-        "dateAdded": 1.530547546464e15,
-        "lastModified": 1.530547546464e15,
-        "id": 5934,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://vancebell.com/blog/best-color-contrast-checkers-for-accessibility-testing/"
-      }, {
-        "guid": "DI8KCXdxLFYH",
-        "title": "EightShapes Contrast Grid",
-        "index": 1,
-        "dateAdded": 1.53054807555e15,
-        "lastModified": 1.53054807555e15,
-        "id": 5935,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://contrast-grid.eightshapes.com/?background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%23F2F2F2%0D%0A%23DDDDDD%0D%0A%23CCCCCC%0D%0A%23888888%0D%0A%23404040%2C%20Charcoal%0D%0A%23000000%2C%20Black%0D%0A%232F78C5%2C%20Effective%20on%20Extremes%0D%0A%230F60B6%2C%20Effective%20on%20Lights%0D%0A%23398EEA%2C%20Ineffective%0D%0A&es-color-form__tile-size=compact"
-      }]
-    }, {
-      "guid": "m6nXJSd2Dbu1",
-      "title": "MFWEBSITES",
-      "index": 3,
-      "dateAdded": 1.534860683027e15,
-      "lastModified": 1.534860725531e15,
-      "id": 6014,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "links": [{
-        "guid": "_jepbAvAIudm",
-        "title": "The Best Motherfucking Website",
-        "index": 0,
-        "dateAdded": 1.534860692665e15,
-        "lastModified": 1.534860692665e15,
-        "id": 6076,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://thebestmotherfuckingwebsite.co/"
-      }, {
-        "guid": "WonX_6Of2Bn0",
-        "title": "Motherfucking Website",
-        "index": 1,
-        "dateAdded": 1.534860697988e15,
-        "lastModified": 1.534860697988e15,
-        "id": 6030,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://www.motherfuckingwebsite.com/"
-      }, {
-        "guid": "P6q3hTso2eq6",
-        "title": "The Best Motherfucking Website",
-        "index": 2,
-        "dateAdded": 1.534860703883e15,
-        "lastModified": 1.534860703883e15,
-        "id": 6060,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://thebestmotherfucking.website/"
-      }, {
-        "guid": "KSiU5e1Q3I8I",
-        "title": "Matthew Graybosch's motherfucking website",
-        "index": 3,
-        "dateAdded": 1.5348607096e15,
-        "lastModified": 1.5348607096e15,
-        "id": 6058,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://codepen.io/demifiend/pen/EENKNN"
-      }, {
-        "guid": "2FSGTID4TdvP",
-        "title": "Best Motherfucking Website",
-        "index": 4,
-        "dateAdded": 1.534860719326e15,
-        "lastModified": 1.534860719326e15,
-        "id": 6041,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://bestmotherfucking.website/"
-      }, {
-        "guid": "zfMZkCIVdyuO",
-        "title": "Perfect Motherfucking Website",
-        "index": 5,
-        "dateAdded": 1.534860725531e15,
-        "lastModified": 1.534860725531e15,
-        "id": 6097,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://perfectmotherfuckingwebsite.com/"
-      }, {
-        "guid": "qneeKcBXYkbi",
-        "title": "Better Motherfucking Website",
-        "index": 6,
-        "dateAdded": 1.534860732726e15,
-        "lastModified": 1.534860732726e15,
-        "id": 6092,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://bettermotherfuckingwebsite.com/"
-      }]
-    }]
-  }, {
-    "guid": "3MzG0NUH7QpZ",
-    "title": "Evergreen Resources",
-    "index": 5,
-    "dateAdded": 1.518979949883e15,
-    "lastModified": 1.542725762587e15,
-    "id": 82,
-    "typeCode": 3,
-    "type": "text/x-moz-place-container",
-    "links": [{
-      "guid": "hdleV85icS6l",
-      "title": "General",
-      "index": 0,
-      "dateAdded": 1.542725754042e15,
-      "lastModified": 1.542725762587e15,
-      "id": 6360,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "links": [{
-        "guid": "qyUhrWdH3l3S",
-        "title": "Online regex tester and debugger: PHP, PCRE, Python, Golang and JavaScript",
-        "index": 0,
-        "dateAdded": 1.536266123579e15,
-        "lastModified": 1.542725762245e15,
-        "id": 6177,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://regex101.com/"
-      }, {
-        "guid": "j8n6JFx2YQ8m",
-        "title": "repl.it - JavaScript Compiler",
-        "index": 1,
-        "dateAdded": 1.470958280627e15,
-        "lastModified": 1.542725762329e15,
-        "id": 4888,
-        "typeCode": 1,
-        "tags": "compsci",
-        "type": "text/x-moz-place",
-        "uri": "https://repl.it/languages/javascript"
-      }, {
-        "guid": "PswXRk2kLCt3",
-        "title": "Plunker",
-        "index": 2,
-        "dateAdded": 1.470958278411e15,
-        "lastModified": 1.542725762354e15,
-        "id": 3718,
-        "typeCode": 1,
-        "tags": "compsci",
-        "type": "text/x-moz-place",
-        "uri": "https://plnkr.co/edit/oL4hs65hE7ncGuf471Zm?p=preview"
-      }, {
-        "guid": "Vj6I8Lgkni-r",
-        "title": "Learn X in Y Minutes: Scenic Programming Language Tours",
-        "index": 3,
-        "dateAdded": 1.518980274657e15,
-        "lastModified": 1.542725762364e15,
-        "id": 352,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://learnxinyminutes.com/"
-      }, {
-        "guid": "X6ee1TD-vBbV",
-        "title": "Cheatsheets - for web development and more",
-        "index": 4,
-        "dateAdded": 1.491068527431e15,
-        "lastModified": 1.542725762373e15,
-        "id": 300,
-        "typeCode": 1,
-        "tags": "code study,cool shit,programming",
-        "type": "text/x-moz-place",
-        "uri": "http://ricostacruz.com/cheatsheets/"
-      }, {
-        "guid": "7h8GfFLaunB6",
-        "title": "Teach Yourself Programming in Ten Years",
-        "index": 5,
-        "dateAdded": 1.519341870969e15,
-        "lastModified": 1.542725762382e15,
-        "id": 1312,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://norvig.com/21-days.html"
-      }, {
-        "guid": "deGPP1s86C6F",
-        "title": "Modern JavaScript Explained For Dinosaurs - Node.js Collection - Medium",
-        "index": 6,
-        "dateAdded": 1.519843743435e15,
-        "lastModified": 1.54272576239e15,
-        "id": 389,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://medium.com/the-node-js-collection/modern-javascript-explained-for-dinosaurs-f695e9747b70"
-      }, {
-        "guid": "DGMg56f6ytST",
-        "title": "Let's Encrypt - Free SSL/TLS Certificates",
-        "index": 7,
-        "dateAdded": 1.5201124114e15,
-        "lastModified": 1.542725762398e15,
-        "id": 1201,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://letsencrypt.org/"
-      }, {
-        "guid": "fdRHbCBXPSZx",
-        "title": "Dashboard | The Odin Project",
-        "index": 8,
-        "dateAdded": 1.52069907832e15,
-        "lastModified": 1.542725762438e15,
-        "id": 1015,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://www.theodinproject.com/dashboard"
-      }, {
-        "guid": "fYyfVJGNZsnv",
-        "title": "AskQuestions.Tech",
-        "index": 9,
-        "dateAdded": 1.52132836711e15,
-        "lastModified": 1.542725762455e15,
-        "id": 1014,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://www.askquestions.tech/"
-      }, {
-        "guid": "RILmvci3Ze_H",
-        "title": "What's an efficient web app development process? Should one start from the site structure and UI? Should one map all the resources he/she has first? Should one map models first and consider how they connect before coding? - Quora",
-        "index": 10,
-        "dateAdded": 1.52367895224e15,
-        "lastModified": 1.54272576247e15,
-        "id": 975,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://www.quora.com/Whats-an-efficient-web-app-development-process-Should-one-start-from-the-site-structure-and-UI-Should-one-map-all-the-resources-he-she-has-first-Should-one-map-models-first-and-consider-how-they-connect-before-coding"
-      }, {
-        "guid": "-rUx_Kkk8yUe",
-        "title": "X-Files",
-        "index": 11,
-        "dateAdded": 1.52667567069e15,
-        "lastModified": 1.542725762482e15,
-        "id": 905,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://doc.lagout.org/"
-      }, {
-        "guid": "4E0k2Frm79CT",
-        "title": "Getting free of toxic tech culture - Valerie Aurora's blog",
-        "index": 12,
-        "dateAdded": 1.52959172657e15,
-        "lastModified": 1.542725762491e15,
-        "id": 5926,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://blog.valerieaurora.org/2018/01/17/getting-free-of-toxic-tech-culture/"
-      }, {
-        "guid": "Xu9IwJ2GEZWJ",
-        "title": "Technology Radar | Emerging Tech Trends for 2018 | ThoughtWorks",
-        "index": 13,
-        "dateAdded": 1.52962218241e15,
-        "lastModified": 1.5427257625e15,
-        "id": 5920,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://www.thoughtworks.com/radar"
-      }, {
-        "guid": "5ekwIkUh8nsp",
-        "title": "CommonMark",
-        "index": 14,
-        "dateAdded": 1.53115050417e15,
-        "lastModified": 1.542725762508e15,
-        "id": 5943,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://commonmark.org/"
-      }, {
-        "guid": "yPwmTyccuMUK",
-        "title": "DIY Feminist Cybersecurity",
-        "index": 15,
-        "dateAdded": 1.53200780901e15,
-        "lastModified": 1.542725762516e15,
-        "id": 5953,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://hackblossom.org/cybersecurity/"
-      }, {
-        "guid": "TCDnochP4Adm",
-        "title": "Manifesto for Minimalist Software Engineers | Minifesto.org",
-        "index": 16,
-        "dateAdded": 1.535577918265e15,
-        "lastModified": 1.54272576255e15,
-        "id": 6151,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://minifesto.org/"
-      }, {
-        "guid": "qOaFT2khmqJO",
-        "title": "Semantic Versioning 2.0.0 | Semantic Versioning",
-        "index": 17,
-        "dateAdded": 1.53711531015e15,
-        "lastModified": 1.542725762564e15,
-        "id": 6193,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://semver.org/"
-      }, {
-        "guid": "-RKmwsaiG7Kt",
-        "title": "Keep a Changelog",
-        "index": 18,
-        "dateAdded": 1.537115319798e15,
-        "lastModified": 1.542725762574e15,
-        "id": 6194,
-        "typeCode": 1,
-        "iconuri": "https://keepachangelog.com/assets/images/favicon.ico",
-        "type": "text/x-moz-place",
-        "uri": "https://keepachangelog.com/en/1.0.0/"
-      }, {
-        "guid": "8zkew_e-nn94",
-        "title": "defprogramming: quotes about coding",
-        "index": 19,
-        "dateAdded": 1.537710687523e15,
-        "lastModified": 1.54272576258e15,
-        "id": 6211,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://www.defprogramming.com/"
-      }, {
-        "guid": "MARLemXqmWrN",
-        "title": "Against software development",
-        "index": 20,
-        "dateAdded": 1.54212356705e15,
-        "lastModified": 1.542725762587e15,
-        "id": 6347,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://www.rntz.net/post/against-software-development.html"
-      }]
-    }]
-  }, {
     "guid": "n3sZc1VWahzC",
     "title": "Languages",
     "index": 6,
@@ -29114,9 +28083,15 @@ module.exports = {
       "title": "ruby",
       "index": 4,
       "dateAdded": 1.500595412671e15,
-      "lastModified": 1.541162826117e15,
+      "lastModified": 1.544144327996e15,
       "id": 145,
       "typeCode": 2,
+      "annos": [{
+        "name": "bookmarkProperties/description",
+        "flags": 0,
+        "expires": 4,
+        "value": "2"
+      }],
       "type": "text/x-moz-place-container",
       "links": [{
         "guid": "S7lx5gTvAnfC",
@@ -29253,7 +28228,7 @@ module.exports = {
           "uri": "https://www.coursera.org/learn/ruby-on-rails-intro?siteID=jU79Zysihs4-fKq8xCTXCugg0RhWA45qCA&utm_content=10&utm_medium=partners&utm_source=linkshare&utm_campaign=jU79Zysihs4"
         }, {
           "guid": "L4j9d6_bYF8h",
-          "title": "How I finally learned Rails - Ruby on Rails - Medium",
+          "title": "How I finally learned Rails \xE2\x80\x93 Ruby on Rails \xE2\x80\x93 Medium",
           "index": 10,
           "dateAdded": 1.52069957189e15,
           "lastModified": 1.52069957189e15,
@@ -29283,7 +28258,7 @@ module.exports = {
           "uri": "https://www.justinweiss.com/"
         }, {
           "guid": "VPuCBH6u6FsB",
-          "title": "rails/rails_application_templates.md at master - rails/rails",
+          "title": "rails/rails_application_templates.md at master \xC2\u02C7 rails/rails",
           "index": 13,
           "dateAdded": 1.52130030145e15,
           "lastModified": 1.52130030145e15,
@@ -29333,7 +28308,7 @@ module.exports = {
           "uri": "https://nowaker.net/post/ruby-on-rails-a-static-site-generator.html"
         }, {
           "guid": "Ejw-eE5rCcQV",
-          "title": "Rails Authorization with Pundit - freeCodeCamp",
+          "title": "Rails Authorization with Pundit \xE2\x80\x93 freeCodeCamp",
           "index": 18,
           "dateAdded": 1.52667577282e15,
           "lastModified": 1.52667577282e15,
@@ -29373,7 +28348,7 @@ module.exports = {
         "type": "text/x-moz-place-container",
         "links": [{
           "guid": "oMZoD9B4CKdO",
-          "title": "Rails Console Magic Tricks - Luis Vasconcellos - Medium",
+          "title": "Rails Console Magic Tricks \xE2\x80\x93 Luis Vasconcellos \xE2\x80\x93 Medium",
           "index": 0,
           "dateAdded": 1.535747968713e15,
           "lastModified": 1.535747968713e15,
@@ -29393,9 +28368,52 @@ module.exports = {
           "uri": "https://www.justinweiss.com/files/practicing-rails-sample.pdf"
         }]
       }, {
+        "guid": "CKix66M7027i",
+        "title": "rails api",
+        "index": 3,
+        "dateAdded": 1.542826680914e15,
+        "lastModified": 1.542826715408e15,
+        "id": 6377,
+        "typeCode": 2,
+        "type": "text/x-moz-place-container",
+        "links": [{
+          "guid": "YvwLTpcaM_Il",
+          "title": "Build a Rails API Course",
+          "index": 0,
+          "dateAdded": 1.542826699251e15,
+          "lastModified": 1.542826699251e15,
+          "id": 6378,
+          "typeCode": 1,
+          "iconuri": "https://static.teamtreehouse.com/assets/apple-touch-icon-152x152-precomposed-1f486d33d1fe181adce0689d370d7dab9e777fab99b244e15b8c785239410674.png",
+          "type": "text/x-moz-place",
+          "uri": "https://teamtreehouse.com/library/build-a-rails-api"
+        }, {
+          "guid": "M4QVbubuzu6t",
+          "title": "ReactJS + Ruby on Rails API + Heroku App \xE2\x80\x93 Bruno Boehm \xE2\x80\x93 Medium",
+          "index": 1,
+          "dateAdded": 1.542826705211e15,
+          "lastModified": 1.542826705211e15,
+          "id": 6379,
+          "typeCode": 1,
+          "iconuri": "https://cdn-images-1.medium.com/fit/c/152/152/1*8I-HPL0bfoIzGied-dzOvA.png",
+          "type": "text/x-moz-place",
+          "uri": "https://medium.com/@bruno_boehm/reactjs-ruby-on-rails-api-heroku-app-2645c93f0814"
+        }, {
+          "guid": "4sQyVyA3fUfB",
+          "title": "Building a JSON API with Rails \xE2\x80\x93 Part 4: Implementing Authentication | Aaron Krauss",
+          "index": 2,
+          "dateAdded": 1.542826715408e15,
+          "lastModified": 1.542826715408e15,
+          "id": 6380,
+          "typeCode": 1,
+          "iconuri": "https://thesocietea.org/assets/images/favicon/favicon-196x196.png",
+          "type": "text/x-moz-place",
+          "uri": "https://thesocietea.org/2015/04/building-a-json-api-with-rails-part-4-implementing-authentication/"
+        }]
+      }, {
         "guid": "70HQ2caLOi61",
         "title": "testing",
-        "index": 3,
+        "index": 4,
         "dateAdded": 1.518981446102e15,
         "lastModified": 1.507081883503e15,
         "id": 92,
@@ -29475,11 +28493,17 @@ module.exports = {
       }, {
         "guid": "UWIzGjlohhuA",
         "title": "ruby study",
-        "index": 4,
+        "index": 5,
         "dateAdded": 1.515117263322e15,
-        "lastModified": 1.535496904692e15,
+        "lastModified": 1.544144331024e15,
         "id": 150,
         "typeCode": 2,
+        "annos": [{
+          "name": "bookmarkProperties/description",
+          "flags": 0,
+          "expires": 4,
+          "value": "3"
+        }],
         "type": "text/x-moz-place-container",
         "links": [{
           "guid": "I8peuvC2Itna",
@@ -29535,7 +28559,7 @@ module.exports = {
           "uri": "https://rubyonrails-link.slack.com/messages/C05054QPL/"
         }, {
           "guid": "A0x0LHGqelRv",
-          "title": "Home - railslink/resources Wiki",
+          "title": "Home \xC2\u02C7 railslink/resources Wiki",
           "index": 5,
           "dateAdded": 1.52191477553e15,
           "lastModified": 1.52191477553e15,
@@ -29568,9 +28592,15 @@ module.exports = {
           "title": "params and forms",
           "index": 8,
           "dateAdded": 1.534530519868e15,
-          "lastModified": 1.534530570046e15,
+          "lastModified": 1.544144341953e15,
           "id": 6015,
           "typeCode": 2,
+          "annos": [{
+            "name": "bookmarkProperties/description",
+            "flags": 0,
+            "expires": 4,
+            "value": "4"
+          }],
           "type": "text/x-moz-place-container",
           "links": [{
             "guid": "GheCyiwvuOJ1",
@@ -29584,7 +28614,7 @@ module.exports = {
             "uri": "http://blog.flatironschool.com/how-params-works-in-rails/"
           }, {
             "guid": "Ow2hnSLGM9s8",
-            "title": "Params in Rails: Where do they come from? - Launch School - Medium",
+            "title": "Params in Rails: Where do they come from? \xE2\x80\x93 Launch School \xE2\x80\x93 Medium",
             "index": 1,
             "dateAdded": 1.534530537982e15,
             "lastModified": 1.534530537982e15,
@@ -29624,7 +28654,7 @@ module.exports = {
             "uri": "https://www.sitepoint.com/complex-rails-forms-with-nested-attributes/"
           }, {
             "guid": "x_vx3nHUf5up",
-            "title": "Complex Nesting Forms in Rails - Olivia Chang - Medium",
+            "title": "Complex Nesting Forms in Rails \xE2\x80\x93 Olivia Chang \xE2\x80\x93 Medium",
             "index": 5,
             "dateAdded": 1.534530570046e15,
             "lastModified": 1.534530570046e15,
@@ -29644,7 +28674,7 @@ module.exports = {
           "type": "text/x-moz-place-container",
           "links": [{
             "guid": "Gp5LFxeS62ko",
-            "title": "Drifting Ruby - Ruby on Rails Screencasts & Blog",
+            "title": "Drifting Ruby \xE2\x80\x93 Ruby on Rails Screencasts & Blog",
             "index": 0,
             "dateAdded": 1.534884480959e15,
             "lastModified": 1.534884480959e15,
@@ -29714,7 +28744,7 @@ module.exports = {
             "uri": "https://www.youtube.com/channel/UCIQmhQxCvLHRr3Beku77tww/videos"
           }, {
             "guid": "dIvowURpNC4T",
-            "title": "RubyTapas - Short Screencasts of Gourmet Ruby, by Avdi Grimm",
+            "title": "RubyTapas \xE2\x80\x93 Short Screencasts of Gourmet Ruby, by Avdi Grimm",
             "index": 7,
             "dateAdded": 1.534884500929e15,
             "lastModified": 1.534884500929e15,
@@ -29764,7 +28794,7 @@ module.exports = {
             "uri": "https://ruby.libhunt.com/"
           }, {
             "guid": "lHxJeuTA_ltj",
-            "title": "Virtuous Code | \"The three virtues of a programmer: laziness, impatience, and hubris\" - Larry Wall",
+            "title": "Virtuous Code | \"The three virtues of a programmer: laziness, impatience, and hubris\" \xE2\x80\x94 Larry Wall",
             "index": 12,
             "dateAdded": 1.534884577342e15,
             "lastModified": 1.534884577342e15,
@@ -29788,7 +28818,7 @@ module.exports = {
       }, {
         "guid": "aI4yXNTvfSAV",
         "title": "Study Questions",
-        "index": 5,
+        "index": 6,
         "dateAdded": 1.535496666245e15,
         "lastModified": 1.535496812767e15,
         "id": 6130,
@@ -29831,7 +28861,7 @@ module.exports = {
       }, {
         "guid": "qw5pGA0w3tub",
         "title": "Testing best practices | GitLab",
-        "index": 6,
+        "index": 7,
         "dateAdded": 1.538348486282e15,
         "lastModified": 1.538348486282e15,
         "id": 6245,
@@ -29840,8 +28870,8 @@ module.exports = {
         "uri": "https://docs.gitlab.com/ee/development/testing_guide/best_practices.html?utm_source=newsletter_mailer&utm_medium=email&utm_campaign=weekly"
       }, {
         "guid": "HJPzjNjVLzBi",
-        "title": "_Why: A Tale Of A Post-Modern Genius - Smashing Magazine",
-        "index": 7,
+        "title": "_Why: A Tale Of A Post-Modern Genius \xE2\x80\x94 Smashing Magazine",
+        "index": 8,
         "dateAdded": 1.52072372399e15,
         "lastModified": 1.52072372399e15,
         "id": 948,
@@ -29851,7 +28881,7 @@ module.exports = {
       }, {
         "guid": "uhOma1uyjPjC",
         "title": "_why's Estate",
-        "index": 8,
+        "index": 9,
         "dateAdded": 1.52072372788e15,
         "lastModified": 1.52072372788e15,
         "id": 1054,
@@ -29860,8 +28890,8 @@ module.exports = {
         "uri": "https://viewsourcecode.org/why/"
       }, {
         "guid": "g2-hMctdX8Tc",
-        "title": "Episode List - RubyTapas",
-        "index": 9,
+        "title": "Episode List \xE2\x80\x93 RubyTapas",
+        "index": 10,
         "dateAdded": 1.535573802457e15,
         "lastModified": 1.535573802457e15,
         "id": 6146,
@@ -29870,8 +28900,8 @@ module.exports = {
         "uri": "https://www.rubytapas.com/episode-list/"
       }, {
         "guid": "uQt8OgOqKWfj",
-        "title": "Mehdi Farsi - Medium",
-        "index": 10,
+        "title": "Mehdi Farsi \xE2\x80\x93 Medium",
+        "index": 11,
         "dateAdded": 1.535568691019e15,
         "lastModified": 1.535568691019e15,
         "id": 6153,
@@ -29881,7 +28911,7 @@ module.exports = {
       }, {
         "guid": "JTm_E39v1e3s",
         "title": "Learn Ruby the Hard Way - Read for Free",
-        "index": 11,
+        "index": 12,
         "dateAdded": 1.500595420647e15,
         "lastModified": 1.500595420647e15,
         "id": 437,
@@ -29892,7 +28922,7 @@ module.exports = {
       }, {
         "guid": "0noPhHd3Weao",
         "title": "bbatsov/ruby-style-guide: A community-driven Ruby coding style guide",
-        "index": 12,
+        "index": 13,
         "dateAdded": 1.500597252395e15,
         "lastModified": 1.500597252395e15,
         "id": 2098,
@@ -29903,7 +28933,7 @@ module.exports = {
       }, {
         "guid": "M1VC_OsWPYjY",
         "title": "(48) Pinterest",
-        "index": 13,
+        "index": 14,
         "dateAdded": 1.52069895415e15,
         "lastModified": 1.52069895415e15,
         "id": 968,
@@ -29913,7 +28943,7 @@ module.exports = {
       }, {
         "guid": "pSFw9N3tem2q",
         "title": "Launch School - Open Book Shelf",
-        "index": 14,
+        "index": 15,
         "dateAdded": 1.50059761306e15,
         "lastModified": 1.50059761306e15,
         "id": 5166,
@@ -29925,7 +28955,7 @@ module.exports = {
       }, {
         "guid": "xaaRFBR34Tiv",
         "title": "Rubeque",
-        "index": 15,
+        "index": 16,
         "dateAdded": 1.52069896052e15,
         "lastModified": 1.52069896052e15,
         "id": 1069,
@@ -29935,7 +28965,7 @@ module.exports = {
       }, {
         "guid": "LhY2iWeACIiV",
         "title": "Getting started",
-        "index": 16,
+        "index": 17,
         "dateAdded": 1.500597693194e15,
         "lastModified": 1.500597693194e15,
         "id": 3480,
@@ -29946,7 +28976,7 @@ module.exports = {
       }, {
         "guid": "MeheYkV4k_WZ",
         "title": "Read Ruby Web Dev: The Other Way | Leanpub",
-        "index": 17,
+        "index": 18,
         "dateAdded": 1.500597764981e15,
         "lastModified": 1.500597764981e15,
         "id": 3541,
@@ -29957,7 +28987,7 @@ module.exports = {
       }, {
         "guid": "5S1m9FzuYblW",
         "title": "Ruby Essentials - Techotopia",
-        "index": 18,
+        "index": 19,
         "dateAdded": 1.500597800339e15,
         "lastModified": 1.500597800339e15,
         "id": 2113,
@@ -29968,7 +28998,7 @@ module.exports = {
       }, {
         "guid": "Pit_lnzgRgxf",
         "title": "Learn ruby in Y Minutes",
-        "index": 19,
+        "index": 20,
         "dateAdded": 1.500597808148e15,
         "lastModified": 1.500597808148e15,
         "id": 3702,
@@ -29979,7 +29009,7 @@ module.exports = {
       }, {
         "guid": "LJr123UA8BCU",
         "title": "The Unofficial Ruby Usage Guide",
-        "index": 20,
+        "index": 21,
         "dateAdded": 1.500597872207e15,
         "lastModified": 1.500597872207e15,
         "id": 2038,
@@ -29990,7 +29020,7 @@ module.exports = {
       }, {
         "guid": "gfUIM6FtxQ3b",
         "title": "Ruby in 100 Minutes - Jumpstart Lab Curriculum",
-        "index": 21,
+        "index": 22,
         "dateAdded": 1.501691035745e15,
         "lastModified": 1.501691035745e15,
         "id": 1507,
@@ -30001,7 +29031,7 @@ module.exports = {
       }, {
         "guid": "CShd01y9RI72",
         "title": "Just Enough Ruby To Get By - Jason Kim",
-        "index": 22,
+        "index": 23,
         "dateAdded": 1.501691062959e15,
         "lastModified": 1.501691062959e15,
         "id": 2914,
@@ -30011,8 +29041,8 @@ module.exports = {
         "uri": "http://jasonkim.ca/projects/just_enough_ruby_to_get_by/"
       }, {
         "guid": "Qc6anpyRiPC1",
-        "title": "Blog - DayDreams in Ruby",
-        "index": 23,
+        "title": "Blog \xE2\x80\x93 DayDreams in Ruby",
+        "index": 24,
         "dateAdded": 1.504017499328e15,
         "lastModified": 1.504017499328e15,
         "id": 3765,
@@ -30022,8 +29052,8 @@ module.exports = {
         "uri": "http://daydreamsinruby.com/blog/"
       }, {
         "guid": "puxYznh5_e8q",
-        "title": "Learning Ruby: From Zero to Hero - freeCodeCamp",
-        "index": 24,
+        "title": "Learning Ruby: From Zero to Hero \xE2\x80\x93 freeCodeCamp",
+        "index": 25,
         "dateAdded": 1.505402311311e15,
         "lastModified": 1.505402311311e15,
         "id": 5202,
@@ -30034,7 +29064,7 @@ module.exports = {
       }, {
         "guid": "3-hBsZ2GI_DK",
         "title": "The Tiger's Vest (with a Basic Introduction to Irb) :: Why's (Poignant) Guide to Ruby",
-        "index": 25,
+        "index": 26,
         "dateAdded": 1.506180636021e15,
         "lastModified": 1.506180636021e15,
         "id": 2384,
@@ -30044,7 +29074,7 @@ module.exports = {
       }, {
         "guid": "ERfi4uaNzdhm",
         "title": "What the Heck are Code Blocks, Procs, Lambdas, and Closures in Ruby",
-        "index": 26,
+        "index": 27,
         "dateAdded": 1.517722214051e15,
         "lastModified": 1.527212835918e15,
         "id": 1423,
@@ -30061,7 +29091,7 @@ module.exports = {
       }, {
         "guid": "9_gMyZB6koHt",
         "title": "Understanding Ruby's idiom: array.map(&:method)",
-        "index": 27,
+        "index": 28,
         "dateAdded": 1.517722257554e15,
         "lastModified": 1.527212835883e15,
         "id": 1422,
@@ -30077,7 +29107,7 @@ module.exports = {
       }, {
         "guid": "C2zBNBrLm0MR",
         "title": "The Bastards Book of Ruby",
-        "index": 28,
+        "index": 29,
         "dateAdded": 1.517722266363e15,
         "lastModified": 1.527212825534e15,
         "id": 708,
@@ -30093,7 +29123,7 @@ module.exports = {
       }, {
         "guid": "BXX8-QsxhLv3",
         "title": "Ruby Warrior - Popular Free Ruby Programming Tutorial Game",
-        "index": 29,
+        "index": 30,
         "dateAdded": 1.535116062855e15,
         "lastModified": 1.535116062855e15,
         "id": 6028,
@@ -30102,8 +29132,8 @@ module.exports = {
         "uri": "https://www.bloc.io/ruby-warrior#/"
       }, {
         "guid": "K2N4ONMOxLnq",
-        "title": "Ruby gotchas for the JavaScript developer - The Calendly Blog",
-        "index": 30,
+        "title": "Ruby gotchas for the JavaScript developer \xE2\x80\u02D8 The Calendly Blog",
+        "index": 31,
         "dateAdded": 1.541162826117e15,
         "lastModified": 1.541162826117e15,
         "id": 6315,
@@ -30718,2198 +29748,6 @@ module.exports = {
         "uri": "https://www.aomran.com/pure-functional-programming/"
       }]
     }]
-  }, {
-    "guid": "CQXTFFSeCZz1",
-    "title": "Frontend & Libraries",
-    "index": 9,
-    "dateAdded": 1.518969331106e15,
-    "lastModified": 1.542726054498e15,
-    "id": 106,
-    "typeCode": 3,
-    "type": "text/x-moz-place-container",
-    "links": [{
-      "guid": "h7BqJlWcszym",
-      "title": "General",
-      "index": 0,
-      "dateAdded": 1.542726045987e15,
-      "lastModified": 1.542726054498e15,
-      "id": 6370,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "links": [{
-        "guid": "p0HnJJuu7Aqh",
-        "title": "Immutable.js",
-        "index": 0,
-        "dateAdded": 1.52069801878e15,
-        "lastModified": 1.542726054311e15,
-        "id": 1387,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://facebook.github.io/immutable-js/"
-      }, {
-        "guid": "dedbAy9_rSa1",
-        "title": "Front-end Hyperpolyglot",
-        "index": 1,
-        "dateAdded": 1.466721727657e15,
-        "lastModified": 1.542726054351e15,
-        "id": 2048,
-        "typeCode": 1,
-        "tags": "compsci",
-        "type": "text/x-moz-place",
-        "uri": "http://jeffcarp.github.io/frontend-hyperpolyglot/"
-      }, {
-        "guid": "-NcSfeDbIBi_",
-        "title": "Mattia Astorino | Web Designer & Developer",
-        "index": 2,
-        "dateAdded": 1.460678701026e15,
-        "lastModified": 1.542726054431e15,
-        "id": 2139,
-        "typeCode": 1,
-        "tags": "compsci",
-        "type": "text/x-moz-place",
-        "uri": "https://equinusocio.github.io/material-theme/"
-      }, {
-        "guid": "16QNmrOUq-Ep",
-        "title": "$0 Design Tools - Product Hunt",
-        "index": 3,
-        "dateAdded": 1.53123641527e15,
-        "lastModified": 1.542726054498e15,
-        "id": 5950,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://www.producthunt.com/e/0-design-tools?mc_cid=b466ce3b07&mc_eid=454ca2ceba"
-      }]
-    }, {
-      "guid": "soKmA5JMyM2i",
-      "title": "css",
-      "index": 1,
-      "dateAdded": 1.433552176823e15,
-      "lastModified": 1.541161789814e15,
-      "id": 215,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "links": [{
-        "guid": "26MQji34XnCQ",
-        "title": "CSS Grid VS Flexbox: A Practical Comparison - Tutorialzine",
-        "index": 0,
-        "dateAdded": 1.505401734971e15,
-        "lastModified": 1.505401734971e15,
-        "id": 1349,
-        "typeCode": 1,
-        "tags": "css",
-        "type": "text/x-moz-place",
-        "uri": "https://tutorialzine.com/2017/03/css-grid-vs-flexbox"
-      }, {
-        "guid": "5oTxbtH3V_eR",
-        "title": "Web truths: CSS is not real programming | Christian Heilmann",
-        "index": 1,
-        "dateAdded": 1.506969274921e15,
-        "lastModified": 1.506969274921e15,
-        "id": 2083,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://christianheilmann.com/2017/09/19/web-truths-css-is-not-real-programming/"
-      }, {
-        "guid": "1rly1yUTUZxh",
-        "title": "How to make your HTML responsive by adding a single line of CSS",
-        "index": 2,
-        "dateAdded": 1.513570561676e15,
-        "lastModified": 1.513570561676e15,
-        "id": 1885,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://medium.freecodecamp.org/how-to-make-your-html-responsive-by-adding-a-single-line-of-css-2a62de81e431"
-      }, {
-        "guid": "lcKBp9E6ryuA",
-        "title": "React App",
-        "index": 3,
-        "dateAdded": 1.516314958592e15,
-        "lastModified": 1.516314958592e15,
-        "id": 1859,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://chantastic.org/css4-to-css3/"
-      }, {
-        "guid": "YPP5EQQCXMWm",
-        "title": "QSS - A Simple Query Syntax",
-        "index": 4,
-        "dateAdded": 1.516315000501e15,
-        "lastModified": 1.516315000501e15,
-        "id": 1851,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://tomhodgins.github.io/qss/"
-      }, {
-        "guid": "A3fT27dsh6xc",
-        "title": "CSS Reference - A free visual guide to CSS",
-        "index": 5,
-        "dateAdded": 1.516337751997e15,
-        "lastModified": 1.516337751997e15,
-        "id": 1607,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://cssreference.io/?utm_source=frontendfocus&utm_medium=email"
-      }, {
-        "guid": "5EMlCiGqUUkj",
-        "title": "CSS Reference - A free visual guide to CSS",
-        "index": 6,
-        "dateAdded": 1.518126181727e15,
-        "lastModified": 1.527212832873e15,
-        "id": 1199,
-        "typeCode": 1,
-        "annos": [{
-          "name": "bookmarkProperties/description",
-          "flags": 0,
-          "expires": 4,
-          "value": "CSS Reference is a free visual guide to CSS. It features the most popular properties, and explains them with illustrated and animated examples."
-        }],
-        "type": "text/x-moz-place",
-        "uri": "https://cssreference.io/"
-      }, {
-        "guid": "_KGbfTzAE6B_",
-        "title": "Learn to Code Advanced HTML & CSS",
-        "index": 7,
-        "dateAdded": 1.518126312804e15,
-        "lastModified": 1.518126312804e15,
-        "id": 640,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://learn.shayhowe.com/advanced-html-css/"
-      }, {
-        "guid": "4n8nAwzk-e1g",
-        "title": "Home - Scalable and Modular Architecture for CSS",
-        "index": 8,
-        "dateAdded": 1.518626654727e15,
-        "lastModified": 1.518626654727e15,
-        "id": 330,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://smacss.com/"
-      }, {
-        "guid": "s7r908yDuVSE",
-        "title": "How to Center in CSS",
-        "index": 9,
-        "dateAdded": 1.433552176823e15,
-        "lastModified": 1.433552176823e15,
-        "id": 5327,
-        "typeCode": 1,
-        "tags": "css",
-        "type": "text/x-moz-place",
-        "uri": "http://howtocenterincss.com/"
-      }, {
-        "guid": "s33aVIre0EAB",
-        "title": "Color Supply",
-        "index": 10,
-        "dateAdded": 1.487793088899e15,
-        "lastModified": 1.487793088899e15,
-        "id": 5317,
-        "typeCode": 1,
-        "tags": "cool shit,css,random shit",
-        "type": "text/x-moz-place",
-        "uri": "http://colorsupplyyy.com/app/"
-      }, {
-        "guid": "cWO01JM7lDBc",
-        "title": "flexbox",
-        "index": 11,
-        "dateAdded": 1.518979721348e15,
-        "lastModified": 1.470958278378e15,
-        "id": 174,
-        "typeCode": 2,
-        "type": "text/x-moz-place-container",
-        "links": [{
-          "guid": "RGAZcKukYCwF",
-          "title": "How Flexbox works - explained with big, colorful, animated gifs",
-          "index": 0,
-          "dateAdded": 1.487792841278e15,
-          "lastModified": 1.487792841278e15,
-          "id": 3802,
-          "typeCode": 1,
-          "tags": "css",
-          "type": "text/x-moz-place",
-          "uri": "https://medium.freecodecamp.com/an-animated-guide-to-flexbox-d280cf6afc35#.usw5eg4ys"
-        }, {
-          "guid": "5K0Jsy-PAnIN",
-          "title": "New flexbox guides on MDN - Mozilla Hacks - the Web developer blog",
-          "index": 1,
-          "dateAdded": 1.516337394102e15,
-          "lastModified": 1.516337394102e15,
-          "id": 1606,
-          "typeCode": 1,
-          "type": "text/x-moz-place",
-          "uri": "https://hacks.mozilla.org/2018/01/new-flexbox-guides-on-mdn/?utm_source=dev-newsletter&utm_medium=email&utm_campaign=jan11-2018"
-        }, {
-          "guid": "oTlZbbmgGZJR",
-          "title": "Mastering CSS Layout with Flexbox",
-          "index": 2,
-          "dateAdded": 1.513572062882e15,
-          "lastModified": 1.513572062882e15,
-          "id": 1892,
-          "typeCode": 1,
-          "type": "text/x-moz-place",
-          "uri": "https://www.sketchingwithcss.com/samplechapter/cheatsheet.html?__s=pqrjss1c6jtwbv8jwtp5"
-        }, {
-          "guid": "ERK2Fx5JmXyj",
-          "title": "Solved by Flexbox - Cleaner, hack-free CSS",
-          "index": 3,
-          "dateAdded": 1.50973337278e15,
-          "lastModified": 1.50973337278e15,
-          "id": 2078,
-          "typeCode": 1,
-          "type": "text/x-moz-place",
-          "uri": "https://philipwalton.github.io/solved-by-flexbox/"
-        }, {
-          "guid": "0z9-k1F_hKad",
-          "title": "Flexbox Froggy - A game for learning CSS flexbox",
-          "index": 4,
-          "dateAdded": 1.466721727611e15,
-          "lastModified": 1.466721727611e15,
-          "id": 445,
-          "typeCode": 1,
-          "tags": "compsci",
-          "type": "text/x-moz-place",
-          "uri": "http://flexboxfroggy.com/"
-        }, {
-          "guid": "2dOxtaCj5AJB",
-          "title": "Flexbox Defense",
-          "index": 5,
-          "dateAdded": 1.466721727637e15,
-          "lastModified": 1.466721727637e15,
-          "id": 2351,
-          "typeCode": 1,
-          "tags": "compsci",
-          "type": "text/x-moz-place",
-          "uri": "http://www.flexboxdefense.com/"
-        }, {
-          "guid": "YL0KadnYF8JK",
-          "title": "What The FlexBox?! - A free 20 video course to learn CSS Flexbox",
-          "index": 6,
-          "dateAdded": 1.470958278378e15,
-          "lastModified": 1.470958278378e15,
-          "id": 4191,
-          "typeCode": 1,
-          "tags": "compsci",
-          "type": "text/x-moz-place",
-          "uri": "http://flexbox.io/"
-        }]
-      }, {
-        "guid": "8KJ6ACxeq9ED",
-        "title": "grid",
-        "index": 12,
-        "dateAdded": 1.518979779475e15,
-        "lastModified": 1.512712027736e15,
-        "id": 96,
-        "typeCode": 2,
-        "type": "text/x-moz-place-container",
-        "links": [{
-          "guid": "MtIqr1tzel9f",
-          "title": "CSS Grid - Learn all about CSS Grid with Wes Bos in this free video series!",
-          "index": 0,
-          "dateAdded": 1.516336521608e15,
-          "lastModified": 1.516336521608e15,
-          "id": 1360,
-          "typeCode": 1,
-          "type": "text/x-moz-place",
-          "uri": "https://cssgrid.io/"
-        }, {
-          "guid": "MvJhPKtW6MIs",
-          "title": "Debugging CSS Grid Layouts With Firefox Grid Inspector - Smashing Magazine",
-          "index": 1,
-          "dateAdded": 1.512752461564e15,
-          "lastModified": 1.512752461564e15,
-          "id": 1760,
-          "typeCode": 1,
-          "type": "text/x-moz-place",
-          "uri": "https://www.smashingmagazine.com/2017/12/grid-inspector/"
-        }, {
-          "guid": "2hFtsJVgUzkt",
-          "title": "Learn CSS Grid in 5 Minutes - freeCodeCamp",
-          "index": 2,
-          "dateAdded": 1.512712027736e15,
-          "lastModified": 1.512712027736e15,
-          "id": 1981,
-          "typeCode": 1,
-          "type": "text/x-moz-place",
-          "uri": "https://medium.freecodecamp.org/learn-css-grid-in-5-minutes-f582e87b1228"
-        }, {
-          "guid": "ewME_6p9ZmZ6",
-          "title": "Guide to building layouts with CSS Grid",
-          "index": 3,
-          "dateAdded": 1.505506024903e15,
-          "lastModified": 1.505506024903e15,
-          "id": 338,
-          "typeCode": 1,
-          "type": "text/x-moz-place",
-          "uri": "https://cssgrid.cc/"
-        }, {
-          "guid": "w9EzIS2VWuQW",
-          "title": "Things I've Learned About CSS Grid Layout | CSS-Tricks",
-          "index": 4,
-          "dateAdded": 1.505505983647e15,
-          "lastModified": 1.505505983647e15,
-          "id": 1258,
-          "typeCode": 1,
-          "type": "text/x-moz-place",
-          "uri": "https://css-tricks.com/things-ive-learned-css-grid-layout/"
-        }, {
-          "guid": "dq7lqkWQWQL2",
-          "title": "Grid by Example - Usage examples of CSS Grid Layout",
-          "index": 5,
-          "dateAdded": 1.505505969996e15,
-          "lastModified": 1.505505969996e15,
-          "id": 648,
-          "typeCode": 1,
-          "type": "text/x-moz-place",
-          "uri": "https://gridbyexample.com/examples/"
-        }]
-      }, {
-        "guid": "NDgLKq8z7KC4",
-        "title": "CSS3 Patterns Gallery",
-        "index": 13,
-        "dateAdded": 1.468371980028e15,
-        "lastModified": 1.468371980028e15,
-        "id": 3587,
-        "typeCode": 1,
-        "tags": "compsci",
-        "type": "text/x-moz-place",
-        "uri": "http://lea.verou.me/css3patterns/#"
-      }, {
-        "guid": "3yIJiFj6Y1yD",
-        "title": "Making Sense of the New CSS Layout",
-        "index": 14,
-        "dateAdded": 1.459897550729e15,
-        "lastModified": 1.459897550729e15,
-        "id": 2416,
-        "typeCode": 1,
-        "tags": "compsci",
-        "type": "text/x-moz-place",
-        "uri": "https://rachelandrew.co.uk/archives/2016/03/25/making-sense-of-the-new-css-layout/"
-      }, {
-        "guid": "irnXlQqr-QzR",
-        "title": "Articles",
-        "index": 15,
-        "dateAdded": 1.534424194009e15,
-        "lastModified": 1.534424194009e15,
-        "id": 6003,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://www.sarasoueidan.com/blog/"
-      }, {
-        "guid": "lFR54cs2PhPt",
-        "title": "Batificity",
-        "index": 16,
-        "dateAdded": 1.537710667533e15,
-        "lastModified": 1.537710667533e15,
-        "id": 6233,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://batificity.com/"
-      }, {
-        "guid": "mIlQpI7D2C1b",
-        "title": "specificity3.png* : Page 1 @ 100%",
-        "index": 17,
-        "dateAdded": 1.53771067546e15,
-        "lastModified": 1.53771067546e15,
-        "id": 6234,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://www.standardista.com/wp-content/uploads/2012/01/specificity3.pdf"
-      }, {
-        "guid": "l7nM73sKlE6l",
-        "title": "GRID: A simple visual cheatsheet for CSS Grid Layout",
-        "index": 18,
-        "dateAdded": 1.541161789814e15,
-        "lastModified": 1.541161789814e15,
-        "id": 6317,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://grid.malven.co/"
-      }]
-    }, {
-      "guid": "x-T7nJb2Zh9I",
-      "title": "css frameworks",
-      "index": 2,
-      "dateAdded": 1.518979734106e15,
-      "lastModified": 1.539286338797e15,
-      "id": 225,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "links": [{
-        "guid": "I06MeFOwIjWS",
-        "title": "Picnic CSS",
-        "index": 0,
-        "dateAdded": 1.53023007274e15,
-        "lastModified": 1.53023007274e15,
-        "id": 5916,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://picnicss.com/"
-      }, {
-        "guid": "z4KP8wQSDQo5",
-        "title": "Layouts - Pure",
-        "index": 1,
-        "dateAdded": 1.53023006359e15,
-        "lastModified": 1.53023006359e15,
-        "id": 5925,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://purecss.io/layouts/"
-      }, {
-        "guid": "G6GbuJk11H4j",
-        "title": "Home - Marx",
-        "index": 2,
-        "dateAdded": 1.519233874378e15,
-        "lastModified": 1.519233874378e15,
-        "id": 342,
-        "typeCode": 1,
-        "iconuri": "https://mblode.github.io/marx/img/favicons/apple-touch-icon-71190191.png",
-        "type": "text/x-moz-place",
-        "uri": "https://mblode.github.io/marx/"
-      }, {
-        "guid": "9T_YjMHpgc9-",
-        "title": "Frow CSS",
-        "index": 3,
-        "dateAdded": 1.505401494283e15,
-        "lastModified": 1.505401494283e15,
-        "id": 883,
-        "typeCode": 1,
-        "tags": "css",
-        "type": "text/x-moz-place",
-        "uri": "http://frowcss.com/"
-      }, {
-        "guid": "WizrdgQh7bOU",
-        "title": "TACHYONS - Css Toolkit",
-        "index": 4,
-        "dateAdded": 1.505401502719e15,
-        "lastModified": 1.505401502719e15,
-        "id": 886,
-        "typeCode": 1,
-        "tags": "css",
-        "type": "text/x-moz-place",
-        "uri": "http://tachyons.io/"
-      }, {
-        "guid": "GJj73K6m1Uf9",
-        "title": "Wing",
-        "index": 5,
-        "dateAdded": 1.505401508421e15,
-        "lastModified": 1.505401508421e15,
-        "id": 736,
-        "typeCode": 1,
-        "tags": "cool shit,css,design",
-        "type": "text/x-moz-place",
-        "uri": "http://usewing.ml/"
-      }, {
-        "guid": "MtHn4XO_3eSK",
-        "title": "PaperCSS - the less formal CSS framework",
-        "index": 6,
-        "dateAdded": 1.516338606038e15,
-        "lastModified": 1.516338606038e15,
-        "id": 391,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://www.getpapercss.com/"
-      }, {
-        "guid": "8Sw23UhqFpd9",
-        "title": "chota - A micro CSS framework",
-        "index": 7,
-        "dateAdded": 1.516314974088e15,
-        "lastModified": 1.516314974088e15,
-        "id": 850,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://jenil.github.io/chota/"
-      }, {
-        "guid": "HMbtJqdoacKM",
-        "title": "Svelte - The magical disappearing UI framework",
-        "index": 8,
-        "dateAdded": 1.506898874884e15,
-        "lastModified": 1.506898874884e15,
-        "id": 1079,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://svelte.technology/blog/the-zen-of-just-writing-css?utm_source=ponyfoo+weekly&utm_medium=email&utm_campaign=80"
-      }, {
-        "guid": "oaEUxF_o3Vd-",
-        "title": "Gutenberg - A Meaningful Web Typography Starter Kit",
-        "index": 9,
-        "dateAdded": 1.519233753194e15,
-        "lastModified": 1.519233753194e15,
-        "id": 875,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://matejlatin.github.io/Gutenberg/"
-      }, {
-        "guid": "lUx5WZvZT-9h",
-        "title": "Tufte CSS",
-        "index": 10,
-        "dateAdded": 1.519233809535e15,
-        "lastModified": 1.519233809535e15,
-        "id": 317,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://edwardtufte.github.io/tufte-css/"
-      }, {
-        "guid": "TqkRLtPKqg1q",
-        "title": "Tailwind CSS - A Utility-First CSS Framework for Rapid UI Development",
-        "index": 11,
-        "dateAdded": 1.519507552051e15,
-        "lastModified": 1.519507552051e15,
-        "id": 846,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://tailwindcss.com/"
-      }, {
-        "guid": "79qQFqJ9RY4b",
-        "title": "Fork Awesome, a fork of the iconic font and CSS toolkit",
-        "index": 12,
-        "dateAdded": 1.539286338797e15,
-        "lastModified": 1.539286338797e15,
-        "id": 6264,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://forkawesome.github.io/Fork-Awesome/"
-      }]
-    }, {
-      "guid": "iYVq8GndfJGL",
-      "title": "css structure & pattern libraries",
-      "index": 3,
-      "dateAdded": 1.529591146534e15,
-      "lastModified": 1.52959125705e15,
-      "id": 5904,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "links": [{
-        "guid": "LKH_-uIj-9cq",
-        "title": "yuanchuan/CSS-at: A collection of styleguides or approach to CSS at different companies",
-        "index": 0,
-        "dateAdded": 1.529591265e15,
-        "lastModified": 1.529591265e15,
-        "id": 5918,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://github.com/yuanchuan/CSS-at"
-      }, {
-        "guid": "VVlgloyMoU5g",
-        "title": "GitHub's CSS - @mdo",
-        "index": 1,
-        "dateAdded": 1.52959110568e15,
-        "lastModified": 1.52959110568e15,
-        "id": 5910,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://markdotto.com/2014/07/23/githubs-css/"
-      }, {
-        "guid": "UOQ53DDWBbLt",
-        "title": "CodePen's CSS by Chris Coyier on CodePen",
-        "index": 2,
-        "dateAdded": 1.52959109851e15,
-        "lastModified": 1.52959109851e15,
-        "id": 5909,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://codepen.io/chriscoyier/post/codepens-css"
-      }, {
-        "guid": "Rkhw4NEUg71p",
-        "title": "The Alpine Designer Necronomicon",
-        "index": 3,
-        "dateAdded": 1.52959125705e15,
-        "lastModified": 1.52959125705e15,
-        "id": 5919,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://labs.thegreatsunra.com/alpine/"
-      }]
-    }, {
-      "guid": "Mreq9tluhuka",
-      "title": "Frontend Development",
-      "index": 4,
-      "dateAdded": 1.52959101848e15,
-      "lastModified": 1.52959101848e15,
-      "id": 5903,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "links": [{
-        "guid": "gg9lGxr58maI",
-        "title": "Your Brain on Front-End Development | CSS-Tricks",
-        "index": 0,
-        "dateAdded": 1.52959101848e15,
-        "lastModified": 1.52959101848e15,
-        "id": 5911,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://css-tricks.com/your-brain-on-front-end-development/"
-      }]
-    }]
-  }, {
-    "guid": "Phb6tpTogbVl",
-    "title": "Tools & Architecture",
-    "index": 10,
-    "dateAdded": 1.518969352175e15,
-    "lastModified": 1.542726066047e15,
-    "id": 138,
-    "typeCode": 3,
-    "type": "text/x-moz-place-container",
-    "links": [{
-      "guid": "IYUiGIvKOR0N",
-      "title": "General",
-      "index": 0,
-      "dateAdded": 1.542726058621e15,
-      "lastModified": 1.542726066047e15,
-      "id": 6371,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "links": [{
-        "guid": "vDlsA98nMCs0",
-        "title": "Regular Expressions Demystified: RegEx isn\xE2\x80\x99t as hard as it looks",
-        "index": 0,
-        "dateAdded": 1.512712051404e15,
-        "lastModified": 1.542726065878e15,
-        "id": 1993,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://medium.freecodecamp.org/regular-expressions-demystified-regex-isnt-as-hard-as-it-looks-617b55cf787"
-      }, {
-        "guid": "hwtbVI_8JvRv",
-        "title": "Gulp, SASS, Bourbon, Neat & BrowserSync Boilerplate",
-        "index": 1,
-        "dateAdded": 1.466878168665e15,
-        "lastModified": 1.542726065905e15,
-        "id": 4826,
-        "typeCode": 1,
-        "tags": "compsci",
-        "type": "text/x-moz-place",
-        "uri": "http://blog.meredithunderell.com/gulp-sass-bourbon-neat-browsersync-boilerplate/"
-      }, {
-        "guid": "mPpcV_MiscYn",
-        "title": "Requirements Specification Template",
-        "index": 2,
-        "dateAdded": 1.53020135734e15,
-        "lastModified": 1.54272606596e15,
-        "id": 5912,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://www.volere.co.uk/template.htm"
-      }, {
-        "guid": "R1YthxFsSlDE",
-        "title": "Learn to Hack",
-        "index": 3,
-        "dateAdded": 1.506180744023e15,
-        "lastModified": 1.542726065994e15,
-        "id": 892,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://www.hacksplaining.com/"
-      }, {
-        "guid": "LMWzDcibYQpK",
-        "title": "Design documents: maybe the only record of what the hell you were thinking - No Idea Blog",
-        "index": 4,
-        "dateAdded": 1.53548963069e15,
-        "lastModified": 1.542726066018e15,
-        "id": 6121,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://noidea.dog/blog/design-documents"
-      }, {
-        "guid": "LUR964ZBaRI9",
-        "title": "My Browser - Easy to digest browser details to help you with QA and tech support",
-        "index": 5,
-        "dateAdded": 1.53557337737e15,
-        "lastModified": 1.542726066047e15,
-        "id": 6147,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://mybrowser.fyi/report/5b86cea10365430014096e53"
-      }]
-    }, {
-      "guid": "gDrYl9vMdJ7U",
-      "title": "api",
-      "index": 1,
-      "dateAdded": 1.51465357874e15,
-      "lastModified": 1.493090582291e15,
-      "id": 186,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "links": [{
-        "guid": "A1n3YSOJQShv",
-        "title": "API Directory | ProgrammableWeb",
-        "index": 0,
-        "dateAdded": 1.514653536906e15,
-        "lastModified": 1.527212841118e15,
-        "id": 1761,
-        "typeCode": 1,
-        "annos": [{
-          "name": "bookmarkProperties/description",
-          "flags": 0,
-          "expires": 4,
-          "value": "View our API Directory, the largest Application Programming Interface repository on the web"
-        }],
-        "type": "text/x-moz-place",
-        "uri": "https://www.programmableweb.com/category/all/apis"
-      }, {
-        "guid": "8pQzTMuaSgmd",
-        "title": "HTTP Methods for RESTful Services",
-        "index": 1,
-        "dateAdded": 1.493090582291e15,
-        "lastModified": 1.493090582291e15,
-        "id": 2704,
-        "typeCode": 1,
-        "tags": "code study",
-        "type": "text/x-moz-place",
-        "uri": "http://www.restapitutorial.com/lessons/httpmethods.html"
-      }]
-    }, {
-      "guid": "UhNnFnBtMKH9",
-      "title": "ide",
-      "index": 2,
-      "dateAdded": 1.518980335068e15,
-      "lastModified": 1.488852423533e15,
-      "id": 151,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "links": [{
-        "guid": "wWL9U13jSKvU",
-        "title": "princess-syntax",
-        "index": 0,
-        "dateAdded": 1.460678701054e15,
-        "lastModified": 1.460678701054e15,
-        "id": 272,
-        "typeCode": 1,
-        "tags": "compsci",
-        "type": "text/x-moz-place",
-        "uri": "https://atom.io/themes/princess-syntax"
-      }, {
-        "guid": "bzkTwwDheHwM",
-        "title": "Nightcoders.net",
-        "index": 1,
-        "dateAdded": 1.488852423533e15,
-        "lastModified": 1.488852423533e15,
-        "id": 4478,
-        "typeCode": 1,
-        "tags": "clojure",
-        "type": "text/x-moz-place",
-        "uri": "http://nightcoders.net/"
-      }, {
-        "guid": "ooVxVB8GhHJG",
-        "title": "Cursive: The IDE for beautiful Clojure(Script) code",
-        "index": 2,
-        "dateAdded": 1.494545204821e15,
-        "lastModified": 1.494545204821e15,
-        "id": 1782,
-        "typeCode": 1,
-        "tags": "clojure",
-        "type": "text/x-moz-place",
-        "uri": "https://cursive-ide.com/"
-      }, {
-        "guid": "5Den-9KgS5Ym",
-        "title": "emacs",
-        "index": 3,
-        "dateAdded": 1.4983171815e15,
-        "lastModified": 1.498316317943e15,
-        "id": 89,
-        "typeCode": 2,
-        "type": "text/x-moz-place-container",
-        "links": [{
-          "guid": "Bedp2b61pem_",
-          "title": "MELPA",
-          "index": 0,
-          "dateAdded": 1.498316317943e15,
-          "lastModified": 1.498316317943e15,
-          "id": 2871,
-          "typeCode": 1,
-          "tags": "emacs",
-          "type": "text/x-moz-place",
-          "uri": "http://melpa.org/#/"
-        }, {
-          "guid": "Syt_-LouVm85",
-          "title": "Spacemacs: Emacs advanced Kit focused on Evil",
-          "index": 1,
-          "dateAdded": 1.498317179303e15,
-          "lastModified": 1.498317179303e15,
-          "id": 2063,
-          "typeCode": 1,
-          "tags": "emacs,read or do",
-          "type": "text/x-moz-place",
-          "uri": "http://spacemacs.org/"
-        }, {
-          "guid": "CIkzNkYnysJG",
-          "title": "Into to CIDER - Emacs Redux",
-          "index": 2,
-          "dateAdded": 1.51475082183e15,
-          "lastModified": 1.527212837619e15,
-          "id": 1526,
-          "typeCode": 1,
-          "annos": [{
-            "name": "bookmarkProperties/description",
-            "flags": 0,
-            "expires": 4,
-            "value": "CIDER is a popular Clojure\nprogramming environment for Emacs. In a nutshell - CIDER extends Emacs with support for interactive\nprogramming in Clojure \xE2\x80\u015A"
-          }],
-          "type": "text/x-moz-place",
-          "uri": "http://emacsredux.com/blog/2017/12/31/into-to-cider/"
-        }]
-      }, {
-        "guid": "W8HP3imQe9qD",
-        "title": "What Editor/IDE Should You Use For Clojure?",
-        "index": 4,
-        "dateAdded": 1.504017933764e15,
-        "lastModified": 1.504017933764e15,
-        "id": 1464,
-        "typeCode": 1,
-        "tags": "clojure",
-        "type": "text/x-moz-place",
-        "uri": "https://cb.codes/what-editor-ide-to-use-for-clojure/"
-      }]
-    }]
-  }, {
-    "guid": "Rt24mYrzGlzz",
-    "title": "Frameworks",
-    "index": 11,
-    "dateAdded": 1.518969363384e15,
-    "lastModified": 1.541085026966e15,
-    "id": 144,
-    "typeCode": 3,
-    "type": "text/x-moz-place-container",
-    "links": [{
-      "guid": "P1q-ya4Sif2-",
-      "title": "reason",
-      "index": 0,
-      "dateAdded": 1.518200948083e15,
-      "lastModified": 1.518373767462e15,
-      "id": 136,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "links": [{
-        "guid": "pxocfmr6eyku",
-        "title": "Reason - Reason lets you write simple, fast and quality type safe code while leveraging both the JavaScript & OCaml ecosystems.",
-        "index": 0,
-        "dateAdded": 1.518200959988e15,
-        "lastModified": 1.518200959988e15,
-        "id": 436,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://reasonml.github.io/"
-      }, {
-        "guid": "L5duV4aWwaNL",
-        "title": "#general",
-        "index": 1,
-        "dateAdded": 1.518330369274e15,
-        "lastModified": 1.518330369274e15,
-        "id": 587,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://discordapp.com/channels/235176658175262720/235176658175262720"
-      }, {
-        "guid": "dvPOxU8SthH4",
-        "title": "A ReasonReact Tutorial | Jared Forsyth.com",
-        "index": 2,
-        "dateAdded": 1.518200965354e15,
-        "lastModified": 1.518200965354e15,
-        "id": 434,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://jaredforsyth.com/posts/a-reason-react-tutorial/"
-      }, {
-        "guid": "iBcED7KQ4nWO",
-        "title": "A First Reason React app for Javascript developers | James Friend",
-        "index": 3,
-        "dateAdded": 1.518200972395e15,
-        "lastModified": 1.518200972395e15,
-        "id": 483,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://jamesfriend.com.au/a-first-reason-react-app-for-js-developers"
-      }, {
-        "guid": "0_0d4sz-0rsc",
-        "title": "Routing in Reason React | James Friend",
-        "index": 4,
-        "dateAdded": 1.518373767462e15,
-        "lastModified": 1.518373767462e15,
-        "id": 1195,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://jamesfriend.com.au/routing-in-reason-react"
-      }]
-    }, {
-      "guid": "2DxGXkLTLOTl",
-      "title": "react",
-      "index": 1,
-      "dateAdded": 1.498316632679e15,
-      "lastModified": 1.541085026966e15,
-      "id": 78,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "links": [{
-        "guid": "Hceo9PKppkP9",
-        "title": "React Top-Level API - React",
-        "index": 0,
-        "dateAdded": 1.541085026966e15,
-        "lastModified": 1.541085026966e15,
-        "id": 6314,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://reactjs.org/docs/react-api.html"
-      }, {
-        "guid": "Ur3wmN9maYKT",
-        "title": "Complete Intro to React v4",
-        "index": 1,
-        "dateAdded": 1.541084968961e15,
-        "lastModified": 1.541084975522e15,
-        "id": 6310,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://btholt.github.io/complete-intro-to-react-v4/code-organization/"
-      }, {
-        "guid": "xUrPOsLDf0gx",
-        "title": "btholt/photo-gallery: Exercise",
-        "index": 2,
-        "dateAdded": 1.541084985482e15,
-        "lastModified": 1.541084985482e15,
-        "id": 6311,
-        "typeCode": 1,
-        "iconuri": "https://github.com/fluidicon.png",
-        "type": "text/x-moz-place",
-        "uri": "https://github.com/btholt/photo-gallery"
-      }, {
-        "guid": "eszvMV3Fi_QC",
-        "title": "react foundations",
-        "index": 3,
-        "dateAdded": 1.519338097621e15,
-        "lastModified": 1.519338110333e15,
-        "id": 184,
-        "typeCode": 2,
-        "type": "text/x-moz-place-container",
-        "links": [{
-          "guid": "tiffwt24Uxri",
-          "title": "Rock Solid React.js Foundations: A Beginner - Guide",
-          "index": 0,
-          "dateAdded": 1.519338110333e15,
-          "lastModified": 1.519338110333e15,
-          "id": 481,
-          "typeCode": 1,
-          "type": "text/x-moz-place",
-          "uri": "https://medium.freecodecamp.org/rock-solid-react-js-foundations-a-beginners-guide-c45c93f5a923"
-        }, {
-          "guid": "JP3PAy_OqbIA",
-          "title": "Under the hood: React | Under-the-hood-ReactJS",
-          "index": 1,
-          "dateAdded": 1.519338116859e15,
-          "lastModified": 1.519338116859e15,
-          "id": 479,
-          "typeCode": 1,
-          "type": "text/x-moz-place",
-          "uri": "https://bogdan-lyashenko.github.io/Under-the-hood-ReactJS/"
-        }, {
-          "guid": "s3i0X57-_Mqd",
-          "title": "React - A JavaScript library for building user interfaces",
-          "index": 2,
-          "dateAdded": 1.519338122748e15,
-          "lastModified": 1.519338122748e15,
-          "id": 406,
-          "typeCode": 1,
-          "type": "text/x-moz-place",
-          "uri": "https://reactjs.org/"
-        }, {
-          "guid": "1YDqCjK8wjFW",
-          "title": "How Virtual-DOM and diffing works in React - Gethyl George Kurian - Medium",
-          "index": 3,
-          "dateAdded": 1.519338128887e15,
-          "lastModified": 1.519338128887e15,
-          "id": 477,
-          "typeCode": 1,
-          "type": "text/x-moz-place",
-          "uri": "https://medium.com/@gethylgeorge/how-virtual-dom-and-diffing-works-in-react-6fc805f9f84e"
-        }, {
-          "guid": "9ePJRg2TARjW",
-          "title": "All the fundamental React.js concepts, jammed into this single Medium article",
-          "index": 4,
-          "dateAdded": 1.519338135489e15,
-          "lastModified": 1.519338135489e15,
-          "id": 478,
-          "typeCode": 1,
-          "type": "text/x-moz-place",
-          "uri": "https://medium.freecodecamp.org/all-the-fundamental-react-js-concepts-jammed-into-this-single-medium-article-c83f9b53eac2"
-        }, {
-          "guid": "hc8foeGDe7VE",
-          "title": "Learning React.js: Getting Started and Concepts \xE2\x80\x95 Scotch",
-          "index": 5,
-          "dateAdded": 1.519338141563e15,
-          "lastModified": 1.519338141563e15,
-          "id": 480,
-          "typeCode": 1,
-          "type": "text/x-moz-place",
-          "uri": "https://scotch.io/tutorials/learning-react-getting-started-and-concepts"
-        }]
-      }, {
-        "guid": "stCKMIHbNuue",
-        "title": "kriasoft/react-starter-kit at feature/apollo",
-        "index": 4,
-        "dateAdded": 1.498316350958e15,
-        "lastModified": 1.498316350958e15,
-        "id": 5398,
-        "typeCode": 1,
-        "tags": "react",
-        "type": "text/x-moz-place",
-        "uri": "https://github.com/kriasoft/react-starter-kit/tree/feature/apollo"
-      }, {
-        "guid": "6A4b7_pS40E6",
-        "title": "Building a Simple CRUD App with React + Redux: Part I",
-        "index": 5,
-        "dateAdded": 1.498316431727e15,
-        "lastModified": 1.498316431727e15,
-        "id": 2555,
-        "typeCode": 1,
-        "tags": "react",
-        "type": "text/x-moz-place",
-        "uri": "http://www.thegreatcodeadventure.com/building-a-simple-crud-app-with-react-redux-part-1/"
-      }, {
-        "guid": "KUQLY4WX_aQw",
-        "title": "Getting started with ES6 and React - by building a Minimal Todo App - Hashnode",
-        "index": 6,
-        "dateAdded": 1.498316537399e15,
-        "lastModified": 1.498316537399e15,
-        "id": 700,
-        "typeCode": 1,
-        "tags": "react",
-        "type": "text/x-moz-place",
-        "uri": "https://hashnode.com/post/getting-started-with-es6-and-react-by-building-a-minimal-todo-app-citaix6xe04og8y531g491a1o"
-      }, {
-        "guid": "g3zBWc4uNZ3z",
-        "title": "The Beginner's Guide to ReactJS from @kentcdodds on @eggheadio",
-        "index": 7,
-        "dateAdded": 1.519507506497e15,
-        "lastModified": 1.519507506497e15,
-        "id": 642,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://egghead.io/courses/the-beginner-s-guide-to-reactjs"
-      }, {
-        "guid": "wDCxeUXzw_C0",
-        "title": "Learn ReactJS: Part I | Codecademy",
-        "index": 8,
-        "dateAdded": 1.498316632679e15,
-        "lastModified": 1.498316632679e15,
-        "id": 5642,
-        "typeCode": 1,
-        "tags": "react",
-        "type": "text/x-moz-place",
-        "uri": "https://www.codecademy.com/courses/react-101/lessons/your-first-react-component/exercises/import-react?action=lesson_resume&link_content_target=interstitial_lesson"
-      }, {
-        "guid": "r1fvHofxViYD",
-        "title": "The difference between Virtual DOM and DOM - React Kung Fu",
-        "index": 9,
-        "dateAdded": 1.498316643848e15,
-        "lastModified": 1.498316643848e15,
-        "id": 5256,
-        "typeCode": 1,
-        "tags": "react",
-        "type": "text/x-moz-place",
-        "uri": "http://reactkungfu.com/2015/10/the-difference-between-virtual-dom-and-dom/"
-      }, {
-        "guid": "_86Sto20z8w1",
-        "title": "React Tools - Syntax Podcast 001",
-        "index": 10,
-        "dateAdded": 1.49948348363e15,
-        "lastModified": 1.49948348363e15,
-        "id": 4254,
-        "typeCode": 1,
-        "tags": "react",
-        "type": "text/x-moz-place",
-        "uri": "https://syntax.fm/"
-      }, {
-        "guid": "XoXYbl5wyWn1",
-        "title": "javascript/react at master - airbnb/javascript",
-        "index": 11,
-        "dateAdded": 1.499483569805e15,
-        "lastModified": 1.499483569805e15,
-        "id": 4152,
-        "typeCode": 1,
-        "tags": "react",
-        "type": "text/x-moz-place",
-        "uri": "https://github.com/airbnb/javascript/tree/master/react"
-      }, {
-        "guid": "G1Ub9ezmOCMN",
-        "title": "React.js Examples",
-        "index": 12,
-        "dateAdded": 1.539658696772e15,
-        "lastModified": 1.539658696772e15,
-        "id": 6275,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://reactjsexample.com/"
-      }]
-    }, {
-      "guid": "x8we6e7uKvgu",
-      "title": "node",
-      "index": 2,
-      "dateAdded": 1.48952673288e15,
-      "lastModified": 1.456978167639e15,
-      "id": 226,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "links": [{
-        "guid": "H48SQPh7a4X1",
-        "title": "The Node Beginner Book \xC2\u0165 A comprehensive Node.js tutorial",
-        "index": 0,
-        "dateAdded": 1.456925720808e15,
-        "lastModified": 1.456925720808e15,
-        "id": 3199,
-        "typeCode": 1,
-        "tags": "node",
-        "type": "text/x-moz-place",
-        "uri": "http://www.nodebeginner.org/"
-      }, {
-        "guid": "iVR85R1e1QGm",
-        "title": "javascript - How do I get started with Node.js - Stack Overflow",
-        "index": 1,
-        "dateAdded": 1.456978145687e15,
-        "lastModified": 1.456978145687e15,
-        "id": 4861,
-        "typeCode": 1,
-        "tags": "node",
-        "type": "text/x-moz-place",
-        "uri": "http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js"
-      }, {
-        "guid": "2IOeHk0CfXCK",
-        "title": "Learn Node.js Completely and with Confidence | JavaScript is Sexy",
-        "index": 2,
-        "dateAdded": 1.45697815663e15,
-        "lastModified": 1.45697815663e15,
-        "id": 2317,
-        "typeCode": 1,
-        "tags": "node",
-        "type": "text/x-moz-place",
-        "uri": "http://javascriptissexy.com/learn-node-js-completely-and-with-confidence/"
-      }, {
-        "guid": "pocY_-ilvDyc",
-        "title": "NodeSchool",
-        "index": 3,
-        "dateAdded": 1.456978167639e15,
-        "lastModified": 1.456978167639e15,
-        "id": 5187,
-        "typeCode": 1,
-        "tags": "node",
-        "type": "text/x-moz-place",
-        "uri": "http://nodeschool.io/#workshopper-list"
-      }, {
-        "guid": "C8licGmAikd2",
-        "title": "KeystoneJS - Getting Started",
-        "index": 4,
-        "dateAdded": 1.458601940612e15,
-        "lastModified": 1.458601940612e15,
-        "id": 1212,
-        "typeCode": 1,
-        "tags": "node",
-        "type": "text/x-moz-place",
-        "uri": "http://keystonejs.com/docs/getting-started/"
-      }, {
-        "guid": "lUwDnW6PvKuF",
-        "title": "ngrok - secure introspectable tunnels to localhost",
-        "index": 5,
-        "dateAdded": 1.458602003527e15,
-        "lastModified": 1.458602003527e15,
-        "id": 4968,
-        "typeCode": 1,
-        "tags": "node",
-        "type": "text/x-moz-place",
-        "uri": "https://ngrok.com/"
-      }]
-    }, {
-      "guid": "IUdPQpxoNrKZ",
-      "title": "electron",
-      "index": 3,
-      "dateAdded": 1.52657808586e15,
-      "lastModified": 1.52657808586e15,
-      "id": 124,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "links": [{
-        "guid": "FCENo-BOHiyb",
-        "title": "Building a desktop application with Electron - Developers Writing - Medium",
-        "index": 0,
-        "dateAdded": 1.52657808586e15,
-        "lastModified": 1.52657808586e15,
-        "id": 939,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://medium.com/developers-writing/building-a-desktop-application-with-electron-204203eeb658"
-      }]
-    }, {
-      "guid": "4pwme73zrTVm",
-      "title": "Vue",
-      "index": 4,
-      "dateAdded": 1.52961849853e15,
-      "lastModified": 1.536608652444e15,
-      "id": 5902,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "links": [{
-        "guid": "APov8KKEBOV0",
-        "title": "Introduction - Vue.js",
-        "index": 0,
-        "dateAdded": 1.52086447027e15,
-        "lastModified": 1.530373843952e15,
-        "id": 528,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://vuejs.org/v2/guide/"
-      }, {
-        "guid": "4bRgKHaS-rwu",
-        "title": "Building a RSS Viewer With Vue: Part 1 | CSS-Tricks",
-        "index": 1,
-        "dateAdded": 1.52961849853e15,
-        "lastModified": 1.52961849853e15,
-        "id": 5907,
-        "typeCode": 1,
-        "iconuri": "https://css-tricks.com/apple-touch-icon.png",
-        "type": "text/x-moz-place",
-        "uri": "https://css-tricks.com/building-a-rss-viewer-with-vue-part-1/"
-      }, {
-        "guid": "KOeYg1bgNmXr",
-        "title": "From zero to hero with Vue - Up and running - Indrek Lasn - Medium",
-        "index": 2,
-        "dateAdded": 1.536608652444e15,
-        "lastModified": 1.536608652444e15,
-        "id": 6183,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://medium.com/@wesharehoodies/from-zero-to-hero-with-vue-up-and-running-f1acd4696b71"
-      }]
-    }]
-  }, {
-    "guid": "8sokmOb-Ta9E",
-    "title": "Challenges",
-    "index": 12,
-    "dateAdded": 1.51896938752e15,
-    "lastModified": 1.542725775465e15,
-    "id": 98,
-    "typeCode": 3,
-    "type": "text/x-moz-place-container",
-    "links": [{
-      "guid": "NVoMtucfUu1l",
-      "title": "General",
-      "index": 0,
-      "dateAdded": 1.542725767275e15,
-      "lastModified": 1.542725775465e15,
-      "id": 6361,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "links": [{
-        "guid": "ZaykFAxcikZm",
-        "title": "exercism.io",
-        "index": 0,
-        "dateAdded": 1.459897550741e15,
-        "lastModified": 1.5427257754e15,
-        "id": 4236,
-        "typeCode": 1,
-        "tags": "compsci",
-        "type": "text/x-moz-place",
-        "uri": "http://exercism.io/how-it-works/newbie"
-      }, {
-        "guid": "bmG5MpB1iOit",
-        "title": "CodeKata",
-        "index": 1,
-        "dateAdded": 1.460678699508e15,
-        "lastModified": 1.542725775419e15,
-        "id": 4441,
-        "typeCode": 1,
-        "tags": "compsci",
-        "type": "text/x-moz-place",
-        "uri": "http://codekata.com/"
-      }, {
-        "guid": "Xs-YemXmq4iO",
-        "title": "Sign in | Codewars",
-        "index": 2,
-        "dateAdded": 1.460678701037e15,
-        "lastModified": 1.542725775434e15,
-        "id": 4155,
-        "typeCode": 1,
-        "tags": "compsci",
-        "type": "text/x-moz-place",
-        "uri": "https://www.codewars.com/users/sign_in"
-      }, {
-        "guid": "IQoJZW7MoG_Z",
-        "title": "home",
-        "index": 3,
-        "dateAdded": 1.460678699468e15,
-        "lastModified": 1.542725775446e15,
-        "id": 3266,
-        "typeCode": 1,
-        "tags": "compsci",
-        "type": "text/x-moz-place",
-        "uri": "http://cyber-dojo.org/"
-      }, {
-        "guid": "UFQckWBYNyos",
-        "title": "Exercises for Programmers: 57 Challenges to Develop Your Coding Skills by Brian P. Hogan | The Pragmatic Bookshelf",
-        "index": 4,
-        "dateAdded": 1.49021408801e15,
-        "lastModified": 1.542725775465e15,
-        "id": 3955,
-        "typeCode": 1,
-        "tags": "code study",
-        "type": "text/x-moz-place",
-        "uri": "https://pragprog.com/book/bhwb/exercises-for-programmers"
-      }]
-    }]
-  }, {
-    "guid": "7L99A3mt2svZ",
-    "title": "General Dev",
-    "index": 14,
-    "dateAdded": 1.51898062173e15,
-    "lastModified": 1.542726095395e15,
-    "id": 93,
-    "typeCode": 3,
-    "type": "text/x-moz-place-container",
-    "links": [{
-      "guid": "84D68Xk6tkXC",
-      "title": "General",
-      "index": 0,
-      "dateAdded": 1.542726084466e15,
-      "lastModified": 1.542726095395e15,
-      "id": 6373,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "links": [{
-        "guid": "D7bJqUtA6Uw4",
-        "title": "The Imposter's Handbook - Big Machine",
-        "index": 0,
-        "dateAdded": 1.505401603566e15,
-        "lastModified": 1.542726095229e15,
-        "id": 652,
-        "typeCode": 1,
-        "tags": "code study",
-        "type": "text/x-moz-place",
-        "uri": "https://bigmachine.io/products/the-imposters-handbook"
-      }, {
-        "guid": "sQBEDHoQgITj",
-        "title": "http://www.wtfpl.net/",
-        "index": 1,
-        "dateAdded": 1.518921622262e15,
-        "lastModified": 1.542726095255e15,
-        "id": 897,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://www.wtfpl.net/"
-      }, {
-        "guid": "8EsffsUlFRS1",
-        "title": "License Zero",
-        "index": 2,
-        "dateAdded": 1.518921589908e15,
-        "lastModified": 1.54272609529e15,
-        "id": 1322,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://licensezero.com/"
-      }, {
-        "guid": "xYTJUbRJRil2",
-        "title": "https://ethicalos.org/",
-        "index": 3,
-        "dateAdded": 1.534363024908e15,
-        "lastModified": 1.542726095313e15,
-        "id": 6000,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://ethicalos.org/"
-      }, {
-        "guid": "MDc6E6KNtzht",
-        "title": "GitHub - 30-seconds/30-seconds-of-code: Curated collection of useful JavaScript snippets that you can understand in 30 seconds or less.",
-        "index": 4,
-        "dateAdded": 1.538347496541e15,
-        "lastModified": 1.542726095357e15,
-        "id": 6240,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://github.com/30-seconds/30-seconds-of-code#readme"
-      }, {
-        "guid": "0jiDmuW6GnZz",
-        "title": "Do You Really Know CORS? - PerformantCode.com",
-        "index": 5,
-        "dateAdded": 1.542123631147e15,
-        "lastModified": 1.542726095395e15,
-        "id": 6348,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://performantcode.com/web/do-you-really-know-cors"
-      }]
-    }, {
-      "guid": "kICS3UUz5T9s",
-      "title": "Codes of Conduct",
-      "index": 1,
-      "dateAdded": 1.52726150001e15,
-      "lastModified": 1.52726149465e15,
-      "id": 5834,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "links": [{
-        "guid": "Rig45KxqGJv1",
-        "title": "Code of conduct evaluations | Geek Feminism Wiki | FANDOM powered by Wikia",
-        "index": 0,
-        "dateAdded": 1.52726149465e15,
-        "lastModified": 1.52726149465e15,
-        "id": 5838,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://geekfeminism.wikia.com/wiki/Code_of_Conduct"
-      }, {
-        "guid": "4pkWw5gz5Gl2",
-        "title": "Vox Product Code of Conduct",
-        "index": 1,
-        "dateAdded": 1.52726148244e15,
-        "lastModified": 1.52726148244e15,
-        "id": 5835,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://code-of-conduct.voxmedia.com/"
-      }, {
-        "guid": "9Ah2VLjYIkvb",
-        "title": "HOWTO design a code of conduct for your community | Ada Initiative",
-        "index": 2,
-        "dateAdded": 1.52726150001e15,
-        "lastModified": 1.52726150001e15,
-        "id": 5836,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://adainitiative.org/2014/02/18/howto-design-a-code-of-conduct-for-your-community/"
-      }, {
-        "guid": "ISzRf10vuKmM",
-        "title": "Contributor Covenant: A Code of Conduct for Open Source Projects",
-        "index": 3,
-        "dateAdded": 1.5272614901e15,
-        "lastModified": 1.5272614901e15,
-        "id": 5837,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://www.contributor-covenant.org/"
-      }]
-    }, {
-      "guid": "g_6i6w1wP07V",
-      "title": "Debugging",
-      "index": 2,
-      "dateAdded": 1.537550494529e15,
-      "lastModified": 1.539292013276e15,
-      "id": 6195,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "links": [{
-        "guid": "kVW2lTY5gdpg",
-        "title": "Level up your debugging skills | Dave DeLong",
-        "index": 0,
-        "dateAdded": 1.537550501162e15,
-        "lastModified": 1.537550501162e15,
-        "id": 6203,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://davedelong.com/blog/2017/11/29/level-up-your-debugging-skills/"
-      }, {
-        "guid": "NUCloNIw4i3e",
-        "title": "debugging - What process do you normally use when attempting to debug a problem/issue/bug with your software? - Software Engineering Stack Exchange",
-        "index": 1,
-        "dateAdded": 1.537550508086e15,
-        "lastModified": 1.537550508086e15,
-        "id": 6200,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://softwareengineering.stackexchange.com/questions/37242/what-process-do-you-normally-use-when-attempting-to-debug-a-problem-issue-bug-wi"
-      }, {
-        "guid": "HoRolQbGyhuV",
-        "title": "Questions to ask yourself when debugging - The Web and all that Jazz",
-        "index": 2,
-        "dateAdded": 1.53755051459e15,
-        "lastModified": 1.53755051459e15,
-        "id": 6197,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://iamwilchung.wordpress.com/2010/10/13/questions-to-ask-yourself-when-debugging/"
-      }, {
-        "guid": "Oti9bHS8DO2f",
-        "title": "What questions do you ask yourself when debugging a program? - Quora",
-        "index": 3,
-        "dateAdded": 1.537550521169e15,
-        "lastModified": 1.537550521169e15,
-        "id": 6201,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://www.quora.com/What-questions-do-you-ask-yourself-when-debugging-a-program"
-      }, {
-        "guid": "Mo3UdCsi2o9Q",
-        "title": "The Best Debugging Begins by Asking Yourself These Questions",
-        "index": 4,
-        "dateAdded": 1.537550528477e15,
-        "lastModified": 1.537550528477e15,
-        "id": 6199,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://revelry.co/debugging-tips/"
-      }, {
-        "guid": "Ki-zHwEOJJkh",
-        "title": "Ten Questions To Ask Yourself When You Debug < \xE2\x80\u015A > - dev <tech> tips & tricks - Medium",
-        "index": 5,
-        "dateAdded": 1.537550534801e15,
-        "lastModified": 1.537550534801e15,
-        "id": 6198,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://medium.com/devtechtipstricks/my-personal-top-10-art-of-debugging-problems-in-software-12fb0a01832"
-      }, {
-        "guid": "_sUIJD5Aoqvk",
-        "title": "Debugging - How to Think like a Computer Scientist: Interactive Edition",
-        "index": 6,
-        "dateAdded": 1.537550541179e15,
-        "lastModified": 1.537550541179e15,
-        "id": 6202,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://interactivepython.org/runestone/static/CS152f17/Appendices/errorsAndDebug.html"
-      }, {
-        "guid": "vtNoSdMM_uIc",
-        "title": "Debugging - How to Think like a Computer Scientist: Interactive Edition",
-        "index": 7,
-        "dateAdded": 1.539292007785e15,
-        "lastModified": 1.539292007785e15,
-        "id": 6267,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://interactivepython.org/runestone/static/CS152f17/Appendices/errorsAndDebug.html"
-      }, {
-        "guid": "SFufbUB4zTkx",
-        "title": "3. Debugging Interlude 1 - How to Think like a Computer Scientist: Interactive Edition",
-        "index": 8,
-        "dateAdded": 1.539292013276e15,
-        "lastModified": 1.539292013276e15,
-        "id": 6268,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://interactivepython.org/runestone/static/CS152f17/Debugging/toctree.html"
-      }]
-    }]
-  }, {
-    "guid": "mdAJJr3K4rmE",
-    "title": "Readings",
-    "index": 15,
-    "dateAdded": 1.520559842496e15,
-    "lastModified": 1.542725786577e15,
-    "id": 197,
-    "typeCode": 3,
-    "type": "text/x-moz-place-container",
-    "links": [{
-      "guid": "4zvocafrijji",
-      "title": "General",
-      "index": 0,
-      "dateAdded": 1.542725779525e15,
-      "lastModified": 1.542725786577e15,
-      "id": 6362,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "links": [{
-        "guid": "yJb4a2x1TiWM",
-        "title": "Leveling Up - Chelsea Troy",
-        "index": 0,
-        "dateAdded": 1.53935950042e15,
-        "lastModified": 1.542725786351e15,
-        "id": 6271,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://chelseatroy.com/category/leveling-up/"
-      }, {
-        "guid": "W94LnLJNYs15",
-        "title": "The Prose Garden | get pragpub, the magazine for today - software developers",
-        "index": 1,
-        "dateAdded": 1.53486400921e15,
-        "lastModified": 1.54272578636e15,
-        "id": 6026,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://theprosegarden.com/"
-      }, {
-        "guid": "ahcZy6p3oGiK",
-        "title": "Offscreen Magazine - The Human Side of Technology",
-        "index": 2,
-        "dateAdded": 1.533910787447e15,
-        "lastModified": 1.542725786366e15,
-        "id": 5971,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://www.offscreenmag.com/"
-      }, {
-        "guid": "AStYihWkyTzG",
-        "title": "The Recompiler - a magazine about building better technology, together",
-        "index": 3,
-        "dateAdded": 1.533910751899e15,
-        "lastModified": 1.54272578637e15,
-        "id": 5963,
-        "typeCode": 1,
-        "tags": "regular",
-        "iconuri": "https://recompiler.files.wordpress.com/2016/11/recompiler-ep-17-mp3-image.jpg?w=192",
-        "type": "text/x-moz-place",
-        "uri": "https://recompilermag.com/"
-      }, {
-        "guid": "UTb8COedQ48Z",
-        "title": "Logic Magazine",
-        "index": 4,
-        "dateAdded": 1.533910733214e15,
-        "lastModified": 1.542725786375e15,
-        "id": 5966,
-        "typeCode": 1,
-        "tags": "cleanup",
-        "type": "text/x-moz-place",
-        "uri": "https://logicmag.io/"
-      }, {
-        "guid": "ECX5c7UoC5_0",
-        "title": "Increment: Documentation",
-        "index": 5,
-        "dateAdded": 1.533910723281e15,
-        "lastModified": 1.542725786385e15,
-        "id": 5969,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://increment.com/"
-      }, {
-        "guid": "bAuQ85gZGg5k",
-        "title": "The Codeless Code: Contents",
-        "index": 6,
-        "dateAdded": 1.52823084924e15,
-        "lastModified": 1.542725786415e15,
-        "id": 5868,
-        "typeCode": 1,
-        "tags": "cool shit,programming",
-        "type": "text/x-moz-place",
-        "uri": "http://thecodelesscode.com/contents"
-      }, {
-        "guid": "C-1lDfebDEsl",
-        "title": "https://danluu.com/",
-        "index": 7,
-        "dateAdded": 1.534862949331e15,
-        "lastModified": 1.542725786425e15,
-        "id": 6019,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://danluu.com/"
-      }, {
-        "guid": "joAp-LprSxdb",
-        "title": "Blog Archive - Words and Code",
-        "index": 8,
-        "dateAdded": 1.52823061428e15,
-        "lastModified": 1.542725786433e15,
-        "id": 5859,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://vaidehijoshi.github.io/blog/archives/"
-      }, {
-        "guid": "Qc1TuhAxiIix",
-        "title": "Programmer's Compendium",
-        "index": 9,
-        "dateAdded": 1.535116106928e15,
-        "lastModified": 1.542725786445e15,
-        "id": 6033,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://www.destroyallsoftware.com/compendium"
-      }, {
-        "guid": "4XIFB-lbeRgq",
-        "title": "E.W.Dijkstra Archive: Index EWD 1300-1318",
-        "index": 10,
-        "dateAdded": 1.52055985135e15,
-        "lastModified": 1.542725786456e15,
-        "id": 915,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://www.cs.utexas.edu/~EWD/index13xx.html"
-      }, {
-        "guid": "ylAdj19vjln9",
-        "title": "Being Glue",
-        "index": 11,
-        "dateAdded": 1.534424209931e15,
-        "lastModified": 1.542725786464e15,
-        "id": 6001,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://www.slideshare.net/TanyaReilly/being-glue"
-      }, {
-        "guid": "GACUvQmKrBHA",
-        "title": "Become a Programmer, Motherfucker",
-        "index": 12,
-        "dateAdded": 1.535237453297e15,
-        "lastModified": 1.54272578648e15,
-        "id": 6114,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://programming-motherfucker.com/become.html"
-      }, {
-        "guid": "GcYQibYpp1EF",
-        "title": "Morning Cup of Coding - Human Readable",
-        "index": 13,
-        "dateAdded": 1.535494348408e15,
-        "lastModified": 1.542725786486e15,
-        "id": 6119,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://www.humanreadablemag.com/morningcupofcoding/"
-      }, {
-        "guid": "yRozLOgCELK1",
-        "title": "Andy Bell - Medium",
-        "index": 14,
-        "dateAdded": 1.53556127024e15,
-        "lastModified": 1.54272578651e15,
-        "id": 6155,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://medium.com/@hankchizljaw"
-      }, {
-        "guid": "cC6YdXK2__0v",
-        "title": "A web components learning journal - Web Components Club",
-        "index": 15,
-        "dateAdded": 1.535573571091e15,
-        "lastModified": 1.542725786523e15,
-        "id": 6156,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://webcomponents.club/"
-      }, {
-        "guid": "nGPxlSFN9Cbc",
-        "title": "Frank Chimero - Writing",
-        "index": 16,
-        "dateAdded": 1.538347451832e15,
-        "lastModified": 1.542725786534e15,
-        "id": 6243,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://frankchimero.com/writing/"
-      }, {
-        "guid": "hZFiGd8-RIZS",
-        "title": "Kelly Sutton",
-        "index": 17,
-        "dateAdded": 1.539290741819e15,
-        "lastModified": 1.542725786545e15,
-        "id": 6269,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://kellysutton.com/"
-      }, {
-        "guid": "DRKlvgzzZFoF",
-        "title": "Programming Quotes",
-        "index": 18,
-        "dateAdded": 1.541604834585e15,
-        "lastModified": 1.542725786559e15,
-        "id": 6330,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://quotes.cat-v.org/programming/"
-      }, {
-        "guid": "jDVZ77NpR8iw",
-        "title": "Blog home - Ana Ulin",
-        "index": 19,
-        "dateAdded": 1.542037463274e15,
-        "lastModified": 1.542725786577e15,
-        "id": 6338,
-        "typeCode": 1,
-        "iconuri": "https://anaulin.org/apple-touch-icon-144-precomposed.png",
-        "type": "text/x-moz-place",
-        "uri": "https://anaulin.org/blog/"
-      }]
-    }]
-  }, {
-    "guid": "FGXUZ_Dkg9nH",
-    "title": "Design",
-    "index": 16,
-    "dateAdded": 1.52183593099e15,
-    "lastModified": 1.542725800245e15,
-    "id": 114,
-    "typeCode": 3,
-    "type": "text/x-moz-place-container",
-    "links": [{
-      "guid": "BS4BlLEo5Q8t",
-      "title": "General",
-      "index": 0,
-      "dateAdded": 1.542725789991e15,
-      "lastModified": 1.542725800245e15,
-      "id": 6363,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "links": [{
-        "guid": "XyJriulGZsr9",
-        "title": "Astrum - A lightweight pattern library for any project",
-        "index": 0,
-        "dateAdded": 1.535578315642e15,
-        "lastModified": 1.542725800092e15,
-        "id": 6144,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://astrum.nodividestudio.com/"
-      }, {
-        "guid": "aDskmq9DfxB8",
-        "title": "Design for Developers: Specific Steps to Improve Your Website Design - Tania Rascia",
-        "index": 1,
-        "dateAdded": 1.52183592708e15,
-        "lastModified": 1.542725800114e15,
-        "id": 1001,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://www.taniarascia.com/design-for-developers/"
-      }, {
-        "guid": "hbRQIF1PoOOq",
-        "title": "Courses | Gymnasium",
-        "index": 2,
-        "dateAdded": 1.52183596581e15,
-        "lastModified": 1.54272580014e15,
-        "id": 1024,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://thegymnasium.com/courses"
-      }, {
-        "guid": "4ZYfOOsp67z6",
-        "title": "All Design Lessons - Hack Design",
-        "index": 3,
-        "dateAdded": 1.52183597218e15,
-        "lastModified": 1.542725800162e15,
-        "id": 916,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://hackdesign.org/lessons"
-      }, {
-        "guid": "BLllM9eQoMwe",
-        "title": "Design notes",
-        "index": 4,
-        "dateAdded": 1.535121672976e15,
-        "lastModified": 1.542725800178e15,
-        "id": 6052,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://www.designnotes.co/"
-      }, {
-        "guid": "Wbc_HvFc3GZ6",
-        "title": "PRINT.PM | Daily inspiration for Print lovers.",
-        "index": 5,
-        "dateAdded": 1.538348593219e15,
-        "lastModified": 1.542725800194e15,
-        "id": 6237,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://print.pm/"
-      }, {
-        "guid": "FPdGC_BkSRqt",
-        "title": "Adele - Design Systems and Pattern Libraries Repository",
-        "index": 6,
-        "dateAdded": 1.53928655682e15,
-        "lastModified": 1.54272580021e15,
-        "id": 6260,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://adele.uxpin.com/"
-      }, {
-        "guid": "iaRxmCc00CEc",
-        "title": "Inter UI font family",
-        "index": 7,
-        "dateAdded": 1.53965862549e15,
-        "lastModified": 1.542725800228e15,
-        "id": 6274,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://rsms.me/inter/"
-      }, {
-        "guid": "HbdzRKK5EGVy",
-        "title": "Inter UI font family",
-        "index": 8,
-        "dateAdded": 1.535915971798e15,
-        "lastModified": 1.542725800245e15,
-        "id": 6165,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://rsms.me/inter/"
-      }]
-    }]
-  }, {
-    "guid": "Fei2gVjtQJNh",
-    "title": "Courses",
-    "index": 17,
-    "dateAdded": 1.535112710607e15,
-    "lastModified": 1.542725811632e15,
-    "id": 6010,
-    "typeCode": 3,
-    "type": "text/x-moz-place-container",
-    "links": [{
-      "guid": "Uc7OEeMrFePk",
-      "title": "General",
-      "index": 0,
-      "dateAdded": 1.542725803845e15,
-      "lastModified": 1.542725811632e15,
-      "id": 6364,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "links": [{
-        "guid": "jYHvggbWSfPf",
-        "title": "Courses | Wes Bos",
-        "index": 0,
-        "dateAdded": 1.535112719819e15,
-        "lastModified": 1.54272581149e15,
-        "id": 6087,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://wesbos.com/courses/"
-      }, {
-        "guid": "rc-2GMX_WH_F",
-        "title": "Learn to Code and Help Nonprofits | freeCodeCamp",
-        "index": 1,
-        "dateAdded": 1.535112738495e15,
-        "lastModified": 1.542725811513e15,
-        "id": 6022,
-        "typeCode": 1,
-        "iconuri": "https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-180x180.png",
-        "type": "text/x-moz-place",
-        "uri": "https://www.freecodecamp.org/"
-      }, {
-        "guid": "6Y2vUWqaYGep",
-        "title": "Learn to Code - for Free | Codecademy",
-        "index": 2,
-        "dateAdded": 1.535112749403e15,
-        "lastModified": 1.542725811528e15,
-        "id": 6025,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://www.codecademy.com/"
-      }, {
-        "guid": "-J51nI4VpkI5",
-        "title": "Your Career in Web Development Starts Here | The Odin Project",
-        "index": 3,
-        "dateAdded": 1.535112902254e15,
-        "lastModified": 1.542725811547e15,
-        "id": 6017,
-        "typeCode": 1,
-        "iconuri": "https://www.theodinproject.com/apple-touch-icon.png",
-        "type": "text/x-moz-place",
-        "uri": "https://www.theodinproject.com/"
-      }, {
-        "guid": "GWf-LWES64rt",
-        "title": "Short, instructional screencast video tutorials for web developers on @eggheadio",
-        "index": 4,
-        "dateAdded": 1.535112950736e15,
-        "lastModified": 1.542725811558e15,
-        "id": 6016,
-        "typeCode": 1,
-        "iconuri": "https://egghead.io/favicon.ico?v=2",
-        "type": "text/x-moz-place",
-        "uri": "https://egghead.io/"
-      }, {
-        "guid": "tce7kvbPzFda",
-        "title": "Top Shelf Web Development Training \xE2\x80\x95 Scotch",
-        "index": 5,
-        "dateAdded": 1.535113009752e15,
-        "lastModified": 1.542725811566e15,
-        "id": 6024,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://scotch.io/"
-      }, {
-        "guid": "3ebecLZlZmep",
-        "title": "Become a Programmer, Motherfucker",
-        "index": 6,
-        "dateAdded": 1.535115599353e15,
-        "lastModified": 1.54272581158e15,
-        "id": 6027,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://programming-motherfucker.com/become.html"
-      }, {
-        "guid": "u9Osvu6ZIYOA",
-        "title": "Screencasts for programmers - Roman Zolotarev",
-        "index": 7,
-        "dateAdded": 1.535379753491e15,
-        "lastModified": 1.542725811613e15,
-        "id": 6126,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://www.romanzolotarev.com/screencasts.html"
-      }, {
-        "guid": "01KkMH3k9fD4",
-        "title": "Learn Code from Us",
-        "index": 8,
-        "dateAdded": 1.539286606914e15,
-        "lastModified": 1.542725811632e15,
-        "id": 6266,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://learncodefrom.us/"
-      }]
-    }]
-  }, {
-    "guid": "BY8-zOMspT_B",
-    "title": "Career",
-    "index": 18,
-    "dateAdded": 1.536679053334e15,
-    "lastModified": 1.54272582345e15,
-    "id": 6178,
-    "typeCode": 3,
-    "type": "text/x-moz-place-container",
-    "links": [{
-      "guid": "MrZYJkC7Uu6g",
-      "title": "General",
-      "index": 0,
-      "dateAdded": 1.542725815508e15,
-      "lastModified": 1.54272582345e15,
-      "id": 6365,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "links": [{
-        "guid": "nzuNPA4yUYqu",
-        "title": "Engineering Growth Framework - Medium",
-        "index": 0,
-        "dateAdded": 1.536679062111e15,
-        "lastModified": 1.542725823286e15,
-        "id": 6186,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://medium.com/s/engineering-growth-framework"
-      }, {
-        "guid": "F3KvpBODhUi2",
-        "title": "https://snowflake.medium.com/#1,2,3,2,4,1,1,4,3,2,0,4,2,2,3,0,Cersei%20Lannister,Staff%20Engineer",
-        "index": 1,
-        "dateAdded": 1.53928617188e15,
-        "lastModified": 1.542725823309e15,
-        "id": 6261,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://snowflake.medium.com/#1,2,3,2,4,1,1,4,3,2,0,4,2,2,3,0,Cersei%20Lannister,Staff%20Engineer"
-      }, {
-        "guid": "c--_mQKrD-jO",
-        "title": "career-development-framework.md",
-        "index": 2,
-        "dateAdded": 1.539286179964e15,
-        "lastModified": 1.542725823335e15,
-        "id": 6262,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://gist.github.com/cecyc/6365ebb46ec408907a62f1d4d1336111"
-      }, {
-        "guid": "T1wwLJ6_9H_L",
-        "title": "Sharing Our Engineering Ladder - RTR Dress Code",
-        "index": 3,
-        "dateAdded": 1.536679067913e15,
-        "lastModified": 1.542725823355e15,
-        "id": 6185,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://dresscode.renttherunway.com/blog/ladder"
-      }, {
-        "guid": "DWG5IrP4KSGW",
-        "title": "Leveling Up - Chelsea Troy",
-        "index": 4,
-        "dateAdded": 1.536679073201e15,
-        "lastModified": 1.542725823368e15,
-        "id": 6181,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://chelseatroy.com/category/leveling-up/"
-      }, {
-        "guid": "qwFTFNEV-ZQG",
-        "title": "Your Professional Growth Questionnaire - Rands in Repose",
-        "index": 5,
-        "dateAdded": 1.536679082988e15,
-        "lastModified": 1.542725823408e15,
-        "id": 6187,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://randsinrepose.com/archives/your-professional-growth-questionnaire/"
-      }, {
-        "guid": "S6HnFWMQpGMt",
-        "title": "nealford.com - Build Your Own Technology Radar",
-        "index": 6,
-        "dateAdded": 1.536681540487e15,
-        "lastModified": 1.54272582343e15,
-        "id": 6184,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://nealford.com/memeagora/2013/05/28/build_your_own_technology_radar.html"
-      }, {
-        "guid": "L0OVmwqnuZw8",
-        "title": "Ops to Dev - What to bring and what to leave behind - esoteric systems",
-        "index": 7,
-        "dateAdded": 1.539286234319e15,
-        "lastModified": 1.54272582345e15,
-        "id": 6263,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://blag.esotericsystems.at/articles/ops2dev/"
-      }]
-    }]
-  }, {
-    "guid": "l2evbvL4pQvN",
-    "title": "humane tech",
-    "index": 19,
-    "dateAdded": 1.52657865487e15,
-    "lastModified": 1.542725834399e15,
-    "id": 195,
-    "typeCode": 3,
-    "type": "text/x-moz-place-container",
-    "links": [{
-      "guid": "ojGGSnqAmHPI",
-      "title": "General",
-      "index": 0,
-      "dateAdded": 1.542725827429e15,
-      "lastModified": 1.542725834399e15,
-      "id": 6366,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "links": [{
-        "guid": "xg8tjpThP5mk",
-        "title": "Calm Technology",
-        "index": 0,
-        "dateAdded": 1.52657882971e15,
-        "lastModified": 1.542725834262e15,
-        "id": 1070,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://calmtech.com/"
-      }, {
-        "guid": "3uXtw0Kr5yBC",
-        "title": "How to Reclaim Your Relationship with Tech: Tools & Tips",
-        "index": 1,
-        "dateAdded": 1.52657865487e15,
-        "lastModified": 1.542725834282e15,
-        "id": 1211,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://medium.com/@caseorganic/how-to-reclaim-your-relationship-with-tech-tools-tips-690d0fd771fe"
-      }, {
-        "guid": "b_RIOQLS_1lG",
-        "title": "Center for Humane Technology",
-        "index": 2,
-        "dateAdded": 1.52657893384e15,
-        "lastModified": 1.542725834296e15,
-        "id": 1005,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://humanetech.com/"
-      }, {
-        "guid": "lckewBXXno9R",
-        "title": "The Copenhagen Catalog",
-        "index": 3,
-        "dateAdded": 1.539655749023e15,
-        "lastModified": 1.542725834306e15,
-        "id": 6272,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://www.copenhagencatalog.org/"
-      }, {
-        "guid": "KGngA8jsuGVF",
-        "title": "({=}) Coed:Ethics",
-        "index": 4,
-        "dateAdded": 1.54117855527e15,
-        "lastModified": 1.542725834363e15,
-        "id": 6318,
-        "typeCode": 1,
-        "iconuri": "https://static.squarespace.com/universal/default-favicon.ico",
-        "type": "text/x-moz-place",
-        "uri": "https://www.coedethics.org/"
-      }, {
-        "guid": "VC2aZfrlK_Yq",
-        "title": "Is Your Product Designed to Be Calm? - Amber Case - Medium",
-        "index": 5,
-        "dateAdded": 1.541604844261e15,
-        "lastModified": 1.542725834399e15,
-        "id": 6331,
-        "typeCode": 1,
-        "iconuri": "https://cdn-images-1.medium.com/fit/c/152/152/1*8I-HPL0bfoIzGied-dzOvA.png",
-        "type": "text/x-moz-place",
-        "uri": "https://medium.com/@caseorganic/is-your-product-designed-to-be-calm-cdde5039cca5"
-      }]
-    }]
   }]
 };
 },{}],"store.js":[function(require,module,exports) {
@@ -32928,17 +29766,1687 @@ var _reduxDevtoolsExtension = require("redux-devtools-extension");
 
 var _storage = require("./storage");
 
-var _bookmarkData = _interopRequireDefault(require("./bookmarkData.json"));
+var _bookmarkDataSample = _interopRequireDefault(require("./bookmarkDataSample.json"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // there is surely a better way to do this, but for now it magically works. on assignment, it loads the result into localStorage.
-var linkData = (0, _storage.saveLinks)(_bookmarkData.default);
+var linkData = (0, _storage.saveLinks)(_bookmarkDataSample.default);
 var persistedState = (0, _storage.loadLinks)();
 var store = (0, _redux.createStore)(_bookmarksReducer.default, persistedState, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 var _default = store;
 exports.default = _default;
-},{"redux":"../node_modules/redux/es/redux.js","./reducers/bookmarksReducer":"reducers/bookmarksReducer.ts","redux-devtools-extension":"../node_modules/redux-devtools-extension/index.js","./storage":"storage.ts","./bookmarkData.json":"bookmarkData.json"}],"components/FolderList/FolderList.tsx":[function(require,module,exports) {
+},{"redux":"../node_modules/redux/es/redux.js","./reducers/bookmarksReducer":"reducers/bookmarksReducer.ts","redux-devtools-extension":"../node_modules/redux-devtools-extension/index.js","./storage":"storage.ts","./bookmarkDataSample.json":"bookmarkDataSample.json"}],"../node_modules/warning/browser.js":[function(require,module,exports) {
+/**
+ * Copyright 2014-2015, Facebook, Inc.
+ * All rights reserved.
+ *
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
+ */
+'use strict';
+/**
+ * Similar to invariant but only logs a warning if the condition is not met.
+ * This can be used to log issues in development environments in critical
+ * paths. Removing the logging code for production environments will keep the
+ * same logic and follow the same code paths.
+ */
+
+var warning = function () {};
+
+if ("development" !== 'production') {
+  warning = function (condition, format, args) {
+    var len = arguments.length;
+    args = new Array(len > 2 ? len - 2 : 0);
+
+    for (var key = 2; key < len; key++) {
+      args[key - 2] = arguments[key];
+    }
+
+    if (format === undefined) {
+      throw new Error('`warning(condition, format, ...args)` requires a warning ' + 'message argument');
+    }
+
+    if (format.length < 10 || /^[s\W]*$/.test(format)) {
+      throw new Error('The warning format should be able to uniquely identify this ' + 'warning. Please, use a more descriptive format than: ' + format);
+    }
+
+    if (!condition) {
+      var argIndex = 0;
+      var message = 'Warning: ' + format.replace(/%s/g, function () {
+        return args[argIndex++];
+      });
+
+      if (typeof console !== 'undefined') {
+        console.error(message);
+      }
+
+      try {
+        // This error was thrown as a convenience so that you can use this stack
+        // to find the callsite that caused this warning to fire.
+        throw new Error(message);
+      } catch (x) {}
+    }
+  };
+}
+
+module.exports = warning;
+},{}],"../node_modules/gud/index.js":[function(require,module,exports) {
+var global = arguments[3];
+'use strict';
+
+var key = '__global_unique_id__';
+
+module.exports = function () {
+  return global[key] = (global[key] || 0) + 1;
+};
+},{}],"../node_modules/fbjs/lib/emptyFunction.js":[function(require,module,exports) {
+"use strict";
+
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ *
+ * 
+ */
+
+function makeEmptyFunction(arg) {
+  return function () {
+    return arg;
+  };
+}
+
+/**
+ * This function accepts and discards inputs; it has no side effects. This is
+ * primarily useful idiomatically for overridable function endpoints which
+ * always need to be callable, since JS lacks a null-call idiom ala Cocoa.
+ */
+var emptyFunction = function emptyFunction() {};
+
+emptyFunction.thatReturns = makeEmptyFunction;
+emptyFunction.thatReturnsFalse = makeEmptyFunction(false);
+emptyFunction.thatReturnsTrue = makeEmptyFunction(true);
+emptyFunction.thatReturnsNull = makeEmptyFunction(null);
+emptyFunction.thatReturnsThis = function () {
+  return this;
+};
+emptyFunction.thatReturnsArgument = function (arg) {
+  return arg;
+};
+
+module.exports = emptyFunction;
+},{}],"../node_modules/fbjs/lib/warning.js":[function(require,module,exports) {
+/**
+ * Copyright (c) 2014-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ *
+ */
+'use strict';
+
+var emptyFunction = require('./emptyFunction');
+/**
+ * Similar to invariant but only logs a warning if the condition is not met.
+ * This can be used to log issues in development environments in critical
+ * paths. Removing the logging code for production environments will keep the
+ * same logic and follow the same code paths.
+ */
+
+
+var warning = emptyFunction;
+
+if ("development" !== 'production') {
+  var printWarning = function printWarning(format) {
+    for (var _len = arguments.length, args = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+      args[_key - 1] = arguments[_key];
+    }
+
+    var argIndex = 0;
+    var message = 'Warning: ' + format.replace(/%s/g, function () {
+      return args[argIndex++];
+    });
+
+    if (typeof console !== 'undefined') {
+      console.error(message);
+    }
+
+    try {
+      // --- Welcome to debugging React ---
+      // This error was thrown as a convenience so that you can use this stack
+      // to find the callsite that caused this warning to fire.
+      throw new Error(message);
+    } catch (x) {}
+  };
+
+  warning = function warning(condition, format) {
+    if (format === undefined) {
+      throw new Error('`warning(condition, format, ...args)` requires a warning ' + 'message argument');
+    }
+
+    if (format.indexOf('Failed Composite propType: ') === 0) {
+      return; // Ignore CompositeComponent proptype check.
+    }
+
+    if (!condition) {
+      for (var _len2 = arguments.length, args = Array(_len2 > 2 ? _len2 - 2 : 0), _key2 = 2; _key2 < _len2; _key2++) {
+        args[_key2 - 2] = arguments[_key2];
+      }
+
+      printWarning.apply(undefined, [format].concat(args));
+    }
+  };
+}
+
+module.exports = warning;
+},{"./emptyFunction":"../node_modules/fbjs/lib/emptyFunction.js"}],"../node_modules/create-react-context/lib/implementation.js":[function(require,module,exports) {
+'use strict';
+
+exports.__esModule = true;
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = require('prop-types');
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _gud = require('gud');
+
+var _gud2 = _interopRequireDefault(_gud);
+
+var _warning = require('fbjs/lib/warning');
+
+var _warning2 = _interopRequireDefault(_warning);
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    default: obj
+  };
+}
+
+function _classCallCheck(instance, Constructor) {
+  if (!(instance instanceof Constructor)) {
+    throw new TypeError("Cannot call a class as a function");
+  }
+}
+
+function _possibleConstructorReturn(self, call) {
+  if (!self) {
+    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  }
+
+  return call && (typeof call === "object" || typeof call === "function") ? call : self;
+}
+
+function _inherits(subClass, superClass) {
+  if (typeof superClass !== "function" && superClass !== null) {
+    throw new TypeError("Super expression must either be null or a function, not " + typeof superClass);
+  }
+
+  subClass.prototype = Object.create(superClass && superClass.prototype, {
+    constructor: {
+      value: subClass,
+      enumerable: false,
+      writable: true,
+      configurable: true
+    }
+  });
+  if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
+}
+
+var MAX_SIGNED_31_BIT_INT = 1073741823; // Inlined Object.is polyfill.
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is
+
+function objectIs(x, y) {
+  if (x === y) {
+    return x !== 0 || 1 / x === 1 / y;
+  } else {
+    return x !== x && y !== y;
+  }
+}
+
+function createEventEmitter(value) {
+  var handlers = [];
+  return {
+    on: function on(handler) {
+      handlers.push(handler);
+    },
+    off: function off(handler) {
+      handlers = handlers.filter(function (h) {
+        return h !== handler;
+      });
+    },
+    get: function get() {
+      return value;
+    },
+    set: function set(newValue, changedBits) {
+      value = newValue;
+      handlers.forEach(function (handler) {
+        return handler(value, changedBits);
+      });
+    }
+  };
+}
+
+function onlyChild(children) {
+  return Array.isArray(children) ? children[0] : children;
+}
+
+function createReactContext(defaultValue, calculateChangedBits) {
+  var _Provider$childContex, _Consumer$contextType;
+
+  var contextProp = '__create-react-context-' + (0, _gud2.default)() + '__';
+
+  var Provider = function (_Component) {
+    _inherits(Provider, _Component);
+
+    function Provider() {
+      var _temp, _this, _ret;
+
+      _classCallCheck(this, Provider);
+
+      for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+        args[_key] = arguments[_key];
+      }
+
+      return _ret = (_temp = (_this = _possibleConstructorReturn(this, _Component.call.apply(_Component, [this].concat(args))), _this), _this.emitter = createEventEmitter(_this.props.value), _temp), _possibleConstructorReturn(_this, _ret);
+    }
+
+    Provider.prototype.getChildContext = function getChildContext() {
+      var _ref;
+
+      return _ref = {}, _ref[contextProp] = this.emitter, _ref;
+    };
+
+    Provider.prototype.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {
+      if (this.props.value !== nextProps.value) {
+        var oldValue = this.props.value;
+        var newValue = nextProps.value;
+        var changedBits = void 0;
+
+        if (objectIs(oldValue, newValue)) {
+          changedBits = 0; // No change
+        } else {
+          changedBits = typeof calculateChangedBits === 'function' ? calculateChangedBits(oldValue, newValue) : MAX_SIGNED_31_BIT_INT;
+
+          if ("development" !== 'production') {
+            (0, _warning2.default)((changedBits & MAX_SIGNED_31_BIT_INT) === changedBits, 'calculateChangedBits: Expected the return value to be a ' + '31-bit integer. Instead received: %s', changedBits);
+          }
+
+          changedBits |= 0;
+
+          if (changedBits !== 0) {
+            this.emitter.set(nextProps.value, changedBits);
+          }
+        }
+      }
+    };
+
+    Provider.prototype.render = function render() {
+      return this.props.children;
+    };
+
+    return Provider;
+  }(_react.Component);
+
+  Provider.childContextTypes = (_Provider$childContex = {}, _Provider$childContex[contextProp] = _propTypes2.default.object.isRequired, _Provider$childContex);
+
+  var Consumer = function (_Component2) {
+    _inherits(Consumer, _Component2);
+
+    function Consumer() {
+      var _temp2, _this2, _ret2;
+
+      _classCallCheck(this, Consumer);
+
+      for (var _len2 = arguments.length, args = Array(_len2), _key2 = 0; _key2 < _len2; _key2++) {
+        args[_key2] = arguments[_key2];
+      }
+
+      return _ret2 = (_temp2 = (_this2 = _possibleConstructorReturn(this, _Component2.call.apply(_Component2, [this].concat(args))), _this2), _this2.state = {
+        value: _this2.getValue()
+      }, _this2.onUpdate = function (newValue, changedBits) {
+        var observedBits = _this2.observedBits | 0;
+
+        if ((observedBits & changedBits) !== 0) {
+          _this2.setState({
+            value: _this2.getValue()
+          });
+        }
+      }, _temp2), _possibleConstructorReturn(_this2, _ret2);
+    }
+
+    Consumer.prototype.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {
+      var observedBits = nextProps.observedBits;
+      this.observedBits = observedBits === undefined || observedBits === null ? MAX_SIGNED_31_BIT_INT // Subscribe to all changes by default
+      : observedBits;
+    };
+
+    Consumer.prototype.componentDidMount = function componentDidMount() {
+      if (this.context[contextProp]) {
+        this.context[contextProp].on(this.onUpdate);
+      }
+
+      var observedBits = this.props.observedBits;
+      this.observedBits = observedBits === undefined || observedBits === null ? MAX_SIGNED_31_BIT_INT // Subscribe to all changes by default
+      : observedBits;
+    };
+
+    Consumer.prototype.componentWillUnmount = function componentWillUnmount() {
+      if (this.context[contextProp]) {
+        this.context[contextProp].off(this.onUpdate);
+      }
+    };
+
+    Consumer.prototype.getValue = function getValue() {
+      if (this.context[contextProp]) {
+        return this.context[contextProp].get();
+      } else {
+        return defaultValue;
+      }
+    };
+
+    Consumer.prototype.render = function render() {
+      return onlyChild(this.props.children)(this.state.value);
+    };
+
+    return Consumer;
+  }(_react.Component);
+
+  Consumer.contextTypes = (_Consumer$contextType = {}, _Consumer$contextType[contextProp] = _propTypes2.default.object, _Consumer$contextType);
+  return {
+    Provider: Provider,
+    Consumer: Consumer
+  };
+}
+
+exports.default = createReactContext;
+module.exports = exports['default'];
+},{"react":"../node_modules/react/index.js","prop-types":"../node_modules/prop-types/index.js","gud":"../node_modules/gud/index.js","fbjs/lib/warning":"../node_modules/fbjs/lib/warning.js"}],"../node_modules/create-react-context/lib/index.js":[function(require,module,exports) {
+'use strict';
+
+exports.__esModule = true;
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _implementation = require('./implementation');
+
+var _implementation2 = _interopRequireDefault(_implementation);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = _react2.default.createContext || _implementation2.default;
+module.exports = exports['default'];
+},{"react":"../node_modules/react/index.js","./implementation":"../node_modules/create-react-context/lib/implementation.js"}],"../node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.polyfill = polyfill;
+
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+function componentWillMount() {
+  // Call this.constructor.gDSFP to support sub-classes.
+  var state = this.constructor.getDerivedStateFromProps(this.props, this.state);
+
+  if (state !== null && state !== undefined) {
+    this.setState(state);
+  }
+}
+
+function componentWillReceiveProps(nextProps) {
+  // Call this.constructor.gDSFP to support sub-classes.
+  // Use the setState() updater to ensure state isn't stale in certain edge cases.
+  function updater(prevState) {
+    var state = this.constructor.getDerivedStateFromProps(nextProps, prevState);
+    return state !== null && state !== undefined ? state : null;
+  } // Binding "this" is important for shallow renderer support.
+
+
+  this.setState(updater.bind(this));
+}
+
+function componentWillUpdate(nextProps, nextState) {
+  try {
+    var prevProps = this.props;
+    var prevState = this.state;
+    this.props = nextProps;
+    this.state = nextState;
+    this.__reactInternalSnapshotFlag = true;
+    this.__reactInternalSnapshot = this.getSnapshotBeforeUpdate(prevProps, prevState);
+  } finally {
+    this.props = prevProps;
+    this.state = prevState;
+  }
+} // React may warn about cWM/cWRP/cWU methods being deprecated.
+// Add a flag to suppress these warnings for this special case.
+
+
+componentWillMount.__suppressDeprecationWarning = true;
+componentWillReceiveProps.__suppressDeprecationWarning = true;
+componentWillUpdate.__suppressDeprecationWarning = true;
+
+function polyfill(Component) {
+  var prototype = Component.prototype;
+
+  if (!prototype || !prototype.isReactComponent) {
+    throw new Error('Can only polyfill class components');
+  }
+
+  if (typeof Component.getDerivedStateFromProps !== 'function' && typeof prototype.getSnapshotBeforeUpdate !== 'function') {
+    return Component;
+  } // If new component APIs are defined, "unsafe" lifecycles won't be called.
+  // Error if any of these lifecycles are present,
+  // Because they would work differently between older and newer (16.3+) versions of React.
+
+
+  var foundWillMountName = null;
+  var foundWillReceivePropsName = null;
+  var foundWillUpdateName = null;
+
+  if (typeof prototype.componentWillMount === 'function') {
+    foundWillMountName = 'componentWillMount';
+  } else if (typeof prototype.UNSAFE_componentWillMount === 'function') {
+    foundWillMountName = 'UNSAFE_componentWillMount';
+  }
+
+  if (typeof prototype.componentWillReceiveProps === 'function') {
+    foundWillReceivePropsName = 'componentWillReceiveProps';
+  } else if (typeof prototype.UNSAFE_componentWillReceiveProps === 'function') {
+    foundWillReceivePropsName = 'UNSAFE_componentWillReceiveProps';
+  }
+
+  if (typeof prototype.componentWillUpdate === 'function') {
+    foundWillUpdateName = 'componentWillUpdate';
+  } else if (typeof prototype.UNSAFE_componentWillUpdate === 'function') {
+    foundWillUpdateName = 'UNSAFE_componentWillUpdate';
+  }
+
+  if (foundWillMountName !== null || foundWillReceivePropsName !== null || foundWillUpdateName !== null) {
+    var componentName = Component.displayName || Component.name;
+    var newApiName = typeof Component.getDerivedStateFromProps === 'function' ? 'getDerivedStateFromProps()' : 'getSnapshotBeforeUpdate()';
+    throw Error('Unsafe legacy lifecycles will not be called for components using new component APIs.\n\n' + componentName + ' uses ' + newApiName + ' but also contains the following legacy lifecycles:' + (foundWillMountName !== null ? '\n  ' + foundWillMountName : '') + (foundWillReceivePropsName !== null ? '\n  ' + foundWillReceivePropsName : '') + (foundWillUpdateName !== null ? '\n  ' + foundWillUpdateName : '') + '\n\nThe above lifecycles should be removed. Learn more about this warning here:\n' + 'https://fb.me/react-async-component-lifecycle-hooks');
+  } // React <= 16.2 does not support static getDerivedStateFromProps.
+  // As a workaround, use cWM and cWRP to invoke the new static lifecycle.
+  // Newer versions of React will ignore these lifecycles if gDSFP exists.
+
+
+  if (typeof Component.getDerivedStateFromProps === 'function') {
+    prototype.componentWillMount = componentWillMount;
+    prototype.componentWillReceiveProps = componentWillReceiveProps;
+  } // React <= 16.2 does not support getSnapshotBeforeUpdate.
+  // As a workaround, use cWU to invoke the new lifecycle.
+  // Newer versions of React will ignore that lifecycle if gSBU exists.
+
+
+  if (typeof prototype.getSnapshotBeforeUpdate === 'function') {
+    if (typeof prototype.componentDidUpdate !== 'function') {
+      throw new Error('Cannot polyfill getSnapshotBeforeUpdate() for components that do not define componentDidUpdate() on the prototype');
+    }
+
+    prototype.componentWillUpdate = componentWillUpdate;
+    var componentDidUpdate = prototype.componentDidUpdate;
+
+    prototype.componentDidUpdate = function componentDidUpdatePolyfill(prevProps, prevState, maybeSnapshot) {
+      // 16.3+ will not execute our will-update method;
+      // It will pass a snapshot value to did-update though.
+      // Older versions will require our polyfilled will-update value.
+      // We need to handle both cases, but can't just check for the presence of "maybeSnapshot",
+      // Because for <= 15.x versions this might be a "prevContext" object.
+      // We also can't just check "__reactInternalSnapshot",
+      // Because get-snapshot might return a falsy value.
+      // So check for the explicit __reactInternalSnapshotFlag flag to determine behavior.
+      var snapshot = this.__reactInternalSnapshotFlag ? this.__reactInternalSnapshot : maybeSnapshot;
+      componentDidUpdate.call(this, prevProps, prevState, snapshot);
+    };
+  }
+
+  return Component;
+}
+},{}],"../node_modules/@reach/router/es/lib/utils.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.validateRedirect = exports.insertParams = exports.resolve = exports.match = exports.pick = exports.startsWith = void 0;
+
+var _invariant = _interopRequireDefault(require("invariant"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+////////////////////////////////////////////////////////////////////////////////
+// startsWith(string, search) - Check if `string` starts with `search`
+var startsWith = function startsWith(string, search) {
+  return string.substr(0, search.length) === search;
+}; ////////////////////////////////////////////////////////////////////////////////
+// pick(routes, uri)
+//
+// Ranks and picks the best route to match. Each segment gets the highest
+// amount of points, then the type of segment gets an additional amount of
+// points where
+//
+//     static > dynamic > splat > root
+//
+// This way we don't have to worry about the order of our routes, let the
+// computers do it.
+//
+// A route looks like this
+//
+//     { path, default, value }
+//
+// And a returned match looks like:
+//
+//     { route, params, uri }
+//
+// I know, I should use TypeScript not comments for these types.
+
+
+exports.startsWith = startsWith;
+
+var pick = function pick(routes, uri) {
+  var match = void 0;
+  var default_ = void 0;
+
+  var _uri$split = uri.split("?"),
+      uriPathname = _uri$split[0];
+
+  var uriSegments = segmentize(uriPathname);
+  var isRootUri = uriSegments[0] === "";
+  var ranked = rankRoutes(routes);
+
+  for (var i = 0, l = ranked.length; i < l; i++) {
+    var missed = false;
+    var route = ranked[i].route;
+
+    if (route.default) {
+      default_ = {
+        route: route,
+        params: {},
+        uri: uri
+      };
+      continue;
+    }
+
+    var routeSegments = segmentize(route.path);
+    var params = {};
+    var max = Math.max(uriSegments.length, routeSegments.length);
+    var index = 0;
+
+    for (; index < max; index++) {
+      var routeSegment = routeSegments[index];
+      var uriSegment = uriSegments[index];
+
+      var _isSplat = routeSegment === "*";
+
+      if (_isSplat) {
+        // Hit a splat, just grab the rest, and return a match
+        // uri:   /files/documents/work
+        // route: /files/*
+        params["*"] = uriSegments.slice(index).map(decodeURIComponent).join("/");
+        break;
+      }
+
+      if (uriSegment === undefined) {
+        // URI is shorter than the route, no match
+        // uri:   /users
+        // route: /users/:userId
+        missed = true;
+        break;
+      }
+
+      var dynamicMatch = paramRe.exec(routeSegment);
+
+      if (dynamicMatch && !isRootUri) {
+        var matchIsNotReserved = reservedNames.indexOf(dynamicMatch[1]) === -1;
+        !matchIsNotReserved ? "development" !== "production" ? (0, _invariant.default)(false, "<Router> dynamic segment \"" + dynamicMatch[1] + "\" is a reserved name. Please use a different name in path \"" + route.path + "\".") : (0, _invariant.default)(false) : void 0;
+        var value = decodeURIComponent(uriSegment);
+        params[dynamicMatch[1]] = value;
+      } else if (routeSegment !== uriSegment) {
+        // Current segments don't match, not dynamic, not splat, so no match
+        // uri:   /users/123/settings
+        // route: /users/:id/profile
+        missed = true;
+        break;
+      }
+    }
+
+    if (!missed) {
+      match = {
+        route: route,
+        params: params,
+        uri: "/" + uriSegments.slice(0, index).join("/")
+      };
+      break;
+    }
+  }
+
+  return match || default_ || null;
+}; ////////////////////////////////////////////////////////////////////////////////
+// match(path, uri) - Matches just one path to a uri, also lol
+
+
+exports.pick = pick;
+
+var match = function match(path, uri) {
+  return pick([{
+    path: path
+  }], uri);
+}; ////////////////////////////////////////////////////////////////////////////////
+// resolve(to, basepath)
+//
+// Resolves URIs as though every path is a directory, no files.  Relative URIs
+// in the browser can feel awkward because not only can you be "in a directory"
+// you can be "at a file", too. For example
+//
+//     browserSpecResolve('foo', '/bar/') => /bar/foo
+//     browserSpecResolve('foo', '/bar') => /foo
+//
+// But on the command line of a file system, it's not as complicated, you can't
+// `cd` from a file, only directories.  This way, links have to know less about
+// their current path. To go deeper you can do this:
+//
+//     <Link to="deeper"/>
+//     // instead of
+//     <Link to=`{${props.uri}/deeper}`/>
+//
+// Just like `cd`, if you want to go deeper from the command line, you do this:
+//
+//     cd deeper
+//     # not
+//     cd $(pwd)/deeper
+//
+// By treating every path as a directory, linking to relative paths should
+// require less contextual information and (fingers crossed) be more intuitive.
+
+
+exports.match = match;
+
+var resolve = function resolve(to, base) {
+  // /foo/bar, /baz/qux => /foo/bar
+  if (startsWith(to, "/")) {
+    return to;
+  }
+
+  var _to$split = to.split("?"),
+      toPathname = _to$split[0],
+      toQuery = _to$split[1];
+
+  var _base$split = base.split("?"),
+      basePathname = _base$split[0];
+
+  var toSegments = segmentize(toPathname);
+  var baseSegments = segmentize(basePathname); // ?a=b, /users?b=c => /users?a=b
+
+  if (toSegments[0] === "") {
+    return addQuery(basePathname, toQuery);
+  } // profile, /users/789 => /users/789/profile
+
+
+  if (!startsWith(toSegments[0], ".")) {
+    var pathname = baseSegments.concat(toSegments).join("/");
+    return addQuery((basePathname === "/" ? "" : "/") + pathname, toQuery);
+  } // ./         /users/123  =>  /users/123
+  // ../        /users/123  =>  /users
+  // ../..      /users/123  =>  /
+  // ../../one  /a/b/c/d    =>  /a/b/one
+  // .././one   /a/b/c/d    =>  /a/b/c/one
+
+
+  var allSegments = baseSegments.concat(toSegments);
+  var segments = [];
+
+  for (var i = 0, l = allSegments.length; i < l; i++) {
+    var segment = allSegments[i];
+    if (segment === "..") segments.pop();else if (segment !== ".") segments.push(segment);
+  }
+
+  return addQuery("/" + segments.join("/"), toQuery);
+}; ////////////////////////////////////////////////////////////////////////////////
+// insertParams(path, params)
+
+
+exports.resolve = resolve;
+
+var insertParams = function insertParams(path, params) {
+  var segments = segmentize(path);
+  return "/" + segments.map(function (segment) {
+    var match = paramRe.exec(segment);
+    return match ? params[match[1]] : segment;
+  }).join("/");
+};
+
+exports.insertParams = insertParams;
+
+var validateRedirect = function validateRedirect(from, to) {
+  var filter = function filter(segment) {
+    return isDynamic(segment);
+  };
+
+  var fromString = segmentize(from).filter(filter).sort().join("/");
+  var toString = segmentize(to).filter(filter).sort().join("/");
+  return fromString === toString;
+}; ////////////////////////////////////////////////////////////////////////////////
+// Junk
+
+
+exports.validateRedirect = validateRedirect;
+var paramRe = /^:(.+)/;
+var SEGMENT_POINTS = 4;
+var STATIC_POINTS = 3;
+var DYNAMIC_POINTS = 2;
+var SPLAT_PENALTY = 1;
+var ROOT_POINTS = 1;
+
+var isRootSegment = function isRootSegment(segment) {
+  return segment === "";
+};
+
+var isDynamic = function isDynamic(segment) {
+  return paramRe.test(segment);
+};
+
+var isSplat = function isSplat(segment) {
+  return segment === "*";
+};
+
+var rankRoute = function rankRoute(route, index) {
+  var score = route.default ? 0 : segmentize(route.path).reduce(function (score, segment) {
+    score += SEGMENT_POINTS;
+    if (isRootSegment(segment)) score += ROOT_POINTS;else if (isDynamic(segment)) score += DYNAMIC_POINTS;else if (isSplat(segment)) score -= SEGMENT_POINTS + SPLAT_PENALTY;else score += STATIC_POINTS;
+    return score;
+  }, 0);
+  return {
+    route: route,
+    score: score,
+    index: index
+  };
+};
+
+var rankRoutes = function rankRoutes(routes) {
+  return routes.map(rankRoute).sort(function (a, b) {
+    return a.score < b.score ? 1 : a.score > b.score ? -1 : a.index - b.index;
+  });
+};
+
+var segmentize = function segmentize(uri) {
+  return uri // strip starting/ending slashes
+  .replace(/(^\/+|\/+$)/g, "").split("/");
+};
+
+var addQuery = function addQuery(pathname, query) {
+  return pathname + (query ? "?" + query : "");
+};
+
+var reservedNames = ["uri", "path"]; ////////////////////////////////////////////////////////////////////////////////
+},{"invariant":"../node_modules/invariant/browser.js"}],"../node_modules/@reach/router/es/lib/history.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.createMemorySource = exports.createHistory = exports.navigate = exports.globalHistory = void 0;
+
+var _extends = Object.assign || function (target) {
+  for (var i = 1; i < arguments.length; i++) {
+    var source = arguments[i];
+
+    for (var key in source) {
+      if (Object.prototype.hasOwnProperty.call(source, key)) {
+        target[key] = source[key];
+      }
+    }
+  }
+
+  return target;
+};
+
+var getLocation = function getLocation(source) {
+  return _extends({}, source.location, {
+    state: source.history.state,
+    key: source.history.state && source.history.state.key || "initial"
+  });
+};
+
+var createHistory = function createHistory(source, options) {
+  var listeners = [];
+  var location = getLocation(source);
+  var transitioning = false;
+
+  var resolveTransition = function resolveTransition() {};
+
+  return {
+    get location() {
+      return location;
+    },
+
+    get transitioning() {
+      return transitioning;
+    },
+
+    _onTransitionComplete: function _onTransitionComplete() {
+      transitioning = false;
+      resolveTransition();
+    },
+    listen: function listen(listener) {
+      listeners.push(listener);
+
+      var popstateListener = function popstateListener() {
+        location = getLocation(source);
+        listener({
+          location: location,
+          action: "POP"
+        });
+      };
+
+      source.addEventListener("popstate", popstateListener);
+      return function () {
+        source.removeEventListener("popstate", popstateListener);
+        listeners = listeners.filter(function (fn) {
+          return fn !== listener;
+        });
+      };
+    },
+    navigate: function navigate(to) {
+      var _ref = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {},
+          state = _ref.state,
+          _ref$replace = _ref.replace,
+          replace = _ref$replace === undefined ? false : _ref$replace;
+
+      state = _extends({}, state, {
+        key: Date.now() + ""
+      }); // try...catch iOS Safari limits to 100 pushState calls
+
+      try {
+        if (transitioning || replace) {
+          source.history.replaceState(state, null, to);
+        } else {
+          source.history.pushState(state, null, to);
+        }
+      } catch (e) {
+        source.location[replace ? "replace" : "assign"](to);
+      }
+
+      location = getLocation(source);
+      transitioning = true;
+      var transition = new Promise(function (res) {
+        return resolveTransition = res;
+      });
+      listeners.forEach(function (listener) {
+        return listener({
+          location: location,
+          action: "PUSH"
+        });
+      });
+      return transition;
+    }
+  };
+}; ////////////////////////////////////////////////////////////////////////////////
+// Stores history entries in memory for testing or other platforms like Native
+
+
+exports.createHistory = createHistory;
+
+var createMemorySource = function createMemorySource() {
+  var initialPathname = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : "/";
+  var index = 0;
+  var stack = [{
+    pathname: initialPathname,
+    search: ""
+  }];
+  var states = [];
+  return {
+    get location() {
+      return stack[index];
+    },
+
+    addEventListener: function addEventListener(name, fn) {},
+    removeEventListener: function removeEventListener(name, fn) {},
+    history: {
+      get entries() {
+        return stack;
+      },
+
+      get index() {
+        return index;
+      },
+
+      get state() {
+        return states[index];
+      },
+
+      pushState: function pushState(state, _, uri) {
+        var _uri$split = uri.split("?"),
+            pathname = _uri$split[0],
+            _uri$split$ = _uri$split[1],
+            search = _uri$split$ === undefined ? "" : _uri$split$;
+
+        index++;
+        stack.push({
+          pathname: pathname,
+          search: search
+        });
+        states.push(state);
+      },
+      replaceState: function replaceState(state, _, uri) {
+        var _uri$split2 = uri.split("?"),
+            pathname = _uri$split2[0],
+            _uri$split2$ = _uri$split2[1],
+            search = _uri$split2$ === undefined ? "" : _uri$split2$;
+
+        stack[index] = {
+          pathname: pathname,
+          search: search
+        };
+        states[index] = state;
+      }
+    }
+  };
+}; ////////////////////////////////////////////////////////////////////////////////
+// global history - uses window.history as the source if available, otherwise a
+// memory history
+
+
+exports.createMemorySource = createMemorySource;
+var canUseDOM = !!(typeof window !== "undefined" && window.document && window.document.createElement);
+
+var getSource = function getSource() {
+  return canUseDOM ? window : createMemorySource();
+};
+
+var globalHistory = createHistory(getSource());
+exports.globalHistory = globalHistory;
+var navigate = globalHistory.navigate; ////////////////////////////////////////////////////////////////////////////////
+
+exports.navigate = navigate;
+},{}],"../node_modules/@reach/router/es/index.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "globalHistory", {
+  enumerable: true,
+  get: function () {
+    return _history.globalHistory;
+  }
+});
+Object.defineProperty(exports, "navigate", {
+  enumerable: true,
+  get: function () {
+    return _history.navigate;
+  }
+});
+Object.defineProperty(exports, "createHistory", {
+  enumerable: true,
+  get: function () {
+    return _history.createHistory;
+  }
+});
+Object.defineProperty(exports, "createMemorySource", {
+  enumerable: true,
+  get: function () {
+    return _history.createMemorySource;
+  }
+});
+exports.redirectTo = exports.isRedirect = exports.ServerLocation = exports.Router = exports.Redirect = exports.Match = exports.LocationProvider = exports.Location = exports.Link = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _warning = _interopRequireDefault(require("warning"));
+
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
+var _invariant = _interopRequireDefault(require("invariant"));
+
+var _createReactContext = _interopRequireDefault(require("create-react-context"));
+
+var _reactLifecyclesCompat = require("react-lifecycles-compat");
+
+var _utils = require("./lib/utils");
+
+var _history = require("./lib/history");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _extends = Object.assign || function (target) {
+  for (var i = 1; i < arguments.length; i++) {
+    var source = arguments[i];
+
+    for (var key in source) {
+      if (Object.prototype.hasOwnProperty.call(source, key)) {
+        target[key] = source[key];
+      }
+    }
+  }
+
+  return target;
+};
+
+function _objectWithoutProperties(obj, keys) {
+  var target = {};
+
+  for (var i in obj) {
+    if (keys.indexOf(i) >= 0) continue;
+    if (!Object.prototype.hasOwnProperty.call(obj, i)) continue;
+    target[i] = obj[i];
+  }
+
+  return target;
+}
+
+function _classCallCheck(instance, Constructor) {
+  if (!(instance instanceof Constructor)) {
+    throw new TypeError("Cannot call a class as a function");
+  }
+}
+
+function _possibleConstructorReturn(self, call) {
+  if (!self) {
+    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  }
+
+  return call && (typeof call === "object" || typeof call === "function") ? call : self;
+}
+
+function _inherits(subClass, superClass) {
+  if (typeof superClass !== "function" && superClass !== null) {
+    throw new TypeError("Super expression must either be null or a function, not " + typeof superClass);
+  }
+
+  subClass.prototype = Object.create(superClass && superClass.prototype, {
+    constructor: {
+      value: subClass,
+      enumerable: false,
+      writable: true,
+      configurable: true
+    }
+  });
+  if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
+}
+/* eslint-disable jsx-a11y/anchor-has-content */
+
+
+////////////////////////////////////////////////////////////////////////////////
+var createNamedContext = function createNamedContext(name, defaultValue) {
+  var Ctx = (0, _createReactContext.default)(defaultValue);
+  Ctx.Consumer.displayName = name + ".Consumer";
+  Ctx.Provider.displayName = name + ".Provider";
+  return Ctx;
+}; ////////////////////////////////////////////////////////////////////////////////
+// Location Context/Provider
+
+
+var LocationContext = createNamedContext("Location"); // sets up a listener if there isn't one already so apps don't need to be
+// wrapped in some top level provider
+
+var Location = function Location(_ref) {
+  var children = _ref.children;
+  return _react.default.createElement(LocationContext.Consumer, null, function (context) {
+    return context ? children(context) : _react.default.createElement(LocationProvider, null, children);
+  });
+};
+
+exports.Location = Location;
+
+var LocationProvider = function (_React$Component) {
+  _inherits(LocationProvider, _React$Component);
+
+  function LocationProvider() {
+    var _temp, _this, _ret;
+
+    _classCallCheck(this, LocationProvider);
+
+    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, _React$Component.call.apply(_React$Component, [this].concat(args))), _this), _this.state = {
+      context: _this.getContext(),
+      refs: {
+        unlisten: null
+      }
+    }, _temp), _possibleConstructorReturn(_this, _ret);
+  }
+
+  LocationProvider.prototype.getContext = function getContext() {
+    var _props$history = this.props.history,
+        navigate = _props$history.navigate,
+        location = _props$history.location;
+    return {
+      navigate: navigate,
+      location: location
+    };
+  };
+
+  LocationProvider.prototype.componentDidCatch = function componentDidCatch(error, info) {
+    if (isRedirect(error)) {
+      var _navigate = this.props.history.navigate;
+
+      _navigate(error.uri, {
+        replace: true
+      });
+    } else {
+      throw error;
+    }
+  };
+
+  LocationProvider.prototype.componentDidUpdate = function componentDidUpdate(prevProps, prevState) {
+    if (prevState.context.location !== this.state.context.location) {
+      this.props.history._onTransitionComplete();
+    }
+  };
+
+  LocationProvider.prototype.componentDidMount = function componentDidMount() {
+    var _this2 = this;
+
+    var refs = this.state.refs,
+        history = this.props.history;
+    refs.unlisten = history.listen(function () {
+      Promise.resolve().then(function () {
+        // TODO: replace rAF with react deferred update API when it's ready https://github.com/facebook/react/issues/13306
+        requestAnimationFrame(function () {
+          if (!_this2.unmounted) {
+            _this2.setState(function () {
+              return {
+                context: _this2.getContext()
+              };
+            });
+          }
+        });
+      });
+    });
+  };
+
+  LocationProvider.prototype.componentWillUnmount = function componentWillUnmount() {
+    var refs = this.state.refs;
+    this.unmounted = true;
+    refs.unlisten();
+  };
+
+  LocationProvider.prototype.render = function render() {
+    var context = this.state.context,
+        children = this.props.children;
+    return _react.default.createElement(LocationContext.Provider, {
+      value: context
+    }, typeof children === "function" ? children(context) : children || null);
+  };
+
+  return LocationProvider;
+}(_react.default.Component); ////////////////////////////////////////////////////////////////////////////////
+
+
+exports.LocationProvider = LocationProvider;
+LocationProvider.defaultProps = {
+  history: _history.globalHistory
+};
+"development" !== "production" ? LocationProvider.propTypes = {
+  history: _propTypes.default.object.isRequired
+} : void 0;
+
+var ServerLocation = function ServerLocation(_ref2) {
+  var url = _ref2.url,
+      children = _ref2.children;
+  return _react.default.createElement(LocationContext.Provider, {
+    value: {
+      location: {
+        pathname: url,
+        search: "",
+        hash: ""
+      },
+      navigate: function navigate() {
+        throw new Error("You can't call navigate on the server.");
+      }
+    }
+  }, children);
+}; ////////////////////////////////////////////////////////////////////////////////
+// Sets baseuri and basepath for nested routers and links
+
+
+exports.ServerLocation = ServerLocation;
+var BaseContext = createNamedContext("Base", {
+  baseuri: "/",
+  basepath: "/"
+}); ////////////////////////////////////////////////////////////////////////////////
+// The main event, welcome to the show everybody.
+
+var Router = function Router(props) {
+  return _react.default.createElement(BaseContext.Consumer, null, function (baseContext) {
+    return _react.default.createElement(Location, null, function (locationContext) {
+      return _react.default.createElement(RouterImpl, _extends({}, baseContext, locationContext, props));
+    });
+  });
+};
+
+exports.Router = Router;
+
+var RouterImpl = function (_React$PureComponent) {
+  _inherits(RouterImpl, _React$PureComponent);
+
+  function RouterImpl() {
+    _classCallCheck(this, RouterImpl);
+
+    return _possibleConstructorReturn(this, _React$PureComponent.apply(this, arguments));
+  }
+
+  RouterImpl.prototype.render = function render() {
+    var _props = this.props,
+        location = _props.location,
+        _navigate2 = _props.navigate,
+        basepath = _props.basepath,
+        primary = _props.primary,
+        children = _props.children,
+        baseuri = _props.baseuri,
+        _props$component = _props.component,
+        component = _props$component === undefined ? "div" : _props$component,
+        domProps = _objectWithoutProperties(_props, ["location", "navigate", "basepath", "primary", "children", "baseuri", "component"]);
+
+    var routes = _react.default.Children.map(children, createRoute(basepath));
+
+    var pathname = location.pathname;
+    var match = (0, _utils.pick)(routes, pathname);
+
+    if (match) {
+      var params = match.params,
+          uri = match.uri,
+          route = match.route,
+          element = match.route.value; // remove the /* from the end for child routes relative paths
+
+      basepath = route.default ? basepath : route.path.replace(/\*$/, "");
+
+      var props = _extends({}, params, {
+        uri: uri,
+        location: location,
+        navigate: function navigate(to, options) {
+          return _navigate2((0, _utils.resolve)(to, uri), options);
+        }
+      });
+
+      var clone = _react.default.cloneElement(element, props, element.props.children ? _react.default.createElement(Router, {
+        primary: primary
+      }, element.props.children) : undefined); // using 'div' for < 16.3 support
+
+
+      var FocusWrapper = primary ? FocusHandler : component; // don't pass any props to 'div'
+
+      var wrapperProps = primary ? _extends({
+        uri: uri,
+        location: location,
+        component: component
+      }, domProps) : domProps;
+      return _react.default.createElement(BaseContext.Provider, {
+        value: {
+          baseuri: uri,
+          basepath: basepath
+        }
+      }, _react.default.createElement(FocusWrapper, wrapperProps, clone));
+    } else {
+      // Not sure if we want this, would require index routes at every level
+      // warning(
+      //   false,
+      //   `<Router basepath="${basepath}">\n\nNothing matched:\n\t${
+      //     location.pathname
+      //   }\n\nPaths checked: \n\t${routes
+      //     .map(route => route.path)
+      //     .join(
+      //       "\n\t"
+      //     )}\n\nTo get rid of this warning, add a default NotFound component as child of Router:
+      //   \n\tlet NotFound = () => <div>Not Found!</div>
+      //   \n\t<Router>\n\t  <NotFound default/>\n\t  {/* ... */}\n\t</Router>`
+      // );
+      return null;
+    }
+  };
+
+  return RouterImpl;
+}(_react.default.PureComponent);
+
+RouterImpl.defaultProps = {
+  primary: true
+};
+var FocusContext = createNamedContext("Focus");
+
+var FocusHandler = function FocusHandler(_ref3) {
+  var uri = _ref3.uri,
+      location = _ref3.location,
+      component = _ref3.component,
+      domProps = _objectWithoutProperties(_ref3, ["uri", "location", "component"]);
+
+  return _react.default.createElement(FocusContext.Consumer, null, function (requestFocus) {
+    return _react.default.createElement(FocusHandlerImpl, _extends({}, domProps, {
+      component: component,
+      requestFocus: requestFocus,
+      uri: uri,
+      location: location
+    }));
+  });
+}; // don't focus on initial render
+
+
+var initialRender = true;
+var focusHandlerCount = 0;
+
+var FocusHandlerImpl = function (_React$Component2) {
+  _inherits(FocusHandlerImpl, _React$Component2);
+
+  function FocusHandlerImpl() {
+    var _temp2, _this4, _ret2;
+
+    _classCallCheck(this, FocusHandlerImpl);
+
+    for (var _len2 = arguments.length, args = Array(_len2), _key2 = 0; _key2 < _len2; _key2++) {
+      args[_key2] = arguments[_key2];
+    }
+
+    return _ret2 = (_temp2 = (_this4 = _possibleConstructorReturn(this, _React$Component2.call.apply(_React$Component2, [this].concat(args))), _this4), _this4.state = {}, _this4.requestFocus = function (node) {
+      if (!_this4.state.shouldFocus) {
+        node.focus();
+      }
+    }, _temp2), _possibleConstructorReturn(_this4, _ret2);
+  }
+
+  FocusHandlerImpl.getDerivedStateFromProps = function getDerivedStateFromProps(nextProps, prevState) {
+    var initial = prevState.uri == null;
+
+    if (initial) {
+      return _extends({
+        shouldFocus: true
+      }, nextProps);
+    } else {
+      var myURIChanged = nextProps.uri !== prevState.uri;
+      var navigatedUpToMe = prevState.location.pathname !== nextProps.location.pathname && nextProps.location.pathname === nextProps.uri;
+      return _extends({
+        shouldFocus: myURIChanged || navigatedUpToMe
+      }, nextProps);
+    }
+  };
+
+  FocusHandlerImpl.prototype.componentDidMount = function componentDidMount() {
+    focusHandlerCount++;
+    this.focus();
+  };
+
+  FocusHandlerImpl.prototype.componentWillUnmount = function componentWillUnmount() {
+    focusHandlerCount--;
+
+    if (focusHandlerCount === 0) {
+      initialRender = true;
+    }
+  };
+
+  FocusHandlerImpl.prototype.componentDidUpdate = function componentDidUpdate(prevProps, prevState) {
+    if (prevProps.location !== this.props.location && this.state.shouldFocus) {
+      this.focus();
+    }
+  };
+
+  FocusHandlerImpl.prototype.focus = function focus() {
+    if ("development" === "test") {
+      // getting cannot read property focus of null in the tests
+      // and that bit of global `initialRender` state causes problems
+      // should probably figure it out!
+      return;
+    }
+
+    var requestFocus = this.props.requestFocus;
+
+    if (requestFocus) {
+      requestFocus(this.node);
+    } else {
+      if (initialRender) {
+        initialRender = false;
+      } else {
+        // React polyfills [autofocus] and it fires earlier than cDM,
+        // so we were stealing focus away, this line prevents that.
+        if (!this.node.contains(document.activeElement)) {
+          this.node.focus();
+        }
+      }
+    }
+  };
+
+  FocusHandlerImpl.prototype.render = function render() {
+    var _this5 = this;
+
+    var _props2 = this.props,
+        children = _props2.children,
+        style = _props2.style,
+        requestFocus = _props2.requestFocus,
+        _props2$role = _props2.role,
+        role = _props2$role === undefined ? "group" : _props2$role,
+        _props2$component = _props2.component,
+        Comp = _props2$component === undefined ? "div" : _props2$component,
+        uri = _props2.uri,
+        location = _props2.location,
+        domProps = _objectWithoutProperties(_props2, ["children", "style", "requestFocus", "role", "component", "uri", "location"]);
+
+    return _react.default.createElement(Comp, _extends({
+      style: _extends({
+        outline: "none"
+      }, style),
+      tabIndex: "-1",
+      role: role,
+      ref: function ref(n) {
+        return _this5.node = n;
+      }
+    }, domProps), _react.default.createElement(FocusContext.Provider, {
+      value: this.requestFocus
+    }, this.props.children));
+  };
+
+  return FocusHandlerImpl;
+}(_react.default.Component);
+
+(0, _reactLifecyclesCompat.polyfill)(FocusHandlerImpl);
+
+var k = function k() {}; ////////////////////////////////////////////////////////////////////////////////
+
+
+var forwardRef = _react.default.forwardRef;
+
+if (typeof forwardRef === "undefined") {
+  forwardRef = function forwardRef(C) {
+    return C;
+  };
+}
+
+var Link = forwardRef(function (_ref4, ref) {
+  var innerRef = _ref4.innerRef,
+      props = _objectWithoutProperties(_ref4, ["innerRef"]);
+
+  return _react.default.createElement(BaseContext.Consumer, null, function (_ref5) {
+    var basepath = _ref5.basepath,
+        baseuri = _ref5.baseuri;
+    return _react.default.createElement(Location, null, function (_ref6) {
+      var location = _ref6.location,
+          navigate = _ref6.navigate;
+
+      var to = props.to,
+          state = props.state,
+          replace = props.replace,
+          _props$getProps = props.getProps,
+          getProps = _props$getProps === undefined ? k : _props$getProps,
+          anchorProps = _objectWithoutProperties(props, ["to", "state", "replace", "getProps"]);
+
+      var href = (0, _utils.resolve)(to, baseuri);
+      var isCurrent = location.pathname === href;
+      var isPartiallyCurrent = (0, _utils.startsWith)(location.pathname, href);
+      return _react.default.createElement("a", _extends({
+        ref: ref || innerRef,
+        "aria-current": isCurrent ? "page" : undefined
+      }, anchorProps, getProps({
+        isCurrent: isCurrent,
+        isPartiallyCurrent: isPartiallyCurrent,
+        href: href,
+        location: location
+      }), {
+        href: href,
+        onClick: function onClick(event) {
+          if (anchorProps.onClick) anchorProps.onClick(event);
+
+          if (shouldNavigate(event)) {
+            event.preventDefault();
+            navigate(href, {
+              state: state,
+              replace: replace
+            });
+          }
+        }
+      }));
+    });
+  });
+}); ////////////////////////////////////////////////////////////////////////////////
+
+exports.Link = Link;
+
+function RedirectRequest(uri) {
+  this.uri = uri;
+}
+
+var isRedirect = function isRedirect(o) {
+  return o instanceof RedirectRequest;
+};
+
+exports.isRedirect = isRedirect;
+
+var redirectTo = function redirectTo(to) {
+  throw new RedirectRequest(to);
+};
+
+exports.redirectTo = redirectTo;
+
+var RedirectImpl = function (_React$Component3) {
+  _inherits(RedirectImpl, _React$Component3);
+
+  function RedirectImpl() {
+    _classCallCheck(this, RedirectImpl);
+
+    return _possibleConstructorReturn(this, _React$Component3.apply(this, arguments));
+  } // Support React < 16 with this hook
+
+
+  RedirectImpl.prototype.componentDidMount = function componentDidMount() {
+    var _props3 = this.props,
+        navigate = _props3.navigate,
+        to = _props3.to,
+        from = _props3.from,
+        _props3$replace = _props3.replace,
+        replace = _props3$replace === undefined ? true : _props3$replace,
+        state = _props3.state,
+        noThrow = _props3.noThrow,
+        props = _objectWithoutProperties(_props3, ["navigate", "to", "from", "replace", "state", "noThrow"]);
+
+    Promise.resolve().then(function () {
+      navigate((0, _utils.insertParams)(to, props), {
+        replace: replace,
+        state: state
+      });
+    });
+  };
+
+  RedirectImpl.prototype.render = function render() {
+    var _props4 = this.props,
+        navigate = _props4.navigate,
+        to = _props4.to,
+        from = _props4.from,
+        replace = _props4.replace,
+        state = _props4.state,
+        noThrow = _props4.noThrow,
+        props = _objectWithoutProperties(_props4, ["navigate", "to", "from", "replace", "state", "noThrow"]);
+
+    if (!noThrow) redirectTo((0, _utils.insertParams)(to, props));
+    return null;
+  };
+
+  return RedirectImpl;
+}(_react.default.Component);
+
+var Redirect = function Redirect(props) {
+  return _react.default.createElement(Location, null, function (locationContext) {
+    return _react.default.createElement(RedirectImpl, _extends({}, locationContext, props));
+  });
+};
+
+exports.Redirect = Redirect;
+"development" !== "production" ? Redirect.propTypes = {
+  from: _propTypes.default.string,
+  to: _propTypes.default.string.isRequired
+} : void 0; ////////////////////////////////////////////////////////////////////////////////
+
+var Match = function Match(_ref7) {
+  var path = _ref7.path,
+      children = _ref7.children;
+  return _react.default.createElement(BaseContext.Consumer, null, function (_ref8) {
+    var baseuri = _ref8.baseuri;
+    return _react.default.createElement(Location, null, function (_ref9) {
+      var navigate = _ref9.navigate,
+          location = _ref9.location;
+      var resolvedPath = (0, _utils.resolve)(path, baseuri);
+      var result = (0, _utils.match)(resolvedPath, location.pathname);
+      return children({
+        navigate: navigate,
+        location: location,
+        match: result ? _extends({}, result.params, {
+          uri: result.uri,
+          path: path
+        }) : null
+      });
+    });
+  });
+}; ////////////////////////////////////////////////////////////////////////////////
+// Junk
+
+
+exports.Match = Match;
+
+var stripSlashes = function stripSlashes(str) {
+  return str.replace(/(^\/+|\/+$)/g, "");
+};
+
+var createRoute = function createRoute(basepath) {
+  return function (element) {
+    if (!element) {
+      return null;
+    }
+
+    !(element.props.path || element.props.default || element.type === Redirect) ? "development" !== "production" ? (0, _invariant.default)(false, "<Router>: Children of <Router> must have a `path` or `default` prop, or be a `<Redirect>`. None found on element type `" + element.type + "`") : (0, _invariant.default)(false) : void 0;
+    !!(element.type === Redirect && (!element.props.from || !element.props.to)) ? "development" !== "production" ? (0, _invariant.default)(false, "<Redirect from=\"" + element.props.from + " to=\"" + element.props.to + "\"/> requires both \"from\" and \"to\" props when inside a <Router>.") : (0, _invariant.default)(false) : void 0;
+    !!(element.type === Redirect && !(0, _utils.validateRedirect)(element.props.from, element.props.to)) ? "development" !== "production" ? (0, _invariant.default)(false, "<Redirect from=\"" + element.props.from + " to=\"" + element.props.to + "\"/> has mismatched dynamic segments, ensure both paths have the exact same dynamic segments.") : (0, _invariant.default)(false) : void 0;
+
+    if (element.props.default) {
+      return {
+        value: element,
+        default: true
+      };
+    }
+
+    var elementPath = element.type === Redirect ? element.props.from : element.props.path;
+    var path = elementPath === "/" ? basepath : stripSlashes(basepath) + "/" + stripSlashes(elementPath);
+    return {
+      value: element,
+      default: element.props.default,
+      path: element.props.children ? stripSlashes(path) + "/*" : path
+    };
+  };
+};
+
+var shouldNavigate = function shouldNavigate(event) {
+  return !event.defaultPrevented && event.button === 0 && !(event.metaKey || event.altKey || event.ctrlKey || event.shiftKey);
+}; ////////////////////////////////////////////////////////////////////////
+},{"react":"../node_modules/react/index.js","warning":"../node_modules/warning/browser.js","prop-types":"../node_modules/prop-types/index.js","invariant":"../node_modules/invariant/browser.js","create-react-context":"../node_modules/create-react-context/lib/index.js","react-lifecycles-compat":"../node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js","./lib/utils":"../node_modules/@reach/router/es/lib/utils.js","./lib/history":"../node_modules/@reach/router/es/lib/history.js"}],"components/FolderList/FolderList.tsx":[function(require,module,exports) {
 "use strict";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -32971,6 +31479,8 @@ Object.defineProperty(exports, "__esModule", {
 
 var react_1 = __importDefault(require("react"));
 
+var router_1 = require("@reach/router");
+
 var FolderList =
 /*#__PURE__*/
 function (_react_1$default$Comp) {
@@ -32998,21 +31508,21 @@ function (_react_1$default$Comp) {
         return item.links;
       });
 
-      if (typeCode === 2) {
+      if (typeCode === 2 && kids) {
         return react_1.default.createElement(react_1.default.Fragment, {
           key: "fragment-" + guid
-        }, react_1.default.createElement("li", {
-          className: "menu-item"
-        }, react_1.default.createElement("a", {
+        }, react_1.default.createElement(router_1.Link, {
+          className: "navbar-item",
+          to: "/" + parent + "/" + title,
           id: "link=" + guid,
           onClick: function onClick() {
             handleClick(_this.props);
           }
-        }, title)), kids && kids.map(function (kid) {
-          return react_1.default.createElement("li", {
+        }, title), react_1.default.createElement("div", {
+          className: "navbar-dropdown"
+        }, kids && kids.map(function (kid) {
+          return react_1.default.createElement(react_1.default.Fragment, {
             key: "nested-li-folder-" + kid.guid
-          }, react_1.default.createElement("ul", {
-            className: "menu-list"
           }, react_1.default.createElement(FolderList, {
             guid: kid.guid,
             handleClick: handleClick,
@@ -33020,8 +31530,17 @@ function (_react_1$default$Comp) {
             parent: title,
             title: kid.title,
             typeCode: kid.typeCode
-          })));
-        }));
+          }));
+        })));
+      } else if (typeCode === 1) {
+        return react_1.default.createElement(router_1.Link, {
+          className: "navbar-item",
+          to: "/" + parent + "/" + title,
+          id: "link=" + guid,
+          onClick: function onClick() {
+            handleClick(_this.props);
+          }
+        }, title);
       } else {
         return react_1.default.createElement(react_1.default.Fragment, {
           key: guid
@@ -33044,7 +31563,7 @@ function (_react_1$default$Comp) {
 }(react_1.default.Component);
 
 exports.default = FolderList;
-},{"react":"../node_modules/react/index.js"}],"components/FolderList/index.ts":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","@reach/router":"../node_modules/@reach/router/es/index.js"}],"components/FolderList/index.ts":[function(require,module,exports) {
 "use strict";
 
 var __importDefault = this && this.__importDefault || function (mod) {
@@ -33060,8 +31579,26 @@ Object.defineProperty(exports, "__esModule", {
 var FolderList_1 = __importDefault(require("./FolderList"));
 
 exports.default = FolderList_1.default;
-},{"./FolderList":"components/FolderList/FolderList.tsx"}],"components/Folders/Folders.tsx":[function(require,module,exports) {
+},{"./FolderList":"components/FolderList/FolderList.tsx"}],"components/Folders/FoldersDropdown.tsx":[function(require,module,exports) {
 "use strict";
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
 var __importDefault = this && this.__importDefault || function (mod) {
   return mod && mod.__esModule ? mod : {
@@ -33077,27 +31614,144 @@ var react_1 = __importDefault(require("react"));
 
 var FolderList_1 = __importDefault(require("../FolderList"));
 
-exports.Folders = function (props) {
-  return react_1.default.createElement("div", {
-    className: "menu column is-one-quarter"
-  }, props.links.map(function (folder) {
-    return react_1.default.createElement(react_1.default.Fragment, {
-      key: folder.guid
-    }, react_1.default.createElement("p", {
-      className: "menu-label"
-    }, folder.title), react_1.default.createElement("ul", {
-      className: "menu-list"
-    }, react_1.default.createElement(FolderList_1.default, {
-      title: folder.title,
-      parent: folder.title,
-      links: folder.links,
-      guid: folder.guid,
-      handleClick: props.handleClick,
-      typeCode: folder.typeCode
-    })));
-  }));
+var FoldersDropdown =
+/*#__PURE__*/
+function (_react_1$default$Comp) {
+  _inherits(FoldersDropdown, _react_1$default$Comp);
+
+  function FoldersDropdown() {
+    var _this;
+
+    _classCallCheck(this, FoldersDropdown);
+
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(FoldersDropdown).apply(this, arguments));
+    _this.state = {
+      showMenu: false
+    };
+
+    _this.toggleNav = function () {
+      var visibility = _this.state.showMenu === false ? true : false;
+
+      _this.setState({
+        showMenu: visibility
+      });
+    };
+
+    return _this;
+  }
+
+  _createClass(FoldersDropdown, [{
+    key: "render",
+    value: function render() {
+      return react_1.default.createElement("div", {
+        className: "navbar-item has-dropdown " + (this.state.showMenu ? "is-active" : "")
+      }, react_1.default.createElement("a", {
+        className: "navbar-link",
+        onClick: this.toggleNav
+      }, this.props.folder.title), react_1.default.createElement("div", {
+        className: "navbar-dropdown"
+      }, react_1.default.createElement(FolderList_1.default, {
+        title: this.props.folder.title,
+        parent: this.props.folder.title,
+        links: this.props.folder.links,
+        guid: this.props.folder.guid,
+        handleClick: this.props.handleClick,
+        typeCode: this.props.folder.typeCode
+      })));
+    }
+  }]);
+
+  return FoldersDropdown;
+}(react_1.default.Component);
+
+exports.default = FoldersDropdown; // https://stackoverflow.com/questions/42630473/react-toggle-class-onclick
+// https://blog.campvanilla.com/reactjs-dropdown-menus-b6e06ae3a8fe
+},{"react":"../node_modules/react/index.js","../FolderList":"components/FolderList/index.ts"}],"components/Folders/Folders.tsx":[function(require,module,exports) {
+"use strict";
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
 };
-},{"react":"../node_modules/react/index.js","../FolderList":"components/FolderList/index.ts"}],"actions.ts":[function(require,module,exports) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var react_1 = __importDefault(require("react"));
+
+var FoldersDropdown_1 = __importDefault(require("./FoldersDropdown"));
+
+var Folders =
+/*#__PURE__*/
+function (_react_1$default$Comp) {
+  _inherits(Folders, _react_1$default$Comp);
+
+  function Folders() {
+    _classCallCheck(this, Folders);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(Folders).apply(this, arguments));
+  }
+
+  _createClass(Folders, [{
+    key: "render",
+    value: function render() {
+      var _this = this;
+
+      return react_1.default.createElement("nav", {
+        className: "navbar"
+      }, react_1.default.createElement("div", {
+        className: "navbar-brand"
+      }, react_1.default.createElement("a", {
+        role: "button",
+        className: "navbar-burger burger",
+        "aria-label": "menu",
+        "aria-expanded": "false",
+        "data-target": "navbarBasicExample"
+      }, react_1.default.createElement("span", {
+        "aria-hidden": "true"
+      }), react_1.default.createElement("span", {
+        "aria-hidden": "true"
+      }), react_1.default.createElement("span", {
+        "aria-hidden": "true"
+      }))), react_1.default.createElement("div", {
+        id: "navbarBasicExample",
+        className: "navbar-menu"
+      }, react_1.default.createElement("div", {
+        className: "navbar-start"
+      }, this.props.links.map(function (folder) {
+        return react_1.default.createElement(FoldersDropdown_1.default, {
+          folder: folder,
+          handleClick: _this.props.handleClick
+        });
+      }))));
+    }
+  }]);
+
+  return Folders;
+}(react_1.default.Component);
+
+exports.default = Folders;
+},{"react":"../node_modules/react/index.js","./FoldersDropdown":"components/Folders/FoldersDropdown.tsx"}],"actions.ts":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -33145,7 +31799,7 @@ var react_1 = __importDefault(require("react"));
 
 var react_redux_1 = require("react-redux");
 
-var Folders_1 = require("./Folders");
+var Folders_1 = __importDefault(require("./Folders"));
 
 var actions_1 = require("../../actions");
 
@@ -33163,7 +31817,7 @@ function (_react_1$default$Comp) {
   _createClass(FoldersContainer, [{
     key: "render",
     value: function render() {
-      return react_1.default.createElement(Folders_1.Folders, {
+      return react_1.default.createElement(Folders_1.default, {
         links: this.props.links,
         handleClick: this.props.handleClick
       });
@@ -33562,11 +32216,9 @@ function (_react_1$default$Comp) {
         className: "subtitle"
       }, "Last updated: 11.27.18"), react_1.default.createElement("p", null, "These are the resources that I've found most useful over the years."), react_1.default.createElement("p", null, "They cover a wide range of topics I've studied while deepening my knowledge and developing my skills.")))), react_1.default.createElement("div", {
         className: "notification"
-      }, react_1.default.createElement("p", null, "This site is currently in development as I reorganize and refine the presentation. It was built with React, Redux, and Bulma.")), react_1.default.createElement("section", {
+      }, react_1.default.createElement("p", null, "This site is currently in development as I reorganize and refine the presentation. It was built with React, Redux, and Bulma.")), react_1.default.createElement(Folders_1.default, null), react_1.default.createElement("section", {
         className: "section"
-      }, react_1.default.createElement("div", {
-        className: "columns"
-      }, react_1.default.createElement(Folders_1.default, null), react_1.default.createElement(Topic_1.default, null)))));
+      }, react_1.default.createElement(Topic_1.default, null))));
     }
   }]);
 
@@ -33629,7 +32281,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "34717" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "33325" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

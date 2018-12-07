@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "@reach/router";
 import { FolderListProps } from "../../interfaces";
 
 class FolderList extends React.Component<FolderListProps, {}> {
@@ -8,24 +9,23 @@ class FolderList extends React.Component<FolderListProps, {}> {
     const kids = links.filter(item => {
       return item.links;
     });
-    if (typeCode === 2) {
+    if (typeCode === 2 && kids) {
       return (
         <React.Fragment key={"fragment-" + guid}>
-          <li className="menu-item">
-            <a
-              id={"link=" + guid}
-              onClick={() => {
-                handleClick(this.props);
-              }}
-            >
-              {title}
-            </a>
-          </li>
-
-          {kids &&
-            kids.map(kid => (
-              <li key={"nested-li-folder-" + kid.guid}>
-                <ul className="menu-list">
+          <Link
+            className="navbar-item"
+            to={"/" + parent + "/" + title}
+            id={"link=" + guid}
+            onClick={() => {
+              handleClick(this.props);
+            }}
+          >
+            {title}
+          </Link>
+          <div className="navbar-dropdown">
+            {kids &&
+              kids.map(kid => (
+                <React.Fragment key={"nested-li-folder-" + kid.guid}>
                   <FolderList
                     guid={kid.guid}
                     handleClick={handleClick}
@@ -34,10 +34,23 @@ class FolderList extends React.Component<FolderListProps, {}> {
                     title={kid.title}
                     typeCode={kid.typeCode}
                   />
-                </ul>
-              </li>
-            ))}
+                </React.Fragment>
+              ))}
+          </div>
         </React.Fragment>
+      );
+    } else if (typeCode === 1) {
+      return (
+        <Link
+          className="navbar-item"
+          to={"/" + parent + "/" + title}
+          id={"link=" + guid}
+          onClick={() => {
+            handleClick(this.props);
+          }}
+        >
+          {title}
+        </Link>
       );
     } else {
       return (
