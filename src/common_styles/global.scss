@@ -19,3 +19,15 @@ button {
 .navbar-item.is-hoverable:hover .navbar-dropdown {
   display: block;
 }
+
+.navbar-dropdown div {
+  padding-left: 10px;
+
+  div {
+    padding-left: 25px;
+  }
+}
+.navbar-dropdown .has-text-grey-dark {
+  border-left: 1px solid black;
+  margin-left: 15px;
+}
