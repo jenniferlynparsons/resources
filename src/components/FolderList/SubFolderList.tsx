@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "@reach/router";
 import { FolderListProps } from "../../interfaces";
-import SubFolderList from "./SubFolderList";
+import { SubFolderList } from "./SubFolderList";
 
-class FolderList extends React.Component<FolderListProps, {}> {
+class SubFolderList extends React.Component<FolderListProps, {}> {
   render() {
     const { title, links, handleClick, parent, typeCode } = this.props;
     const guid = this.props.links[0].guid;
@@ -15,7 +15,7 @@ class FolderList extends React.Component<FolderListProps, {}> {
       return (
         <React.Fragment key={"fragment-" + guid}>
           <Link
-            className="navbar-item"
+            className="navbar-item has-text-grey-dark"
             to={"/" + parent + "/" + title}
             id={"link=" + guid}
             onClick={() => {
@@ -39,14 +39,13 @@ class FolderList extends React.Component<FolderListProps, {}> {
                 </div>
               </React.Fragment>
             ))}
-          <hr className="navbar-divider" />
         </React.Fragment>
       );
     } else if (typeCode === 2) {
       return (
         <React.Fragment key={"fragment-" + guid}>
           <Link
-            className="navbar-item"
+            className="navbar-item has-text-grey"
             to={"/" + parent + "/" + title}
             id={"link=" + guid}
             onClick={() => {
@@ -55,7 +54,6 @@ class FolderList extends React.Component<FolderListProps, {}> {
           >
             {title}
           </Link>
-          <hr className="navbar-divider" />
         </React.Fragment>
       );
     } else {
@@ -63,7 +61,7 @@ class FolderList extends React.Component<FolderListProps, {}> {
         <React.Fragment key={guid}>
           {kids &&
             kids.map(kid => (
-              <FolderList
+              <SubFolderList
                 guid={kid.guid}
                 handleClick={handleClick}
                 key={kid.guid}
@@ -79,4 +77,4 @@ class FolderList extends React.Component<FolderListProps, {}> {
   }
 }
 
-export default FolderList;
+export default SubFolderList;
