@@ -31507,8 +31507,9 @@ function (_react_1$default$Comp) {
       var kids = links.filter(function (item) {
         return item.links;
       });
+      console.log(kids.length);
 
-      if (typeCode === 2 && kids) {
+      if (typeCode === 2 && kids.length !== 0) {
         return react_1.default.createElement(react_1.default.Fragment, {
           key: "fragment-" + guid
         }, react_1.default.createElement(router_1.Link, {
@@ -31518,29 +31519,31 @@ function (_react_1$default$Comp) {
           onClick: function onClick() {
             handleClick(_this.props);
           }
-        }, title), react_1.default.createElement("div", {
-          className: "navbar-dropdown"
-        }, kids && kids.map(function (kid) {
+        }, title), kids && kids.map(function (kid) {
           return react_1.default.createElement(react_1.default.Fragment, {
             key: "nested-li-folder-" + kid.guid
-          }, react_1.default.createElement(FolderList, {
+          }, react_1.default.createElement("div", null, react_1.default.createElement(FolderList, {
             guid: kid.guid,
             handleClick: handleClick,
             links: kid.links,
             parent: title,
             title: kid.title,
             typeCode: kid.typeCode
-          }));
-        })));
-      } else if (typeCode === 1) {
-        return react_1.default.createElement(router_1.Link, {
-          className: "navbar-item",
+          })));
+        }), react_1.default.createElement("hr", {
+          className: "navbar-divider"
+        }));
+      } else if (typeCode === 2) {
+        return react_1.default.createElement(react_1.default.Fragment, {
+          key: "fragment-" + guid
+        }, react_1.default.createElement(router_1.Link, {
+          className: "navbar-item has-text-info",
           to: "/" + parent + "/" + title,
           id: "link=" + guid,
           onClick: function onClick() {
             handleClick(_this.props);
           }
-        }, title);
+        }, title));
       } else {
         return react_1.default.createElement(react_1.default.Fragment, {
           key: guid

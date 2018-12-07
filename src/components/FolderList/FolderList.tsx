@@ -9,7 +9,8 @@ class FolderList extends React.Component<FolderListProps, {}> {
     const kids = links.filter(item => {
       return item.links;
     });
-    if (typeCode === 2 && kids) {
+    console.log(kids.length);
+    if (typeCode === 2 && kids.length !== 0) {
       return (
         <React.Fragment key={"fragment-" + guid}>
           <Link
@@ -22,10 +23,10 @@ class FolderList extends React.Component<FolderListProps, {}> {
           >
             {title}
           </Link>
-          <div className="navbar-dropdown">
-            {kids &&
-              kids.map(kid => (
-                <React.Fragment key={"nested-li-folder-" + kid.guid}>
+          {kids &&
+            kids.map(kid => (
+              <React.Fragment key={"nested-li-folder-" + kid.guid}>
+                <div>
                   <FolderList
                     guid={kid.guid}
                     handleClick={handleClick}
@@ -34,23 +35,26 @@ class FolderList extends React.Component<FolderListProps, {}> {
                     title={kid.title}
                     typeCode={kid.typeCode}
                   />
-                </React.Fragment>
-              ))}
-          </div>
+                </div>
+              </React.Fragment>
+            ))}
+          <hr className="navbar-divider" />
         </React.Fragment>
       );
-    } else if (typeCode === 1) {
+    } else if (typeCode === 2) {
       return (
-        <Link
-          className="navbar-item"
-          to={"/" + parent + "/" + title}
-          id={"link=" + guid}
-          onClick={() => {
-            handleClick(this.props);
-          }}
-        >
-          {title}
-        </Link>
+        <React.Fragment key={"fragment-" + guid}>
+          <Link
+            className="navbar-item has-text-info"
+            to={"/" + parent + "/" + title}
+            id={"link=" + guid}
+            onClick={() => {
+              handleClick(this.props);
+            }}
+          >
+            {title}
+          </Link>
+        </React.Fragment>
       );
     } else {
       return (
