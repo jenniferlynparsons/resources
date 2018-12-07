@@ -1,27 +1,39 @@
 import React from "react";
 import { FolderProps } from "../../interfaces";
-import FolderList from "../FolderList";
+import FoldersDropdown from "./FoldersDropdown";
 
-export const Folders = (props: FolderProps) => {
-  return (
-    <div className="menu column is-one-quarter">
-      {props.links.map(folder => {
-        return (
-          <React.Fragment key={folder.guid}>
-            <p className="menu-label">{folder.title}</p>
-            <ul className="menu-list">
-              <FolderList
-                title={folder.title}
-                parent={folder.title}
-                links={folder.links}
-                guid={folder.guid}
-                handleClick={props.handleClick}
-                typeCode={folder.typeCode}
-              />
-            </ul>
-          </React.Fragment>
-        );
-      })}
-    </div>
-  );
-};
+class Folders extends React.Component<FolderProps, {}> {
+  render() {
+    return (
+      <nav className="navbar">
+        <div className="navbar-brand">
+          <a
+            role="button"
+            className="navbar-burger burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+          >
+            <span aria-hidden="true" />
+            <span aria-hidden="true" />
+            <span aria-hidden="true" />
+          </a>
+        </div>
+        <div id="navbarBasicExample" className="navbar-menu">
+          <div className="navbar-start">
+            {this.props.links.map(folder => {
+              return (
+                <FoldersDropdown
+                  folder={folder}
+                  handleClick={this.props.handleClick}
+                />
+              );
+            })}
+          </div>
+        </div>
+      </nav>
+    );
+  }
+}
+
+export default Folders;

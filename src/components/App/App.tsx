@@ -33,11 +33,9 @@ class App extends React.Component<{}, {}> {
               the presentation. It was built with React, Redux, and Bulma.
             </p>
           </div>
+          <Folders />
           <section className="section">
-            <div className="columns">
-              <Folders />
-              <Topic />
-            </div>
+            <Topic />
           </section>
         </div>
       </Provider>

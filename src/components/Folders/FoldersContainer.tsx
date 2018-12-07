@@ -1,7 +1,7 @@
 import React from "react";
 import { FoldersContainerProps, AppState } from "../../interfaces";
 import { connect } from "react-redux";
-import { Folders } from "./Folders";
+import Folders from "./Folders";
 import { filterLinks } from "../../actions";
 
 class FoldersContainer extends React.Component<

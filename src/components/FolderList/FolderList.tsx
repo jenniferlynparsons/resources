@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "@reach/router";
 import { FolderListProps } from "../../interfaces";
 
 class FolderList extends React.Component<FolderListProps, {}> {
@@ -8,24 +9,24 @@ class FolderList extends React.Component<FolderListProps, {}> {
     const kids = links.filter(item => {
       return item.links;
     });
-    if (typeCode === 2) {
+    console.log(kids.length);
+    if (typeCode === 2 && kids.length !== 0) {
       return (
         <React.Fragment key={"fragment-" + guid}>
-          <li className="menu-item">
-            <a
-              id={"link=" + guid}
-              onClick={() => {
-                handleClick(this.props);
-              }}
-            >
-              {title}
-            </a>
-          </li>
-
+          <Link
+            className="navbar-item"
+            to={"/" + parent + "/" + title}
+            id={"link=" + guid}
+            onClick={() => {
+              handleClick(this.props);
+            }}
+          >
+            {title}
+          </Link>
           {kids &&
             kids.map(kid => (
-              <li key={"nested-li-folder-" + kid.guid}>
-                <ul className="menu-list">
+              <React.Fragment key={"nested-li-folder-" + kid.guid}>
+                <div>
                   <FolderList
                     guid={kid.guid}
                     handleClick={handleClick}
@@ -34,9 +35,25 @@ class FolderList extends React.Component<FolderListProps, {}> {
                     title={kid.title}
                     typeCode={kid.typeCode}
                   />
-                </ul>
-              </li>
+                </div>
+              </React.Fragment>
             ))}
+          <hr className="navbar-divider" />
+        </React.Fragment>
+      );
+    } else if (typeCode === 2) {
+      return (
+        <React.Fragment key={"fragment-" + guid}>
+          <Link
+            className="navbar-item has-text-info"
+            to={"/" + parent + "/" + title}
+            id={"link=" + guid}
+            onClick={() => {
+              handleClick(this.props);
+            }}
+          >
+            {title}
+          </Link>
         </React.Fragment>
       );
     } else {

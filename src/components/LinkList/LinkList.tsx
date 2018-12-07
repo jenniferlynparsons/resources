@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "@reach/router";
 import { LinkListProps } from "../../interfaces";
 
 class LinkList extends React.Component<LinkListProps, {}> {
