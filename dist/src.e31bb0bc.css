@@ -8983,10 +8983,5 @@ button {
   padding-left: 10px;
 }
 .navbar-dropdown div div {
-  padding-left: 25px;
-}
-
-.navbar-dropdown .has-text-grey-dark {
-  border-left: 1px solid black;
-  margin-left: 15px;
+  padding-left: 15px;
 }

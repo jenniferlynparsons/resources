@@ -29,9 +29,7 @@ class App extends React.Component<{}, {}> {
           </section>
           <Folders />
           <section className="section">
-            <Router>
-              <Topic path=":linkPath" />
-            </Router>
+              <Topic />
           </section>
         </div>
       </Provider>

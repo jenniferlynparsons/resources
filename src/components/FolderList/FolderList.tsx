@@ -19,22 +19,10 @@ class FolderList extends React.Component<FolderListProps, {}> {
     });
 
     if (typeCode === 2 && kids.length !== 0) {
-      return (
-        <React.Fragment key={"fragment-" + guid}>
+      return <React.Fragment key={"fragment-" + guid}>
           <hr className="navbar-divider" />
-          <Link
-            className="navbar-item"
-            to={"/" + parent + "/" + title}
-            id={"link=" + guid}
-            onClick={() => {
-              handleClick(this.props);
-              toggleNav();
-            }}
-          >
-            {title}
-          </Link>
-          {kids &&
-            kids.map(kid => (
+          <p className="navbar-item has-text-grey">{title}</p>
+          {kids && kids.map(kid => (
               <React.Fragment key={"nested-li-folder-" + kid.guid}>
                 <div>
                   <SubFolderList
@@ -49,15 +37,13 @@ class FolderList extends React.Component<FolderListProps, {}> {
                 </div>
               </React.Fragment>
             ))}
-        </React.Fragment>
-      );
+        </React.Fragment>;
     } else if (typeCode === 2) {
       return (
         <React.Fragment key={"fragment-" + guid}>
           <hr className="navbar-divider" />
-          <Link
+          <a
             className="navbar-item"
-            to={"/" + parent + "/" + title}
             id={"link=" + guid}
             onClick={() => {
               handleClick(this.props);
@@ -65,7 +51,7 @@ class FolderList extends React.Component<FolderListProps, {}> {
             }}
           >
             {title}
-          </Link>
+          </a>
         </React.Fragment>
       );
     } else {

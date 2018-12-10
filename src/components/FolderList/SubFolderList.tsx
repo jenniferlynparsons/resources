@@ -20,9 +20,8 @@ class SubFolderList extends React.Component<FolderListProps, {}> {
     if (typeCode === 2 && kids.length !== 0) {
       return (
         <React.Fragment key={"fragment-" + guid}>
-          <Link
-            className="navbar-item has-text-grey-dark"
-            to={"/" + parent + "/" + title}
+          <a
+            className="navbar-item"
             id={"link=" + guid}
             onClick={() => {
               handleClick(this.props);
@@ -30,7 +29,7 @@ class SubFolderList extends React.Component<FolderListProps, {}> {
             }}
           >
             {title}
-          </Link>
+          </a>
           {kids &&
             kids.map(kid => (
               <React.Fragment key={"nested-li-folder-" + kid.guid}>
@@ -52,9 +51,8 @@ class SubFolderList extends React.Component<FolderListProps, {}> {
     } else if (typeCode === 2) {
       return (
         <React.Fragment key={"fragment-" + guid}>
-          <Link
-            className="navbar-item has-text-grey"
-            to={"/" + parent + "/" + title}
+          <a
+            className="navbar-item"
             id={"link=" + guid}
             onClick={() => {
               handleClick(this.props);
@@ -62,7 +60,7 @@ class SubFolderList extends React.Component<FolderListProps, {}> {
             }}
           >
             {title}
-          </Link>
+          </a>
         </React.Fragment>
       );
     } else {
