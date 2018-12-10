@@ -20,10 +20,11 @@ class App extends React.Component<{}, {}> {
                 <p>
                   These are the resources that I've found most useful over the
                   years. They cover a wide range of topics I've studied while
-                  deepening my knowledge and developing my skills. This site is
-                  currently in development as I reorganize and refine the
-                  presentation. It was built with React, Redux, and Bulma.
-                </p>
+                  deepening my knowledge and developing my skills.</p>
+                <p> This site was built with React, Redux, and Bulma.
+                  It uses links exported from Firefox. Want to make your own link directory?</p>
+                  <a href="https://github.com/jenniferlynparsons/resources" class="button is-small">Fork the Repo</a>
+
               </div>
             </div>
           </section>
