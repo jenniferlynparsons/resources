@@ -48,3 +48,5 @@ Upload the contents of the `dist` folder to any static web hosting you like!
 - Implement routing for easy sharing of specific bookmark topics
 - Finish updating typescript types
 - Refine instructions
+- Refine mobile menu interaction
+- Increase test coverage
