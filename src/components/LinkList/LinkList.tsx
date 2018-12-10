@@ -3,15 +3,18 @@ import { Link } from "@reach/router";
 import { LinkListProps } from "../../interfaces";
 
 class LinkList extends React.Component<LinkListProps, {}> {
+  linkElement(linkID,linkURI, linkTitle) {
+    if (linkURI) {
+      return (<li key={linkID}><a href={linkURI}>{linkTitle}</a></li>);
+    } else {
+      return ""
+    }
+  }
   render() {
     return (
       <ul>
         {this.props.links.map(link => {
-          return (
-            <li key={link.id}>
-              <a href={link.uri}>{link.title}</a>
-            </li>
-          );
+          return this.linkElement(link.id link.uri, link.title)
         })}
       </ul>
     );

@@ -1,4 +1,5 @@
 import React from "react";
+import onClickOutside from "react-onclickoutside";
 import { FolderProps } from "../../interfaces";
 import FolderList from "../FolderList";
 
@@ -7,10 +8,15 @@ class FoldersDropdown extends React.Component<FolderProps, {}> {
     showMenu: false
   };
 
+  handleClickOutside() {
+    this.setState({ showMenu: false });
+  }
+
   toggleNav = () => {
-    var visibility = this.state.showMenu === false ? true : false;
+    const visibility = this.state.showMenu === false ? true : false;
     this.setState({ showMenu: visibility });
   };
+
   render() {
     return (
       <div
@@ -28,6 +34,8 @@ class FoldersDropdown extends React.Component<FolderProps, {}> {
             links={this.props.folder.links}
             guid={this.props.folder.guid}
             handleClick={this.props.handleClick}
+            toggleNav={this.toggleNav}
+            toggleNavbar={this.props.toggleNavBar}
             typeCode={this.props.folder.typeCode}
           />
         </div>
@@ -36,7 +44,7 @@ class FoldersDropdown extends React.Component<FolderProps, {}> {
   }
 }
 
-export default FoldersDropdown;
+export default onClickOutside(FoldersDropdown);
 
 // https://stackoverflow.com/questions/42630473/react-toggle-class-onclick
 // https://blog.campvanilla.com/reactjs-dropdown-menus-b6e06ae3a8fe

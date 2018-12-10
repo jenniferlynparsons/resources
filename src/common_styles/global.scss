@@ -2,9 +2,21 @@
   border-bottom: 1px 1px solid rgba(0, 0, 0, 0.12);
   border-top: 0;
   margin-bottom: 16px;
+  @media screen and (min-width: 1088px) {
+    .container {
+      padding-right: 40px;
+    }
+  }
 }
-footer {
-  margin-bottom: 0;
+@media screen and (min-width: 1088px) {
+  .navbar > .container .navbar-brand,
+  .container > .navbar .navbar-brand {
+    margin-left: 0;
+  }
+  .hero p{
+    max-width: 50%;
+    margin-bottom: 10px;
+  }
 }
 
 button {
@@ -13,6 +25,10 @@ button {
 
 .navbar-dropdown {
   display: none;
+
+  .navbar-divider:first-child {
+    display: none;
+  }
 }
 
 .navbar-item.is-active .navbar-dropdown,
@@ -24,10 +40,7 @@ button {
   padding-left: 10px;
 
   div {
-    padding-left: 25px;
+    padding-left: 15px;
   }
 }
-.navbar-dropdown .has-text-grey-dark {
-  border-left: 1px solid black;
-  margin-left: 15px;
-}
+
