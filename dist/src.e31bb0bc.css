@@ -8951,16 +8951,26 @@ label.panel-block:hover {
   border-top: 0;
   margin-bottom: 16px;
 }
-
-footer {
-  margin-bottom: 0;
+@media screen and (min-width: 1088px) {
+  .hero .container {
+    padding-right: 40px;
+  }
 }
 
+@media screen and (min-width: 1088px) {
+  .navbar > .container .navbar-brand,
+.container > .navbar .navbar-brand {
+    margin-left: 0;
+  }
+}
 button {
   margin-right: 8px;
 }
 
 .navbar-dropdown {
+  display: none;
+}
+.navbar-dropdown .navbar-divider:first-child {
   display: none;
 }
 

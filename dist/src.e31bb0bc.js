@@ -26977,25 +26977,1466 @@ exports.saveLinks = function (data) {
   } catch (err) {// Ignore write errors
   }
 };
-},{}],"bookmarkDataSample.json":[function(require,module,exports) {
+},{}],"bookmarkData.json":[function(require,module,exports) {
 module.exports = {
   "folder": "",
   "topic": {},
   "links": [{
-    "guid": "n3sZc1VWahzC",
-    "title": "Languages",
-    "index": 6,
-    "dateAdded": 1.518969300736e15,
-    "lastModified": 1.542726018707e15,
-    "id": 201,
+    "guid": "Mot7SUSCbfHh",
+    "title": "General Resources",
+    "index": 0,
+    "dateAdded": 1.544314055661e15,
+    "lastModified": 1.544321632302e15,
+    "id": 6460,
     "typeCode": 3,
     "type": "text/x-moz-place-container",
     "links": [{
+      "guid": "4G6HHI2JF4yJ",
+      "title": "Evergreen",
+      "index": 0,
+      "dateAdded": 1.544314226349e15,
+      "lastModified": 1.544321632302e15,
+      "id": 6465,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "links": [{
+        "guid": "qyUhrWdH3l3S",
+        "title": "Online regex tester and debugger: PHP, PCRE, Python, Golang and JavaScript",
+        "index": 0,
+        "dateAdded": 1.536266123579e15,
+        "lastModified": 1.54431546675e15,
+        "id": 6177,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://regex101.com/"
+      }, {
+        "guid": "j8n6JFx2YQ8m",
+        "title": "repl.it - JavaScript Compiler",
+        "index": 1,
+        "dateAdded": 1.470958280627e15,
+        "lastModified": 1.544315466776e15,
+        "id": 4888,
+        "typeCode": 1,
+        "tags": "compsci",
+        "type": "text/x-moz-place",
+        "uri": "https://repl.it/languages/javascript"
+      }, {
+        "guid": "PswXRk2kLCt3",
+        "title": "Plunker",
+        "index": 2,
+        "dateAdded": 1.470958278411e15,
+        "lastModified": 1.544315466788e15,
+        "id": 3718,
+        "typeCode": 1,
+        "tags": "compsci",
+        "type": "text/x-moz-place",
+        "uri": "https://plnkr.co/edit/oL4hs65hE7ncGuf471Zm?p=preview"
+      }, {
+        "guid": "Vj6I8Lgkni-r",
+        "title": "Learn X in Y Minutes: Scenic Programming Language Tours",
+        "index": 3,
+        "dateAdded": 1.518980274657e15,
+        "lastModified": 1.544315466806e15,
+        "id": 352,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://learnxinyminutes.com/"
+      }, {
+        "guid": "X6ee1TD-vBbV",
+        "title": "Cheatsheets - for web development and more",
+        "index": 4,
+        "dateAdded": 1.491068527431e15,
+        "lastModified": 1.544315466826e15,
+        "id": 300,
+        "typeCode": 1,
+        "tags": "code study,cool shit,programming",
+        "type": "text/x-moz-place",
+        "uri": "http://ricostacruz.com/cheatsheets/"
+      }, {
+        "guid": "7h8GfFLaunB6",
+        "title": "Teach Yourself Programming in Ten Years",
+        "index": 5,
+        "dateAdded": 1.519341870969e15,
+        "lastModified": 1.544315466844e15,
+        "id": 1312,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "http://norvig.com/21-days.html"
+      }, {
+        "guid": "deGPP1s86C6F",
+        "title": "Modern JavaScript Explained For Dinosaurs - Node.js Collection - Medium",
+        "index": 6,
+        "dateAdded": 1.519843743435e15,
+        "lastModified": 1.544315466889e15,
+        "id": 389,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://medium.com/the-node-js-collection/modern-javascript-explained-for-dinosaurs-f695e9747b70"
+      }, {
+        "guid": "DGMg56f6ytST",
+        "title": "Let's Encrypt - Free SSL/TLS Certificates",
+        "index": 7,
+        "dateAdded": 1.5201124114e15,
+        "lastModified": 1.544315466907e15,
+        "id": 1201,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://letsencrypt.org/"
+      }, {
+        "guid": "fdRHbCBXPSZx",
+        "title": "Dashboard | The Odin Project",
+        "index": 8,
+        "dateAdded": 1.52069907832e15,
+        "lastModified": 1.544315466926e15,
+        "id": 1015,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://www.theodinproject.com/dashboard"
+      }, {
+        "guid": "fYyfVJGNZsnv",
+        "title": "AskQuestions.Tech",
+        "index": 9,
+        "dateAdded": 1.52132836711e15,
+        "lastModified": 1.54431546695e15,
+        "id": 1014,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "http://www.askquestions.tech/"
+      }, {
+        "guid": "RILmvci3Ze_H",
+        "title": "What's an efficient web app development process? Should one start from the site structure and UI? Should one map all the resources he/she has first? Should one map models first and consider how they connect before coding? - Quora",
+        "index": 10,
+        "dateAdded": 1.52367895224e15,
+        "lastModified": 1.54431546696e15,
+        "id": 975,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://www.quora.com/Whats-an-efficient-web-app-development-process-Should-one-start-from-the-site-structure-and-UI-Should-one-map-all-the-resources-he-she-has-first-Should-one-map-models-first-and-consider-how-they-connect-before-coding"
+      }, {
+        "guid": "-rUx_Kkk8yUe",
+        "title": "X-Files",
+        "index": 11,
+        "dateAdded": 1.52667567069e15,
+        "lastModified": 1.54431546699e15,
+        "id": 905,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://doc.lagout.org/"
+      }, {
+        "guid": "4E0k2Frm79CT",
+        "title": "Getting free of toxic tech culture - Valerie Aurora's blog",
+        "index": 12,
+        "dateAdded": 1.52959172657e15,
+        "lastModified": 1.544315467007e15,
+        "id": 5926,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://blog.valerieaurora.org/2018/01/17/getting-free-of-toxic-tech-culture/"
+      }, {
+        "guid": "Xu9IwJ2GEZWJ",
+        "title": "Technology Radar | Emerging Tech Trends for 2018 | ThoughtWorks",
+        "index": 13,
+        "dateAdded": 1.52962218241e15,
+        "lastModified": 1.544315467023e15,
+        "id": 5920,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://www.thoughtworks.com/radar"
+      }, {
+        "guid": "5ekwIkUh8nsp",
+        "title": "CommonMark",
+        "index": 14,
+        "dateAdded": 1.53115050417e15,
+        "lastModified": 1.544315467041e15,
+        "id": 5943,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "http://commonmark.org/"
+      }, {
+        "guid": "yPwmTyccuMUK",
+        "title": "DIY Feminist Cybersecurity",
+        "index": 15,
+        "dateAdded": 1.53200780901e15,
+        "lastModified": 1.544315467102e15,
+        "id": 5953,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://hackblossom.org/cybersecurity/"
+      }, {
+        "guid": "TCDnochP4Adm",
+        "title": "Manifesto for Minimalist Software Engineers | Minifesto.org",
+        "index": 16,
+        "dateAdded": 1.535577918265e15,
+        "lastModified": 1.544315467126e15,
+        "id": 6151,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "http://minifesto.org/"
+      }, {
+        "guid": "qOaFT2khmqJO",
+        "title": "Semantic Versioning 2.0.0 | Semantic Versioning",
+        "index": 17,
+        "dateAdded": 1.53711531015e15,
+        "lastModified": 1.544315467135e15,
+        "id": 6193,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://semver.org/"
+      }, {
+        "guid": "-RKmwsaiG7Kt",
+        "title": "Keep a Changelog",
+        "index": 18,
+        "dateAdded": 1.537115319798e15,
+        "lastModified": 1.544315467144e15,
+        "id": 6194,
+        "typeCode": 1,
+        "iconuri": "https://keepachangelog.com/assets/images/favicon.ico",
+        "type": "text/x-moz-place",
+        "uri": "https://keepachangelog.com/en/1.0.0/"
+      }, {
+        "guid": "8zkew_e-nn94",
+        "title": "defprogramming: quotes about coding",
+        "index": 19,
+        "dateAdded": 1.537710687523e15,
+        "lastModified": 1.544315467169e15,
+        "id": 6211,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "http://www.defprogramming.com/"
+      }, {
+        "guid": "MARLemXqmWrN",
+        "title": "Against software development",
+        "index": 20,
+        "dateAdded": 1.54212356705e15,
+        "lastModified": 1.544315467189e15,
+        "id": 6347,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "http://www.rntz.net/post/against-software-development.html"
+      }]
+    }, {
+      "guid": "FGXUZ_Dkg9nH",
+      "title": "Design",
+      "index": 1,
+      "dateAdded": 1.52183593099e15,
+      "lastModified": 1.544315778884e15,
+      "id": 114,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "links": [{
+        "guid": "XyJriulGZsr9",
+        "title": "Astrum - A lightweight pattern library for any project",
+        "index": 0,
+        "dateAdded": 1.535578315642e15,
+        "lastModified": 1.544315175286e15,
+        "id": 6144,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "http://astrum.nodividestudio.com/"
+      }, {
+        "guid": "aDskmq9DfxB8",
+        "title": "Design for Developers: Specific Steps to Improve Your Website Design - Tania Rascia",
+        "index": 1,
+        "dateAdded": 1.52183592708e15,
+        "lastModified": 1.544315175371e15,
+        "id": 1001,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://www.taniarascia.com/design-for-developers/"
+      }, {
+        "guid": "hbRQIF1PoOOq",
+        "title": "Courses | Gymnasium",
+        "index": 2,
+        "dateAdded": 1.52183596581e15,
+        "lastModified": 1.544315175406e15,
+        "id": 1024,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://thegymnasium.com/courses"
+      }, {
+        "guid": "4ZYfOOsp67z6",
+        "title": "All Design Lessons - Hack Design",
+        "index": 3,
+        "dateAdded": 1.52183597218e15,
+        "lastModified": 1.544315175442e15,
+        "id": 916,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://hackdesign.org/lessons"
+      }, {
+        "guid": "BLllM9eQoMwe",
+        "title": "Design notes",
+        "index": 4,
+        "dateAdded": 1.535121672976e15,
+        "lastModified": 1.544315175471e15,
+        "id": 6052,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://www.designnotes.co/"
+      }, {
+        "guid": "Wbc_HvFc3GZ6",
+        "title": "PRINT.PM | Daily inspiration for Print lovers.",
+        "index": 5,
+        "dateAdded": 1.538348593219e15,
+        "lastModified": 1.5443151755e15,
+        "id": 6237,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "http://print.pm/"
+      }, {
+        "guid": "FPdGC_BkSRqt",
+        "title": "Adele - Design Systems and Pattern Libraries Repository",
+        "index": 6,
+        "dateAdded": 1.53928655682e15,
+        "lastModified": 1.544315175538e15,
+        "id": 6260,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://adele.uxpin.com/"
+      }, {
+        "guid": "iaRxmCc00CEc",
+        "title": "Inter UI font family",
+        "index": 7,
+        "dateAdded": 1.53965862549e15,
+        "lastModified": 1.544315175561e15,
+        "id": 6274,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://rsms.me/inter/"
+      }, {
+        "guid": "16QNmrOUq-Ep",
+        "title": "$0 Design Tools - Product Hunt",
+        "index": 8,
+        "dateAdded": 1.53123641527e15,
+        "lastModified": 1.544315778884e15,
+        "id": 5950,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://www.producthunt.com/e/0-design-tools?mc_cid=b466ce3b07&mc_eid=454ca2ceba"
+      }]
+    }, {
+      "guid": "BY8-zOMspT_B",
+      "title": "Career",
+      "index": 2,
+      "dateAdded": 1.536679053334e15,
+      "lastModified": 1.544315509434e15,
+      "id": 6178,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "links": [{
+        "guid": "F3KvpBODhUi2",
+        "title": "https://snowflake.medium.com/#1,2,3,2,4,1,1,4,3,2,0,4,2,2,3,0,Cersei%20Lannister,Staff%20Engineer",
+        "index": 0,
+        "dateAdded": 1.53928617188e15,
+        "lastModified": 1.544315167051e15,
+        "id": 6261,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://snowflake.medium.com/#1,2,3,2,4,1,1,4,3,2,0,4,2,2,3,0,Cersei%20Lannister,Staff%20Engineer"
+      }, {
+        "guid": "c--_mQKrD-jO",
+        "title": "career-development-framework.md",
+        "index": 1,
+        "dateAdded": 1.539286179964e15,
+        "lastModified": 1.544315167089e15,
+        "id": 6262,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://gist.github.com/cecyc/6365ebb46ec408907a62f1d4d1336111"
+      }, {
+        "guid": "nzuNPA4yUYqu",
+        "title": "Engineering Growth Framework - Medium",
+        "index": 2,
+        "dateAdded": 1.536679062111e15,
+        "lastModified": 1.544315167135e15,
+        "id": 6186,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://medium.com/s/engineering-growth-framework"
+      }, {
+        "guid": "T1wwLJ6_9H_L",
+        "title": "Sharing Our Engineering Ladder - RTR Dress Code",
+        "index": 3,
+        "dateAdded": 1.536679067913e15,
+        "lastModified": 1.544315167176e15,
+        "id": 6185,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "http://dresscode.renttherunway.com/blog/ladder"
+      }, {
+        "guid": "DWG5IrP4KSGW",
+        "title": "Leveling Up - Chelsea Troy",
+        "index": 4,
+        "dateAdded": 1.536679073201e15,
+        "lastModified": 1.544315167211e15,
+        "id": 6181,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://chelseatroy.com/category/leveling-up/"
+      }, {
+        "guid": "qwFTFNEV-ZQG",
+        "title": "Your Professional Growth Questionnaire - Rands in Repose",
+        "index": 5,
+        "dateAdded": 1.536679082988e15,
+        "lastModified": 1.544315167242e15,
+        "id": 6187,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "http://randsinrepose.com/archives/your-professional-growth-questionnaire/"
+      }, {
+        "guid": "S6HnFWMQpGMt",
+        "title": "nealford.com - Build Your Own Technology Radar",
+        "index": 6,
+        "dateAdded": 1.536681540487e15,
+        "lastModified": 1.544315167277e15,
+        "id": 6184,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "http://nealford.com/memeagora/2013/05/28/build_your_own_technology_radar.html"
+      }, {
+        "guid": "L0OVmwqnuZw8",
+        "title": "Ops to Dev - What to bring and what to leave behind - esoteric systems",
+        "index": 7,
+        "dateAdded": 1.539286234319e15,
+        "lastModified": 1.544315167305e15,
+        "id": 6263,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://blag.esotericsystems.at/articles/ops2dev/"
+      }, {
+        "guid": "yDEyQl-XVGNm",
+        "title": "Master the JavaScript Interview - JavaScript Scene - Medium",
+        "index": 8,
+        "dateAdded": 1.519850822099e15,
+        "lastModified": 1.544315167341e15,
+        "id": 747,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://medium.com/javascript-scene/search?q=Master%20the%20JavaScript%20Interview"
+      }]
+    }, {
+      "guid": "7L99A3mt2svZ",
+      "title": "General Dev",
+      "index": 3,
+      "dateAdded": 1.51898062173e15,
+      "lastModified": 1.544316029221e15,
+      "id": 93,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "links": [{
+        "guid": "D7bJqUtA6Uw4",
+        "title": "The Imposter's Handbook - Big Machine",
+        "index": 0,
+        "dateAdded": 1.505401603566e15,
+        "lastModified": 1.544315398901e15,
+        "id": 652,
+        "typeCode": 1,
+        "tags": "code study",
+        "type": "text/x-moz-place",
+        "uri": "https://bigmachine.io/products/the-imposters-handbook"
+      }, {
+        "guid": "sQBEDHoQgITj",
+        "title": "http://www.wtfpl.net/",
+        "index": 1,
+        "dateAdded": 1.518921622262e15,
+        "lastModified": 1.544315398926e15,
+        "id": 897,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "http://www.wtfpl.net/"
+      }, {
+        "guid": "8EsffsUlFRS1",
+        "title": "License Zero",
+        "index": 2,
+        "dateAdded": 1.518921589908e15,
+        "lastModified": 1.544315398953e15,
+        "id": 1322,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://licensezero.com/"
+      }, {
+        "guid": "MDc6E6KNtzht",
+        "title": "GitHub - 30-seconds/30-seconds-of-code: Curated collection of useful JavaScript snippets that you can understand in 30 seconds or less.",
+        "index": 3,
+        "dateAdded": 1.538347496541e15,
+        "lastModified": 1.544315399026e15,
+        "id": 6240,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://github.com/30-seconds/30-seconds-of-code#readme"
+      }, {
+        "guid": "0jiDmuW6GnZz",
+        "title": "Do You Really Know CORS? - PerformantCode.com",
+        "index": 4,
+        "dateAdded": 1.542123631147e15,
+        "lastModified": 1.544315399058e15,
+        "id": 6348,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "http://performantcode.com/web/do-you-really-know-cors"
+      }, {
+        "guid": "pTlAX8LBC7kZ",
+        "title": "Untitled Diagram.xml - draw.io",
+        "index": 5,
+        "dateAdded": 1.477157626001e15,
+        "lastModified": 1.544315644512e15,
+        "id": 5169,
+        "typeCode": 1,
+        "tags": "mentoring stuff",
+        "type": "text/x-moz-place",
+        "uri": "https://www.draw.io/"
+      }, {
+        "guid": "_Oad-S-kGYIB",
+        "title": "Create UML Diagrams | Gliffy",
+        "index": 6,
+        "dateAdded": 1.477138012078e15,
+        "lastModified": 1.544315644539e15,
+        "id": 4281,
+        "typeCode": 1,
+        "tags": "mentoring stuff",
+        "type": "text/x-moz-place",
+        "uri": "https://www.gliffy.com/uses/uml-software/"
+      }, {
+        "guid": "R1YthxFsSlDE",
+        "title": "Learn to Hack",
+        "index": 7,
+        "dateAdded": 1.506180744023e15,
+        "lastModified": 1.54431600258e15,
+        "id": 892,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://www.hacksplaining.com/"
+      }, {
+        "guid": "LUR964ZBaRI9",
+        "title": "My Browser - Easy to digest browser details to help you with QA and tech support",
+        "index": 8,
+        "dateAdded": 1.53557337737e15,
+        "lastModified": 1.544316013693e15,
+        "id": 6147,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://mybrowser.fyi/report/5b86cea10365430014096e53"
+      }, {
+        "guid": "LMWzDcibYQpK",
+        "title": "Design documents: maybe the only record of what the hell you were thinking - No Idea Blog",
+        "index": 9,
+        "dateAdded": 1.53548963069e15,
+        "lastModified": 1.544316021424e15,
+        "id": 6121,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://noidea.dog/blog/design-documents"
+      }, {
+        "guid": "mPpcV_MiscYn",
+        "title": "Requirements Specification Template",
+        "index": 10,
+        "dateAdded": 1.53020135734e15,
+        "lastModified": 1.544316024114e15,
+        "id": 5912,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "http://www.volere.co.uk/template.htm"
+      }, {
+        "guid": "hwtbVI_8JvRv",
+        "title": "Gulp, SASS, Bourbon, Neat & BrowserSync Boilerplate",
+        "index": 11,
+        "dateAdded": 1.466878168665e15,
+        "lastModified": 1.544316026581e15,
+        "id": 4826,
+        "typeCode": 1,
+        "tags": "compsci",
+        "type": "text/x-moz-place",
+        "uri": "http://blog.meredithunderell.com/gulp-sass-bourbon-neat-browsersync-boilerplate/"
+      }, {
+        "guid": "vDlsA98nMCs0",
+        "title": "Regular Expressions Demystified: RegEx isn't as hard as it looks",
+        "index": 12,
+        "dateAdded": 1.512712051404e15,
+        "lastModified": 1.544316029221e15,
+        "id": 1993,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://medium.freecodecamp.org/regular-expressions-demystified-regex-isnt-as-hard-as-it-looks-617b55cf787"
+      }]
+    }, {
+      "guid": "mdAJJr3K4rmE",
+      "title": "Readings",
+      "index": 4,
+      "dateAdded": 1.520559842496e15,
+      "lastModified": 1.544315380601e15,
+      "id": 197,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "links": [{
+        "guid": "yJb4a2x1TiWM",
+        "title": "Leveling Up - Chelsea Troy",
+        "index": 0,
+        "dateAdded": 1.53935950042e15,
+        "lastModified": 1.544315377426e15,
+        "id": 6271,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://chelseatroy.com/category/leveling-up/"
+      }, {
+        "guid": "W94LnLJNYs15",
+        "title": "The Prose Garden | get pragpub, the magazine for today's software developers",
+        "index": 1,
+        "dateAdded": 1.53486400921e15,
+        "lastModified": 1.544315377441e15,
+        "id": 6026,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://theprosegarden.com/"
+      }, {
+        "guid": "ahcZy6p3oGiK",
+        "title": "Offscreen Magazine - The Human Side of Technology",
+        "index": 2,
+        "dateAdded": 1.533910787447e15,
+        "lastModified": 1.544315377464e15,
+        "id": 5971,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://www.offscreenmag.com/"
+      }, {
+        "guid": "AStYihWkyTzG",
+        "title": "The Recompiler - a magazine about building better technology, together",
+        "index": 3,
+        "dateAdded": 1.533910751899e15,
+        "lastModified": 1.544315377503e15,
+        "id": 5963,
+        "typeCode": 1,
+        "tags": "regular",
+        "iconuri": "https://recompiler.files.wordpress.com/2016/11/recompiler-ep-17-mp3-image.jpg?w=192",
+        "type": "text/x-moz-place",
+        "uri": "https://recompilermag.com/"
+      }, {
+        "guid": "UTb8COedQ48Z",
+        "title": "Logic Magazine",
+        "index": 4,
+        "dateAdded": 1.533910733214e15,
+        "lastModified": 1.544315377535e15,
+        "id": 5966,
+        "typeCode": 1,
+        "tags": "cleanup",
+        "type": "text/x-moz-place",
+        "uri": "https://logicmag.io/"
+      }, {
+        "guid": "ECX5c7UoC5_0",
+        "title": "Increment: Documentation",
+        "index": 5,
+        "dateAdded": 1.533910723281e15,
+        "lastModified": 1.544315377595e15,
+        "id": 5969,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://increment.com/"
+      }, {
+        "guid": "bAuQ85gZGg5k",
+        "title": "The Codeless Code: Contents",
+        "index": 6,
+        "dateAdded": 1.52823084924e15,
+        "lastModified": 1.544315377643e15,
+        "id": 5868,
+        "typeCode": 1,
+        "tags": "cool shit,programming",
+        "type": "text/x-moz-place",
+        "uri": "http://thecodelesscode.com/contents"
+      }, {
+        "guid": "C-1lDfebDEsl",
+        "title": "https://danluu.com/",
+        "index": 7,
+        "dateAdded": 1.534862949331e15,
+        "lastModified": 1.544315377676e15,
+        "id": 6019,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://danluu.com/"
+      }, {
+        "guid": "joAp-LprSxdb",
+        "title": "Blog Archive - Words and Code",
+        "index": 8,
+        "dateAdded": 1.52823061428e15,
+        "lastModified": 1.544315377694e15,
+        "id": 5859,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "http://vaidehijoshi.github.io/blog/archives/"
+      }, {
+        "guid": "Qc1TuhAxiIix",
+        "title": "Programmer's Compendium",
+        "index": 9,
+        "dateAdded": 1.535116106928e15,
+        "lastModified": 1.544315377731e15,
+        "id": 6033,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://www.destroyallsoftware.com/compendium"
+      }, {
+        "guid": "4XIFB-lbeRgq",
+        "title": "E.W.Dijkstra Archive: Index EWD 1300-1318",
+        "index": 10,
+        "dateAdded": 1.52055985135e15,
+        "lastModified": 1.544315377755e15,
+        "id": 915,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "http://www.cs.utexas.edu/~EWD/index13xx.html"
+      }, {
+        "guid": "ylAdj19vjln9",
+        "title": "Being Glue",
+        "index": 11,
+        "dateAdded": 1.534424209931e15,
+        "lastModified": 1.544315377771e15,
+        "id": 6001,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://www.slideshare.net/TanyaReilly/being-glue"
+      }, {
+        "guid": "GACUvQmKrBHA",
+        "title": "Become a Programmer, Motherfucker",
+        "index": 12,
+        "dateAdded": 1.535237453297e15,
+        "lastModified": 1.544315377788e15,
+        "id": 6114,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "http://programming-motherfucker.com/become.html"
+      }, {
+        "guid": "GcYQibYpp1EF",
+        "title": "Morning Cup of Coding - Human Readable",
+        "index": 13,
+        "dateAdded": 1.535494348408e15,
+        "lastModified": 1.544315377847e15,
+        "id": 6119,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://www.humanreadablemag.com/morningcupofcoding/"
+      }, {
+        "guid": "yRozLOgCELK1",
+        "title": "Andy Bell - Medium",
+        "index": 14,
+        "dateAdded": 1.53556127024e15,
+        "lastModified": 1.544315377861e15,
+        "id": 6155,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://medium.com/@hankchizljaw"
+      }, {
+        "guid": "cC6YdXK2__0v",
+        "title": "A web components learning journal - Web Components Club",
+        "index": 15,
+        "dateAdded": 1.535573571091e15,
+        "lastModified": 1.544315377876e15,
+        "id": 6156,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://webcomponents.club/"
+      }, {
+        "guid": "nGPxlSFN9Cbc",
+        "title": "Frank Chimero - Writing",
+        "index": 16,
+        "dateAdded": 1.538347451832e15,
+        "lastModified": 1.544315377902e15,
+        "id": 6243,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://frankchimero.com/writing/"
+      }, {
+        "guid": "hZFiGd8-RIZS",
+        "title": "Kelly Sutton",
+        "index": 17,
+        "dateAdded": 1.539290741819e15,
+        "lastModified": 1.544315377918e15,
+        "id": 6269,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://kellysutton.com/"
+      }, {
+        "guid": "DRKlvgzzZFoF",
+        "title": "Programming Quotes",
+        "index": 18,
+        "dateAdded": 1.541604834585e15,
+        "lastModified": 1.544315377926e15,
+        "id": 6330,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "http://quotes.cat-v.org/programming/"
+      }, {
+        "guid": "jDVZ77NpR8iw",
+        "title": "Blog home - Ana Ulin",
+        "index": 19,
+        "dateAdded": 1.542037463274e15,
+        "lastModified": 1.544315377942e15,
+        "id": 6338,
+        "typeCode": 1,
+        "iconuri": "https://anaulin.org/apple-touch-icon-144-precomposed.png",
+        "type": "text/x-moz-place",
+        "uri": "https://anaulin.org/blog/"
+      }]
+    }, {
+      "guid": "g_6i6w1wP07V",
+      "title": "Debugging",
+      "index": 5,
+      "dateAdded": 1.537550494529e15,
+      "lastModified": 1.544315451319e15,
+      "id": 6195,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "links": [{
+        "guid": "kVW2lTY5gdpg",
+        "title": "Level up your debugging skills | Dave DeLong",
+        "index": 0,
+        "dateAdded": 1.537550501162e15,
+        "lastModified": 1.537550501162e15,
+        "id": 6203,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://davedelong.com/blog/2017/11/29/level-up-your-debugging-skills/"
+      }, {
+        "guid": "NUCloNIw4i3e",
+        "title": "debugging - What process do you normally use when attempting to debug a problem/issue/bug with your software? - Software Engineering Stack Exchange",
+        "index": 1,
+        "dateAdded": 1.537550508086e15,
+        "lastModified": 1.537550508086e15,
+        "id": 6200,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://softwareengineering.stackexchange.com/questions/37242/what-process-do-you-normally-use-when-attempting-to-debug-a-problem-issue-bug-wi"
+      }, {
+        "guid": "HoRolQbGyhuV",
+        "title": "Questions to ask yourself when debugging - The Web and all that Jazz",
+        "index": 2,
+        "dateAdded": 1.53755051459e15,
+        "lastModified": 1.53755051459e15,
+        "id": 6197,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://iamwilchung.wordpress.com/2010/10/13/questions-to-ask-yourself-when-debugging/"
+      }, {
+        "guid": "Oti9bHS8DO2f",
+        "title": "What questions do you ask yourself when debugging a program? - Quora",
+        "index": 3,
+        "dateAdded": 1.537550521169e15,
+        "lastModified": 1.537550521169e15,
+        "id": 6201,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://www.quora.com/What-questions-do-you-ask-yourself-when-debugging-a-program"
+      }, {
+        "guid": "Mo3UdCsi2o9Q",
+        "title": "The Best Debugging Begins by Asking Yourself These Questions",
+        "index": 4,
+        "dateAdded": 1.537550528477e15,
+        "lastModified": 1.537550528477e15,
+        "id": 6199,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://revelry.co/debugging-tips/"
+      }, {
+        "guid": "Ki-zHwEOJJkh",
+        "title": "Ten Questions To Ask Yourself When You Debug - dev <tech> tips & tricks - Medium",
+        "index": 5,
+        "dateAdded": 1.537550534801e15,
+        "lastModified": 1.537550534801e15,
+        "id": 6198,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://medium.com/devtechtipstricks/my-personal-top-10-art-of-debugging-problems-in-software-12fb0a01832"
+      }, {
+        "guid": "_sUIJD5Aoqvk",
+        "title": "Debugging - How to Think like a Computer Scientist: Interactive Edition",
+        "index": 6,
+        "dateAdded": 1.537550541179e15,
+        "lastModified": 1.537550541179e15,
+        "id": 6202,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "http://interactivepython.org/runestone/static/CS152f17/Appendices/errorsAndDebug.html"
+      }, {
+        "guid": "SFufbUB4zTkx",
+        "title": "3. Debugging Interlude 1 - How to Think like a Computer Scientist: Interactive Edition",
+        "index": 7,
+        "dateAdded": 1.539292013276e15,
+        "lastModified": 1.539292013276e15,
+        "id": 6268,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "http://interactivepython.org/runestone/static/CS152f17/Debugging/toctree.html"
+      }]
+    }, {
+      "guid": "8sokmOb-Ta9E",
+      "title": "Exercises",
+      "index": 6,
+      "dateAdded": 1.460678699508e15,
+      "lastModified": 1.544315722511e15,
+      "id": 98,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "links": [{
+        "guid": "ZaykFAxcikZm",
+        "title": "exercism.io",
+        "index": 0,
+        "dateAdded": 1.459897550741e15,
+        "lastModified": 1.544315496088e15,
+        "id": 4236,
+        "typeCode": 1,
+        "tags": "compsci",
+        "type": "text/x-moz-place",
+        "uri": "http://exercism.io/how-it-works/newbie"
+      }, {
+        "guid": "bmG5MpB1iOit",
+        "title": "CodeKata",
+        "index": 1,
+        "dateAdded": 1.460678699508e15,
+        "lastModified": 1.544315496125e15,
+        "id": 4441,
+        "typeCode": 1,
+        "tags": "compsci",
+        "type": "text/x-moz-place",
+        "uri": "http://codekata.com/"
+      }, {
+        "guid": "Xs-YemXmq4iO",
+        "title": "Sign in | Codewars",
+        "index": 2,
+        "dateAdded": 1.460678701037e15,
+        "lastModified": 1.544315496155e15,
+        "id": 4155,
+        "typeCode": 1,
+        "tags": "compsci",
+        "type": "text/x-moz-place",
+        "uri": "https://www.codewars.com/users/sign_in"
+      }, {
+        "guid": "IQoJZW7MoG_Z",
+        "title": "home",
+        "index": 3,
+        "dateAdded": 1.460678699468e15,
+        "lastModified": 1.544315496187e15,
+        "id": 3266,
+        "typeCode": 1,
+        "tags": "compsci",
+        "type": "text/x-moz-place",
+        "uri": "http://cyber-dojo.org/"
+      }, {
+        "guid": "UFQckWBYNyos",
+        "title": "Exercises for Programmers: 57 Challenges to Develop Your Coding Skills by Brian P. Hogan | The Pragmatic Bookshelf",
+        "index": 4,
+        "dateAdded": 1.49021408801e15,
+        "lastModified": 1.544315496217e15,
+        "id": 3955,
+        "typeCode": 1,
+        "tags": "code study",
+        "type": "text/x-moz-place",
+        "uri": "https://pragprog.com/book/bhwb/exercises-for-programmers"
+      }]
+    }, {
+      "guid": "Phb6tpTogbVl",
+      "title": "Tools & Architecture",
+      "index": 7,
+      "dateAdded": 1.518969352175e15,
+      "lastModified": 1.544316032409e15,
+      "id": 138,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "links": [{
+        "guid": "gDrYl9vMdJ7U",
+        "title": "API",
+        "index": 0,
+        "dateAdded": 1.51465357874e15,
+        "lastModified": 1.544315956411e15,
+        "id": 186,
+        "typeCode": 2,
+        "type": "text/x-moz-place-container",
+        "links": [{
+          "guid": "A1n3YSOJQShv",
+          "title": "API Directory | ProgrammableWeb",
+          "index": 0,
+          "dateAdded": 1.514653536906e15,
+          "lastModified": 1.527212841118e15,
+          "id": 1761,
+          "typeCode": 1,
+          "annos": [{
+            "name": "bookmarkProperties/description",
+            "flags": 0,
+            "expires": 4,
+            "value": "View our API Directory, the largest Application Programming Interface repository on the web"
+          }],
+          "type": "text/x-moz-place",
+          "uri": "https://www.programmableweb.com/category/all/apis"
+        }, {
+          "guid": "8pQzTMuaSgmd",
+          "title": "HTTP Methods for RESTful Services",
+          "index": 1,
+          "dateAdded": 1.493090582291e15,
+          "lastModified": 1.493090582291e15,
+          "id": 2704,
+          "typeCode": 1,
+          "tags": "code study",
+          "type": "text/x-moz-place",
+          "uri": "http://www.restapitutorial.com/lessons/httpmethods.html"
+        }]
+      }, {
+        "guid": "UhNnFnBtMKH9",
+        "title": "IDE",
+        "index": 1,
+        "dateAdded": 1.518980335068e15,
+        "lastModified": 1.544315962004e15,
+        "id": 151,
+        "typeCode": 2,
+        "type": "text/x-moz-place-container",
+        "links": [{
+          "guid": "wWL9U13jSKvU",
+          "title": "princess-syntax",
+          "index": 0,
+          "dateAdded": 1.460678701054e15,
+          "lastModified": 1.460678701054e15,
+          "id": 272,
+          "typeCode": 1,
+          "tags": "compsci",
+          "type": "text/x-moz-place",
+          "uri": "https://atom.io/themes/princess-syntax"
+        }, {
+          "guid": "bzkTwwDheHwM",
+          "title": "Nightcoders.net",
+          "index": 1,
+          "dateAdded": 1.488852423533e15,
+          "lastModified": 1.488852423533e15,
+          "id": 4478,
+          "typeCode": 1,
+          "tags": "clojure",
+          "type": "text/x-moz-place",
+          "uri": "http://nightcoders.net/"
+        }, {
+          "guid": "ooVxVB8GhHJG",
+          "title": "Cursive: The IDE for beautiful Clojure(Script) code",
+          "index": 2,
+          "dateAdded": 1.494545204821e15,
+          "lastModified": 1.494545204821e15,
+          "id": 1782,
+          "typeCode": 1,
+          "tags": "clojure",
+          "type": "text/x-moz-place",
+          "uri": "https://cursive-ide.com/"
+        }, {
+          "guid": "5Den-9KgS5Ym",
+          "title": "emacs",
+          "index": 3,
+          "dateAdded": 1.4983171815e15,
+          "lastModified": 1.498316317943e15,
+          "id": 89,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "links": [{
+            "guid": "Bedp2b61pem_",
+            "title": "MELPA",
+            "index": 0,
+            "dateAdded": 1.498316317943e15,
+            "lastModified": 1.498316317943e15,
+            "id": 2871,
+            "typeCode": 1,
+            "tags": "emacs",
+            "type": "text/x-moz-place",
+            "uri": "http://melpa.org/#/"
+          }, {
+            "guid": "Syt_-LouVm85",
+            "title": "Spacemacs: Emacs advanced Kit focused on Evil",
+            "index": 1,
+            "dateAdded": 1.498317179303e15,
+            "lastModified": 1.498317179303e15,
+            "id": 2063,
+            "typeCode": 1,
+            "tags": "emacs,read or do",
+            "type": "text/x-moz-place",
+            "uri": "http://spacemacs.org/"
+          }, {
+            "guid": "CIkzNkYnysJG",
+            "title": "Into to CIDER - Emacs Redux",
+            "index": 2,
+            "dateAdded": 1.51475082183e15,
+            "lastModified": 1.527212837619e15,
+            "id": 1526,
+            "typeCode": 1,
+            "annos": [{
+              "name": "bookmarkProperties/description",
+              "flags": 0,
+              "expires": 4,
+              "value": "CIDER is a popular Clojure\nprogramming environment for Emacs. In a nutshell - CIDER extends Emacs with support for interactive\nprogramming in Clojure"
+            }],
+            "type": "text/x-moz-place",
+            "uri": "http://emacsredux.com/blog/2017/12/31/into-to-cider/"
+          }]
+        }, {
+          "guid": "W8HP3imQe9qD",
+          "title": "What Editor/IDE Should You Use For Clojure?",
+          "index": 4,
+          "dateAdded": 1.504017933764e15,
+          "lastModified": 1.504017933764e15,
+          "id": 1464,
+          "typeCode": 1,
+          "tags": "clojure",
+          "type": "text/x-moz-place",
+          "uri": "https://cb.codes/what-editor-ide-to-use-for-clojure/"
+        }]
+      }]
+    }]
+  }, {
+    "guid": "XFxk-rxHquxd",
+    "title": "Comp Sci",
+    "index": 1,
+    "dateAdded": 1.544314031362e15,
+    "lastModified": 1.544315689172e15,
+    "id": 6459,
+    "typeCode": 3,
+    "type": "text/x-moz-place-container",
+    "links": [{
+      "guid": "JBJKx2pmujHq",
+      "title": "General",
+      "index": 0,
+      "dateAdded": 1.542726035138e15,
+      "lastModified": 1.544315689172e15,
+      "id": 6369,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "links": [{
+        "guid": "GrzZom3PQAYo",
+        "title": "Teach Yourself Computer Science",
+        "index": 0,
+        "dateAdded": 1.52044372009e15,
+        "lastModified": 1.542726041977e15,
+        "id": 1383,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://teachyourselfcs.com/"
+      }, {
+        "guid": "fZOvnl1Y76w3",
+        "title": "open-source-society/computer-science: Path to a free self-taught education in Computer Science!",
+        "index": 1,
+        "dateAdded": 1.45916798093e15,
+        "lastModified": 1.542726042001e15,
+        "id": 410,
+        "typeCode": 1,
+        "tags": "compsci",
+        "type": "text/x-moz-place",
+        "uri": "https://github.com/open-source-society/computer-science"
+      }, {
+        "guid": "onkdpPmYCofm",
+        "title": "aGupieWare: Online Learning: An Intensive Bachelor's Level Computer Science Program Curriculum, Part II",
+        "index": 2,
+        "dateAdded": 1.451428731559e15,
+        "lastModified": 1.542726042023e15,
+        "id": 5131,
+        "typeCode": 1,
+        "tags": "compsci",
+        "type": "text/x-moz-place",
+        "uri": "http://blog.agupieware.com/2014/06/online-learning-intensive-bachelors.html"
+      }, {
+        "guid": "iuiFb12LPNlQ",
+        "title": "open-source-society/computer-science",
+        "index": 3,
+        "dateAdded": 1.451428731551e15,
+        "lastModified": 1.542726042038e15,
+        "id": 413,
+        "typeCode": 1,
+        "tags": "compsci",
+        "type": "text/x-moz-place",
+        "uri": "https://github.com/open-source-society/computer-science"
+      }, {
+        "guid": "2DzZNVe6LAcM",
+        "title": "Obtaining a Thorough CS Background Online",
+        "index": 4,
+        "dateAdded": 1.451428731547e15,
+        "lastModified": 1.542726042045e15,
+        "id": 2311,
+        "typeCode": 1,
+        "tags": "compsci",
+        "type": "text/x-moz-place",
+        "uri": "http://spin.atomicobject.com/2015/05/15/obtaining-thorough-cs-background-online/"
+      }, {
+        "guid": "UMUaTHaI4GOm",
+        "title": "mvillaloboz/open-source-cs-degree",
+        "index": 5,
+        "dateAdded": 1.451428731463e15,
+        "lastModified": 1.54272604205e15,
+        "id": 1836,
+        "typeCode": 1,
+        "tags": "compsci",
+        "type": "text/x-moz-place",
+        "uri": "https://github.com/mvillaloboz/open-source-cs-degree"
+      }, {
+        "guid": "C8AJif-nVtF4",
+        "title": "Four Semesters of Computer Science in Six Hours",
+        "index": 6,
+        "dateAdded": 1.459897550736e15,
+        "lastModified": 1.542726042061e15,
+        "id": 2887,
+        "typeCode": 1,
+        "tags": "compsci",
+        "type": "text/x-moz-place",
+        "uri": "http://btholt.github.io/four-semesters-of-cs/"
+      }, {
+        "guid": "XReI1O9_BBaZ",
+        "title": "Structure and Interpretation of Computer Programs, Video Lectures",
+        "index": 7,
+        "dateAdded": 1.490139376349e15,
+        "lastModified": 1.542726042066e15,
+        "id": 486,
+        "typeCode": 1,
+        "tags": "code study",
+        "type": "text/x-moz-place",
+        "uri": "http://groups.csail.mit.edu/mac/classes/6.001/abelson-sussman-lectures/"
+      }, {
+        "guid": "WxeK0Xble-JX",
+        "title": "What computer science concepts should devs without a CS background prioritize learning?",
+        "index": 8,
+        "dateAdded": 1.505401582948e15,
+        "lastModified": 1.542726042089e15,
+        "id": 1724,
+        "typeCode": 1,
+        "tags": "code study",
+        "type": "text/x-moz-place",
+        "uri": "https://dev.to/ben/what-computer-science-concepts-should-devs-without-a-cs-background-prioritize-learning"
+      }, {
+        "guid": "S9M6NGQtkgRX",
+        "title": "Welcome to the SICP Web Site",
+        "index": 9,
+        "dateAdded": 1.505183993075e15,
+        "lastModified": 1.542726042098e15,
+        "id": 463,
+        "typeCode": 1,
+        "tags": "code study",
+        "type": "text/x-moz-place",
+        "uri": "https://mitpress.mit.edu/sicp/"
+      }, {
+        "guid": "8fSal81QJsRG",
+        "title": "How do computers and the internet work? - Computer Science Basics | freeCodeCamp News",
+        "index": 10,
+        "dateAdded": 1.538348527097e15,
+        "lastModified": 1.542726042107e15,
+        "id": 6239,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://www.freecodecamp.org/news/beaucarnes/how-do-computers-and-the-internet-work--94i0Frgd4"
+      }, {
+        "guid": "xq3KzbvO5Zqc",
+        "title": "CS50 - YouTube",
+        "index": 11,
+        "dateAdded": 1.477157572314e15,
+        "lastModified": 1.544315689172e15,
+        "id": 5705,
+        "typeCode": 1,
+        "tags": "mentoring stuff",
+        "type": "text/x-moz-place",
+        "uri": "https://www.youtube.com/user/cs50tv/videos"
+      }]
+    }, {
+      "guid": "4KRfqfDA76wQ",
+      "title": "Algorithms",
+      "index": 1,
+      "dateAdded": 1.518980948487e15,
+      "lastModified": 1.544314974871e15,
+      "id": 86,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "links": [{
+        "guid": "aKHTGKHgqflw",
+        "title": "(1) Algorithms | Computer science | Computing | Khan Academy",
+        "index": 0,
+        "dateAdded": 1.487834884821e15,
+        "lastModified": 1.487834884821e15,
+        "id": 449,
+        "typeCode": 1,
+        "tags": "code study",
+        "type": "text/x-moz-place",
+        "uri": "https://www.khanacademy.org/computing/computer-science/algorithms?ref=resume_learning#asymptotic-notation"
+      }, {
+        "guid": "uSycyQFe27gQ",
+        "title": "A Gentle Introduction to Algorithm Complexity Analysis",
+        "index": 1,
+        "dateAdded": 1.494545206317e15,
+        "lastModified": 1.494545206317e15,
+        "id": 5521,
+        "typeCode": 1,
+        "tags": "code study",
+        "type": "text/x-moz-place",
+        "uri": "http://discrete.gr/complexity/"
+      }, {
+        "guid": "crhflGp4s8Yf",
+        "title": "IDEA - nonverbal algorithm assembly instructions",
+        "index": 2,
+        "dateAdded": 1.52133231243e15,
+        "lastModified": 1.52133231243e15,
+        "id": 1008,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://idea-instructions.com/"
+      }]
+    }, {
+      "guid": "ZoIum_dZ9uUH",
+      "title": "Design Patterns",
+      "index": 2,
+      "dateAdded": 1.48952673073e15,
+      "lastModified": 1.544314974909e15,
+      "id": 163,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "links": [{
+        "guid": "GZLEey8WvNHy",
+        "title": "Mediator pattern - Wikipedia",
+        "index": 0,
+        "dateAdded": 1.477245909304e15,
+        "lastModified": 1.477245909304e15,
+        "id": 3177,
+        "typeCode": 1,
+        "tags": "design patterns",
+        "type": "text/x-moz-place",
+        "uri": "https://en.wikipedia.org/wiki/Mediator_pattern"
+      }, {
+        "guid": "v9_pv5CbGjkC",
+        "title": "Singleton pattern - Wikipedia",
+        "index": 1,
+        "dateAdded": 1.477245916674e15,
+        "lastModified": 1.477245916674e15,
+        "id": 5575,
+        "typeCode": 1,
+        "tags": "design patterns",
+        "type": "text/x-moz-place",
+        "uri": "https://en.wikipedia.org/wiki/Singleton_pattern"
+      }, {
+        "guid": "CJqNWb9TfzQj",
+        "title": "Publish-subscribe pattern - Wikipedia",
+        "index": 2,
+        "dateAdded": 1.477245925853e15,
+        "lastModified": 1.477245925853e15,
+        "id": 2902,
+        "typeCode": 1,
+        "tags": "design patterns",
+        "type": "text/x-moz-place",
+        "uri": "https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern"
+      }, {
+        "guid": "txQE-WMqDDeD",
+        "title": "Creational | Introduction to Design Patterns | Treehouse",
+        "index": 3,
+        "dateAdded": 1.477245933871e15,
+        "lastModified": 1.477245933871e15,
+        "id": 5478,
+        "typeCode": 1,
+        "tags": "design patterns",
+        "type": "text/x-moz-place",
+        "uri": "https://teamtreehouse.com/library/creational"
+      }, {
+        "guid": "zq369Cj8EXj5",
+        "title": "Mediator Design Pattern",
+        "index": 4,
+        "dateAdded": 1.477245946676e15,
+        "lastModified": 1.477245946676e15,
+        "id": 5792,
+        "typeCode": 1,
+        "tags": "design patterns",
+        "type": "text/x-moz-place",
+        "uri": "https://sourcemaking.com/design_patterns/mediator"
+      }, {
+        "guid": "EoOO0eqTQLbZ",
+        "title": "Learning JavaScript Design Patterns",
+        "index": 5,
+        "dateAdded": 1.477245967494e15,
+        "lastModified": 1.477245967494e15,
+        "id": 1304,
+        "typeCode": 1,
+        "tags": "design patterns",
+        "type": "text/x-moz-place",
+        "uri": "https://addyosmani.com/resources/essentialjsdesignpatterns/book/"
+      }]
+    }, {
+      "guid": "QyD-eO1lTTus",
+      "title": "Software Development",
+      "index": 3,
+      "dateAdded": 1.518980957533e15,
+      "lastModified": 1.544314974936e15,
+      "id": 141,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "links": [{
+        "guid": "TRxkuihHfeyv",
+        "title": "Software Development Processes | Udacity",
+        "index": 0,
+        "dateAdded": 1.488862912849e15,
+        "lastModified": 1.488862912849e15,
+        "id": 3907,
+        "typeCode": 1,
+        "tags": "code study",
+        "type": "text/x-moz-place",
+        "uri": "https://www.udacity.com/course/software-development-process--ud805"
+      }, {
+        "guid": "BvFSkfGDDBiE",
+        "title": "How to Design Programs, Second Edition",
+        "index": 1,
+        "dateAdded": 1.510242591841e15,
+        "lastModified": 1.510242591841e15,
+        "id": 1333,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "http://www.ccs.neu.edu/home/matthias/HtDP2e/"
+      }]
+    }, {
+      "guid": "IO7qEx8V0b8l",
+      "title": "Functional Programming",
+      "index": 4,
+      "dateAdded": 1.519850864259e15,
+      "lastModified": 1.54431497497e15,
+      "id": 123,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "links": [{
+        "guid": "40EYRBZRjMV3",
+        "title": "Functional Programming in Ruby for people who don't know what functional programming is",
+        "index": 0,
+        "dateAdded": 1.519850876622e15,
+        "lastModified": 1.519850876622e15,
+        "id": 316,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://medium.com/craft-academy/functional-programming-in-ruby-for-people-who-dont-know-what-functional-programming-is-f0c4ab7dc68c"
+      }, {
+        "guid": "iO0EpSM8tafn",
+        "title": "Pure Functional Programming",
+        "index": 1,
+        "dateAdded": 1.512799726471e15,
+        "lastModified": 1.512799726471e15,
+        "id": 2108,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://www.aomran.com/pure-functional-programming/"
+      }]
+    }, {
+      "guid": "-VHgF6wSacCh",
+      "title": "Object Oriented Programming",
+      "index": 5,
+      "dateAdded": 1.544315670419e15,
+      "lastModified": 1.544315677576e15,
+      "id": 6471,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container"
+    }]
+  }, {
+    "guid": "n3sZc1VWahzC",
+    "title": "Languages",
+    "index": 2,
+    "dateAdded": 1.518969300736e15,
+    "lastModified": 1.544321656612e15,
+    "id": 201,
+    "typeCode": 3,
+    "annos": [{
+      "name": "bookmarkProperties/description",
+      "flags": 0,
+      "expires": 4,
+      "value": "1"
+    }],
+    "type": "text/x-moz-place-container",
+    "links": [{
       "guid": "IhpkA-6G3kuV",
-      "title": "elm",
+      "title": "Elm",
       "index": 0,
       "dateAdded": 1.48952673288e15,
-      "lastModified": 1.485008826529e15,
+      "lastModified": 1.54431486359e15,
       "id": 125,
       "typeCode": 2,
       "type": "text/x-moz-place-container",
@@ -27045,17 +28486,412 @@ module.exports = {
       }]
     }, {
       "guid": "AuyRIXYvNJgO",
-      "title": "clojure",
+      "title": "Clojure",
       "index": 1,
       "dateAdded": 1.488635009041e15,
-      "lastModified": 1.542726018707e15,
+      "lastModified": 1.54432164351e15,
       "id": 104,
       "typeCode": 2,
       "type": "text/x-moz-place-container",
       "links": [{
+        "guid": "aErcSizNvnMd",
+        "title": "General",
+        "index": 0,
+        "dateAdded": 1.544314771397e15,
+        "lastModified": 1.54432164351e15,
+        "id": 6468,
+        "typeCode": 2,
+        "type": "text/x-moz-place-container",
+        "links": [{
+          "guid": "9Olmw1bXuMpd",
+          "title": "CJUG - 2017-06-20 - Stuart Halloway on Clojure in 10 Big Ideas on Vimeo",
+          "index": 0,
+          "dateAdded": 1.52129374951e15,
+          "lastModified": 1.544314782086e15,
+          "id": 569,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://vimeo.com/223240720"
+        }, {
+          "guid": "6U2FZ2Ju4QKR",
+          "title": "bbatsov/clojure-style-guide: A community coding style guide for the Clojure programming language",
+          "index": 1,
+          "dateAdded": 1.489860703635e15,
+          "lastModified": 1.544314782117e15,
+          "id": 2581,
+          "typeCode": 1,
+          "tags": "clojure",
+          "type": "text/x-moz-place",
+          "uri": "https://github.com/bbatsov/clojure-style-guide"
+        }, {
+          "guid": "wM5sxOwsKi_B",
+          "title": "4clojure - Welcome!",
+          "index": 2,
+          "dateAdded": 1.488852423132e15,
+          "lastModified": 1.544314782125e15,
+          "id": 2028,
+          "typeCode": 1,
+          "tags": "clojure",
+          "type": "text/x-moz-place",
+          "uri": "http://www.4clojure.com/"
+        }, {
+          "guid": "D4vph8rs5NVb",
+          "title": "Learn Clojure with Shapes.cljs",
+          "index": 3,
+          "dateAdded": 1.5204437727e15,
+          "lastModified": 1.544314782132e15,
+          "id": 1216,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://www.maria.cloud/intro"
+        }, {
+          "guid": "TI_DqEoMy1bY",
+          "title": "Clojure - Cheatsheet",
+          "index": 4,
+          "dateAdded": 1.488852433175e15,
+          "lastModified": 1.544314782157e15,
+          "id": 3895,
+          "typeCode": 1,
+          "tags": "clojure",
+          "type": "text/x-moz-place",
+          "uri": "https://clojure.org/api/cheatsheet"
+        }, {
+          "guid": "LRtQBU-2HH8Q",
+          "title": "Full Stack Clojure",
+          "index": 5,
+          "dateAdded": 1.48885242594e15,
+          "lastModified": 1.544314782166e15,
+          "id": 3461,
+          "typeCode": 1,
+          "tags": "clojure",
+          "type": "text/x-moz-place",
+          "uri": "http://www.fullstackclojure.com/"
+        }, {
+          "guid": "4CD2FVETR0TC",
+          "title": "ClojureScript: a frontend language designed for efficient state management - Medium",
+          "index": 6,
+          "dateAdded": 1.488635029126e15,
+          "lastModified": 1.544314782171e15,
+          "id": 2441,
+          "typeCode": 1,
+          "tags": "clojure",
+          "type": "text/x-moz-place",
+          "uri": "https://medium.com/@roman01la/clojurescript-a-frontend-language-designed-for-efficient-state-management-52f145c2fee3#.41dz2ujuz"
+        }, {
+          "guid": "Z2S_GsY5eS7f",
+          "title": "Introduction - Clojure - building a simple web app",
+          "index": 7,
+          "dateAdded": 1.488639348553e15,
+          "lastModified": 1.544314782176e15,
+          "id": 4206,
+          "typeCode": 1,
+          "tags": "clojure",
+          "type": "text/x-moz-place",
+          "uri": "https://practicalli.github.io/clojure-webapps/"
+        }, {
+          "guid": "ARaBrV_x-2dK",
+          "title": "piranha/clojurescript-awesome: A community driven list of ClojureScript frameworks, libraries and wrappers.",
+          "index": 8,
+          "dateAdded": 1.488639575409e15,
+          "lastModified": 1.544314782211e15,
+          "id": 2802,
+          "typeCode": 1,
+          "tags": "clojure",
+          "type": "text/x-moz-place",
+          "uri": "https://github.com/piranha/clojurescript-awesome"
+        }, {
+          "guid": "5q-Omkkp7ZCx",
+          "title": "clojure - How can I communicate with the backend using ClojureScript and Figwheel? - Stack Overflow",
+          "index": 9,
+          "dateAdded": 1.488639735677e15,
+          "lastModified": 1.54431478224e15,
+          "id": 2530,
+          "typeCode": 1,
+          "tags": "clojure",
+          "type": "text/x-moz-place",
+          "uri": "http://stackoverflow.com/questions/37926881/how-can-i-communicate-with-the-backend-using-clojurescript-and-figwheel"
+        }, {
+          "guid": "OSmYGPgF4N95",
+          "title": "bvandgrift/crisco-compojure: the crisco application using compojure and datomic, cleaned up for the tutorial",
+          "index": 10,
+          "dateAdded": 1.488640001178e15,
+          "lastModified": 1.544314782303e15,
+          "id": 3644,
+          "typeCode": 1,
+          "tags": "clojure",
+          "type": "text/x-moz-place",
+          "uri": "https://github.com/bvandgrift/crisco-compojure"
+        }, {
+          "guid": "HkigVlEa75_3",
+          "title": "Clojure from the ground up: welcome",
+          "index": 11,
+          "dateAdded": 1.488640060782e15,
+          "lastModified": 1.54431478236e15,
+          "id": 3234,
+          "typeCode": 1,
+          "tags": "clojure",
+          "type": "text/x-moz-place",
+          "uri": "https://aphyr.com/posts/301-clojure-from-the-ground-up-welcome"
+        }, {
+          "guid": "OT5q6UHylByy",
+          "title": "A simple Clojurescript app - Adam Bard and his magical blog",
+          "index": 12,
+          "dateAdded": 1.488640763202e15,
+          "lastModified": 1.544314782515e15,
+          "id": 3647,
+          "typeCode": 1,
+          "tags": "clojure",
+          "type": "text/x-moz-place",
+          "uri": "https://adambard.com/blog/a-simple-clojurescript-app/"
+        }, {
+          "guid": "z-8ipvDfo5vu",
+          "title": "Agility Feat - Custom Software Development",
+          "index": 13,
+          "dateAdded": 1.488641983851e15,
+          "lastModified": 1.544314782537e15,
+          "id": 5759,
+          "typeCode": 1,
+          "tags": "clojure",
+          "type": "text/x-moz-place",
+          "uri": "http://www.agilityfeat.com/blog/2015/03/clojure-walking-skeleton"
+        }, {
+          "guid": "gzTPC42EqzVM",
+          "title": "Learn X in Y Minutes: Scenic Programming Language Tours",
+          "index": 14,
+          "dateAdded": 1.488852435581e15,
+          "lastModified": 1.544314782573e15,
+          "id": 4756,
+          "typeCode": 1,
+          "tags": "clojure",
+          "type": "text/x-moz-place",
+          "uri": "https://learnxinyminutes.com/docs/compojure/"
+        }, {
+          "guid": "d7Fnw2Zdu6IU",
+          "title": "Home | http-kit, high performance HTTP Client/Server for Clojure",
+          "index": 15,
+          "dateAdded": 1.490116249043e15,
+          "lastModified": 1.544314782579e15,
+          "id": 1248,
+          "typeCode": 1,
+          "tags": "clojure",
+          "type": "text/x-moz-place",
+          "uri": "http://www.http-kit.org/"
+        }, {
+          "guid": "xWxBKZNx0jk0",
+          "title": "Clojure peeps on the fediverse | etherpad.net Pad",
+          "index": 16,
+          "dateAdded": 1.492989015713e15,
+          "lastModified": 1.544314782601e15,
+          "id": 5696,
+          "typeCode": 1,
+          "tags": "clojure",
+          "type": "text/x-moz-place",
+          "uri": "https://etherpad.net/p/Clojure_peeps_on_the_fediverse"
+        }, {
+          "guid": "4oU4NjKK581K",
+          "title": "Readable Clojure @ tonsky.me",
+          "index": 17,
+          "dateAdded": 1.498517086017e15,
+          "lastModified": 1.54431478261e15,
+          "id": 2478,
+          "typeCode": 1,
+          "tags": "clojure",
+          "type": "text/x-moz-place",
+          "uri": "http://tonsky.me/blog/readable-clojure/"
+        }, {
+          "guid": "MyGP_QbCtC6X",
+          "title": "Simple and Happy; is Clojure dying, and what has Ruby got to do with it?",
+          "index": 18,
+          "dateAdded": 1.498517087357e15,
+          "lastModified": 1.544314782618e15,
+          "id": 3566,
+          "typeCode": 1,
+          "tags": "clojure",
+          "type": "text/x-moz-place",
+          "uri": "https://lambdaisland.com/blog/25-05-2017-simple-and-happy-is-clojure-dying-and-what-has-ruby-got-to-do-with-it"
+        }, {
+          "guid": "U2ZtCjOliVgO",
+          "title": "About Lambda Island",
+          "index": 19,
+          "dateAdded": 1.498517084306e15,
+          "lastModified": 1.544314782623e15,
+          "id": 3948,
+          "typeCode": 1,
+          "tags": "clojure",
+          "type": "text/x-moz-place",
+          "uri": "https://lambdaisland.com/p/about"
+        }, {
+          "guid": "WEZBp-MA5qDj",
+          "title": "Clojure from the ground up: welcome",
+          "index": 20,
+          "dateAdded": 1.498517084817e15,
+          "lastModified": 1.544314782629e15,
+          "id": 4039,
+          "typeCode": 1,
+          "tags": "clojure",
+          "type": "text/x-moz-place",
+          "uri": "https://aphyr.com/posts/301-clojure-from-the-ground-up-welcome"
+        }, {
+          "guid": "FjL1gHnlGOQd",
+          "title": "Reducers, transducers and core.async in Clojure - Eli Bendersky's website",
+          "index": 21,
+          "dateAdded": 1.498517085437e15,
+          "lastModified": 1.544314782661e15,
+          "id": 3124,
+          "typeCode": 1,
+          "tags": "clojure",
+          "type": "text/x-moz-place",
+          "uri": "http://eli.thegreenplace.net/2017/reducers-transducers-and-coreasync-in-clojure/"
+        }, {
+          "guid": "eqQvWONEXjnN",
+          "title": "Quil Examples",
+          "index": 22,
+          "dateAdded": 1.500488636017e15,
+          "lastModified": 1.54431478268e15,
+          "id": 4616,
+          "typeCode": 1,
+          "tags": "clojure",
+          "type": "text/x-moz-place",
+          "uri": "http://quil.info/examples"
+        }, {
+          "guid": "fND_pM5eycq4",
+          "title": "a smol comic about clojure - daiyi",
+          "index": 23,
+          "dateAdded": 1.500488690467e15,
+          "lastModified": 1.544314782688e15,
+          "id": 4653,
+          "typeCode": 1,
+          "tags": "clojure",
+          "type": "text/x-moz-place",
+          "uri": "http://www.daiyi.co/blog/2017/07/19/a-smol-comic-about-clojure/"
+        }, {
+          "guid": "_gwJW3oHkXCy",
+          "title": "gigasquid/wonderland-clojure-katas: Clojure Katas inspired by Alice in Wonderland",
+          "index": 24,
+          "dateAdded": 1.50518401527e15,
+          "lastModified": 1.544314782693e15,
+          "id": 1169,
+          "typeCode": 1,
+          "tags": "clojure",
+          "type": "text/x-moz-place",
+          "uri": "https://github.com/gigasquid/wonderland-clojure-katas"
+        }, {
+          "guid": "1siHR2TSoP1I",
+          "title": "Clojure - the perfect language to expand your brain? - Eli Bendersky's website",
+          "index": 25,
+          "dateAdded": 1.505186243168e15,
+          "lastModified": 1.544314782697e15,
+          "id": 1103,
+          "typeCode": 1,
+          "tags": "clojure",
+          "type": "text/x-moz-place",
+          "uri": "http://eli.thegreenplace.net/2017/clojure-the-perfect-language-to-expand-your-brain/"
+        }, {
+          "guid": "5j1g5H5uIX16",
+          "title": "Clojure | freeCodeCamp Guide",
+          "index": 26,
+          "dateAdded": 1.506897575361e15,
+          "lastModified": 1.544314782727e15,
+          "id": 2523,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://guide.freecodecamp.org/clojure"
+        }, {
+          "guid": "a-nA2fFEBhs_",
+          "title": "Hello parking garage, meet clojure.spec",
+          "index": 27,
+          "dateAdded": 1.507134222079e15,
+          "lastModified": 1.544314782735e15,
+          "id": 4308,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://www.anthony-galea.com/blog/post/hello-parking-garage-meet-clojure.spec/"
+        }, {
+          "guid": "EImjNtfrOrLU",
+          "title": "Introducing Clojurists Together - Clojurists Together",
+          "index": 28,
+          "dateAdded": 1.510620365877e15,
+          "lastModified": 1.544314782743e15,
+          "id": 3026,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://clojuriststogether.org/news/introducing-clojurists-together/"
+        }, {
+          "guid": "LveURwRFE4xG",
+          "title": "Grimoire - Community Clojure Documentation",
+          "index": 29,
+          "dateAdded": 1.51328225008e15,
+          "lastModified": 1.544314782749e15,
+          "id": 399,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://www.conj.io/"
+        }, {
+          "guid": "joKTqWISTnTv",
+          "title": "The Bare Minimum, or Making Mayonnaise with Clojure",
+          "index": 30,
+          "dateAdded": 1.514584725954e15,
+          "lastModified": 1.544314782754e15,
+          "id": 1532,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://lambdaisland.com/blog/29-12-2017-the-bare-minimum-clojure-mayonnaise"
+        }, {
+          "guid": "qjpwFnaEnZMb",
+          "title": "25 days of Clojure",
+          "index": 31,
+          "dateAdded": 1.514584757627e15,
+          "lastModified": 1.544314782758e15,
+          "id": 359,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://orestis.gr/25-days-of-clojure/"
+        }, {
+          "guid": "nDr_9p6R2IiS",
+          "title": "ClojureVerse",
+          "index": 32,
+          "dateAdded": 1.516403855534e15,
+          "lastModified": 1.544314782779e15,
+          "id": 1571,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://clojureverse.org/"
+        }, {
+          "guid": "rXkgueygj6hI",
+          "title": "Clojure | freeCodeCamp Guide",
+          "index": 33,
+          "dateAdded": 1.506897592957e15,
+          "lastModified": 1.544314782787e15,
+          "id": 5295,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://guide.freecodecamp.org/clojure"
+        }, {
+          "guid": "KtXWvGCQ7ICl",
+          "title": "ClojureBridge/curriculum: Curriculum for the ClojureBridge workshop series.",
+          "index": 34,
+          "dateAdded": 1.52221285705e15,
+          "lastModified": 1.544314782792e15,
+          "id": 963,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://github.com/ClojureBridge/curriculum"
+        }, {
+          "guid": "5xPB5CNsT_Ym",
+          "title": "Lisp Programs For Beginners",
+          "index": 35,
+          "dateAdded": 1.492989008807e15,
+          "lastModified": 1.544314782798e15,
+          "id": 2539,
+          "typeCode": 1,
+          "tags": "clojure",
+          "type": "text/x-moz-place",
+          "uri": "http://wiki.c2.com/?LispProgramsForBeginners"
+        }]
+      }, {
         "guid": "bq61qAYoYJSa",
         "title": "clojurescript",
-        "index": 0,
+        "index": 1,
         "dateAdded": 1.518980418526e15,
         "lastModified": 1.488639356157e15,
         "id": 172,
@@ -27063,7 +28899,7 @@ module.exports = {
         "type": "text/x-moz-place-container",
         "links": [{
           "guid": "KY4gKJRhFtPi",
-          "title": "Shadow CLJS User - Guide",
+          "title": "Shadow CLJS User's Guide",
           "index": 0,
           "dateAdded": 1.517874972966e15,
           "lastModified": 1.517874972966e15,
@@ -27130,7 +28966,7 @@ module.exports = {
       }, {
         "guid": "EBOhFyeotDQc",
         "title": "reagant",
-        "index": 1,
+        "index": 2,
         "dateAdded": 1.518980431067e15,
         "lastModified": 1.488852428352e15,
         "id": 108,
@@ -27180,398 +29016,13 @@ module.exports = {
           "type": "text/x-moz-place",
           "uri": "https://github.com/reagent-project/reagent-cookbook"
         }]
-      }, {
-        "guid": "9Olmw1bXuMpd",
-        "title": "CJUG - 2017-06-20 - Stuart Halloway on Clojure in 10 Big Ideas on Vimeo",
-        "index": 2,
-        "dateAdded": 1.52129374951e15,
-        "lastModified": 1.52129374951e15,
-        "id": 569,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://vimeo.com/223240720"
-      }, {
-        "guid": "6U2FZ2Ju4QKR",
-        "title": "bbatsov/clojure-style-guide: A community coding style guide for the Clojure programming language",
-        "index": 3,
-        "dateAdded": 1.489860703635e15,
-        "lastModified": 1.489860703635e15,
-        "id": 2581,
-        "typeCode": 1,
-        "tags": "clojure",
-        "type": "text/x-moz-place",
-        "uri": "https://github.com/bbatsov/clojure-style-guide"
-      }, {
-        "guid": "wM5sxOwsKi_B",
-        "title": "4clojure - Welcome!",
-        "index": 4,
-        "dateAdded": 1.488852423132e15,
-        "lastModified": 1.488852423132e15,
-        "id": 2028,
-        "typeCode": 1,
-        "tags": "clojure",
-        "type": "text/x-moz-place",
-        "uri": "http://www.4clojure.com/"
-      }, {
-        "guid": "D4vph8rs5NVb",
-        "title": "Learn Clojure with Shapes.cljs",
-        "index": 5,
-        "dateAdded": 1.5204437727e15,
-        "lastModified": 1.5204437727e15,
-        "id": 1216,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://www.maria.cloud/intro"
-      }, {
-        "guid": "TI_DqEoMy1bY",
-        "title": "Clojure - Cheatsheet",
-        "index": 6,
-        "dateAdded": 1.488852433175e15,
-        "lastModified": 1.488852433175e15,
-        "id": 3895,
-        "typeCode": 1,
-        "tags": "clojure",
-        "type": "text/x-moz-place",
-        "uri": "https://clojure.org/api/cheatsheet"
-      }, {
-        "guid": "LRtQBU-2HH8Q",
-        "title": "Full Stack Clojure",
-        "index": 7,
-        "dateAdded": 1.48885242594e15,
-        "lastModified": 1.48885242594e15,
-        "id": 3461,
-        "typeCode": 1,
-        "tags": "clojure",
-        "type": "text/x-moz-place",
-        "uri": "http://www.fullstackclojure.com/"
-      }, {
-        "guid": "4CD2FVETR0TC",
-        "title": "ClojureScript: a frontend language designed for efficient state management - Medium",
-        "index": 8,
-        "dateAdded": 1.488635029126e15,
-        "lastModified": 1.488635029126e15,
-        "id": 2441,
-        "typeCode": 1,
-        "tags": "clojure",
-        "type": "text/x-moz-place",
-        "uri": "https://medium.com/@roman01la/clojurescript-a-frontend-language-designed-for-efficient-state-management-52f145c2fee3#.41dz2ujuz"
-      }, {
-        "guid": "Z2S_GsY5eS7f",
-        "title": "Introduction - Clojure - building a simple web app",
-        "index": 9,
-        "dateAdded": 1.488639348553e15,
-        "lastModified": 1.488639348553e15,
-        "id": 4206,
-        "typeCode": 1,
-        "tags": "clojure",
-        "type": "text/x-moz-place",
-        "uri": "https://practicalli.github.io/clojure-webapps/"
-      }, {
-        "guid": "ARaBrV_x-2dK",
-        "title": "piranha/clojurescript-awesome: A community driven list of ClojureScript frameworks, libraries and wrappers.",
-        "index": 10,
-        "dateAdded": 1.488639575409e15,
-        "lastModified": 1.488639575409e15,
-        "id": 2802,
-        "typeCode": 1,
-        "tags": "clojure",
-        "type": "text/x-moz-place",
-        "uri": "https://github.com/piranha/clojurescript-awesome"
-      }, {
-        "guid": "5q-Omkkp7ZCx",
-        "title": "clojure - How can I communicate with the backend using ClojureScript and Figwheel? - Stack Overflow",
-        "index": 11,
-        "dateAdded": 1.488639735677e15,
-        "lastModified": 1.488639735677e15,
-        "id": 2530,
-        "typeCode": 1,
-        "tags": "clojure",
-        "type": "text/x-moz-place",
-        "uri": "http://stackoverflow.com/questions/37926881/how-can-i-communicate-with-the-backend-using-clojurescript-and-figwheel"
-      }, {
-        "guid": "OSmYGPgF4N95",
-        "title": "bvandgrift/crisco-compojure: the crisco application using compojure and datomic, cleaned up for the tutorial",
-        "index": 12,
-        "dateAdded": 1.488640001178e15,
-        "lastModified": 1.488640001178e15,
-        "id": 3644,
-        "typeCode": 1,
-        "tags": "clojure",
-        "type": "text/x-moz-place",
-        "uri": "https://github.com/bvandgrift/crisco-compojure"
-      }, {
-        "guid": "HkigVlEa75_3",
-        "title": "Clojure from the ground up: welcome",
-        "index": 13,
-        "dateAdded": 1.488640060782e15,
-        "lastModified": 1.488640060782e15,
-        "id": 3234,
-        "typeCode": 1,
-        "tags": "clojure",
-        "type": "text/x-moz-place",
-        "uri": "https://aphyr.com/posts/301-clojure-from-the-ground-up-welcome"
-      }, {
-        "guid": "OT5q6UHylByy",
-        "title": "A simple Clojurescript app - Adam Bard and his magical blog",
-        "index": 14,
-        "dateAdded": 1.488640763202e15,
-        "lastModified": 1.488640763202e15,
-        "id": 3647,
-        "typeCode": 1,
-        "tags": "clojure",
-        "type": "text/x-moz-place",
-        "uri": "https://adambard.com/blog/a-simple-clojurescript-app/"
-      }, {
-        "guid": "z-8ipvDfo5vu",
-        "title": "Agility Feat - Custom Software Development",
-        "index": 15,
-        "dateAdded": 1.488641983851e15,
-        "lastModified": 1.488641983851e15,
-        "id": 5759,
-        "typeCode": 1,
-        "tags": "clojure",
-        "type": "text/x-moz-place",
-        "uri": "http://www.agilityfeat.com/blog/2015/03/clojure-walking-skeleton"
-      }, {
-        "guid": "gzTPC42EqzVM",
-        "title": "Learn X in Y Minutes: Scenic Programming Language Tours",
-        "index": 16,
-        "dateAdded": 1.488852435581e15,
-        "lastModified": 1.488852435581e15,
-        "id": 4756,
-        "typeCode": 1,
-        "tags": "clojure",
-        "type": "text/x-moz-place",
-        "uri": "https://learnxinyminutes.com/docs/compojure/"
-      }, {
-        "guid": "d7Fnw2Zdu6IU",
-        "title": "Home | http-kit, high performance HTTP Client/Server for Clojure",
-        "index": 17,
-        "dateAdded": 1.490116249043e15,
-        "lastModified": 1.490116249043e15,
-        "id": 1248,
-        "typeCode": 1,
-        "tags": "clojure",
-        "type": "text/x-moz-place",
-        "uri": "http://www.http-kit.org/"
-      }, {
-        "guid": "xWxBKZNx0jk0",
-        "title": "Clojure peeps on the fediverse | etherpad.net Pad",
-        "index": 18,
-        "dateAdded": 1.492989015713e15,
-        "lastModified": 1.492989015713e15,
-        "id": 5696,
-        "typeCode": 1,
-        "tags": "clojure",
-        "type": "text/x-moz-place",
-        "uri": "https://etherpad.net/p/Clojure_peeps_on_the_fediverse"
-      }, {
-        "guid": "4oU4NjKK581K",
-        "title": "Readable Clojure @ tonsky.me",
-        "index": 19,
-        "dateAdded": 1.498517086017e15,
-        "lastModified": 1.498517086017e15,
-        "id": 2478,
-        "typeCode": 1,
-        "tags": "clojure",
-        "type": "text/x-moz-place",
-        "uri": "http://tonsky.me/blog/readable-clojure/"
-      }, {
-        "guid": "MyGP_QbCtC6X",
-        "title": "Simple and Happy; is Clojure dying, and what has Ruby got to do with it?",
-        "index": 20,
-        "dateAdded": 1.498517087357e15,
-        "lastModified": 1.498517087357e15,
-        "id": 3566,
-        "typeCode": 1,
-        "tags": "clojure",
-        "type": "text/x-moz-place",
-        "uri": "https://lambdaisland.com/blog/25-05-2017-simple-and-happy-is-clojure-dying-and-what-has-ruby-got-to-do-with-it"
-      }, {
-        "guid": "U2ZtCjOliVgO",
-        "title": "About Lambda Island",
-        "index": 21,
-        "dateAdded": 1.498517084306e15,
-        "lastModified": 1.498517084306e15,
-        "id": 3948,
-        "typeCode": 1,
-        "tags": "clojure",
-        "type": "text/x-moz-place",
-        "uri": "https://lambdaisland.com/p/about"
-      }, {
-        "guid": "WEZBp-MA5qDj",
-        "title": "Clojure from the ground up: welcome",
-        "index": 22,
-        "dateAdded": 1.498517084817e15,
-        "lastModified": 1.498517084817e15,
-        "id": 4039,
-        "typeCode": 1,
-        "tags": "clojure",
-        "type": "text/x-moz-place",
-        "uri": "https://aphyr.com/posts/301-clojure-from-the-ground-up-welcome"
-      }, {
-        "guid": "FjL1gHnlGOQd",
-        "title": "Reducers, transducers and core.async in Clojure - Eli Bendersky's website",
-        "index": 23,
-        "dateAdded": 1.498517085437e15,
-        "lastModified": 1.498517085437e15,
-        "id": 3124,
-        "typeCode": 1,
-        "tags": "clojure",
-        "type": "text/x-moz-place",
-        "uri": "http://eli.thegreenplace.net/2017/reducers-transducers-and-coreasync-in-clojure/"
-      }, {
-        "guid": "eqQvWONEXjnN",
-        "title": "Quil Examples",
-        "index": 24,
-        "dateAdded": 1.500488636017e15,
-        "lastModified": 1.500488636017e15,
-        "id": 4616,
-        "typeCode": 1,
-        "tags": "clojure",
-        "type": "text/x-moz-place",
-        "uri": "http://quil.info/examples"
-      }, {
-        "guid": "fND_pM5eycq4",
-        "title": "a smol comic about clojure -\xC2\xA0daiyi",
-        "index": 25,
-        "dateAdded": 1.500488690467e15,
-        "lastModified": 1.500488690467e15,
-        "id": 4653,
-        "typeCode": 1,
-        "tags": "clojure",
-        "type": "text/x-moz-place",
-        "uri": "http://www.daiyi.co/blog/2017/07/19/a-smol-comic-about-clojure/"
-      }, {
-        "guid": "_gwJW3oHkXCy",
-        "title": "gigasquid/wonderland-clojure-katas: Clojure Katas inspired by Alice in Wonderland",
-        "index": 26,
-        "dateAdded": 1.50518401527e15,
-        "lastModified": 1.50518401527e15,
-        "id": 1169,
-        "typeCode": 1,
-        "tags": "clojure",
-        "type": "text/x-moz-place",
-        "uri": "https://github.com/gigasquid/wonderland-clojure-katas"
-      }, {
-        "guid": "1siHR2TSoP1I",
-        "title": "Clojure - the perfect language to expand your brain? - Eli Bendersky's website",
-        "index": 27,
-        "dateAdded": 1.505186243168e15,
-        "lastModified": 1.505186243168e15,
-        "id": 1103,
-        "typeCode": 1,
-        "tags": "clojure",
-        "type": "text/x-moz-place",
-        "uri": "http://eli.thegreenplace.net/2017/clojure-the-perfect-language-to-expand-your-brain/"
-      }, {
-        "guid": "5j1g5H5uIX16",
-        "title": "Clojure | freeCodeCamp Guide",
-        "index": 28,
-        "dateAdded": 1.506897575361e15,
-        "lastModified": 1.506897575361e15,
-        "id": 2523,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://guide.freecodecamp.org/clojure"
-      }, {
-        "guid": "a-nA2fFEBhs_",
-        "title": "Hello parking garage, meet clojure.spec",
-        "index": 29,
-        "dateAdded": 1.507134222079e15,
-        "lastModified": 1.507134222079e15,
-        "id": 4308,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://www.anthony-galea.com/blog/post/hello-parking-garage-meet-clojure.spec/"
-      }, {
-        "guid": "EImjNtfrOrLU",
-        "title": "Introducing Clojurists Together - Clojurists Together",
-        "index": 30,
-        "dateAdded": 1.510620365877e15,
-        "lastModified": 1.510620365877e15,
-        "id": 3026,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://clojuriststogether.org/news/introducing-clojurists-together/"
-      }, {
-        "guid": "LveURwRFE4xG",
-        "title": "Grimoire - Community Clojure Documentation",
-        "index": 31,
-        "dateAdded": 1.51328225008e15,
-        "lastModified": 1.51328225008e15,
-        "id": 399,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://www.conj.io/"
-      }, {
-        "guid": "joKTqWISTnTv",
-        "title": "The Bare Minimum, or Making Mayonnaise with Clojure",
-        "index": 32,
-        "dateAdded": 1.514584725954e15,
-        "lastModified": 1.514584725954e15,
-        "id": 1532,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://lambdaisland.com/blog/29-12-2017-the-bare-minimum-clojure-mayonnaise"
-      }, {
-        "guid": "qjpwFnaEnZMb",
-        "title": "25 days of Clojure",
-        "index": 33,
-        "dateAdded": 1.514584757627e15,
-        "lastModified": 1.514584757627e15,
-        "id": 359,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://orestis.gr/25-days-of-clojure/"
-      }, {
-        "guid": "nDr_9p6R2IiS",
-        "title": "ClojureVerse",
-        "index": 34,
-        "dateAdded": 1.516403855534e15,
-        "lastModified": 1.516403855534e15,
-        "id": 1571,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://clojureverse.org/"
-      }, {
-        "guid": "rXkgueygj6hI",
-        "title": "Clojure | freeCodeCamp Guide",
-        "index": 35,
-        "dateAdded": 1.506897592957e15,
-        "lastModified": 1.506897592957e15,
-        "id": 5295,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://guide.freecodecamp.org/clojure"
-      }, {
-        "guid": "KtXWvGCQ7ICl",
-        "title": "ClojureBridge/curriculum: Curriculum for the ClojureBridge workshop series.",
-        "index": 36,
-        "dateAdded": 1.52221285705e15,
-        "lastModified": 1.52221285705e15,
-        "id": 963,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://github.com/ClojureBridge/curriculum"
-      }, {
-        "guid": "5xPB5CNsT_Ym",
-        "title": "Lisp Programs For Beginners",
-        "index": 37,
-        "dateAdded": 1.492989008807e15,
-        "lastModified": 1.542726018707e15,
-        "id": 2539,
-        "typeCode": 1,
-        "tags": "clojure",
-        "type": "text/x-moz-place",
-        "uri": "http://wiki.c2.com/?LispProgramsForBeginners"
       }]
     }, {
       "guid": "mnATdGDKT2oA",
-      "title": "python",
+      "title": "Python",
       "index": 2,
       "dateAdded": 1.485008759446e15,
-      "lastModified": 1.538152110585e15,
+      "lastModified": 1.544314873701e15,
       "id": 200,
       "typeCode": 2,
       "type": "text/x-moz-place-container",
@@ -27621,7 +29072,7 @@ module.exports = {
         "uri": "https://docs.python.org/3/tutorial/"
       }, {
         "guid": "-KYvpnb8QGRr",
-        "title": "Google's Python Class \xC2\xA0|\xC2\xA0 Python Education \xC2\xA0|\xC2\xA0 Google Developers",
+        "title": "Google's Python Class  |  Python Education  |  Google Developers",
         "index": 4,
         "dateAdded": 1.485008773811e15,
         "lastModified": 1.485008773811e15,
@@ -27676,7 +29127,7 @@ module.exports = {
         "uri": "http://www.diveintopython.net/"
       }, {
         "guid": "Ex4sOpB9Vi_7",
-        "title": "The Hitchhiker - Guide to Python! - The Hitchhiker's Guide to Python",
+        "title": "The Hitchhiker's Guide to Python! - The Hitchhiker's Guide to Python",
         "index": 9,
         "dateAdded": 1.488066796058e15,
         "lastModified": 1.488066796058e15,
@@ -27723,16 +29174,227 @@ module.exports = {
       "title": "JavaScript",
       "index": 3,
       "dateAdded": 1.48952673288e15,
-      "lastModified": 1.501706965248e15,
+      "lastModified": 1.544321656612e15,
       "id": 196,
       "typeCode": 2,
       "type": "text/x-moz-place-container",
       "links": [{
+        "guid": "jpE3j4Jc7J9u",
+        "title": "General",
+        "index": 0,
+        "dateAdded": 1.544314804408e15,
+        "lastModified": 1.544321656612e15,
+        "id": 6469,
+        "typeCode": 2,
+        "type": "text/x-moz-place-container",
+        "links": [{
+          "guid": "qwXPuk6AcsEG",
+          "title": "JavaScript | Codecademy",
+          "index": 0,
+          "dateAdded": 1.40897549016e15,
+          "lastModified": 1.544314833972e15,
+          "id": 5250,
+          "typeCode": 1,
+          "tags": "javascript",
+          "type": "text/x-moz-place",
+          "uri": "http://www.codecademy.com/tracks/javascript"
+        }, {
+          "guid": "KFOC_rX41KtW",
+          "title": "How to Learn JavaScript Properly | JavaScript is Sexy",
+          "index": 1,
+          "dateAdded": 1.408975490427e15,
+          "lastModified": 1.544314833986e15,
+          "id": 834,
+          "typeCode": 1,
+          "tags": "javascript",
+          "type": "text/x-moz-place",
+          "uri": "http://javascriptissexy.com/how-to-learn-javascript-properly/"
+        }, {
+          "guid": "rJYMUA9uZaJ1",
+          "title": "Learn JavaScript Properly - Omnibus Post : learnjavascript",
+          "index": 2,
+          "dateAdded": 1.408975490139e15,
+          "lastModified": 1.544314833996e15,
+          "id": 5274,
+          "typeCode": 1,
+          "tags": "javascript",
+          "type": "text/x-moz-place",
+          "uri": "http://www.reddit.com/r/learnjavascript/comments/1ceefw/learn_javascript_properly_omnibus_post/"
+        }, {
+          "guid": "6h3vAcOwAz2N",
+          "title": "Learn basic JavaScript - Code School",
+          "index": 3,
+          "dateAdded": 1.408975490689e15,
+          "lastModified": 1.544314834051e15,
+          "id": 2588,
+          "typeCode": 1,
+          "tags": "javascript",
+          "type": "text/x-moz-place",
+          "uri": "https://www.codeschool.com/courses/javascript-road-trip-part-1"
+        }, {
+          "guid": "nmdnIp9iE_m2",
+          "title": "Online JavaScript Courses & Tutorials | LearnStreet",
+          "index": 4,
+          "dateAdded": 1.408975490227e15,
+          "lastModified": 1.544314834075e15,
+          "id": 5062,
+          "typeCode": 1,
+          "tags": "javascript",
+          "type": "text/x-moz-place",
+          "uri": "http://www.learnstreet.com/lessons/study/javascript"
+        }, {
+          "guid": "fQH5WQKpQJig",
+          "title": "Watch the Online Video Course Foundations of Programming: Fundamentals",
+          "index": 5,
+          "dateAdded": 1.408975490516e15,
+          "lastModified": 1.544314834097e15,
+          "id": 4661,
+          "typeCode": 1,
+          "tags": "javascript",
+          "type": "text/x-moz-place",
+          "uri": "http://www.lynda.com/course20/Developer-Programming-Foundations-tutorials/Making-most-course/83603/90427-4.html"
+        }, {
+          "guid": "NX_Jra4wSUtC",
+          "title": "JavaScript - Map vs. ForEach - codeburst",
+          "index": 6,
+          "dateAdded": 1.513570453335e15,
+          "lastModified": 1.544314834105e15,
+          "id": 1917,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://codeburst.io/javascript-map-vs-foreach-f38111822c0f"
+        }, {
+          "guid": "b7A8uH5gJtL4",
+          "title": "30 seconds of code",
+          "index": 7,
+          "dateAdded": 1.514651234913e15,
+          "lastModified": 1.544314834235e15,
+          "id": 1989,
+          "typeCode": 1,
+          "annos": [{
+            "name": "bookmarkProperties/description",
+            "flags": 0,
+            "expires": 4,
+            "value": "Curated collection of useful Javascript snippets that you can understand in 30 seconds or less."
+          }],
+          "type": "text/x-moz-place",
+          "uri": "https://chalarangelo.github.io/30-seconds-of-code/"
+        }, {
+          "guid": "dH5upvwHKcZW",
+          "title": "Newcomer's Guide to JS Landscape - Google Docs",
+          "index": 8,
+          "dateAdded": 1.459897550709e15,
+          "lastModified": 1.544314834267e15,
+          "id": 4561,
+          "typeCode": 1,
+          "tags": "compsci",
+          "type": "text/x-moz-place",
+          "uri": "https://docs.google.com/document/d/1bMSK0K-Sy6f3oGmdpCdHPORpqMKgfj6-uwNrPmxR1Qc/edit#heading=h.2letjmyb2h6c"
+        }, {
+          "guid": "LaKCbGT-Bqa0",
+          "title": "Exercises for JS Beginners",
+          "index": 9,
+          "dateAdded": 1.457049284032e15,
+          "lastModified": 1.544314834292e15,
+          "id": 3471,
+          "typeCode": 1,
+          "tags": "compsci",
+          "type": "text/x-moz-place",
+          "uri": "https://rmurphey.com/blog/2016/02/13/exercises-for-js-beginners"
+        }, {
+          "guid": "NZtVKdMi7X2P",
+          "title": "A Smarter Way to Learn JavaScript - Index of Exercises",
+          "index": 10,
+          "dateAdded": 1.466721727558e15,
+          "lastModified": 1.544314834401e15,
+          "id": 1830,
+          "typeCode": 1,
+          "tags": "compsci",
+          "type": "text/x-moz-place",
+          "uri": "http://www.asmarterwaytolearn.com/js/index-of-exercises.html"
+        }, {
+          "guid": "qIzmwh8R_Upn",
+          "title": "JavaScript | MDN",
+          "index": 11,
+          "dateAdded": 1.487834958706e15,
+          "lastModified": 1.544314834519e15,
+          "id": 5211,
+          "typeCode": 1,
+          "tags": "code study",
+          "type": "text/x-moz-place",
+          "uri": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        }, {
+          "guid": "S9yy9gj4It4Z",
+          "title": "JavaScript 30 - Build 30 things with vanilla JS in 30 days with 30 tutorials",
+          "index": 12,
+          "dateAdded": 1.487834910101e15,
+          "lastModified": 1.544314834523e15,
+          "id": 3860,
+          "typeCode": 1,
+          "tags": "code study",
+          "type": "text/x-moz-place",
+          "uri": "https://javascript30.com/"
+        }, {
+          "guid": "If5tAEEGUuLb",
+          "title": "The Definitive JavaScript Handbook for your next developer interview",
+          "index": 13,
+          "dateAdded": 1.512856358137e15,
+          "lastModified": 1.544314834528e15,
+          "id": 1967,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://medium.freecodecamp.org/the-definitive-javascript-handbook-for-a-developer-interview-44ffc6aeb54e"
+        }, {
+          "guid": "XMe9DNFdudFk",
+          "title": "Learning Advanced JavaScript",
+          "index": 14,
+          "dateAdded": 1.505401710187e15,
+          "lastModified": 1.54431483455e15,
+          "id": 4126,
+          "typeCode": 1,
+          "tags": "code study",
+          "type": "text/x-moz-place",
+          "uri": "https://johnresig.com/apps/learn/"
+        }, {
+          "guid": "FgeAy-V_75VK",
+          "title": "Free Intermediate JavaScript Course | Rithm School",
+          "index": 15,
+          "dateAdded": 1.490664643515e15,
+          "lastModified": 1.544314834565e15,
+          "id": 3118,
+          "typeCode": 1,
+          "tags": "code study",
+          "type": "text/x-moz-place",
+          "uri": "https://www.rithmschool.com/courses/intermediate-javascript"
+        }, {
+          "guid": "_RmEwBhX7mnK",
+          "title": "ES6 Spread & Rest Operators - Front-End Engineering Curriculum - Turing School of Software and Design",
+          "index": 16,
+          "dateAdded": 1.503029408262e15,
+          "lastModified": 1.544314834606e15,
+          "id": 4285,
+          "typeCode": 1,
+          "tags": "code study",
+          "type": "text/x-moz-place",
+          "uri": "http://frontend.turing.io/lessons/module-3/es6-spread-and-rest-operators.html"
+        }, {
+          "guid": "n3Yh4k6Y1V7X",
+          "title": "Java OOPs Concepts - Javatpoint",
+          "index": 17,
+          "dateAdded": 1.477245880852e15,
+          "lastModified": 1.544315653922e15,
+          "id": 5027,
+          "typeCode": 1,
+          "tags": "mentoring stuff",
+          "type": "text/x-moz-place",
+          "uri": "http://www.javatpoint.com/java-oops-concepts"
+        }]
+      }, {
         "guid": "Vie2-3Ajkfn9",
         "title": "es6",
-        "index": 0,
+        "index": 1,
         "dateAdded": 1.499483370535e15,
-        "lastModified": 1.501706965248e15,
+        "lastModified": 1.544321653424e15,
         "id": 154,
         "typeCode": 2,
         "type": "text/x-moz-place-container",
@@ -27865,225 +29527,57 @@ module.exports = {
           "typeCode": 1,
           "type": "text/x-moz-place",
           "uri": "https://ponyfoo.com/articles/es6-classes-in-depth"
+        }, {
+          "guid": "_Ku6f4LJrAx0",
+          "title": "ES6 for Everyone - The best way to learn modern ES6 JavaScript",
+          "index": 7,
+          "dateAdded": 1.470958278385e15,
+          "lastModified": 1.544314826237e15,
+          "id": 4267,
+          "typeCode": 1,
+          "tags": "compsci",
+          "type": "text/x-moz-place",
+          "uri": "https://es6.io/"
         }]
       }, {
-        "guid": "qwXPuk6AcsEG",
-        "title": "JavaScript | Codecademy",
-        "index": 1,
-        "dateAdded": 1.40897549016e15,
-        "lastModified": 1.40897549016e15,
-        "id": 5250,
-        "typeCode": 1,
-        "tags": "javascript",
-        "type": "text/x-moz-place",
-        "uri": "http://www.codecademy.com/tracks/javascript"
-      }, {
-        "guid": "KFOC_rX41KtW",
-        "title": "How to Learn JavaScript Properly | JavaScript is Sexy",
+        "guid": "YBmJBCD9O4e3",
+        "title": "Jasmine",
         "index": 2,
-        "dateAdded": 1.408975490427e15,
-        "lastModified": 1.408975490427e15,
-        "id": 834,
-        "typeCode": 1,
-        "tags": "javascript",
-        "type": "text/x-moz-place",
-        "uri": "http://javascriptissexy.com/how-to-learn-javascript-properly/"
-      }, {
-        "guid": "rJYMUA9uZaJ1",
-        "title": "Learn JavaScript Properly - Omnibus Post : learnjavascript",
-        "index": 3,
-        "dateAdded": 1.408975490139e15,
-        "lastModified": 1.408975490139e15,
-        "id": 5274,
-        "typeCode": 1,
-        "tags": "javascript",
-        "type": "text/x-moz-place",
-        "uri": "http://www.reddit.com/r/learnjavascript/comments/1ceefw/learn_javascript_properly_omnibus_post/"
-      }, {
-        "guid": "6h3vAcOwAz2N",
-        "title": "Learn basic JavaScript - Code School",
-        "index": 4,
-        "dateAdded": 1.408975490689e15,
-        "lastModified": 1.408975490689e15,
-        "id": 2588,
-        "typeCode": 1,
-        "tags": "javascript",
-        "type": "text/x-moz-place",
-        "uri": "https://www.codeschool.com/courses/javascript-road-trip-part-1"
-      }, {
-        "guid": "nmdnIp9iE_m2",
-        "title": "Online JavaScript Courses & Tutorials | LearnStreet",
-        "index": 5,
-        "dateAdded": 1.408975490227e15,
-        "lastModified": 1.408975490227e15,
-        "id": 5062,
-        "typeCode": 1,
-        "tags": "javascript",
-        "type": "text/x-moz-place",
-        "uri": "http://www.learnstreet.com/lessons/study/javascript"
-      }, {
-        "guid": "fQH5WQKpQJig",
-        "title": "Watch the Online Video Course Foundations of Programming: Fundamentals",
-        "index": 6,
-        "dateAdded": 1.408975490516e15,
-        "lastModified": 1.408975490516e15,
-        "id": 4661,
-        "typeCode": 1,
-        "tags": "javascript",
-        "type": "text/x-moz-place",
-        "uri": "http://www.lynda.com/course20/Developer-Programming-Foundations-tutorials/Making-most-course/83603/90427-4.html"
-      }, {
-        "guid": "NX_Jra4wSUtC",
-        "title": "JavaScript - Map vs. ForEach - codeburst",
-        "index": 7,
-        "dateAdded": 1.513570453335e15,
-        "lastModified": 1.513570453335e15,
-        "id": 1917,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://codeburst.io/javascript-map-vs-foreach-f38111822c0f"
-      }, {
-        "guid": "b7A8uH5gJtL4",
-        "title": "30 seconds of code",
-        "index": 8,
-        "dateAdded": 1.514651234913e15,
-        "lastModified": 1.527212844458e15,
-        "id": 1989,
-        "typeCode": 1,
-        "annos": [{
-          "name": "bookmarkProperties/description",
-          "flags": 0,
-          "expires": 4,
-          "value": "Curated collection of useful Javascript snippets that you can understand in 30 seconds or less."
-        }],
-        "type": "text/x-moz-place",
-        "uri": "https://chalarangelo.github.io/30-seconds-of-code/"
-      }, {
-        "guid": "_Ku6f4LJrAx0",
-        "title": "ES6 for Everyone - The best way to learn modern ES6 JavaScript",
-        "index": 9,
-        "dateAdded": 1.470958278385e15,
-        "lastModified": 1.470958278385e15,
-        "id": 4267,
-        "typeCode": 1,
-        "tags": "compsci",
-        "type": "text/x-moz-place",
-        "uri": "https://es6.io/"
-      }, {
-        "guid": "dH5upvwHKcZW",
-        "title": "Newcomer's Guide to JS Landscape - Google Docs",
-        "index": 10,
-        "dateAdded": 1.459897550709e15,
-        "lastModified": 1.459897550709e15,
-        "id": 4561,
-        "typeCode": 1,
-        "tags": "compsci",
-        "type": "text/x-moz-place",
-        "uri": "https://docs.google.com/document/d/1bMSK0K-Sy6f3oGmdpCdHPORpqMKgfj6-uwNrPmxR1Qc/edit#heading=h.2letjmyb2h6c"
-      }, {
-        "guid": "LaKCbGT-Bqa0",
-        "title": "Exercises for JS Beginners",
-        "index": 11,
-        "dateAdded": 1.457049284032e15,
-        "lastModified": 1.457049284032e15,
-        "id": 3471,
-        "typeCode": 1,
-        "tags": "compsci",
-        "type": "text/x-moz-place",
-        "uri": "https://rmurphey.com/blog/2016/02/13/exercises-for-js-beginners"
-      }, {
-        "guid": "NZtVKdMi7X2P",
-        "title": "A Smarter Way to Learn JavaScript - Index of Exercises",
-        "index": 12,
-        "dateAdded": 1.466721727558e15,
-        "lastModified": 1.466721727558e15,
-        "id": 1830,
-        "typeCode": 1,
-        "tags": "compsci",
-        "type": "text/x-moz-place",
-        "uri": "http://www.asmarterwaytolearn.com/js/index-of-exercises.html"
-      }, {
-        "guid": "qIzmwh8R_Upn",
-        "title": "JavaScript | MDN",
-        "index": 13,
-        "dateAdded": 1.487834958706e15,
-        "lastModified": 1.487834958706e15,
-        "id": 5211,
-        "typeCode": 1,
-        "tags": "code study",
-        "type": "text/x-moz-place",
-        "uri": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-      }, {
-        "guid": "S9yy9gj4It4Z",
-        "title": "JavaScript 30 - Build 30 things with vanilla JS in 30 days with 30 tutorials",
-        "index": 14,
-        "dateAdded": 1.487834910101e15,
-        "lastModified": 1.487834910101e15,
-        "id": 3860,
-        "typeCode": 1,
-        "tags": "code study",
-        "type": "text/x-moz-place",
-        "uri": "https://javascript30.com/"
-      }, {
-        "guid": "If5tAEEGUuLb",
-        "title": "The Definitive JavaScript Handbook for your next developer interview",
-        "index": 15,
-        "dateAdded": 1.512856358137e15,
-        "lastModified": 1.512856358137e15,
-        "id": 1967,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://medium.freecodecamp.org/the-definitive-javascript-handbook-for-a-developer-interview-44ffc6aeb54e"
-      }, {
-        "guid": "XMe9DNFdudFk",
-        "title": "Learning Advanced JavaScript",
-        "index": 16,
-        "dateAdded": 1.505401710187e15,
-        "lastModified": 1.505401710187e15,
-        "id": 4126,
-        "typeCode": 1,
-        "tags": "code study",
-        "type": "text/x-moz-place",
-        "uri": "https://johnresig.com/apps/learn/"
-      }, {
-        "guid": "FgeAy-V_75VK",
-        "title": "Free Intermediate JavaScript Course | Rithm School",
-        "index": 17,
-        "dateAdded": 1.490664643515e15,
-        "lastModified": 1.490664643515e15,
-        "id": 3118,
-        "typeCode": 1,
-        "tags": "code study",
-        "type": "text/x-moz-place",
-        "uri": "https://www.rithmschool.com/courses/intermediate-javascript"
-      }, {
-        "guid": "_RmEwBhX7mnK",
-        "title": "ES6 Spread & Rest Operators - Front-End Engineering Curriculum - Turing School of Software and Design",
-        "index": 18,
-        "dateAdded": 1.503029408262e15,
-        "lastModified": 1.503029408262e15,
-        "id": 4285,
-        "typeCode": 1,
-        "tags": "code study",
-        "type": "text/x-moz-place",
-        "uri": "http://frontend.turing.io/lessons/module-3/es6-spread-and-rest-operators.html"
-      }, {
-        "guid": "yDEyQl-XVGNm",
-        "title": "Master the JavaScript Interview - JavaScript Scene - Medium",
-        "index": 19,
-        "dateAdded": 1.519850822099e15,
-        "lastModified": 1.519850822099e15,
-        "id": 747,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://medium.com/javascript-scene/search?q=Master%20the%20JavaScript%20Interview"
+        "dateAdded": 1.49168015378e15,
+        "lastModified": 1.544315023486e15,
+        "id": 160,
+        "typeCode": 2,
+        "type": "text/x-moz-place-container",
+        "links": [{
+          "guid": "MQi2z1V6xAP-",
+          "title": "Where to put code in mocha/jasmine tests - Medium",
+          "index": 0,
+          "dateAdded": 1.490486682572e15,
+          "lastModified": 1.490486682572e15,
+          "id": 3523,
+          "typeCode": 1,
+          "tags": "jasmine",
+          "type": "text/x-moz-place",
+          "uri": "https://medium.com/@kentcdodds/where-to-put-code-in-mocha-jasmine-tests-24aade62fd7e#.lrs5jcd7s"
+        }, {
+          "guid": "wXwLMzlXlYEF",
+          "title": "5 Questions Every Unit Test Must Answer - JavaScript Scene - Medium",
+          "index": 1,
+          "dateAdded": 1.491680150941e15,
+          "lastModified": 1.491680150941e15,
+          "id": 5653,
+          "typeCode": 1,
+          "tags": "jasmine",
+          "type": "text/x-moz-place",
+          "uri": "https://medium.com/javascript-scene/what-every-unit-test-needs-f6cd34d9836d"
+        }]
       }]
     }, {
       "guid": "S0Wba8kWVkAZ",
-      "title": "ruby",
+      "title": "Ruby",
       "index": 4,
       "dateAdded": 1.500595412671e15,
-      "lastModified": 1.544144327996e15,
+      "lastModified": 1.544315823752e15,
       "id": 145,
       "typeCode": 2,
       "annos": [{
@@ -28094,11 +29588,555 @@ module.exports = {
       }],
       "type": "text/x-moz-place-container",
       "links": [{
-        "guid": "S7lx5gTvAnfC",
-        "title": "haml",
+        "guid": "2PjFXm8OOpYW",
+        "title": "General",
         "index": 0,
+        "dateAdded": 1.54431473941e15,
+        "lastModified": 1.544314752266e15,
+        "id": 6467,
+        "typeCode": 2,
+        "type": "text/x-moz-place-container",
+        "links": [{
+          "guid": "qw5pGA0w3tub",
+          "title": "Testing best practices | GitLab",
+          "index": 0,
+          "dateAdded": 1.538348486282e15,
+          "lastModified": 1.54431475182e15,
+          "id": 6245,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://docs.gitlab.com/ee/development/testing_guide/best_practices.html?utm_source=newsletter_mailer&utm_medium=email&utm_campaign=weekly"
+        }, {
+          "guid": "HJPzjNjVLzBi",
+          "title": "_Why: A Tale Of A Post-Modern Genius - Smashing Magazine",
+          "index": 1,
+          "dateAdded": 1.52072372399e15,
+          "lastModified": 1.544314751858e15,
+          "id": 948,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://www.smashingmagazine.com/2010/05/why-a-tale-of-a-post-modern-genius/"
+        }, {
+          "guid": "uhOma1uyjPjC",
+          "title": "_why's Estate",
+          "index": 2,
+          "dateAdded": 1.52072372788e15,
+          "lastModified": 1.544314751882e15,
+          "id": 1054,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://viewsourcecode.org/why/"
+        }, {
+          "guid": "g2-hMctdX8Tc",
+          "title": "Episode List - RubyTapas",
+          "index": 3,
+          "dateAdded": 1.535573802457e15,
+          "lastModified": 1.54431475189e15,
+          "id": 6146,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://www.rubytapas.com/episode-list/"
+        }, {
+          "guid": "uQt8OgOqKWfj",
+          "title": "Mehdi Farsi - Medium",
+          "index": 4,
+          "dateAdded": 1.535568691019e15,
+          "lastModified": 1.544314751897e15,
+          "id": 6153,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://medium.com/@farsi_mehdi"
+        }, {
+          "guid": "JTm_E39v1e3s",
+          "title": "Learn Ruby the Hard Way - Read for Free",
+          "index": 5,
+          "dateAdded": 1.500595420647e15,
+          "lastModified": 1.544314751902e15,
+          "id": 437,
+          "typeCode": 1,
+          "tags": "ruby",
+          "type": "text/x-moz-place",
+          "uri": "https://learnrubythehardway.org/book/"
+        }, {
+          "guid": "0noPhHd3Weao",
+          "title": "bbatsov/ruby-style-guide: A community-driven Ruby coding style guide",
+          "index": 6,
+          "dateAdded": 1.500597252395e15,
+          "lastModified": 1.544314751932e15,
+          "id": 2098,
+          "typeCode": 1,
+          "tags": "ruby",
+          "type": "text/x-moz-place",
+          "uri": "https://github.com/bbatsov/ruby-style-guide"
+        }, {
+          "guid": "M1VC_OsWPYjY",
+          "title": "(48) Pinterest",
+          "index": 7,
+          "dateAdded": 1.52069895415e15,
+          "lastModified": 1.544314751948e15,
+          "id": 968,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://www.pinterest.com/explore/ruby-on-rails/?lp=true"
+        }, {
+          "guid": "pSFw9N3tem2q",
+          "title": "Launch School - Open Book Shelf",
+          "index": 8,
+          "dateAdded": 1.50059761306e15,
+          "lastModified": 1.544314751957e15,
+          "id": 5166,
+          "typeCode": 1,
+          "tags": "ruby",
+          "iconuri": "https://launchschool.com/favicon-194x194.png",
+          "type": "text/x-moz-place",
+          "uri": "https://launchschool.com/books"
+        }, {
+          "guid": "xaaRFBR34Tiv",
+          "title": "Rubeque",
+          "index": 9,
+          "dateAdded": 1.52069896052e15,
+          "lastModified": 1.544314751967e15,
+          "id": 1069,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "http://www.rubeque.com/"
+        }, {
+          "guid": "LhY2iWeACIiV",
+          "title": "Getting started",
+          "index": 10,
+          "dateAdded": 1.500597693194e15,
+          "lastModified": 1.544314751974e15,
+          "id": 3480,
+          "typeCode": 1,
+          "tags": "ruby",
+          "type": "text/x-moz-place",
+          "uri": "http://www.rubyist.net/%7Eslagell/ruby/getstarted.html"
+        }, {
+          "guid": "MeheYkV4k_WZ",
+          "title": "Read Ruby Web Dev: The Other Way | Leanpub",
+          "index": 11,
+          "dateAdded": 1.500597764981e15,
+          "lastModified": 1.544314752012e15,
+          "id": 3541,
+          "typeCode": 1,
+          "tags": "ruby",
+          "type": "text/x-moz-place",
+          "uri": "https://leanpub.com/rwdtow/read"
+        }, {
+          "guid": "5S1m9FzuYblW",
+          "title": "Ruby Essentials - Techotopia",
+          "index": 12,
+          "dateAdded": 1.500597800339e15,
+          "lastModified": 1.54431475204e15,
+          "id": 2113,
+          "typeCode": 1,
+          "tags": "ruby",
+          "type": "text/x-moz-place",
+          "uri": "http://www.techotopia.com/index.php/Ruby_Essentials"
+        }, {
+          "guid": "Pit_lnzgRgxf",
+          "title": "Learn ruby in Y Minutes",
+          "index": 13,
+          "dateAdded": 1.500597808148e15,
+          "lastModified": 1.544314752053e15,
+          "id": 3702,
+          "typeCode": 1,
+          "tags": "ruby",
+          "type": "text/x-moz-place",
+          "uri": "https://learnxinyminutes.com/docs/ruby/"
+        }, {
+          "guid": "LJr123UA8BCU",
+          "title": "The Unofficial Ruby Usage Guide",
+          "index": 14,
+          "dateAdded": 1.500597872207e15,
+          "lastModified": 1.544314752059e15,
+          "id": 2038,
+          "typeCode": 1,
+          "tags": "ruby",
+          "type": "text/x-moz-place",
+          "uri": "http://www.caliban.org/ruby/rubyguide.shtml"
+        }, {
+          "guid": "gfUIM6FtxQ3b",
+          "title": "Ruby in 100 Minutes - Jumpstart Lab Curriculum",
+          "index": 15,
+          "dateAdded": 1.501691035745e15,
+          "lastModified": 1.544314752067e15,
+          "id": 1507,
+          "typeCode": 1,
+          "tags": "ruby",
+          "type": "text/x-moz-place",
+          "uri": "http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html"
+        }, {
+          "guid": "CShd01y9RI72",
+          "title": "Just Enough Ruby To Get By - Jason Kim",
+          "index": 16,
+          "dateAdded": 1.501691062959e15,
+          "lastModified": 1.544314752099e15,
+          "id": 2914,
+          "typeCode": 1,
+          "tags": "ruby",
+          "type": "text/x-moz-place",
+          "uri": "http://jasonkim.ca/projects/just_enough_ruby_to_get_by/"
+        }, {
+          "guid": "Qc6anpyRiPC1",
+          "title": "Blog - DayDreams in Ruby",
+          "index": 17,
+          "dateAdded": 1.504017499328e15,
+          "lastModified": 1.544314752107e15,
+          "id": 3765,
+          "typeCode": 1,
+          "tags": "ruby",
+          "type": "text/x-moz-place",
+          "uri": "http://daydreamsinruby.com/blog/"
+        }, {
+          "guid": "puxYznh5_e8q",
+          "title": "Learning Ruby: From Zero to Hero - freeCodeCamp",
+          "index": 18,
+          "dateAdded": 1.505402311311e15,
+          "lastModified": 1.544314752113e15,
+          "id": 5202,
+          "typeCode": 1,
+          "tags": "ruby",
+          "type": "text/x-moz-place",
+          "uri": "https://medium.freecodecamp.org/learning-ruby-from-zero-to-hero-90ad4eecc82d"
+        }, {
+          "guid": "3-hBsZ2GI_DK",
+          "title": "The Tiger's Vest (with a Basic Introduction to Irb) :: Why's (Poignant) Guide to Ruby",
+          "index": 19,
+          "dateAdded": 1.506180636021e15,
+          "lastModified": 1.54431475212e15,
+          "id": 2384,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "http://poignant.guide/book/expansion-pak-1.html"
+        }, {
+          "guid": "ERfi4uaNzdhm",
+          "title": "What the Heck are Code Blocks, Procs, Lambdas, and Closures in Ruby",
+          "index": 20,
+          "dateAdded": 1.517722214051e15,
+          "lastModified": 1.544314752124e15,
+          "id": 1423,
+          "typeCode": 1,
+          "iconuri": "https://cdn-images-1.medium.com/fit/c/152/152/1*8I-HPL0bfoIzGied-dzOvA.png",
+          "annos": [{
+            "name": "bookmarkProperties/description",
+            "flags": 0,
+            "expires": 4,
+            "value": "The definitions of Code Block, Proc, Lambda, and Closure and how to use them in Ruby."
+          }],
+          "type": "text/x-moz-place",
+          "uri": "https://medium.com/@sihui/what-the-heck-are-code-blocks-procs-lambdas-and-closures-in-ruby-2b0737f08e95"
+        }, {
+          "guid": "9_gMyZB6koHt",
+          "title": "Understanding Ruby's idiom: array.map(&:method)",
+          "index": 21,
+          "dateAdded": 1.517722257554e15,
+          "lastModified": 1.544314752131e15,
+          "id": 1422,
+          "typeCode": 1,
+          "annos": [{
+            "name": "bookmarkProperties/description",
+            "flags": 0,
+            "expires": 4,
+            "value": "Understanding Ruby's idiom: array.map(&:method)"
+          }],
+          "type": "text/x-moz-place",
+          "uri": "http://www.brianstorti.com/understanding-ruby-idiom-map-with-symbol/"
+        }, {
+          "guid": "C2zBNBrLm0MR",
+          "title": "The Bastards Book of Ruby",
+          "index": 22,
+          "dateAdded": 1.517722266363e15,
+          "lastModified": 1.544314752163e15,
+          "id": 708,
+          "typeCode": 1,
+          "annos": [{
+            "name": "bookmarkProperties/description",
+            "flags": 0,
+            "expires": 4,
+            "value": "A Ruby programming tutorial for journalists, researchers, investigators, scientists, analysts and anyone else in the business of finding information and making it useful and visible. Programming experience not required, but provided."
+          }],
+          "type": "text/x-moz-place",
+          "uri": "http://ruby.bastardsbook.com/"
+        }, {
+          "guid": "BXX8-QsxhLv3",
+          "title": "Ruby Warrior - Popular Free Ruby Programming Tutorial Game",
+          "index": 23,
+          "dateAdded": 1.535116062855e15,
+          "lastModified": 1.544314752184e15,
+          "id": 6028,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://www.bloc.io/ruby-warrior#/"
+        }, {
+          "guid": "K2N4ONMOxLnq",
+          "title": "Ruby gotchas for the JavaScript developer - The Calendly Blog",
+          "index": 24,
+          "dateAdded": 1.541162826117e15,
+          "lastModified": 1.544314752192e15,
+          "id": 6315,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://blog.calendly.com/ruby-gotchas-javascript-developer/"
+        }, {
+          "guid": "-LewPRn0Jkcn",
+          "title": "my-rails-tutorial - Cloud9",
+          "index": 25,
+          "dateAdded": 1.515117263523e15,
+          "lastModified": 1.544314752197e15,
+          "id": 293,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://ide.c9.io/jenniferlynparsons/my-rails-tutorial"
+        }, {
+          "guid": "F725aZSOWl-I",
+          "title": "hidden-escarpment-28676.herokuapp.com/",
+          "index": 26,
+          "dateAdded": 1.515117263526e15,
+          "lastModified": 1.544314752202e15,
+          "id": 705,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://hidden-escarpment-28676.herokuapp.com/"
+        }, {
+          "guid": "TmwXev-v4T_M",
+          "title": "Chapter 3: Mostly static pages | Ruby on Rails Tutorial (Rails 5) | Softcover.io",
+          "index": 27,
+          "dateAdded": 1.515117263531e15,
+          "lastModified": 1.544314752207e15,
+          "id": 424,
+          "typeCode": 1,
+          "tags": "ruby",
+          "iconuri": "https://www.railstutorial.org/apple-touch-icon-precomposed.png",
+          "type": "text/x-moz-place",
+          "uri": "https://www.railstutorial.org/book/static_pages"
+        }, {
+          "guid": "nHbrd1v0CbKm",
+          "title": "coding | Ruby on Rails Link Slack",
+          "index": 28,
+          "dateAdded": 1.52156010329e15,
+          "lastModified": 1.544314752211e15,
+          "id": 722,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://rubyonrails-link.slack.com/messages/C05054QPL/"
+        }, {
+          "guid": "A0x0LHGqelRv",
+          "title": "Home - railslink/resources Wiki",
+          "index": 29,
+          "dateAdded": 1.52191477553e15,
+          "lastModified": 1.544314752216e15,
+          "id": 925,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://github.com/railslink/resources/wiki"
+        }, {
+          "guid": "T3qlTwTGSZGD",
+          "title": "Delete Job Listings - Job Board",
+          "index": 30,
+          "dateAdded": 1.52191483024e15,
+          "lastModified": 1.544314752237e15,
+          "id": 978,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "http://docs.railsbridgenyc.org/job-board/delete_job_listings?back=update_job_listings"
+        }, {
+          "guid": "lBRZQ7iKAOL1",
+          "title": "Goruco Videos",
+          "index": 31,
+          "dateAdded": 1.526512282e15,
+          "lastModified": 1.544314752247e15,
+          "id": 720,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "http://videos.goruco.com/"
+        }, {
+          "guid": "ECI5KS3DdJRv",
+          "title": "An introduction to Ruby Programming: the history of Ruby.",
+          "index": 32,
+          "dateAdded": 1.535496904692e15,
+          "lastModified": 1.544314752258e15,
+          "id": 6135,
+          "typeCode": 1,
+          "iconuri": "https://launchschool.com/favicon-194x194.png",
+          "type": "text/x-moz-place",
+          "uri": "https://launchschool.com/books/ruby/read/introduction"
+        }, {
+          "guid": "I8peuvC2Itna",
+          "title": "SampleApp",
+          "index": 33,
+          "dateAdded": 1.515117263397e15,
+          "lastModified": 1.544314752266e15,
+          "id": 467,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://my-rails-tutorial-jenniferlynparsons.c9users.io/static_pages/home"
+        }]
+      }, {
+        "guid": "aI4yXNTvfSAV",
+        "title": "Study Questions",
+        "index": 1,
+        "dateAdded": 1.535496666245e15,
+        "lastModified": 1.544314721307e15,
+        "id": 6130,
+        "typeCode": 2,
+        "type": "text/x-moz-place-container",
+        "links": [{
+          "guid": "TSzze24DIw5Q",
+          "title": "Ruby on Rails Interview Questions for Experienced",
+          "index": 0,
+          "dateAdded": 1.535496699177e15,
+          "lastModified": 1.535496699177e15,
+          "id": 6133,
+          "typeCode": 1,
+          "iconuri": "https://blog.interviewmocha.com/hubfs/Favicon_op1.png?t=1534446723703",
+          "type": "text/x-moz-place",
+          "uri": "https://blog.interviewmocha.com/ruby-on-rails-interview-questions-for-experienced"
+        }, {
+          "guid": "K-YsSJhcyf-V",
+          "title": "11 Ruby on Rails Interview Questions and Answers | Codementor Blog",
+          "index": 1,
+          "dateAdded": 1.535496681245e15,
+          "lastModified": 1.535496681245e15,
+          "id": 6131,
+          "typeCode": 1,
+          "iconuri": "https://web-cdn.codementor.io/static/images/favicon.ico",
+          "type": "text/x-moz-place",
+          "uri": "https://www.codementor.io/blog/ruby-on-rails-interview-questions-du107w0ss"
+        }, {
+          "guid": "SEpUDwt1Hdq-",
+          "title": "afeld/rails_interview_questions: A list of some baseline Rails interview questions",
+          "index": 2,
+          "dateAdded": 1.535496690401e15,
+          "lastModified": 1.535496690401e15,
+          "id": 6132,
+          "typeCode": 1,
+          "iconuri": "https://github.com/fluidicon.png",
+          "type": "text/x-moz-place",
+          "uri": "https://github.com/afeld/rails_interview_questions"
+        }]
+      }]
+    }, {
+      "guid": "QmNfGm1qfhTs",
+      "title": "BASIC",
+      "index": 5,
+      "dateAdded": 1.54368104939e15,
+      "lastModified": 1.543681055548e15,
+      "id": 6444,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "links": [{
+        "guid": "3dxEqMoAWXG0",
+        "title": "Table of Contents: BASIC Computer Games",
+        "index": 0,
+        "dateAdded": 1.543681055548e15,
+        "lastModified": 1.543681055548e15,
+        "id": 6446,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://www.atariarchives.org/basicgames/"
+      }]
+    }]
+  }, {
+    "guid": "Rt24mYrzGlzz",
+    "title": "Frameworks",
+    "index": 3,
+    "dateAdded": 1.518969363384e15,
+    "lastModified": 1.544315932589e15,
+    "id": 144,
+    "typeCode": 3,
+    "type": "text/x-moz-place-container",
+    "links": [{
+      "guid": "eWhipWvn0fOs",
+      "title": "Rails",
+      "index": 0,
+      "dateAdded": 1.544314418939e15,
+      "lastModified": 1.544315823752e15,
+      "id": 6466,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "links": [{
+        "guid": "v6QpN1iwCVW7",
+        "title": "Params and Forms",
+        "index": 0,
+        "dateAdded": 1.534530519868e15,
+        "lastModified": 1.544315823752e15,
+        "id": 6015,
+        "typeCode": 2,
+        "annos": [{
+          "name": "bookmarkProperties/description",
+          "flags": 0,
+          "expires": 4,
+          "value": "4"
+        }],
+        "type": "text/x-moz-place-container",
+        "links": [{
+          "guid": "GheCyiwvuOJ1",
+          "title": "How Params Works in Rails - Flatiron School Flatiron School",
+          "index": 0,
+          "dateAdded": 1.534530531732e15,
+          "lastModified": 1.534530531732e15,
+          "id": 6100,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "http://blog.flatironschool.com/how-params-works-in-rails/"
+        }, {
+          "guid": "Ow2hnSLGM9s8",
+          "title": "Params in Rails: Where do they come from? - Launch School - Medium",
+          "index": 1,
+          "dateAdded": 1.534530537982e15,
+          "lastModified": 1.534530537982e15,
+          "id": 6101,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://medium.com/launch-school/params-in-rails-where-do-they-come-from-b172cdb46eb4"
+        }, {
+          "guid": "GHVA84nHbutW",
+          "title": "ruby - Rails params explained? - Stack Overflow",
+          "index": 2,
+          "dateAdded": 1.534530543279e15,
+          "lastModified": 1.534530543279e15,
+          "id": 6099,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://stackoverflow.com/questions/6885990/rails-params-explained"
+        }, {
+          "guid": "KDBv1vOcgZHh",
+          "title": "ruby on rails - form_for with nested resources - Stack Overflow",
+          "index": 3,
+          "dateAdded": 1.534530556979e15,
+          "lastModified": 1.534530556979e15,
+          "id": 6105,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://stackoverflow.com/questions/2034700/form-for-with-nested-resources"
+        }, {
+          "guid": "7QmxRHyE3_yD",
+          "title": "https://www.sitepoint.com/complex-rails-forms-with-nested-attributes/",
+          "index": 4,
+          "dateAdded": 1.534530563764e15,
+          "lastModified": 1.534530563764e15,
+          "id": 6104,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://www.sitepoint.com/complex-rails-forms-with-nested-attributes/"
+        }, {
+          "guid": "x_vx3nHUf5up",
+          "title": "Complex Nesting Forms in Rails - Olivia Chang - Medium",
+          "index": 5,
+          "dateAdded": 1.534530570046e15,
+          "lastModified": 1.534530570046e15,
+          "id": 6106,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://medium.com/@oliviazyc/complex-nesting-forms-in-rails-631b369be0de"
+        }]
+      }, {
+        "guid": "S7lx5gTvAnfC",
+        "title": "HAML",
+        "index": 1,
         "dateAdded": 1.518981382782e15,
-        "lastModified": 1.500597887112e15,
+        "lastModified": 1.5443158372e15,
         "id": 146,
         "typeCode": 2,
         "type": "text/x-moz-place-container",
@@ -28116,10 +30154,10 @@ module.exports = {
         }]
       }, {
         "guid": "0fUGTRzflZre",
-        "title": "rails",
-        "index": 1,
+        "title": "Rails",
+        "index": 2,
         "dateAdded": 1.518981423626e15,
-        "lastModified": 1.535115744287e15,
+        "lastModified": 1.544315841781e15,
         "id": 74,
         "typeCode": 2,
         "type": "text/x-moz-place-container",
@@ -28145,7 +30183,7 @@ module.exports = {
           "uri": "http://guides.rubyonrails.org/index.html"
         }, {
           "guid": "mNlp3YxKKlbW",
-          "title": "An explanation of Rails's permit - F\u0102\u0160lix \xE2\x80\x9Cpasscod\xE2\x80\x9D Saparelli - Blog",
+          "title": "An explanation of Rails's permit - Felix passcod Saparelli - Blog",
           "index": 2,
           "dateAdded": 1.503069260453e15,
           "lastModified": 1.503069260453e15,
@@ -28228,7 +30266,7 @@ module.exports = {
           "uri": "https://www.coursera.org/learn/ruby-on-rails-intro?siteID=jU79Zysihs4-fKq8xCTXCugg0RhWA45qCA&utm_content=10&utm_medium=partners&utm_source=linkshare&utm_campaign=jU79Zysihs4"
         }, {
           "guid": "L4j9d6_bYF8h",
-          "title": "How I finally learned Rails \xE2\x80\x93 Ruby on Rails \xE2\x80\x93 Medium",
+          "title": "How I finally learned Rails - Ruby on Rails - Medium",
           "index": 10,
           "dateAdded": 1.52069957189e15,
           "lastModified": 1.52069957189e15,
@@ -28258,7 +30296,7 @@ module.exports = {
           "uri": "https://www.justinweiss.com/"
         }, {
           "guid": "VPuCBH6u6FsB",
-          "title": "rails/rails_application_templates.md at master \xC2\u02C7 rails/rails",
+          "title": "rails/rails_application_templates.md at master - rails/rails",
           "index": 13,
           "dateAdded": 1.52130030145e15,
           "lastModified": 1.52130030145e15,
@@ -28308,7 +30346,7 @@ module.exports = {
           "uri": "https://nowaker.net/post/ruby-on-rails-a-static-site-generator.html"
         }, {
           "guid": "Ejw-eE5rCcQV",
-          "title": "Rails Authorization with Pundit \xE2\x80\x93 freeCodeCamp",
+          "title": "Rails Authorization with Pundit - freeCodeCamp",
           "index": 18,
           "dateAdded": 1.52667577282e15,
           "lastModified": 1.52667577282e15,
@@ -28339,16 +30377,16 @@ module.exports = {
         }]
       }, {
         "guid": "qnAFJWcL9o_a",
-        "title": "rails console",
-        "index": 2,
+        "title": "Rails Console",
+        "index": 3,
         "dateAdded": 1.5357479536e15,
-        "lastModified": 1.535747968713e15,
+        "lastModified": 1.544315849465e15,
         "id": 6160,
         "typeCode": 2,
         "type": "text/x-moz-place-container",
         "links": [{
           "guid": "oMZoD9B4CKdO",
-          "title": "Rails Console Magic Tricks \xE2\x80\x93 Luis Vasconcellos \xE2\x80\x93 Medium",
+          "title": "Rails Console Magic Tricks - Luis Vasconcellos - Medium",
           "index": 0,
           "dateAdded": 1.535747968713e15,
           "lastModified": 1.535747968713e15,
@@ -28369,10 +30407,10 @@ module.exports = {
         }]
       }, {
         "guid": "CKix66M7027i",
-        "title": "rails api",
-        "index": 3,
+        "title": "Rails API",
+        "index": 4,
         "dateAdded": 1.542826680914e15,
-        "lastModified": 1.542826715408e15,
+        "lastModified": 1.544315856646e15,
         "id": 6377,
         "typeCode": 2,
         "type": "text/x-moz-place-container",
@@ -28389,7 +30427,7 @@ module.exports = {
           "uri": "https://teamtreehouse.com/library/build-a-rails-api"
         }, {
           "guid": "M4QVbubuzu6t",
-          "title": "ReactJS + Ruby on Rails API + Heroku App \xE2\x80\x93 Bruno Boehm \xE2\x80\x93 Medium",
+          "title": "ReactJS + Ruby on Rails API + Heroku App - Bruno Boehm - Medium",
           "index": 1,
           "dateAdded": 1.542826705211e15,
           "lastModified": 1.542826705211e15,
@@ -28400,7 +30438,7 @@ module.exports = {
           "uri": "https://medium.com/@bruno_boehm/reactjs-ruby-on-rails-api-heroku-app-2645c93f0814"
         }, {
           "guid": "4sQyVyA3fUfB",
-          "title": "Building a JSON API with Rails \xE2\x80\x93 Part 4: Implementing Authentication | Aaron Krauss",
+          "title": "Building a JSON API with Rails - Part 4: Implementing Authentication | Aaron Krauss",
           "index": 2,
           "dateAdded": 1.542826715408e15,
           "lastModified": 1.542826715408e15,
@@ -28412,10 +30450,10 @@ module.exports = {
         }]
       }, {
         "guid": "70HQ2caLOi61",
-        "title": "testing",
-        "index": 4,
+        "title": "Testing",
+        "index": 5,
         "dateAdded": 1.518981446102e15,
-        "lastModified": 1.507081883503e15,
+        "lastModified": 1.544315861511e15,
         "id": 92,
         "typeCode": 2,
         "type": "text/x-moz-place-container",
@@ -28491,662 +30529,619 @@ module.exports = {
           "uri": "http://www.betterspecs.org/"
         }]
       }, {
-        "guid": "UWIzGjlohhuA",
-        "title": "ruby study",
-        "index": 5,
-        "dateAdded": 1.515117263322e15,
-        "lastModified": 1.544144331024e15,
-        "id": 150,
-        "typeCode": 2,
-        "annos": [{
-          "name": "bookmarkProperties/description",
-          "flags": 0,
-          "expires": 4,
-          "value": "3"
-        }],
-        "type": "text/x-moz-place-container",
-        "links": [{
-          "guid": "I8peuvC2Itna",
-          "title": "SampleApp",
-          "index": 0,
-          "dateAdded": 1.515117263397e15,
-          "lastModified": 1.515117263397e15,
-          "id": 467,
-          "typeCode": 1,
-          "type": "text/x-moz-place",
-          "uri": "https://my-rails-tutorial-jenniferlynparsons.c9users.io/static_pages/home"
-        }, {
-          "guid": "-LewPRn0Jkcn",
-          "title": "my-rails-tutorial - Cloud9",
-          "index": 1,
-          "dateAdded": 1.515117263523e15,
-          "lastModified": 1.515117263523e15,
-          "id": 293,
-          "typeCode": 1,
-          "type": "text/x-moz-place",
-          "uri": "https://ide.c9.io/jenniferlynparsons/my-rails-tutorial"
-        }, {
-          "guid": "F725aZSOWl-I",
-          "title": "hidden-escarpment-28676.herokuapp.com/",
-          "index": 2,
-          "dateAdded": 1.515117263526e15,
-          "lastModified": 1.515117263526e15,
-          "id": 705,
-          "typeCode": 1,
-          "type": "text/x-moz-place",
-          "uri": "https://hidden-escarpment-28676.herokuapp.com/"
-        }, {
-          "guid": "TmwXev-v4T_M",
-          "title": "Chapter 3: Mostly static pages | Ruby on Rails Tutorial (Rails 5) | Softcover.io",
-          "index": 3,
-          "dateAdded": 1.515117263531e15,
-          "lastModified": 1.515117263531e15,
-          "id": 424,
-          "typeCode": 1,
-          "tags": "ruby",
-          "iconuri": "https://www.railstutorial.org/apple-touch-icon-precomposed.png",
-          "type": "text/x-moz-place",
-          "uri": "https://www.railstutorial.org/book/static_pages"
-        }, {
-          "guid": "nHbrd1v0CbKm",
-          "title": "coding | Ruby on Rails Link Slack",
-          "index": 4,
-          "dateAdded": 1.52156010329e15,
-          "lastModified": 1.52156010329e15,
-          "id": 722,
-          "typeCode": 1,
-          "type": "text/x-moz-place",
-          "uri": "https://rubyonrails-link.slack.com/messages/C05054QPL/"
-        }, {
-          "guid": "A0x0LHGqelRv",
-          "title": "Home \xC2\u02C7 railslink/resources Wiki",
-          "index": 5,
-          "dateAdded": 1.52191477553e15,
-          "lastModified": 1.52191477553e15,
-          "id": 925,
-          "typeCode": 1,
-          "type": "text/x-moz-place",
-          "uri": "https://github.com/railslink/resources/wiki"
-        }, {
-          "guid": "T3qlTwTGSZGD",
-          "title": "Delete Job Listings - Job Board",
-          "index": 6,
-          "dateAdded": 1.52191483024e15,
-          "lastModified": 1.52191483024e15,
-          "id": 978,
-          "typeCode": 1,
-          "type": "text/x-moz-place",
-          "uri": "http://docs.railsbridgenyc.org/job-board/delete_job_listings?back=update_job_listings"
-        }, {
-          "guid": "lBRZQ7iKAOL1",
-          "title": "Goruco Videos",
-          "index": 7,
-          "dateAdded": 1.526512282e15,
-          "lastModified": 1.526512282e15,
-          "id": 720,
-          "typeCode": 1,
-          "type": "text/x-moz-place",
-          "uri": "http://videos.goruco.com/"
-        }, {
-          "guid": "v6QpN1iwCVW7",
-          "title": "params and forms",
-          "index": 8,
-          "dateAdded": 1.534530519868e15,
-          "lastModified": 1.544144341953e15,
-          "id": 6015,
-          "typeCode": 2,
-          "annos": [{
-            "name": "bookmarkProperties/description",
-            "flags": 0,
-            "expires": 4,
-            "value": "4"
-          }],
-          "type": "text/x-moz-place-container",
-          "links": [{
-            "guid": "GheCyiwvuOJ1",
-            "title": "How Params Works in Rails - Flatiron School Flatiron School",
-            "index": 0,
-            "dateAdded": 1.534530531732e15,
-            "lastModified": 1.534530531732e15,
-            "id": 6100,
-            "typeCode": 1,
-            "type": "text/x-moz-place",
-            "uri": "http://blog.flatironschool.com/how-params-works-in-rails/"
-          }, {
-            "guid": "Ow2hnSLGM9s8",
-            "title": "Params in Rails: Where do they come from? \xE2\x80\x93 Launch School \xE2\x80\x93 Medium",
-            "index": 1,
-            "dateAdded": 1.534530537982e15,
-            "lastModified": 1.534530537982e15,
-            "id": 6101,
-            "typeCode": 1,
-            "type": "text/x-moz-place",
-            "uri": "https://medium.com/launch-school/params-in-rails-where-do-they-come-from-b172cdb46eb4"
-          }, {
-            "guid": "GHVA84nHbutW",
-            "title": "ruby - Rails params explained? - Stack Overflow",
-            "index": 2,
-            "dateAdded": 1.534530543279e15,
-            "lastModified": 1.534530543279e15,
-            "id": 6099,
-            "typeCode": 1,
-            "type": "text/x-moz-place",
-            "uri": "https://stackoverflow.com/questions/6885990/rails-params-explained"
-          }, {
-            "guid": "KDBv1vOcgZHh",
-            "title": "ruby on rails - form_for with nested resources - Stack Overflow",
-            "index": 3,
-            "dateAdded": 1.534530556979e15,
-            "lastModified": 1.534530556979e15,
-            "id": 6105,
-            "typeCode": 1,
-            "type": "text/x-moz-place",
-            "uri": "https://stackoverflow.com/questions/2034700/form-for-with-nested-resources"
-          }, {
-            "guid": "7QmxRHyE3_yD",
-            "title": "https://www.sitepoint.com/complex-rails-forms-with-nested-attributes/",
-            "index": 4,
-            "dateAdded": 1.534530563764e15,
-            "lastModified": 1.534530563764e15,
-            "id": 6104,
-            "typeCode": 1,
-            "type": "text/x-moz-place",
-            "uri": "https://www.sitepoint.com/complex-rails-forms-with-nested-attributes/"
-          }, {
-            "guid": "x_vx3nHUf5up",
-            "title": "Complex Nesting Forms in Rails \xE2\x80\x93 Olivia Chang \xE2\x80\x93 Medium",
-            "index": 5,
-            "dateAdded": 1.534530570046e15,
-            "lastModified": 1.534530570046e15,
-            "id": 6106,
-            "typeCode": 1,
-            "type": "text/x-moz-place",
-            "uri": "https://medium.com/@oliviazyc/complex-nesting-forms-in-rails-631b369be0de"
-          }]
-        }, {
-          "guid": "5AYvFxpvK3w7",
-          "title": "rails info",
-          "index": 9,
-          "dateAdded": 1.534884468113e15,
-          "lastModified": 1.534884577342e15,
-          "id": 6009,
-          "typeCode": 2,
-          "type": "text/x-moz-place-container",
-          "links": [{
-            "guid": "Gp5LFxeS62ko",
-            "title": "Drifting Ruby \xE2\x80\x93 Ruby on Rails Screencasts & Blog",
-            "index": 0,
-            "dateAdded": 1.534884480959e15,
-            "lastModified": 1.534884480959e15,
-            "id": 6054,
-            "typeCode": 1,
-            "type": "text/x-moz-place",
-            "uri": "https://blog.driftingruby.com/"
-          }, {
-            "guid": "fXNQFr1Lsy6N",
-            "title": "Everyday Rails",
-            "index": 1,
-            "dateAdded": 1.534884624067e15,
-            "lastModified": 1.534884624067e15,
-            "id": 6083,
-            "typeCode": 1,
-            "type": "text/x-moz-place",
-            "uri": "https://www.everydayrails.com/"
-          }, {
-            "guid": "dX77s3jrte7s",
-            "title": "Ruby Rogues Archive | Devchat.tv",
-            "index": 2,
-            "dateAdded": 1.534884486635e15,
-            "lastModified": 1.534884486635e15,
-            "id": 6080,
-            "typeCode": 1,
-            "type": "text/x-moz-place",
-            "uri": "https://devchat.tv/ruby-rogues/"
-          }, {
-            "guid": "AF-9Sn_EVxjx",
-            "title": "RubyFlow",
-            "index": 3,
-            "dateAdded": 1.534884631618e15,
-            "lastModified": 1.534884631618e15,
-            "id": 6050,
-            "typeCode": 1,
-            "type": "text/x-moz-place",
-            "uri": "http://www.rubyflow.com/"
-          }, {
-            "guid": "usiaRgLBog8j",
-            "title": "Articles - RichOnRails.com",
-            "index": 4,
-            "dateAdded": 1.534884619321e15,
-            "lastModified": 1.534884619321e15,
-            "id": 6021,
-            "typeCode": 1,
-            "type": "text/x-moz-place",
-            "uri": "https://richonrails.com/articles"
-          }, {
-            "guid": "bbv19owLq9Ld",
-            "title": "Rubyland",
-            "index": 5,
-            "dateAdded": 1.5348846379e15,
-            "lastModified": 1.5348846379e15,
-            "id": 6078,
-            "typeCode": 1,
-            "type": "text/x-moz-place",
-            "uri": "http://rubyland.news/"
-          }, {
-            "guid": "ZQNiR1fCuF09",
-            "title": "(7) GoRails - YouTube",
-            "index": 6,
-            "dateAdded": 1.534884491904e15,
-            "lastModified": 1.534884491904e15,
-            "id": 6075,
-            "typeCode": 1,
-            "type": "text/x-moz-place",
-            "uri": "https://www.youtube.com/channel/UCIQmhQxCvLHRr3Beku77tww/videos"
-          }, {
-            "guid": "dIvowURpNC4T",
-            "title": "RubyTapas \xE2\x80\x93 Short Screencasts of Gourmet Ruby, by Avdi Grimm",
-            "index": 7,
-            "dateAdded": 1.534884500929e15,
-            "lastModified": 1.534884500929e15,
-            "id": 6036,
-            "typeCode": 1,
-            "type": "text/x-moz-place",
-            "uri": "https://www.rubytapas.com/"
-          }, {
-            "guid": "JcZzPoKveIeZ",
-            "title": "RubyGuides - Learn Ruby With Awesome Tutorials",
-            "index": 8,
-            "dateAdded": 1.534884507669e15,
-            "lastModified": 1.534884507669e15,
-            "id": 6056,
-            "typeCode": 1,
-            "type": "text/x-moz-place",
-            "uri": "http://www.rubyguides.com/"
-          }, {
-            "guid": "dXc9dJO3Vgqk",
-            "title": "(7) ChicagoRuby - YouTube",
-            "index": 9,
-            "dateAdded": 1.534884513229e15,
-            "lastModified": 1.534884513229e15,
-            "id": 6081,
-            "typeCode": 1,
-            "type": "text/x-moz-place",
-            "uri": "https://www.youtube.com/user/ChicagoRuby/videos"
-          }, {
-            "guid": "-grq-1gEiiUh",
-            "title": "Home | Arkency Blog",
-            "index": 10,
-            "dateAdded": 1.534884563448e15,
-            "lastModified": 1.534884563448e15,
-            "id": 6037,
-            "typeCode": 1,
-            "type": "text/x-moz-place",
-            "uri": "https://blog.arkency.com/"
-          }, {
-            "guid": "61lAjLi1lYde",
-            "title": "Awesome Ruby",
-            "index": 11,
-            "dateAdded": 1.534884569368e15,
-            "lastModified": 1.534884569368e15,
-            "id": 6043,
-            "typeCode": 1,
-            "type": "text/x-moz-place",
-            "uri": "https://ruby.libhunt.com/"
-          }, {
-            "guid": "lHxJeuTA_ltj",
-            "title": "Virtuous Code | \"The three virtues of a programmer: laziness, impatience, and hubris\" \xE2\x80\x94 Larry Wall",
-            "index": 12,
-            "dateAdded": 1.534884577342e15,
-            "lastModified": 1.534884577342e15,
-            "id": 6088,
-            "typeCode": 1,
-            "type": "text/x-moz-place",
-            "uri": "http://www.virtuouscode.com/"
-          }]
-        }, {
-          "guid": "ECI5KS3DdJRv",
-          "title": "An introduction to Ruby Programming: the history of Ruby.",
-          "index": 10,
-          "dateAdded": 1.535496904692e15,
-          "lastModified": 1.535496904692e15,
-          "id": 6135,
-          "typeCode": 1,
-          "iconuri": "https://launchschool.com/favicon-194x194.png",
-          "type": "text/x-moz-place",
-          "uri": "https://launchschool.com/books/ruby/read/introduction"
-        }]
-      }, {
-        "guid": "aI4yXNTvfSAV",
-        "title": "Study Questions",
+        "guid": "5AYvFxpvK3w7",
+        "title": "Rails Info",
         "index": 6,
-        "dateAdded": 1.535496666245e15,
-        "lastModified": 1.535496812767e15,
-        "id": 6130,
+        "dateAdded": 1.534884468113e15,
+        "lastModified": 1.544315871177e15,
+        "id": 6009,
         "typeCode": 2,
         "type": "text/x-moz-place-container",
         "links": [{
-          "guid": "TSzze24DIw5Q",
-          "title": "Ruby on Rails Interview Questions for Experienced",
+          "guid": "Gp5LFxeS62ko",
+          "title": "Drifting Ruby - Ruby on Rails Screencasts & Blog",
           "index": 0,
-          "dateAdded": 1.535496699177e15,
-          "lastModified": 1.535496699177e15,
-          "id": 6133,
+          "dateAdded": 1.534884480959e15,
+          "lastModified": 1.534884480959e15,
+          "id": 6054,
           "typeCode": 1,
-          "iconuri": "https://blog.interviewmocha.com/hubfs/Favicon_op1.png?t=1534446723703",
           "type": "text/x-moz-place",
-          "uri": "https://blog.interviewmocha.com/ruby-on-rails-interview-questions-for-experienced"
+          "uri": "https://blog.driftingruby.com/"
         }, {
-          "guid": "K-YsSJhcyf-V",
-          "title": "11 Ruby on Rails Interview Questions and Answers | Codementor Blog",
+          "guid": "fXNQFr1Lsy6N",
+          "title": "Everyday Rails",
           "index": 1,
-          "dateAdded": 1.535496681245e15,
-          "lastModified": 1.535496681245e15,
-          "id": 6131,
+          "dateAdded": 1.534884624067e15,
+          "lastModified": 1.534884624067e15,
+          "id": 6083,
           "typeCode": 1,
-          "iconuri": "https://web-cdn.codementor.io/static/images/favicon.ico",
           "type": "text/x-moz-place",
-          "uri": "https://www.codementor.io/blog/ruby-on-rails-interview-questions-du107w0ss"
+          "uri": "https://www.everydayrails.com/"
         }, {
-          "guid": "SEpUDwt1Hdq-",
-          "title": "afeld/rails_interview_questions: A list of some baseline Rails interview questions",
+          "guid": "dX77s3jrte7s",
+          "title": "Ruby Rogues Archive | Devchat.tv",
           "index": 2,
-          "dateAdded": 1.535496690401e15,
-          "lastModified": 1.535496690401e15,
-          "id": 6132,
+          "dateAdded": 1.534884486635e15,
+          "lastModified": 1.534884486635e15,
+          "id": 6080,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://devchat.tv/ruby-rogues/"
+        }, {
+          "guid": "AF-9Sn_EVxjx",
+          "title": "RubyFlow",
+          "index": 3,
+          "dateAdded": 1.534884631618e15,
+          "lastModified": 1.534884631618e15,
+          "id": 6050,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "http://www.rubyflow.com/"
+        }, {
+          "guid": "usiaRgLBog8j",
+          "title": "Articles - RichOnRails.com",
+          "index": 4,
+          "dateAdded": 1.534884619321e15,
+          "lastModified": 1.534884619321e15,
+          "id": 6021,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://richonrails.com/articles"
+        }, {
+          "guid": "bbv19owLq9Ld",
+          "title": "Rubyland",
+          "index": 5,
+          "dateAdded": 1.5348846379e15,
+          "lastModified": 1.5348846379e15,
+          "id": 6078,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "http://rubyland.news/"
+        }, {
+          "guid": "ZQNiR1fCuF09",
+          "title": "(7) GoRails - YouTube",
+          "index": 6,
+          "dateAdded": 1.534884491904e15,
+          "lastModified": 1.534884491904e15,
+          "id": 6075,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://www.youtube.com/channel/UCIQmhQxCvLHRr3Beku77tww/videos"
+        }, {
+          "guid": "dIvowURpNC4T",
+          "title": "RubyTapas - Short Screencasts of Gourmet Ruby, by Avdi Grimm",
+          "index": 7,
+          "dateAdded": 1.534884500929e15,
+          "lastModified": 1.534884500929e15,
+          "id": 6036,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://www.rubytapas.com/"
+        }, {
+          "guid": "JcZzPoKveIeZ",
+          "title": "RubyGuides - Learn Ruby With Awesome Tutorials",
+          "index": 8,
+          "dateAdded": 1.534884507669e15,
+          "lastModified": 1.534884507669e15,
+          "id": 6056,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "http://www.rubyguides.com/"
+        }, {
+          "guid": "dXc9dJO3Vgqk",
+          "title": "(7) ChicagoRuby - YouTube",
+          "index": 9,
+          "dateAdded": 1.534884513229e15,
+          "lastModified": 1.534884513229e15,
+          "id": 6081,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://www.youtube.com/user/ChicagoRuby/videos"
+        }, {
+          "guid": "-grq-1gEiiUh",
+          "title": "Home | Arkency Blog",
+          "index": 10,
+          "dateAdded": 1.534884563448e15,
+          "lastModified": 1.534884563448e15,
+          "id": 6037,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://blog.arkency.com/"
+        }, {
+          "guid": "61lAjLi1lYde",
+          "title": "Awesome Ruby",
+          "index": 11,
+          "dateAdded": 1.534884569368e15,
+          "lastModified": 1.534884569368e15,
+          "id": 6043,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://ruby.libhunt.com/"
+        }, {
+          "guid": "lHxJeuTA_ltj",
+          "title": "Virtuous Code | \"The three virtues of a programmer: laziness, impatience, and hubris\" - Larry Wall",
+          "index": 12,
+          "dateAdded": 1.534884577342e15,
+          "lastModified": 1.534884577342e15,
+          "id": 6088,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "http://www.virtuouscode.com/"
+        }]
+      }]
+    }, {
+      "guid": "JQkfgFrKKH6X",
+      "title": "Hyperapp",
+      "index": 1,
+      "dateAdded": 1.519060049507e15,
+      "lastModified": 1.544314432322e15,
+      "id": 126,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "links": [{
+        "guid": "qDMF5JizvUrw",
+        "title": "Hyperapp for Redux refugees - Hyperapp - Medium",
+        "index": 0,
+        "dateAdded": 1.519060056568e15,
+        "lastModified": 1.519060056568e15,
+        "id": 327,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://medium.com/hyperapp/hyperapp-for-redux-refugees-2507c9dd1ddc"
+      }]
+    }, {
+      "guid": "P1q-ya4Sif2-",
+      "title": "Reason",
+      "index": 2,
+      "dateAdded": 1.518200948083e15,
+      "lastModified": 1.544314436774e15,
+      "id": 136,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "links": [{
+        "guid": "pxocfmr6eyku",
+        "title": "Reason - Reason lets you write simple, fast and quality type safe code while leveraging both the JavaScript & OCaml ecosystems.",
+        "index": 0,
+        "dateAdded": 1.518200959988e15,
+        "lastModified": 1.518200959988e15,
+        "id": 436,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://reasonml.github.io/"
+      }, {
+        "guid": "L5duV4aWwaNL",
+        "title": "#general",
+        "index": 1,
+        "dateAdded": 1.518330369274e15,
+        "lastModified": 1.518330369274e15,
+        "id": 587,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://discordapp.com/channels/235176658175262720/235176658175262720"
+      }, {
+        "guid": "dvPOxU8SthH4",
+        "title": "A ReasonReact Tutorial | Jared Forsyth.com",
+        "index": 2,
+        "dateAdded": 1.518200965354e15,
+        "lastModified": 1.518200965354e15,
+        "id": 434,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://jaredforsyth.com/posts/a-reason-react-tutorial/"
+      }, {
+        "guid": "iBcED7KQ4nWO",
+        "title": "A First Reason React app for Javascript developers | James Friend",
+        "index": 3,
+        "dateAdded": 1.518200972395e15,
+        "lastModified": 1.518200972395e15,
+        "id": 483,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://jamesfriend.com.au/a-first-reason-react-app-for-js-developers"
+      }, {
+        "guid": "0_0d4sz-0rsc",
+        "title": "Routing in Reason React | James Friend",
+        "index": 4,
+        "dateAdded": 1.518373767462e15,
+        "lastModified": 1.518373767462e15,
+        "id": 1195,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://jamesfriend.com.au/routing-in-reason-react"
+      }]
+    }, {
+      "guid": "2DxGXkLTLOTl",
+      "title": "React",
+      "index": 3,
+      "dateAdded": 1.498316632679e15,
+      "lastModified": 1.544315895373e15,
+      "id": 78,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "links": [{
+        "guid": "-YBDZKuV1SOB",
+        "title": "General",
+        "index": 0,
+        "dateAdded": 1.544315884131e15,
+        "lastModified": 1.544315895373e15,
+        "id": 6472,
+        "typeCode": 2,
+        "type": "text/x-moz-place-container",
+        "links": [{
+          "guid": "zkQfQjaVtqsK",
+          "title": "Reactiflux | Learning",
+          "index": 0,
+          "dateAdded": 1.543248915717e15,
+          "lastModified": 1.544315895171e15,
+          "id": 6435,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://www.reactiflux.com/learning/"
+        }, {
+          "guid": "FIIq2IDioi5g",
+          "title": "Container Components - Learn React with chantastic - Medium",
+          "index": 1,
+          "dateAdded": 1.54282664083e15,
+          "lastModified": 1.544315895191e15,
+          "id": 6376,
+          "typeCode": 1,
+          "iconuri": "https://cdn-images-1.medium.com/fit/c/152/152/1*8I-HPL0bfoIzGied-dzOvA.png",
+          "type": "text/x-moz-place",
+          "uri": "https://medium.com/@learnreact/container-components-c0e67432e005"
+        }, {
+          "guid": "Y7Y8BvOu5X64",
+          "title": "Container vs Presentational Components in React - Yassi Mortensen - Medium",
+          "index": 2,
+          "dateAdded": 1.542828591166e15,
+          "lastModified": 1.544315895199e15,
+          "id": 6381,
+          "typeCode": 1,
+          "iconuri": "https://cdn-images-1.medium.com/fit/c/152/152/1*8I-HPL0bfoIzGied-dzOvA.png",
+          "type": "text/x-moz-place",
+          "uri": "https://medium.com/@yassimortensen/container-vs-presentational-components-in-react-8eea956e1cea"
+        }, {
+          "guid": "Hceo9PKppkP9",
+          "title": "React Top-Level API - React",
+          "index": 3,
+          "dateAdded": 1.541085026966e15,
+          "lastModified": 1.544315895206e15,
+          "id": 6314,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://reactjs.org/docs/react-api.html"
+        }, {
+          "guid": "Ur3wmN9maYKT",
+          "title": "Complete Intro to React v4",
+          "index": 4,
+          "dateAdded": 1.541084968961e15,
+          "lastModified": 1.544315895212e15,
+          "id": 6310,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://btholt.github.io/complete-intro-to-react-v4/code-organization/"
+        }, {
+          "guid": "xUrPOsLDf0gx",
+          "title": "btholt/photo-gallery: Exercise",
+          "index": 5,
+          "dateAdded": 1.541084985482e15,
+          "lastModified": 1.544315895246e15,
+          "id": 6311,
           "typeCode": 1,
           "iconuri": "https://github.com/fluidicon.png",
           "type": "text/x-moz-place",
-          "uri": "https://github.com/afeld/rails_interview_questions"
+          "uri": "https://github.com/btholt/photo-gallery"
+        }, {
+          "guid": "stCKMIHbNuue",
+          "title": "kriasoft/react-starter-kit at feature/apollo",
+          "index": 6,
+          "dateAdded": 1.498316350958e15,
+          "lastModified": 1.544315895262e15,
+          "id": 5398,
+          "typeCode": 1,
+          "tags": "react",
+          "type": "text/x-moz-place",
+          "uri": "https://github.com/kriasoft/react-starter-kit/tree/feature/apollo"
+        }, {
+          "guid": "6A4b7_pS40E6",
+          "title": "Building a Simple CRUD App with React + Redux: Part I",
+          "index": 7,
+          "dateAdded": 1.498316431727e15,
+          "lastModified": 1.544315895268e15,
+          "id": 2555,
+          "typeCode": 1,
+          "tags": "react",
+          "type": "text/x-moz-place",
+          "uri": "http://www.thegreatcodeadventure.com/building-a-simple-crud-app-with-react-redux-part-1/"
+        }, {
+          "guid": "KUQLY4WX_aQw",
+          "title": "Getting started with ES6 and React - by building a Minimal Todo App - Hashnode",
+          "index": 8,
+          "dateAdded": 1.498316537399e15,
+          "lastModified": 1.544315895275e15,
+          "id": 700,
+          "typeCode": 1,
+          "tags": "react",
+          "type": "text/x-moz-place",
+          "uri": "https://hashnode.com/post/getting-started-with-es6-and-react-by-building-a-minimal-todo-app-citaix6xe04og8y531g491a1o"
+        }, {
+          "guid": "g3zBWc4uNZ3z",
+          "title": "The Beginner's Guide to ReactJS from @kentcdodds on @eggheadio",
+          "index": 9,
+          "dateAdded": 1.519507506497e15,
+          "lastModified": 1.54431589528e15,
+          "id": 642,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://egghead.io/courses/the-beginner-s-guide-to-reactjs"
+        }, {
+          "guid": "wDCxeUXzw_C0",
+          "title": "Learn ReactJS: Part I | Codecademy",
+          "index": 10,
+          "dateAdded": 1.498316632679e15,
+          "lastModified": 1.544315895285e15,
+          "id": 5642,
+          "typeCode": 1,
+          "tags": "react",
+          "type": "text/x-moz-place",
+          "uri": "https://www.codecademy.com/courses/react-101/lessons/your-first-react-component/exercises/import-react?action=lesson_resume&link_content_target=interstitial_lesson"
+        }, {
+          "guid": "r1fvHofxViYD",
+          "title": "The difference between Virtual DOM and DOM - React Kung Fu",
+          "index": 11,
+          "dateAdded": 1.498316643848e15,
+          "lastModified": 1.544315895336e15,
+          "id": 5256,
+          "typeCode": 1,
+          "tags": "react",
+          "type": "text/x-moz-place",
+          "uri": "http://reactkungfu.com/2015/10/the-difference-between-virtual-dom-and-dom/"
+        }, {
+          "guid": "_86Sto20z8w1",
+          "title": "React Tools - Syntax Podcast 001",
+          "index": 12,
+          "dateAdded": 1.49948348363e15,
+          "lastModified": 1.544315895355e15,
+          "id": 4254,
+          "typeCode": 1,
+          "tags": "react",
+          "type": "text/x-moz-place",
+          "uri": "https://syntax.fm/"
+        }, {
+          "guid": "XoXYbl5wyWn1",
+          "title": "javascript/react at master - airbnb/javascript",
+          "index": 13,
+          "dateAdded": 1.499483569805e15,
+          "lastModified": 1.544315895368e15,
+          "id": 4152,
+          "typeCode": 1,
+          "tags": "react",
+          "type": "text/x-moz-place",
+          "uri": "https://github.com/airbnb/javascript/tree/master/react"
+        }, {
+          "guid": "G1Ub9ezmOCMN",
+          "title": "React.js Examples",
+          "index": 14,
+          "dateAdded": 1.539658696772e15,
+          "lastModified": 1.544315895373e15,
+          "id": 6275,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://reactjsexample.com/"
         }]
       }, {
-        "guid": "qw5pGA0w3tub",
-        "title": "Testing best practices | GitLab",
-        "index": 7,
-        "dateAdded": 1.538348486282e15,
-        "lastModified": 1.538348486282e15,
-        "id": 6245,
+        "guid": "eszvMV3Fi_QC",
+        "title": "react foundations",
+        "index": 1,
+        "dateAdded": 1.519338097621e15,
+        "lastModified": 1.519338110333e15,
+        "id": 184,
+        "typeCode": 2,
+        "type": "text/x-moz-place-container",
+        "links": [{
+          "guid": "tiffwt24Uxri",
+          "title": "Rock Solid React.js Foundations: A Beginner's Guide",
+          "index": 0,
+          "dateAdded": 1.519338110333e15,
+          "lastModified": 1.519338110333e15,
+          "id": 481,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://medium.freecodecamp.org/rock-solid-react-js-foundations-a-beginners-guide-c45c93f5a923"
+        }, {
+          "guid": "JP3PAy_OqbIA",
+          "title": "Under the hood: React | Under-the-hood-ReactJS",
+          "index": 1,
+          "dateAdded": 1.519338116859e15,
+          "lastModified": 1.519338116859e15,
+          "id": 479,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://bogdan-lyashenko.github.io/Under-the-hood-ReactJS/"
+        }, {
+          "guid": "s3i0X57-_Mqd",
+          "title": "React - A JavaScript library for building user interfaces",
+          "index": 2,
+          "dateAdded": 1.519338122748e15,
+          "lastModified": 1.519338122748e15,
+          "id": 406,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://reactjs.org/"
+        }, {
+          "guid": "1YDqCjK8wjFW",
+          "title": "How Virtual-DOM and diffing works in React - Gethyl George Kurian - Medium",
+          "index": 3,
+          "dateAdded": 1.519338128887e15,
+          "lastModified": 1.519338128887e15,
+          "id": 477,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://medium.com/@gethylgeorge/how-virtual-dom-and-diffing-works-in-react-6fc805f9f84e"
+        }, {
+          "guid": "9ePJRg2TARjW",
+          "title": "All the fundamental React.js concepts, jammed into this single Medium article",
+          "index": 4,
+          "dateAdded": 1.519338135489e15,
+          "lastModified": 1.519338135489e15,
+          "id": 478,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://medium.freecodecamp.org/all-the-fundamental-react-js-concepts-jammed-into-this-single-medium-article-c83f9b53eac2"
+        }, {
+          "guid": "hc8foeGDe7VE",
+          "title": "Learning React.js: Getting Started and Concepts Scotch",
+          "index": 5,
+          "dateAdded": 1.519338141563e15,
+          "lastModified": 1.519338141563e15,
+          "id": 480,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://scotch.io/tutorials/learning-react-getting-started-and-concepts"
+        }]
+      }]
+    }, {
+      "guid": "x8we6e7uKvgu",
+      "title": "Node",
+      "index": 4,
+      "dateAdded": 1.48952673288e15,
+      "lastModified": 1.544314447173e15,
+      "id": 226,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "links": [{
+        "guid": "H48SQPh7a4X1",
+        "title": "The Node Beginner Book - A comprehensive Node.js tutorial",
+        "index": 0,
+        "dateAdded": 1.456925720808e15,
+        "lastModified": 1.456925720808e15,
+        "id": 3199,
         "typeCode": 1,
+        "tags": "node",
         "type": "text/x-moz-place",
-        "uri": "https://docs.gitlab.com/ee/development/testing_guide/best_practices.html?utm_source=newsletter_mailer&utm_medium=email&utm_campaign=weekly"
+        "uri": "http://www.nodebeginner.org/"
       }, {
-        "guid": "HJPzjNjVLzBi",
-        "title": "_Why: A Tale Of A Post-Modern Genius \xE2\x80\x94 Smashing Magazine",
-        "index": 8,
-        "dateAdded": 1.52072372399e15,
-        "lastModified": 1.52072372399e15,
-        "id": 948,
+        "guid": "iVR85R1e1QGm",
+        "title": "javascript - How do I get started with Node.js - Stack Overflow",
+        "index": 1,
+        "dateAdded": 1.456978145687e15,
+        "lastModified": 1.456978145687e15,
+        "id": 4861,
         "typeCode": 1,
+        "tags": "node",
         "type": "text/x-moz-place",
-        "uri": "https://www.smashingmagazine.com/2010/05/why-a-tale-of-a-post-modern-genius/"
+        "uri": "http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js"
       }, {
-        "guid": "uhOma1uyjPjC",
-        "title": "_why's Estate",
-        "index": 9,
-        "dateAdded": 1.52072372788e15,
-        "lastModified": 1.52072372788e15,
-        "id": 1054,
+        "guid": "2IOeHk0CfXCK",
+        "title": "Learn Node.js Completely and with Confidence | JavaScript is Sexy",
+        "index": 2,
+        "dateAdded": 1.45697815663e15,
+        "lastModified": 1.45697815663e15,
+        "id": 2317,
         "typeCode": 1,
+        "tags": "node",
         "type": "text/x-moz-place",
-        "uri": "https://viewsourcecode.org/why/"
+        "uri": "http://javascriptissexy.com/learn-node-js-completely-and-with-confidence/"
       }, {
-        "guid": "g2-hMctdX8Tc",
-        "title": "Episode List \xE2\x80\x93 RubyTapas",
-        "index": 10,
-        "dateAdded": 1.535573802457e15,
-        "lastModified": 1.535573802457e15,
-        "id": 6146,
+        "guid": "pocY_-ilvDyc",
+        "title": "NodeSchool",
+        "index": 3,
+        "dateAdded": 1.456978167639e15,
+        "lastModified": 1.456978167639e15,
+        "id": 5187,
         "typeCode": 1,
+        "tags": "node",
         "type": "text/x-moz-place",
-        "uri": "https://www.rubytapas.com/episode-list/"
+        "uri": "http://nodeschool.io/#workshopper-list"
       }, {
-        "guid": "uQt8OgOqKWfj",
-        "title": "Mehdi Farsi \xE2\x80\x93 Medium",
-        "index": 11,
-        "dateAdded": 1.535568691019e15,
-        "lastModified": 1.535568691019e15,
-        "id": 6153,
+        "guid": "C8licGmAikd2",
+        "title": "KeystoneJS - Getting Started",
+        "index": 4,
+        "dateAdded": 1.458601940612e15,
+        "lastModified": 1.458601940612e15,
+        "id": 1212,
         "typeCode": 1,
+        "tags": "node",
         "type": "text/x-moz-place",
-        "uri": "https://medium.com/@farsi_mehdi"
+        "uri": "http://keystonejs.com/docs/getting-started/"
       }, {
-        "guid": "JTm_E39v1e3s",
-        "title": "Learn Ruby the Hard Way - Read for Free",
-        "index": 12,
-        "dateAdded": 1.500595420647e15,
-        "lastModified": 1.500595420647e15,
-        "id": 437,
+        "guid": "lUwDnW6PvKuF",
+        "title": "ngrok - secure introspectable tunnels to localhost",
+        "index": 5,
+        "dateAdded": 1.458602003527e15,
+        "lastModified": 1.458602003527e15,
+        "id": 4968,
         "typeCode": 1,
-        "tags": "ruby",
+        "tags": "node",
         "type": "text/x-moz-place",
-        "uri": "https://learnrubythehardway.org/book/"
+        "uri": "https://ngrok.com/"
+      }]
+    }, {
+      "guid": "IUdPQpxoNrKZ",
+      "title": "Electron",
+      "index": 5,
+      "dateAdded": 1.52657808586e15,
+      "lastModified": 1.544314453325e15,
+      "id": 124,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "links": [{
+        "guid": "FCENo-BOHiyb",
+        "title": "Building a desktop application with Electron - Developers Writing - Medium",
+        "index": 0,
+        "dateAdded": 1.52657808586e15,
+        "lastModified": 1.52657808586e15,
+        "id": 939,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://medium.com/developers-writing/building-a-desktop-application-with-electron-204203eeb658"
+      }]
+    }, {
+      "guid": "4pwme73zrTVm",
+      "title": "Vue",
+      "index": 6,
+      "dateAdded": 1.52961849853e15,
+      "lastModified": 1.536608652444e15,
+      "id": 5902,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "links": [{
+        "guid": "APov8KKEBOV0",
+        "title": "Introduction - Vue.js",
+        "index": 0,
+        "dateAdded": 1.52086447027e15,
+        "lastModified": 1.530373843952e15,
+        "id": 528,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://vuejs.org/v2/guide/"
       }, {
-        "guid": "0noPhHd3Weao",
-        "title": "bbatsov/ruby-style-guide: A community-driven Ruby coding style guide",
-        "index": 13,
-        "dateAdded": 1.500597252395e15,
-        "lastModified": 1.500597252395e15,
-        "id": 2098,
+        "guid": "4bRgKHaS-rwu",
+        "title": "Building a RSS Viewer With Vue: Part 1 | CSS-Tricks",
+        "index": 1,
+        "dateAdded": 1.52961849853e15,
+        "lastModified": 1.52961849853e15,
+        "id": 5907,
         "typeCode": 1,
-        "tags": "ruby",
+        "iconuri": "https://css-tricks.com/apple-touch-icon.png",
         "type": "text/x-moz-place",
-        "uri": "https://github.com/bbatsov/ruby-style-guide"
+        "uri": "https://css-tricks.com/building-a-rss-viewer-with-vue-part-1/"
       }, {
-        "guid": "M1VC_OsWPYjY",
-        "title": "(48) Pinterest",
-        "index": 14,
-        "dateAdded": 1.52069895415e15,
-        "lastModified": 1.52069895415e15,
-        "id": 968,
+        "guid": "KOeYg1bgNmXr",
+        "title": "From zero to hero with Vue - Up and running - Indrek Lasn - Medium",
+        "index": 2,
+        "dateAdded": 1.536608652444e15,
+        "lastModified": 1.536608652444e15,
+        "id": 6183,
         "typeCode": 1,
         "type": "text/x-moz-place",
-        "uri": "https://www.pinterest.com/explore/ruby-on-rails/?lp=true"
-      }, {
-        "guid": "pSFw9N3tem2q",
-        "title": "Launch School - Open Book Shelf",
-        "index": 15,
-        "dateAdded": 1.50059761306e15,
-        "lastModified": 1.50059761306e15,
-        "id": 5166,
-        "typeCode": 1,
-        "tags": "ruby",
-        "iconuri": "https://launchschool.com/favicon-194x194.png",
-        "type": "text/x-moz-place",
-        "uri": "https://launchschool.com/books"
-      }, {
-        "guid": "xaaRFBR34Tiv",
-        "title": "Rubeque",
-        "index": 16,
-        "dateAdded": 1.52069896052e15,
-        "lastModified": 1.52069896052e15,
-        "id": 1069,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://www.rubeque.com/"
-      }, {
-        "guid": "LhY2iWeACIiV",
-        "title": "Getting started",
-        "index": 17,
-        "dateAdded": 1.500597693194e15,
-        "lastModified": 1.500597693194e15,
-        "id": 3480,
-        "typeCode": 1,
-        "tags": "ruby",
-        "type": "text/x-moz-place",
-        "uri": "http://www.rubyist.net/%7Eslagell/ruby/getstarted.html"
-      }, {
-        "guid": "MeheYkV4k_WZ",
-        "title": "Read Ruby Web Dev: The Other Way | Leanpub",
-        "index": 18,
-        "dateAdded": 1.500597764981e15,
-        "lastModified": 1.500597764981e15,
-        "id": 3541,
-        "typeCode": 1,
-        "tags": "ruby",
-        "type": "text/x-moz-place",
-        "uri": "https://leanpub.com/rwdtow/read"
-      }, {
-        "guid": "5S1m9FzuYblW",
-        "title": "Ruby Essentials - Techotopia",
-        "index": 19,
-        "dateAdded": 1.500597800339e15,
-        "lastModified": 1.500597800339e15,
-        "id": 2113,
-        "typeCode": 1,
-        "tags": "ruby",
-        "type": "text/x-moz-place",
-        "uri": "http://www.techotopia.com/index.php/Ruby_Essentials"
-      }, {
-        "guid": "Pit_lnzgRgxf",
-        "title": "Learn ruby in Y Minutes",
-        "index": 20,
-        "dateAdded": 1.500597808148e15,
-        "lastModified": 1.500597808148e15,
-        "id": 3702,
-        "typeCode": 1,
-        "tags": "ruby",
-        "type": "text/x-moz-place",
-        "uri": "https://learnxinyminutes.com/docs/ruby/"
-      }, {
-        "guid": "LJr123UA8BCU",
-        "title": "The Unofficial Ruby Usage Guide",
-        "index": 21,
-        "dateAdded": 1.500597872207e15,
-        "lastModified": 1.500597872207e15,
-        "id": 2038,
-        "typeCode": 1,
-        "tags": "ruby",
-        "type": "text/x-moz-place",
-        "uri": "http://www.caliban.org/ruby/rubyguide.shtml"
-      }, {
-        "guid": "gfUIM6FtxQ3b",
-        "title": "Ruby in 100 Minutes - Jumpstart Lab Curriculum",
-        "index": 22,
-        "dateAdded": 1.501691035745e15,
-        "lastModified": 1.501691035745e15,
-        "id": 1507,
-        "typeCode": 1,
-        "tags": "ruby",
-        "type": "text/x-moz-place",
-        "uri": "http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html"
-      }, {
-        "guid": "CShd01y9RI72",
-        "title": "Just Enough Ruby To Get By - Jason Kim",
-        "index": 23,
-        "dateAdded": 1.501691062959e15,
-        "lastModified": 1.501691062959e15,
-        "id": 2914,
-        "typeCode": 1,
-        "tags": "ruby",
-        "type": "text/x-moz-place",
-        "uri": "http://jasonkim.ca/projects/just_enough_ruby_to_get_by/"
-      }, {
-        "guid": "Qc6anpyRiPC1",
-        "title": "Blog \xE2\x80\x93 DayDreams in Ruby",
-        "index": 24,
-        "dateAdded": 1.504017499328e15,
-        "lastModified": 1.504017499328e15,
-        "id": 3765,
-        "typeCode": 1,
-        "tags": "ruby",
-        "type": "text/x-moz-place",
-        "uri": "http://daydreamsinruby.com/blog/"
-      }, {
-        "guid": "puxYznh5_e8q",
-        "title": "Learning Ruby: From Zero to Hero \xE2\x80\x93 freeCodeCamp",
-        "index": 25,
-        "dateAdded": 1.505402311311e15,
-        "lastModified": 1.505402311311e15,
-        "id": 5202,
-        "typeCode": 1,
-        "tags": "ruby",
-        "type": "text/x-moz-place",
-        "uri": "https://medium.freecodecamp.org/learning-ruby-from-zero-to-hero-90ad4eecc82d"
-      }, {
-        "guid": "3-hBsZ2GI_DK",
-        "title": "The Tiger's Vest (with a Basic Introduction to Irb) :: Why's (Poignant) Guide to Ruby",
-        "index": 26,
-        "dateAdded": 1.506180636021e15,
-        "lastModified": 1.506180636021e15,
-        "id": 2384,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "http://poignant.guide/book/expansion-pak-1.html"
-      }, {
-        "guid": "ERfi4uaNzdhm",
-        "title": "What the Heck are Code Blocks, Procs, Lambdas, and Closures in Ruby",
-        "index": 27,
-        "dateAdded": 1.517722214051e15,
-        "lastModified": 1.527212835918e15,
-        "id": 1423,
-        "typeCode": 1,
-        "iconuri": "https://cdn-images-1.medium.com/fit/c/152/152/1*8I-HPL0bfoIzGied-dzOvA.png",
-        "annos": [{
-          "name": "bookmarkProperties/description",
-          "flags": 0,
-          "expires": 4,
-          "value": "The definitions of Code Block, Proc, Lambda, and Closure and how to use them in Ruby."
-        }],
-        "type": "text/x-moz-place",
-        "uri": "https://medium.com/@sihui/what-the-heck-are-code-blocks-procs-lambdas-and-closures-in-ruby-2b0737f08e95"
-      }, {
-        "guid": "9_gMyZB6koHt",
-        "title": "Understanding Ruby's idiom: array.map(&:method)",
-        "index": 28,
-        "dateAdded": 1.517722257554e15,
-        "lastModified": 1.527212835883e15,
-        "id": 1422,
-        "typeCode": 1,
-        "annos": [{
-          "name": "bookmarkProperties/description",
-          "flags": 0,
-          "expires": 4,
-          "value": "Understanding Ruby's idiom: array.map(&:method)"
-        }],
-        "type": "text/x-moz-place",
-        "uri": "http://www.brianstorti.com/understanding-ruby-idiom-map-with-symbol/"
-      }, {
-        "guid": "C2zBNBrLm0MR",
-        "title": "The Bastards Book of Ruby",
-        "index": 29,
-        "dateAdded": 1.517722266363e15,
-        "lastModified": 1.527212825534e15,
-        "id": 708,
-        "typeCode": 1,
-        "annos": [{
-          "name": "bookmarkProperties/description",
-          "flags": 0,
-          "expires": 4,
-          "value": "A Ruby programming tutorial for journalists, researchers, investigators, scientists, analysts and anyone else in the business of finding information and making it useful and visible. Programming experience not required, but provided."
-        }],
-        "type": "text/x-moz-place",
-        "uri": "http://ruby.bastardsbook.com/"
-      }, {
-        "guid": "BXX8-QsxhLv3",
-        "title": "Ruby Warrior - Popular Free Ruby Programming Tutorial Game",
-        "index": 30,
-        "dateAdded": 1.535116062855e15,
-        "lastModified": 1.535116062855e15,
-        "id": 6028,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://www.bloc.io/ruby-warrior#/"
-      }, {
-        "guid": "K2N4ONMOxLnq",
-        "title": "Ruby gotchas for the JavaScript developer \xE2\x80\u02D8 The Calendly Blog",
-        "index": 31,
-        "dateAdded": 1.541162826117e15,
-        "lastModified": 1.541162826117e15,
-        "id": 6315,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://blog.calendly.com/ruby-gotchas-javascript-developer/"
+        "uri": "https://medium.com/@wesharehoodies/from-zero-to-hero-with-vue-up-and-running-f1acd4696b71"
       }]
     }, {
       "guid": "hS6t1Q4IA3jB",
-      "title": "django",
-      "index": 5,
+      "title": "Django",
+      "index": 7,
       "dateAdded": 1.48952673288e15,
-      "lastModified": 1.487605782668e15,
+      "lastModified": 1.544314854994e15,
       "id": 190,
       "typeCode": 2,
       "type": "text/x-moz-place-container",
@@ -29175,12 +31170,633 @@ module.exports = {
       }]
     }]
   }, {
-    "guid": "GghKydrHf3bA",
-    "title": "Dev Ops & Testing",
-    "index": 7,
-    "dateAdded": 1.491680150941e15,
-    "lastModified": 1.542726030441e15,
-    "id": 118,
+    "guid": "CQXTFFSeCZz1",
+    "title": "Frontend & Libraries",
+    "index": 4,
+    "dateAdded": 1.518969331106e15,
+    "lastModified": 1.544315778884e15,
+    "id": 106,
+    "typeCode": 3,
+    "type": "text/x-moz-place-container",
+    "links": [{
+      "guid": "h7BqJlWcszym",
+      "title": "General",
+      "index": 0,
+      "dateAdded": 1.542726045987e15,
+      "lastModified": 1.544315778884e15,
+      "id": 6370,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "links": [{
+        "guid": "p0HnJJuu7Aqh",
+        "title": "Immutable.js",
+        "index": 0,
+        "dateAdded": 1.52069801878e15,
+        "lastModified": 1.542726054311e15,
+        "id": 1387,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://facebook.github.io/immutable-js/"
+      }, {
+        "guid": "dedbAy9_rSa1",
+        "title": "Front-end Hyperpolyglot",
+        "index": 1,
+        "dateAdded": 1.466721727657e15,
+        "lastModified": 1.542726054351e15,
+        "id": 2048,
+        "typeCode": 1,
+        "tags": "compsci",
+        "type": "text/x-moz-place",
+        "uri": "http://jeffcarp.github.io/frontend-hyperpolyglot/"
+      }, {
+        "guid": "-NcSfeDbIBi_",
+        "title": "Mattia Astorino | Web Designer & Developer",
+        "index": 2,
+        "dateAdded": 1.460678701026e15,
+        "lastModified": 1.542726054431e15,
+        "id": 2139,
+        "typeCode": 1,
+        "tags": "compsci",
+        "type": "text/x-moz-place",
+        "uri": "https://equinusocio.github.io/material-theme/"
+      }]
+    }, {
+      "guid": "soKmA5JMyM2i",
+      "title": "CSS",
+      "index": 1,
+      "dateAdded": 1.433552176823e15,
+      "lastModified": 1.54431557678e15,
+      "id": 215,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "links": [{
+        "guid": "66-zWgran1Cp",
+        "title": "General",
+        "index": 0,
+        "dateAdded": 1.544315545623e15,
+        "lastModified": 1.544315557219e15,
+        "id": 6470,
+        "typeCode": 2,
+        "type": "text/x-moz-place-container",
+        "links": [{
+          "guid": "26MQji34XnCQ",
+          "title": "CSS Grid VS Flexbox: A Practical Comparison - Tutorialzine",
+          "index": 0,
+          "dateAdded": 1.505401734971e15,
+          "lastModified": 1.544315557014e15,
+          "id": 1349,
+          "typeCode": 1,
+          "tags": "css",
+          "type": "text/x-moz-place",
+          "uri": "https://tutorialzine.com/2017/03/css-grid-vs-flexbox"
+        }, {
+          "guid": "5oTxbtH3V_eR",
+          "title": "Web truths: CSS is not real programming | Christian Heilmann",
+          "index": 1,
+          "dateAdded": 1.506969274921e15,
+          "lastModified": 1.544315557025e15,
+          "id": 2083,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://christianheilmann.com/2017/09/19/web-truths-css-is-not-real-programming/"
+        }, {
+          "guid": "1rly1yUTUZxh",
+          "title": "How to make your HTML responsive by adding a single line of CSS",
+          "index": 2,
+          "dateAdded": 1.513570561676e15,
+          "lastModified": 1.544315557033e15,
+          "id": 1885,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://medium.freecodecamp.org/how-to-make-your-html-responsive-by-adding-a-single-line-of-css-2a62de81e431"
+        }, {
+          "guid": "lcKBp9E6ryuA",
+          "title": "React App",
+          "index": 3,
+          "dateAdded": 1.516314958592e15,
+          "lastModified": 1.54431555704e15,
+          "id": 1859,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://chantastic.org/css4-to-css3/"
+        }, {
+          "guid": "YPP5EQQCXMWm",
+          "title": "QSS - A Simple Query Syntax",
+          "index": 4,
+          "dateAdded": 1.516315000501e15,
+          "lastModified": 1.544315557072e15,
+          "id": 1851,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://tomhodgins.github.io/qss/"
+        }, {
+          "guid": "A3fT27dsh6xc",
+          "title": "CSS Reference - A free visual guide to CSS",
+          "index": 5,
+          "dateAdded": 1.516337751997e15,
+          "lastModified": 1.544315557088e15,
+          "id": 1607,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "http://cssreference.io/?utm_source=frontendfocus&utm_medium=email"
+        }, {
+          "guid": "5EMlCiGqUUkj",
+          "title": "CSS Reference - A free visual guide to CSS",
+          "index": 6,
+          "dateAdded": 1.518126181727e15,
+          "lastModified": 1.544315557098e15,
+          "id": 1199,
+          "typeCode": 1,
+          "annos": [{
+            "name": "bookmarkProperties/description",
+            "flags": 0,
+            "expires": 4,
+            "value": "CSS Reference is a free visual guide to CSS. It features the most popular properties, and explains them with illustrated and animated examples."
+          }],
+          "type": "text/x-moz-place",
+          "uri": "https://cssreference.io/"
+        }, {
+          "guid": "_KGbfTzAE6B_",
+          "title": "Learn to Code Advanced HTML & CSS",
+          "index": 7,
+          "dateAdded": 1.518126312804e15,
+          "lastModified": 1.544315557105e15,
+          "id": 640,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://learn.shayhowe.com/advanced-html-css/"
+        }, {
+          "guid": "4n8nAwzk-e1g",
+          "title": "Home - Scalable and Modular Architecture for CSS",
+          "index": 8,
+          "dateAdded": 1.518626654727e15,
+          "lastModified": 1.544315557117e15,
+          "id": 330,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://smacss.com/"
+        }, {
+          "guid": "s7r908yDuVSE",
+          "title": "How to Center in CSS",
+          "index": 9,
+          "dateAdded": 1.433552176823e15,
+          "lastModified": 1.544315557141e15,
+          "id": 5327,
+          "typeCode": 1,
+          "tags": "css",
+          "type": "text/x-moz-place",
+          "uri": "http://howtocenterincss.com/"
+        }, {
+          "guid": "s33aVIre0EAB",
+          "title": "Color Supply",
+          "index": 10,
+          "dateAdded": 1.487793088899e15,
+          "lastModified": 1.544315557151e15,
+          "id": 5317,
+          "typeCode": 1,
+          "tags": "cool shit,css,random shit",
+          "type": "text/x-moz-place",
+          "uri": "http://colorsupplyyy.com/app/"
+        }, {
+          "guid": "NDgLKq8z7KC4",
+          "title": "CSS3 Patterns Gallery",
+          "index": 11,
+          "dateAdded": 1.468371980028e15,
+          "lastModified": 1.544315557163e15,
+          "id": 3587,
+          "typeCode": 1,
+          "tags": "compsci",
+          "type": "text/x-moz-place",
+          "uri": "http://lea.verou.me/css3patterns/#"
+        }, {
+          "guid": "3yIJiFj6Y1yD",
+          "title": "Making Sense of the New CSS Layout",
+          "index": 12,
+          "dateAdded": 1.459897550729e15,
+          "lastModified": 1.54431555717e15,
+          "id": 2416,
+          "typeCode": 1,
+          "tags": "compsci",
+          "type": "text/x-moz-place",
+          "uri": "https://rachelandrew.co.uk/archives/2016/03/25/making-sense-of-the-new-css-layout/"
+        }, {
+          "guid": "irnXlQqr-QzR",
+          "title": "Articles",
+          "index": 13,
+          "dateAdded": 1.534424194009e15,
+          "lastModified": 1.544315557177e15,
+          "id": 6003,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://www.sarasoueidan.com/blog/"
+        }, {
+          "guid": "lFR54cs2PhPt",
+          "title": "Batificity",
+          "index": 14,
+          "dateAdded": 1.537710667533e15,
+          "lastModified": 1.544315557183e15,
+          "id": 6233,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "http://batificity.com/"
+        }, {
+          "guid": "mIlQpI7D2C1b",
+          "title": "specificity3.png* : Page 1 @ 100%",
+          "index": 15,
+          "dateAdded": 1.53771067546e15,
+          "lastModified": 1.544315557189e15,
+          "id": 6234,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "http://www.standardista.com/wp-content/uploads/2012/01/specificity3.pdf"
+        }, {
+          "guid": "l7nM73sKlE6l",
+          "title": "GRID: A simple visual cheatsheet for CSS Grid Layout",
+          "index": 16,
+          "dateAdded": 1.541161789814e15,
+          "lastModified": 1.544315557219e15,
+          "id": 6317,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "http://grid.malven.co/"
+        }]
+      }, {
+        "guid": "cWO01JM7lDBc",
+        "title": "Flexbox",
+        "index": 1,
+        "dateAdded": 1.518979721348e15,
+        "lastModified": 1.544315561546e15,
+        "id": 174,
+        "typeCode": 2,
+        "type": "text/x-moz-place-container",
+        "links": [{
+          "guid": "RGAZcKukYCwF",
+          "title": "How Flexbox works - explained with big, colorful, animated gifs",
+          "index": 0,
+          "dateAdded": 1.487792841278e15,
+          "lastModified": 1.487792841278e15,
+          "id": 3802,
+          "typeCode": 1,
+          "tags": "css",
+          "type": "text/x-moz-place",
+          "uri": "https://medium.freecodecamp.com/an-animated-guide-to-flexbox-d280cf6afc35#.usw5eg4ys"
+        }, {
+          "guid": "5K0Jsy-PAnIN",
+          "title": "New flexbox guides on MDN - Mozilla Hacks - the Web developer blog",
+          "index": 1,
+          "dateAdded": 1.516337394102e15,
+          "lastModified": 1.516337394102e15,
+          "id": 1606,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://hacks.mozilla.org/2018/01/new-flexbox-guides-on-mdn/?utm_source=dev-newsletter&utm_medium=email&utm_campaign=jan11-2018"
+        }, {
+          "guid": "oTlZbbmgGZJR",
+          "title": "Mastering CSS Layout with Flexbox",
+          "index": 2,
+          "dateAdded": 1.513572062882e15,
+          "lastModified": 1.513572062882e15,
+          "id": 1892,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://www.sketchingwithcss.com/samplechapter/cheatsheet.html?__s=pqrjss1c6jtwbv8jwtp5"
+        }, {
+          "guid": "ERK2Fx5JmXyj",
+          "title": "Solved by Flexbox - Cleaner, hack-free CSS",
+          "index": 3,
+          "dateAdded": 1.50973337278e15,
+          "lastModified": 1.50973337278e15,
+          "id": 2078,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://philipwalton.github.io/solved-by-flexbox/"
+        }, {
+          "guid": "0z9-k1F_hKad",
+          "title": "Flexbox Froggy - A game for learning CSS flexbox",
+          "index": 4,
+          "dateAdded": 1.466721727611e15,
+          "lastModified": 1.466721727611e15,
+          "id": 445,
+          "typeCode": 1,
+          "tags": "compsci",
+          "type": "text/x-moz-place",
+          "uri": "http://flexboxfroggy.com/"
+        }, {
+          "guid": "2dOxtaCj5AJB",
+          "title": "Flexbox Defense",
+          "index": 5,
+          "dateAdded": 1.466721727637e15,
+          "lastModified": 1.466721727637e15,
+          "id": 2351,
+          "typeCode": 1,
+          "tags": "compsci",
+          "type": "text/x-moz-place",
+          "uri": "http://www.flexboxdefense.com/"
+        }, {
+          "guid": "YL0KadnYF8JK",
+          "title": "What The FlexBox?! - A free 20 video course to learn CSS Flexbox",
+          "index": 6,
+          "dateAdded": 1.470958278378e15,
+          "lastModified": 1.470958278378e15,
+          "id": 4191,
+          "typeCode": 1,
+          "tags": "compsci",
+          "type": "text/x-moz-place",
+          "uri": "http://flexbox.io/"
+        }]
+      }, {
+        "guid": "8KJ6ACxeq9ED",
+        "title": "Grid",
+        "index": 2,
+        "dateAdded": 1.518979779475e15,
+        "lastModified": 1.544315566561e15,
+        "id": 96,
+        "typeCode": 2,
+        "type": "text/x-moz-place-container",
+        "links": [{
+          "guid": "MtIqr1tzel9f",
+          "title": "CSS Grid - Learn all about CSS Grid with Wes Bos in this free video series!",
+          "index": 0,
+          "dateAdded": 1.516336521608e15,
+          "lastModified": 1.516336521608e15,
+          "id": 1360,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://cssgrid.io/"
+        }, {
+          "guid": "MvJhPKtW6MIs",
+          "title": "Debugging CSS Grid Layouts With Firefox Grid Inspector - Smashing Magazine",
+          "index": 1,
+          "dateAdded": 1.512752461564e15,
+          "lastModified": 1.512752461564e15,
+          "id": 1760,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://www.smashingmagazine.com/2017/12/grid-inspector/"
+        }, {
+          "guid": "2hFtsJVgUzkt",
+          "title": "Learn CSS Grid in 5 Minutes - freeCodeCamp",
+          "index": 2,
+          "dateAdded": 1.512712027736e15,
+          "lastModified": 1.512712027736e15,
+          "id": 1981,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://medium.freecodecamp.org/learn-css-grid-in-5-minutes-f582e87b1228"
+        }, {
+          "guid": "ewME_6p9ZmZ6",
+          "title": "Guide to building layouts with CSS Grid",
+          "index": 3,
+          "dateAdded": 1.505506024903e15,
+          "lastModified": 1.505506024903e15,
+          "id": 338,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://cssgrid.cc/"
+        }, {
+          "guid": "w9EzIS2VWuQW",
+          "title": "Things I've Learned About CSS Grid Layout | CSS-Tricks",
+          "index": 4,
+          "dateAdded": 1.505505983647e15,
+          "lastModified": 1.505505983647e15,
+          "id": 1258,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://css-tricks.com/things-ive-learned-css-grid-layout/"
+        }, {
+          "guid": "dq7lqkWQWQL2",
+          "title": "Grid by Example - Usage examples of CSS Grid Layout",
+          "index": 5,
+          "dateAdded": 1.505505969996e15,
+          "lastModified": 1.505505969996e15,
+          "id": 648,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://gridbyexample.com/examples/"
+        }]
+      }]
+    }, {
+      "guid": "x-T7nJb2Zh9I",
+      "title": "CSS Frameworks",
+      "index": 2,
+      "dateAdded": 1.518979734106e15,
+      "lastModified": 1.544315584603e15,
+      "id": 225,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "links": [{
+        "guid": "I06MeFOwIjWS",
+        "title": "Picnic CSS",
+        "index": 0,
+        "dateAdded": 1.53023007274e15,
+        "lastModified": 1.53023007274e15,
+        "id": 5916,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://picnicss.com/"
+      }, {
+        "guid": "z4KP8wQSDQo5",
+        "title": "Layouts - Pure",
+        "index": 1,
+        "dateAdded": 1.53023006359e15,
+        "lastModified": 1.53023006359e15,
+        "id": 5925,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://purecss.io/layouts/"
+      }, {
+        "guid": "G6GbuJk11H4j",
+        "title": "Home - Marx",
+        "index": 2,
+        "dateAdded": 1.519233874378e15,
+        "lastModified": 1.519233874378e15,
+        "id": 342,
+        "typeCode": 1,
+        "iconuri": "https://mblode.github.io/marx/img/favicons/apple-touch-icon-71190191.png",
+        "type": "text/x-moz-place",
+        "uri": "https://mblode.github.io/marx/"
+      }, {
+        "guid": "9T_YjMHpgc9-",
+        "title": "Frow CSS",
+        "index": 3,
+        "dateAdded": 1.505401494283e15,
+        "lastModified": 1.505401494283e15,
+        "id": 883,
+        "typeCode": 1,
+        "tags": "css",
+        "type": "text/x-moz-place",
+        "uri": "http://frowcss.com/"
+      }, {
+        "guid": "WizrdgQh7bOU",
+        "title": "TACHYONS - Css Toolkit",
+        "index": 4,
+        "dateAdded": 1.505401502719e15,
+        "lastModified": 1.505401502719e15,
+        "id": 886,
+        "typeCode": 1,
+        "tags": "css",
+        "type": "text/x-moz-place",
+        "uri": "http://tachyons.io/"
+      }, {
+        "guid": "GJj73K6m1Uf9",
+        "title": "Wing",
+        "index": 5,
+        "dateAdded": 1.505401508421e15,
+        "lastModified": 1.505401508421e15,
+        "id": 736,
+        "typeCode": 1,
+        "tags": "cool shit,css,design",
+        "type": "text/x-moz-place",
+        "uri": "http://usewing.ml/"
+      }, {
+        "guid": "MtHn4XO_3eSK",
+        "title": "PaperCSS - the less formal CSS framework",
+        "index": 6,
+        "dateAdded": 1.516338606038e15,
+        "lastModified": 1.516338606038e15,
+        "id": 391,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://www.getpapercss.com/"
+      }, {
+        "guid": "8Sw23UhqFpd9",
+        "title": "chota - A micro CSS framework",
+        "index": 7,
+        "dateAdded": 1.516314974088e15,
+        "lastModified": 1.516314974088e15,
+        "id": 850,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://jenil.github.io/chota/"
+      }, {
+        "guid": "HMbtJqdoacKM",
+        "title": "Svelte - The magical disappearing UI framework",
+        "index": 8,
+        "dateAdded": 1.506898874884e15,
+        "lastModified": 1.506898874884e15,
+        "id": 1079,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://svelte.technology/blog/the-zen-of-just-writing-css?utm_source=ponyfoo+weekly&utm_medium=email&utm_campaign=80"
+      }, {
+        "guid": "oaEUxF_o3Vd-",
+        "title": "Gutenberg - A Meaningful Web Typography Starter Kit",
+        "index": 9,
+        "dateAdded": 1.519233753194e15,
+        "lastModified": 1.519233753194e15,
+        "id": 875,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://matejlatin.github.io/Gutenberg/"
+      }, {
+        "guid": "lUx5WZvZT-9h",
+        "title": "Tufte CSS",
+        "index": 10,
+        "dateAdded": 1.519233809535e15,
+        "lastModified": 1.519233809535e15,
+        "id": 317,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://edwardtufte.github.io/tufte-css/"
+      }, {
+        "guid": "TqkRLtPKqg1q",
+        "title": "Tailwind CSS - A Utility-First CSS Framework for Rapid UI Development",
+        "index": 11,
+        "dateAdded": 1.519507552051e15,
+        "lastModified": 1.519507552051e15,
+        "id": 846,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://tailwindcss.com/"
+      }, {
+        "guid": "79qQFqJ9RY4b",
+        "title": "Fork Awesome, a fork of the iconic font and CSS toolkit",
+        "index": 12,
+        "dateAdded": 1.539286338797e15,
+        "lastModified": 1.539286338797e15,
+        "id": 6264,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://forkawesome.github.io/Fork-Awesome/"
+      }]
+    }, {
+      "guid": "iYVq8GndfJGL",
+      "title": "CSS Structure & Pattern Libraries",
+      "index": 3,
+      "dateAdded": 1.529591146534e15,
+      "lastModified": 1.544315596287e15,
+      "id": 5904,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "links": [{
+        "guid": "LKH_-uIj-9cq",
+        "title": "yuanchuan/CSS-at: A collection of styleguides or approach to CSS at different companies",
+        "index": 0,
+        "dateAdded": 1.529591265e15,
+        "lastModified": 1.529591265e15,
+        "id": 5918,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://github.com/yuanchuan/CSS-at"
+      }, {
+        "guid": "VVlgloyMoU5g",
+        "title": "GitHub's CSS - @mdo",
+        "index": 1,
+        "dateAdded": 1.52959110568e15,
+        "lastModified": 1.52959110568e15,
+        "id": 5910,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "http://markdotto.com/2014/07/23/githubs-css/"
+      }, {
+        "guid": "UOQ53DDWBbLt",
+        "title": "CodePen's CSS by Chris Coyier on CodePen",
+        "index": 2,
+        "dateAdded": 1.52959109851e15,
+        "lastModified": 1.52959109851e15,
+        "id": 5909,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://codepen.io/chriscoyier/post/codepens-css"
+      }, {
+        "guid": "Rkhw4NEUg71p",
+        "title": "The Alpine Designer Necronomicon",
+        "index": 3,
+        "dateAdded": 1.52959125705e15,
+        "lastModified": 1.52959125705e15,
+        "id": 5919,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://labs.thegreatsunra.com/alpine/"
+      }]
+    }, {
+      "guid": "Mreq9tluhuka",
+      "title": "Frontend Development",
+      "index": 4,
+      "dateAdded": 1.52959101848e15,
+      "lastModified": 1.52959101848e15,
+      "id": 5903,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "links": [{
+        "guid": "gg9lGxr58maI",
+        "title": "Your Brain on Front-End Development | CSS-Tricks",
+        "index": 0,
+        "dateAdded": 1.52959101848e15,
+        "lastModified": 1.52959101848e15,
+        "id": 5911,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://css-tricks.com/your-brain-on-front-end-development/"
+      }]
+    }]
+  }, {
+    "guid": "jxoF26HHprm3",
+    "title": "Tooling",
+    "index": 5,
+    "dateAdded": 1.544314138487e15,
+    "lastModified": 1.544315973851e15,
+    "id": 6462,
     "typeCode": 3,
     "type": "text/x-moz-place-container",
     "links": [{
@@ -29188,7 +31804,7 @@ module.exports = {
       "title": "General",
       "index": 0,
       "dateAdded": 1.542726023472e15,
-      "lastModified": 1.542726030441e15,
+      "lastModified": 1.544315910109e15,
       "id": 6368,
       "typeCode": 2,
       "type": "text/x-moz-place-container",
@@ -29238,7 +31854,7 @@ module.exports = {
       "title": "npm",
       "index": 1,
       "dateAdded": 1.48952673288e15,
-      "lastModified": 1.458601902634e15,
+      "lastModified": 1.544315065333e15,
       "id": 166,
       "typeCode": 2,
       "type": "text/x-moz-place-container",
@@ -29270,7 +31886,7 @@ module.exports = {
       "title": "git",
       "index": 2,
       "dateAdded": 1.517719063693e15,
-      "lastModified": 1.5422472514e15,
+      "lastModified": 1.544315065341e15,
       "id": 211,
       "typeCode": 2,
       "type": "text/x-moz-place-container",
@@ -29306,7 +31922,7 @@ module.exports = {
         "uri": "http://ohshitgit.com/"
       }, {
         "guid": "8SPY1CygBuBl",
-        "title": "git ready \xC2\u0165 learn git one commit at a time",
+        "title": "git ready - learn git one commit at a time",
         "index": 3,
         "dateAdded": 1.513956617079e15,
         "lastModified": 1.513956617079e15,
@@ -29316,7 +31932,7 @@ module.exports = {
         "uri": "http://gitready.com/"
       }, {
         "guid": "hqeCgPgNlC2a",
-        "title": "Advanced Git Fu | Presentations by David Rogers aka \xE2\x80\x9CAL the X\xE2\x80\x9D",
+        "title": "Advanced Git Fu | Presentations by David Rogers",
         "index": 4,
         "dateAdded": 1.535120177052e15,
         "lastModified": 1.535120177052e15,
@@ -29347,43 +31963,11 @@ module.exports = {
         "uri": "https://www.atlassian.com/git/tutorials"
       }]
     }, {
-      "guid": "YBmJBCD9O4e3",
-      "title": "jasmine",
-      "index": 3,
-      "dateAdded": 1.49168015378e15,
-      "lastModified": 1.491680150941e15,
-      "id": 160,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "links": [{
-        "guid": "MQi2z1V6xAP-",
-        "title": "Where to put code in mocha/jasmine tests - Medium",
-        "index": 0,
-        "dateAdded": 1.490486682572e15,
-        "lastModified": 1.490486682572e15,
-        "id": 3523,
-        "typeCode": 1,
-        "tags": "jasmine",
-        "type": "text/x-moz-place",
-        "uri": "https://medium.com/@kentcdodds/where-to-put-code-in-mocha-jasmine-tests-24aade62fd7e#.lrs5jcd7s"
-      }, {
-        "guid": "wXwLMzlXlYEF",
-        "title": "5 Questions Every Unit Test Must Answer - JavaScript Scene - Medium",
-        "index": 1,
-        "dateAdded": 1.491680150941e15,
-        "lastModified": 1.491680150941e15,
-        "id": 5653,
-        "typeCode": 1,
-        "tags": "jasmine",
-        "type": "text/x-moz-place",
-        "uri": "https://medium.com/javascript-scene/what-every-unit-test-needs-f6cd34d9836d"
-      }]
-    }, {
       "guid": "n8bkVcQiQBvq",
       "title": "bash",
-      "index": 4,
+      "index": 3,
       "dateAdded": 1.51357251611e15,
-      "lastModified": 1.540563309905e15,
+      "lastModified": 1.544315065354e15,
       "id": 202,
       "typeCode": 2,
       "type": "text/x-moz-place-container",
@@ -29431,321 +32015,985 @@ module.exports = {
       }]
     }]
   }, {
-    "guid": "b39eClwQeR5d",
-    "title": "Comp Sci",
-    "index": 8,
-    "dateAdded": 1.4514287212e15,
-    "lastModified": 1.542726042107e15,
-    "id": 170,
+    "guid": "7AMs-JapOx8K",
+    "title": "Learning",
+    "index": 6,
+    "dateAdded": 1.54431408685e15,
+    "lastModified": 1.54431607201e15,
+    "id": 6461,
     "typeCode": 3,
     "type": "text/x-moz-place-container",
     "links": [{
-      "guid": "JBJKx2pmujHq",
+      "guid": "Fei2gVjtQJNh",
+      "title": "Courses",
+      "index": 0,
+      "dateAdded": 1.535112710607e15,
+      "lastModified": 1.544316056691e15,
+      "id": 6010,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "links": [{
+        "guid": "jYHvggbWSfPf",
+        "title": "Courses | Wes Bos",
+        "index": 0,
+        "dateAdded": 1.535112719819e15,
+        "lastModified": 1.544316054319e15,
+        "id": 6087,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://wesbos.com/courses/"
+      }, {
+        "guid": "rc-2GMX_WH_F",
+        "title": "Learn to Code and Help Nonprofits | freeCodeCamp",
+        "index": 1,
+        "dateAdded": 1.535112738495e15,
+        "lastModified": 1.544316054376e15,
+        "id": 6022,
+        "typeCode": 1,
+        "iconuri": "https://s3.amazonaws.com/freecodecamp/favicons/apple-touch-icon-180x180.png",
+        "type": "text/x-moz-place",
+        "uri": "https://www.freecodecamp.org/"
+      }, {
+        "guid": "6Y2vUWqaYGep",
+        "title": "Learn to Code - for Free | Codecademy",
+        "index": 2,
+        "dateAdded": 1.535112749403e15,
+        "lastModified": 1.544316054423e15,
+        "id": 6025,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://www.codecademy.com/"
+      }, {
+        "guid": "-J51nI4VpkI5",
+        "title": "Your Career in Web Development Starts Here | The Odin Project",
+        "index": 3,
+        "dateAdded": 1.535112902254e15,
+        "lastModified": 1.544316054474e15,
+        "id": 6017,
+        "typeCode": 1,
+        "iconuri": "https://www.theodinproject.com/apple-touch-icon.png",
+        "type": "text/x-moz-place",
+        "uri": "https://www.theodinproject.com/"
+      }, {
+        "guid": "GWf-LWES64rt",
+        "title": "Short, instructional screencast video tutorials for web developers on @eggheadio",
+        "index": 4,
+        "dateAdded": 1.535112950736e15,
+        "lastModified": 1.544316054498e15,
+        "id": 6016,
+        "typeCode": 1,
+        "iconuri": "https://egghead.io/favicon.ico?v=2",
+        "type": "text/x-moz-place",
+        "uri": "https://egghead.io/"
+      }, {
+        "guid": "tce7kvbPzFda",
+        "title": "Top Shelf Web Development Training Scotch",
+        "index": 5,
+        "dateAdded": 1.535113009752e15,
+        "lastModified": 1.544316054538e15,
+        "id": 6024,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://scotch.io/"
+      }, {
+        "guid": "3ebecLZlZmep",
+        "title": "Become a Programmer, Motherfucker",
+        "index": 6,
+        "dateAdded": 1.535115599353e15,
+        "lastModified": 1.544316054594e15,
+        "id": 6027,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "http://programming-motherfucker.com/become.html"
+      }, {
+        "guid": "u9Osvu6ZIYOA",
+        "title": "Screencasts for programmers - Roman Zolotarev",
+        "index": 7,
+        "dateAdded": 1.535379753491e15,
+        "lastModified": 1.544316054643e15,
+        "id": 6126,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://www.romanzolotarev.com/screencasts.html"
+      }, {
+        "guid": "01KkMH3k9fD4",
+        "title": "Learn Code from Us",
+        "index": 8,
+        "dateAdded": 1.539286606914e15,
+        "lastModified": 1.544316054694e15,
+        "id": 6266,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://learncodefrom.us/"
+      }]
+    }, {
+      "guid": "OwPXyxBt7K2o",
+      "title": "Talks To Watch",
+      "index": 1,
+      "dateAdded": 1.518626621755e15,
+      "lastModified": 1.544316087843e15,
+      "id": 135,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "links": [{
+        "guid": "b98dms6IKL5o",
+        "title": "Awesome Talks",
+        "index": 0,
+        "dateAdded": 1.52814843991e15,
+        "lastModified": 1.544316062648e15,
+        "id": 5855,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://awesometalks.party/"
+      }, {
+        "guid": "6PTEz1FaMr45",
+        "title": "AllThingsSmitty/must-watch-javascript: A useful list of must-watch talks about JavaScript",
+        "index": 1,
+        "dateAdded": 1.518626661197e15,
+        "lastModified": 1.544316062669e15,
+        "id": 353,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://github.com/AllThingsSmitty/must-watch-javascript"
+      }, {
+        "guid": "Wys04xymtDQf",
+        "title": "GitHub - AllThingsSmitty/must-watch-css: A useful list of must-watch talks about CSS",
+        "index": 2,
+        "dateAdded": 1.518895554637e15,
+        "lastModified": 1.544316062691e15,
+        "id": 418,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://github.com/AllThingsSmitty/must-watch-css"
+      }, {
+        "guid": "fbQgOaCq_no-",
+        "title": "bolshchikov/js-must-watch: Must-watch videos about javascript",
+        "index": 3,
+        "dateAdded": 1.518626666132e15,
+        "lastModified": 1.544316062718e15,
+        "id": 435,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://github.com/bolshchikov/js-must-watch"
+      }, {
+        "guid": "PxPBbgV-qRE_",
+        "title": "hellerve/programming-talks: Awesome & Interesting Talks concerning Programming",
+        "index": 4,
+        "dateAdded": 1.51862667175e15,
+        "lastModified": 1.544316062737e15,
+        "id": 494,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://github.com/hellerve/programming-talks"
+      }, {
+        "guid": "U1Q_Bck5dTfS",
+        "title": "You can't go wrong watching JavaScript talks - Mozilla Hacks - the Web developer blog",
+        "index": 5,
+        "dateAdded": 1.518626676449e15,
+        "lastModified": 1.544316062753e15,
+        "id": 495,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://hacks.mozilla.org/2014/12/you-cant-go-wrong-watching-javascript-talks/"
+      }, {
+        "guid": "PtGhul3JwU_P",
+        "title": "Great programming talks to watch on your lunch break",
+        "index": 6,
+        "dateAdded": 1.518626681751e15,
+        "lastModified": 1.544316062773e15,
+        "id": 1083,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://medium.com/statuscode/great-programming-talks-to-watch-on-your-lunch-break-8b13e139929e"
+      }, {
+        "guid": "r3g553S7Fx7t",
+        "title": "Leonie Watson | On CSS accessibility and drinking tea | CSS Day 2016 on Vimeo",
+        "index": 7,
+        "dateAdded": 1.51890249139e15,
+        "lastModified": 1.54431606279e15,
+        "id": 896,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://vimeo.com/180566024"
+      }, {
+        "guid": "H58plR9acv-4",
+        "title": "(1) Bartek Szopka: Everything you never wanted to know about JavaScript numbers -- JSConf EU 2013 - YouTube",
+        "index": 8,
+        "dateAdded": 1.52366690392e15,
+        "lastModified": 1.544316062808e15,
+        "id": 946,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://www.youtube.com/watch?v=MqHDDtVYJRI"
+      }, {
+        "guid": "pyvcAXa033hP",
+        "title": "Videos - WeAreDevelopers Events",
+        "index": 9,
+        "dateAdded": 1.534426157441e15,
+        "lastModified": 1.544316062826e15,
+        "id": 6006,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://www.wearedevelopers.com/videos/"
+      }, {
+        "guid": "VN_E0gT5xjN6",
+        "title": "Past Talks - Deconstruct",
+        "index": 10,
+        "dateAdded": 1.52814843329e15,
+        "lastModified": 1.544316062851e15,
+        "id": 5845,
+        "typeCode": 1,
+        "iconuri": "https://www.deconstructconf.com/favicon-96x96.png",
+        "type": "text/x-moz-place",
+        "uri": "https://www.deconstructconf.com/2017"
+      }, {
+        "guid": "ClYvX60dzGLt",
+        "title": "Keep Betting on JavaScript by Kyle Simpson - JSCamp Barcelona 2018 - YouTube",
+        "index": 11,
+        "dateAdded": 1.53511268314e15,
+        "lastModified": 1.544316062872e15,
+        "id": 6102,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://www.youtube.com/watch?v=lDLQA6lQSFg"
+      }, {
+        "guid": "Eknuls6E3KGG",
+        "title": "(8) CSS Grid in 45 Minutes! - YouTube",
+        "index": 12,
+        "dateAdded": 1.535112690673e15,
+        "lastModified": 1.544316062888e15,
+        "id": 6103,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://www.youtube.com/watch?v=DCZdCKjnBCs&__s=qkfef9as73eevst9dudk&utm_source=drip&utm_medium=email&utm_campaign=CSS+Grid+in+45+Minutes%21+"
+      }, {
+        "guid": "o-Xlnw3Mtmc5",
+        "title": "The Modern Command-Line Tool Stack: Pipenv, Click, and Friends : Matt Behrens : Free Download, Borrow, and Streaming : Internet Archive",
+        "index": 13,
+        "dateAdded": 1.535160243021e15,
+        "lastModified": 1.544316062909e15,
+        "id": 6111,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://archive.org/details/pyohio_2018-The_Modern_CommandLine_Tool_Stack_Pipenv_Click_and_Friends"
+      }]
+    }, {
+      "guid": "Dw_T5LKv6YJT",
+      "title": "Code Study",
+      "index": 2,
+      "dateAdded": 1.487834781137e15,
+      "lastModified": 1.544316095316e15,
+      "id": 107,
+      "typeCode": 2,
+      "type": "text/x-moz-place-container",
+      "links": [{
+        "guid": "AorkqFbOriNe",
+        "title": "Tutorial Playlists | Level Up Tutorials",
+        "index": 0,
+        "dateAdded": 1.541604883203e15,
+        "lastModified": 1.544316069633e15,
+        "id": 6332,
+        "typeCode": 1,
+        "iconuri": "https://www.leveluptutorials.com/android-chrome-192x192.png",
+        "type": "text/x-moz-place",
+        "uri": "https://www.leveluptutorials.com/tutorials"
+      }, {
+        "guid": "hiRY5d_Rj_S3",
+        "title": "Reverse a String | Free Code Camp",
+        "index": 1,
+        "dateAdded": 1.48783484441e15,
+        "lastModified": 1.544316069695e15,
+        "id": 4800,
+        "typeCode": 1,
+        "tags": "code study",
+        "type": "text/x-moz-place",
+        "uri": "https://www.freecodecamp.com/challenges/reverse-a-string"
+      }, {
+        "guid": "KcJuQNLrhwC3",
+        "title": "Full Stack Foundations | Udacity",
+        "index": 2,
+        "dateAdded": 1.488862976645e15,
+        "lastModified": 1.54431606971e15,
+        "id": 3397,
+        "typeCode": 1,
+        "tags": "code study",
+        "type": "text/x-moz-place",
+        "uri": "https://www.udacity.com/course/full-stack-foundations--ud088?utm_medium=referral&utm_campaign=api"
+      }, {
+        "guid": "Y8ZG558j926J",
+        "title": "Bento - Learn to code and be a self-taught expert programmer",
+        "index": 3,
+        "dateAdded": 1.491055818188e15,
+        "lastModified": 1.544316069725e15,
+        "id": 4167,
+        "typeCode": 1,
+        "tags": "code study",
+        "type": "text/x-moz-place",
+        "uri": "https://bento.io/"
+      }, {
+        "guid": "vBn39qujly-d",
+        "title": "Find the best online programming courses & tutorials - Hackr.io",
+        "index": 4,
+        "dateAdded": 1.49309057223e15,
+        "lastModified": 1.544316069747e15,
+        "id": 1882,
+        "typeCode": 1,
+        "tags": "code study",
+        "type": "text/x-moz-place",
+        "uri": "https://hackr.io/"
+      }, {
+        "guid": "jNL00SMiy32r",
+        "title": "thenewboston - Video Tutorials on Programming and More",
+        "index": 5,
+        "dateAdded": 1.503329825636e15,
+        "lastModified": 1.544316069759e15,
+        "id": 4894,
+        "typeCode": 1,
+        "tags": "code study",
+        "type": "text/x-moz-place",
+        "uri": "https://thenewboston.com/"
+      }, {
+        "guid": "Szdt0l_caA89",
+        "title": "Learn the \"Right Parts\" of ES6 JavaScript features with Kyle Simpson",
+        "index": 6,
+        "dateAdded": 1.503329846161e15,
+        "lastModified": 1.544316069812e15,
+        "id": 1615,
+        "typeCode": 1,
+        "tags": "code study",
+        "type": "text/x-moz-place",
+        "uri": "https://frontendmasters.com/courses/es6-right-parts/"
+      }, {
+        "guid": "YD3vne3F9TQw",
+        "title": "Learn the Deep Foundations of JavaScript with Kyle Simpson",
+        "index": 7,
+        "dateAdded": 1.503329854088e15,
+        "lastModified": 1.544316069825e15,
+        "id": 1776,
+        "typeCode": 1,
+        "tags": "code study",
+        "type": "text/x-moz-place",
+        "uri": "https://frontendmasters.com/courses/javascript-foundations/"
+      }, {
+        "guid": "S741WFyRdcjr",
+        "title": "Learn Data Structure and Algorithms in JavaScript - Ace that Interview",
+        "index": 8,
+        "dateAdded": 1.503329870201e15,
+        "lastModified": 1.54431606984e15,
+        "id": 1460,
+        "typeCode": 1,
+        "tags": "code study",
+        "type": "text/x-moz-place",
+        "uri": "https://frontendmasters.com/courses/data-structures-algorithms/"
+      }, {
+        "guid": "sOLLm85NLmxs",
+        "title": "Learn Advanced JavaScript from the Master Developers",
+        "index": 9,
+        "dateAdded": 1.503329883291e15,
+        "lastModified": 1.544316069877e15,
+        "id": 5355,
+        "typeCode": 1,
+        "tags": "code study",
+        "type": "text/x-moz-place",
+        "uri": "https://frontendmasters.com/courses/advanced-javascript/"
+      }, {
+        "guid": "CKE9fBkUllaF",
+        "title": "Testing JavaScript Applications (feat. React and Redux)",
+        "index": 10,
+        "dateAdded": 1.503329896442e15,
+        "lastModified": 1.544316069889e15,
+        "id": 2905,
+        "typeCode": 1,
+        "tags": "code study",
+        "type": "text/x-moz-place",
+        "uri": "https://frontendmasters.com/courses/testing-javascript/"
+      }, {
+        "guid": "8gpxNOodBgpo",
+        "title": "Master Chrome Developer Tools with Jon Kuperman",
+        "index": 11,
+        "dateAdded": 1.503329905207e15,
+        "lastModified": 1.544316069902e15,
+        "id": 2697,
+        "typeCode": 1,
+        "tags": "code study",
+        "type": "text/x-moz-place",
+        "uri": "https://frontendmasters.com/courses/chrome-dev-tools/"
+      }, {
+        "guid": "1BzSwzUpIjT7",
+        "title": "Learn Sass Preprocessor to Write Readable and Maintainable CSS",
+        "index": 12,
+        "dateAdded": 1.503329915311e15,
+        "lastModified": 1.544316069927e15,
+        "id": 2101,
+        "typeCode": 1,
+        "tags": "code study",
+        "type": "text/x-moz-place",
+        "uri": "https://frontendmasters.com/courses/sass/"
+      }, {
+        "guid": "9okap7_sHZDK",
+        "title": "Programing Language Tutorials Index",
+        "index": 13,
+        "dateAdded": 1.503330226867e15,
+        "lastModified": 1.544316069957e15,
+        "id": 2764,
+        "typeCode": 1,
+        "tags": "code study",
+        "type": "text/x-moz-place",
+        "uri": "http://xahlee.info/comp/comp_lang_tutorials_index.html"
+      }, {
+        "guid": "UjT6o1jhhm4T",
+        "title": "Confreaks TV | Events",
+        "index": 14,
+        "dateAdded": 1.503330971297e15,
+        "lastModified": 1.544316069975e15,
+        "id": 3981,
+        "typeCode": 1,
+        "tags": "code study",
+        "type": "text/x-moz-place",
+        "uri": "https://confreaks.tv/events?page=2"
+      }, {
+        "guid": "ypn9elhmJUC8",
+        "title": "codebar - Tutorials by codebar",
+        "index": 15,
+        "dateAdded": 1.503331095497e15,
+        "lastModified": 1.544316069992e15,
+        "id": 1730,
+        "typeCode": 1,
+        "tags": "code study",
+        "type": "text/x-moz-place",
+        "uri": "http://tutorials.codebar.io/"
+      }, {
+        "guid": "Ni9cBY6HU8Ov",
+        "title": "App Academy Open",
+        "index": 16,
+        "dateAdded": 1.542035955028e15,
+        "lastModified": 1.544316070002e15,
+        "id": 6336,
+        "typeCode": 1,
+        "iconuri": "https://open.appacademy.io/apple-touch-icon.e5587902.png",
+        "type": "text/x-moz-place",
+        "uri": "https://open.appacademy.io/signup/free"
+      }]
+    }]
+  }, {
+    "guid": "cnJJm1MFXFkp",
+    "title": "Humane Tech",
+    "index": 7,
+    "dateAdded": 1.544314204192e15,
+    "lastModified": 1.544315431981e15,
+    "id": 6464,
+    "typeCode": 3,
+    "type": "text/x-moz-place-container",
+    "links": [{
+      "guid": "ojGGSnqAmHPI",
       "title": "General",
       "index": 0,
-      "dateAdded": 1.542726035138e15,
-      "lastModified": 1.542726042107e15,
-      "id": 6369,
+      "dateAdded": 1.542725827429e15,
+      "lastModified": 1.544315431981e15,
+      "id": 6366,
       "typeCode": 2,
       "type": "text/x-moz-place-container",
       "links": [{
-        "guid": "GrzZom3PQAYo",
-        "title": "Teach Yourself Computer Science",
+        "guid": "xg8tjpThP5mk",
+        "title": "Calm Technology",
         "index": 0,
-        "dateAdded": 1.52044372009e15,
-        "lastModified": 1.542726041977e15,
-        "id": 1383,
+        "dateAdded": 1.52657882971e15,
+        "lastModified": 1.542725834262e15,
+        "id": 1070,
         "typeCode": 1,
         "type": "text/x-moz-place",
-        "uri": "https://teachyourselfcs.com/"
+        "uri": "https://calmtech.com/"
       }, {
-        "guid": "fZOvnl1Y76w3",
-        "title": "open-source-society/computer-science: Path to a free self-taught education in Computer Science!",
+        "guid": "3uXtw0Kr5yBC",
+        "title": "How to Reclaim Your Relationship with Tech: Tools & Tips",
         "index": 1,
-        "dateAdded": 1.45916798093e15,
-        "lastModified": 1.542726042001e15,
-        "id": 410,
+        "dateAdded": 1.52657865487e15,
+        "lastModified": 1.542725834282e15,
+        "id": 1211,
         "typeCode": 1,
-        "tags": "compsci",
         "type": "text/x-moz-place",
-        "uri": "https://github.com/open-source-society/computer-science"
+        "uri": "https://medium.com/@caseorganic/how-to-reclaim-your-relationship-with-tech-tools-tips-690d0fd771fe"
       }, {
-        "guid": "onkdpPmYCofm",
-        "title": "aGupieWare: Online Learning: An Intensive Bachelor's Level Computer Science Program Curriculum, Part II",
+        "guid": "b_RIOQLS_1lG",
+        "title": "Center for Humane Technology",
         "index": 2,
-        "dateAdded": 1.451428731559e15,
-        "lastModified": 1.542726042023e15,
-        "id": 5131,
+        "dateAdded": 1.52657893384e15,
+        "lastModified": 1.542725834296e15,
+        "id": 1005,
         "typeCode": 1,
-        "tags": "compsci",
         "type": "text/x-moz-place",
-        "uri": "http://blog.agupieware.com/2014/06/online-learning-intensive-bachelors.html"
+        "uri": "http://humanetech.com/"
       }, {
-        "guid": "iuiFb12LPNlQ",
-        "title": "open-source-society/computer-science",
+        "guid": "lckewBXXno9R",
+        "title": "The Copenhagen Catalog",
         "index": 3,
-        "dateAdded": 1.451428731551e15,
-        "lastModified": 1.542726042038e15,
-        "id": 413,
+        "dateAdded": 1.539655749023e15,
+        "lastModified": 1.542725834306e15,
+        "id": 6272,
         "typeCode": 1,
-        "tags": "compsci",
         "type": "text/x-moz-place",
-        "uri": "https://github.com/open-source-society/computer-science"
+        "uri": "https://www.copenhagencatalog.org/"
       }, {
-        "guid": "2DzZNVe6LAcM",
-        "title": "Obtaining a Thorough CS Background Online",
+        "guid": "KGngA8jsuGVF",
+        "title": "({=}) Coed:Ethics",
         "index": 4,
-        "dateAdded": 1.451428731547e15,
-        "lastModified": 1.542726042045e15,
-        "id": 2311,
+        "dateAdded": 1.54117855527e15,
+        "lastModified": 1.542725834363e15,
+        "id": 6318,
         "typeCode": 1,
-        "tags": "compsci",
+        "iconuri": "https://static.squarespace.com/universal/default-favicon.ico",
         "type": "text/x-moz-place",
-        "uri": "http://spin.atomicobject.com/2015/05/15/obtaining-thorough-cs-background-online/"
+        "uri": "https://www.coedethics.org/"
       }, {
-        "guid": "UMUaTHaI4GOm",
-        "title": "mvillaloboz/open-source-cs-degree",
+        "guid": "VC2aZfrlK_Yq",
+        "title": "Is Your Product Designed to Be Calm? - Amber Case - Medium",
         "index": 5,
-        "dateAdded": 1.451428731463e15,
-        "lastModified": 1.54272604205e15,
-        "id": 1836,
+        "dateAdded": 1.541604844261e15,
+        "lastModified": 1.542725834399e15,
+        "id": 6331,
         "typeCode": 1,
-        "tags": "compsci",
+        "iconuri": "https://cdn-images-1.medium.com/fit/c/152/152/1*8I-HPL0bfoIzGied-dzOvA.png",
         "type": "text/x-moz-place",
-        "uri": "https://github.com/mvillaloboz/open-source-cs-degree"
+        "uri": "https://medium.com/@caseorganic/is-your-product-designed-to-be-calm-cdde5039cca5"
       }, {
-        "guid": "C8AJif-nVtF4",
-        "title": "Four Semesters of Computer Science in Six Hours",
+        "guid": "xYTJUbRJRil2",
+        "title": "https://ethicalos.org/",
         "index": 6,
-        "dateAdded": 1.459897550736e15,
-        "lastModified": 1.542726042061e15,
-        "id": 2887,
+        "dateAdded": 1.534363024908e15,
+        "lastModified": 1.544315431981e15,
+        "id": 6000,
         "typeCode": 1,
-        "tags": "compsci",
+        "iconuri": "https://ethicalos.org/wp-content/uploads/2018/07/eos.ico",
         "type": "text/x-moz-place",
-        "uri": "http://btholt.github.io/four-semesters-of-cs/"
-      }, {
-        "guid": "XReI1O9_BBaZ",
-        "title": "Structure and Interpretation of Computer Programs, Video Lectures",
-        "index": 7,
-        "dateAdded": 1.490139376349e15,
-        "lastModified": 1.542726042066e15,
-        "id": 486,
-        "typeCode": 1,
-        "tags": "code study",
-        "type": "text/x-moz-place",
-        "uri": "http://groups.csail.mit.edu/mac/classes/6.001/abelson-sussman-lectures/"
-      }, {
-        "guid": "WxeK0Xble-JX",
-        "title": "What computer science concepts should devs without a CS background prioritize learning?",
-        "index": 8,
-        "dateAdded": 1.505401582948e15,
-        "lastModified": 1.542726042089e15,
-        "id": 1724,
-        "typeCode": 1,
-        "tags": "code study",
-        "type": "text/x-moz-place",
-        "uri": "https://dev.to/ben/what-computer-science-concepts-should-devs-without-a-cs-background-prioritize-learning"
-      }, {
-        "guid": "S9M6NGQtkgRX",
-        "title": "Welcome to the SICP Web Site",
-        "index": 9,
-        "dateAdded": 1.505183993075e15,
-        "lastModified": 1.542726042098e15,
-        "id": 463,
-        "typeCode": 1,
-        "tags": "code study",
-        "type": "text/x-moz-place",
-        "uri": "https://mitpress.mit.edu/sicp/"
-      }, {
-        "guid": "8fSal81QJsRG",
-        "title": "How do computers and the internet work? - Computer Science Basics | freeCodeCamp News",
-        "index": 10,
-        "dateAdded": 1.538348527097e15,
-        "lastModified": 1.542726042107e15,
-        "id": 6239,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://www.freecodecamp.org/news/beaucarnes/how-do-computers-and-the-internet-work--94i0Frgd4"
+        "uri": "https://ethicalos.org/"
       }]
     }, {
-      "guid": "4KRfqfDA76wQ",
-      "title": "algorithms",
+      "guid": "laDLcuD0q_az",
+      "title": "Accessibility",
       "index": 1,
-      "dateAdded": 1.518980948487e15,
-      "lastModified": 1.494545206317e15,
-      "id": 86,
+      "dateAdded": 1.53054741683e15,
+      "lastModified": 1.544315120257e15,
+      "id": 5929,
       "typeCode": 2,
       "type": "text/x-moz-place-container",
       "links": [{
-        "guid": "aKHTGKHgqflw",
-        "title": "(1) Algorithms | Computer science | Computing | Khan Academy",
+        "guid": "kj1DRd8GIeIN",
+        "title": "Typography",
         "index": 0,
-        "dateAdded": 1.487834884821e15,
-        "lastModified": 1.487834884821e15,
-        "id": 449,
-        "typeCode": 1,
-        "tags": "code study",
-        "type": "text/x-moz-place",
-        "uri": "https://www.khanacademy.org/computing/computer-science/algorithms?ref=resume_learning#asymptotic-notation"
+        "dateAdded": 1.53054806419e15,
+        "lastModified": 1.530547604783e15,
+        "id": 5928,
+        "typeCode": 2,
+        "type": "text/x-moz-place-container",
+        "links": [{
+          "guid": "zsh1idaO_rzC",
+          "title": "Letter and symbol misrecognition in highly legible typefaces for general, children, dyslexic, visually impaired and ageing readers [2018 third edition] - Journal - Typography.Guru",
+          "index": 0,
+          "dateAdded": 1.530547604783e15,
+          "lastModified": 1.530547604783e15,
+          "id": 5939,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://typography.guru/journal/letters-symbols-misrecognition/"
+        }, {
+          "guid": "zt5OVX61jepB",
+          "title": "Dyslexie Font - Home",
+          "index": 1,
+          "dateAdded": 1.530547585867e15,
+          "lastModified": 1.530547585867e15,
+          "id": 5931,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://www.dyslexiefont.com/en/home/"
+        }]
       }, {
-        "guid": "uSycyQFe27gQ",
-        "title": "A Gentle Introduction to Algorithm Complexity Analysis",
+        "guid": "R9pHa3eAYX60",
+        "title": "Colors",
         "index": 1,
-        "dateAdded": 1.494545206317e15,
-        "lastModified": 1.494545206317e15,
-        "id": 5521,
-        "typeCode": 1,
-        "tags": "code study",
-        "type": "text/x-moz-place",
-        "uri": "http://discrete.gr/complexity/"
+        "dateAdded": 1.53054807555e15,
+        "lastModified": 1.53054807555e15,
+        "id": 5927,
+        "typeCode": 2,
+        "type": "text/x-moz-place-container",
+        "links": [{
+          "guid": "9mSrjojLnD2X",
+          "title": "Best Color Contrast Checkers for Accessibility Testing - Vance Bell, Philadelphia, PA",
+          "index": 0,
+          "dateAdded": 1.530547546464e15,
+          "lastModified": 1.530547546464e15,
+          "id": 5934,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://vancebell.com/blog/best-color-contrast-checkers-for-accessibility-testing/"
+        }, {
+          "guid": "DI8KCXdxLFYH",
+          "title": "EightShapes Contrast Grid",
+          "index": 1,
+          "dateAdded": 1.53054807555e15,
+          "lastModified": 1.53054807555e15,
+          "id": 5935,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "http://contrast-grid.eightshapes.com/?background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%23F2F2F2%0D%0A%23DDDDDD%0D%0A%23CCCCCC%0D%0A%23888888%0D%0A%23404040%2C%20Charcoal%0D%0A%23000000%2C%20Black%0D%0A%232F78C5%2C%20Effective%20on%20Extremes%0D%0A%230F60B6%2C%20Effective%20on%20Lights%0D%0A%23398EEA%2C%20Ineffective%0D%0A&es-color-form__tile-size=compact"
+        }]
       }, {
-        "guid": "crhflGp4s8Yf",
-        "title": "IDEA - nonverbal algorithm assembly instructions",
+        "guid": "m6nXJSd2Dbu1",
+        "title": "MFWEBSITES",
         "index": 2,
-        "dateAdded": 1.52133231243e15,
-        "lastModified": 1.52133231243e15,
-        "id": 1008,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://idea-instructions.com/"
-      }]
-    }, {
-      "guid": "ZoIum_dZ9uUH",
-      "title": "design patterns",
-      "index": 2,
-      "dateAdded": 1.48952673073e15,
-      "lastModified": 1.477245946676e15,
-      "id": 163,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "links": [{
-        "guid": "GZLEey8WvNHy",
-        "title": "Mediator pattern - Wikipedia",
-        "index": 0,
-        "dateAdded": 1.477245909304e15,
-        "lastModified": 1.477245909304e15,
-        "id": 3177,
-        "typeCode": 1,
-        "tags": "design patterns",
-        "type": "text/x-moz-place",
-        "uri": "https://en.wikipedia.org/wiki/Mediator_pattern"
+        "dateAdded": 1.534860683027e15,
+        "lastModified": 1.534860725531e15,
+        "id": 6014,
+        "typeCode": 2,
+        "type": "text/x-moz-place-container",
+        "links": [{
+          "guid": "_jepbAvAIudm",
+          "title": "The Best Motherfucking Website",
+          "index": 0,
+          "dateAdded": 1.534860692665e15,
+          "lastModified": 1.534860692665e15,
+          "id": 6076,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://thebestmotherfuckingwebsite.co/"
+        }, {
+          "guid": "WonX_6Of2Bn0",
+          "title": "Motherfucking Website",
+          "index": 1,
+          "dateAdded": 1.534860697988e15,
+          "lastModified": 1.534860697988e15,
+          "id": 6030,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "http://www.motherfuckingwebsite.com/"
+        }, {
+          "guid": "P6q3hTso2eq6",
+          "title": "The Best Motherfucking Website",
+          "index": 2,
+          "dateAdded": 1.534860703883e15,
+          "lastModified": 1.534860703883e15,
+          "id": 6060,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://thebestmotherfucking.website/"
+        }, {
+          "guid": "KSiU5e1Q3I8I",
+          "title": "Matthew Graybosch's motherfucking website",
+          "index": 3,
+          "dateAdded": 1.5348607096e15,
+          "lastModified": 1.5348607096e15,
+          "id": 6058,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://codepen.io/demifiend/pen/EENKNN"
+        }, {
+          "guid": "2FSGTID4TdvP",
+          "title": "Best Motherfucking Website",
+          "index": 4,
+          "dateAdded": 1.534860719326e15,
+          "lastModified": 1.534860719326e15,
+          "id": 6041,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://bestmotherfucking.website/"
+        }, {
+          "guid": "zfMZkCIVdyuO",
+          "title": "Perfect Motherfucking Website",
+          "index": 5,
+          "dateAdded": 1.534860725531e15,
+          "lastModified": 1.534860725531e15,
+          "id": 6097,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "https://perfectmotherfuckingwebsite.com/"
+        }, {
+          "guid": "qneeKcBXYkbi",
+          "title": "Better Motherfucking Website",
+          "index": 6,
+          "dateAdded": 1.534860732726e15,
+          "lastModified": 1.534860732726e15,
+          "id": 6092,
+          "typeCode": 1,
+          "type": "text/x-moz-place",
+          "uri": "http://bettermotherfuckingwebsite.com/"
+        }]
       }, {
-        "guid": "v9_pv5CbGjkC",
-        "title": "Singleton pattern - Wikipedia",
-        "index": 1,
-        "dateAdded": 1.477245916674e15,
-        "lastModified": 1.477245916674e15,
-        "id": 5575,
-        "typeCode": 1,
-        "tags": "design patterns",
-        "type": "text/x-moz-place",
-        "uri": "https://en.wikipedia.org/wiki/Singleton_pattern"
-      }, {
-        "guid": "CJqNWb9TfzQj",
-        "title": "Publish-subscribe pattern - Wikipedia",
-        "index": 2,
-        "dateAdded": 1.477245925853e15,
-        "lastModified": 1.477245925853e15,
-        "id": 2902,
-        "typeCode": 1,
-        "tags": "design patterns",
-        "type": "text/x-moz-place",
-        "uri": "https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern"
-      }, {
-        "guid": "txQE-WMqDDeD",
-        "title": "Creational | Introduction to Design Patterns | Treehouse",
+        "guid": "C5Ev3GNivRpc",
+        "title": "A web of anxiety: accessibility for people with anxiety and panic disorders [Part 1] | TPG - Digital Accessibility Solutions",
         "index": 3,
-        "dateAdded": 1.477245933871e15,
-        "lastModified": 1.477245933871e15,
-        "id": 5478,
+        "dateAdded": 1.542826622493e15,
+        "lastModified": 1.542826622493e15,
+        "id": 6375,
         "typeCode": 1,
-        "tags": "design patterns",
+        "iconuri": "https://developer.paciellogroup.com/wp-content/themes/tpg2015/images/icon192x192.png",
         "type": "text/x-moz-place",
-        "uri": "https://teamtreehouse.com/library/creational"
+        "uri": "https://developer.paciellogroup.com/blog/2018/08/a-web-of-anxiety-accessibility-for-people-with-anxiety-and-panic-disorders-part-1/"
       }, {
-        "guid": "zq369Cj8EXj5",
-        "title": "Mediator Design Pattern",
+        "guid": "U2knc8374ORf",
+        "title": "Accessibility - Learn web development | MDN",
         "index": 4,
-        "dateAdded": 1.477245946676e15,
-        "lastModified": 1.477245946676e15,
-        "id": 5792,
+        "dateAdded": 1.53054741683e15,
+        "lastModified": 1.544315117392e15,
+        "id": 5940,
         "typeCode": 1,
-        "tags": "design patterns",
+        "iconuri": "https://developer.mozilla.org/static/img/favicon144.e7e21ca263ca.png",
         "type": "text/x-moz-place",
-        "uri": "https://sourcemaking.com/design_patterns/mediator"
+        "uri": "https://developer.mozilla.org/en-US/docs/Learn/Accessibility"
       }, {
-        "guid": "EoOO0eqTQLbZ",
-        "title": "Learning JavaScript Design Patterns",
+        "guid": "RbGQyZZI-_gm",
+        "title": "WebAIM: Web Accessibility In Mind",
         "index": 5,
-        "dateAdded": 1.477245967494e15,
-        "lastModified": 1.477245967494e15,
-        "id": 1304,
+        "dateAdded": 1.53054748205e15,
+        "lastModified": 1.544315117425e15,
+        "id": 5932,
         "typeCode": 1,
-        "tags": "design patterns",
         "type": "text/x-moz-place",
-        "uri": "https://addyosmani.com/resources/essentialjsdesignpatterns/book/"
+        "uri": "https://webaim.org/"
+      }, {
+        "guid": "tp6mI9x3_Syi",
+        "title": "Pa11y",
+        "index": 6,
+        "dateAdded": 1.53054743625e15,
+        "lastModified": 1.544315117443e15,
+        "id": 5938,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "http://pa11y.org/"
+      }, {
+        "guid": "fI9HZKLdEC_m",
+        "title": "WAVE Evaluation Tool - Chrome Web Store",
+        "index": 7,
+        "dateAdded": 1.53054745271e15,
+        "lastModified": 1.54431511746e15,
+        "id": 5936,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh"
+      }, {
+        "guid": "JuJ6yA8nzRPN",
+        "title": "axe | Deque",
+        "index": 8,
+        "dateAdded": 1.535474503443e15,
+        "lastModified": 1.544315117486e15,
+        "id": 6120,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://www.deque.com/axe/"
+      }, {
+        "guid": "CSbzZWh1z5g0",
+        "title": "Web Accessibility Evaluation Tools List",
+        "index": 9,
+        "dateAdded": 1.535470582741e15,
+        "lastModified": 1.544315117509e15,
+        "id": 6118,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://www.w3.org/WAI/ER/tools/?q=command-line-tool"
+      }, {
+        "guid": "fqzjR-3V8t8j",
+        "title": "7 web accessibility myths | Humanising Technology Blog",
+        "index": 10,
+        "dateAdded": 1.5305480412e15,
+        "lastModified": 1.544315117536e15,
+        "id": 5937,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://www.nomensa.com/blog/2012/7-web-accessibility-myths-2"
+      }, {
+        "guid": "6bwy4olkjsLG",
+        "title": "Accessibility Weekly",
+        "index": 11,
+        "dateAdded": 1.53054822975e15,
+        "lastModified": 1.544315117553e15,
+        "id": 5933,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://a11yweekly.com/"
+      }, {
+        "guid": "83e0zI7gFMFM",
+        "title": "(9) Madalyn Parker - Uncharted territory: using aXe to forge a path - YouTube",
+        "index": 12,
+        "dateAdded": 1.535475071363e15,
+        "lastModified": 1.544315117575e15,
+        "id": 6115,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://www.youtube.com/watch?v=JWqHioGOELs&index=14&list=PL37ZVnwpeshH2dgOfKBH1UOgOT198ZzZy&t=2s"
+      }, {
+        "guid": "IeWqtlqGKiBP",
+        "title": "Accessibility for Teams",
+        "index": 13,
+        "dateAdded": 1.53236296913e15,
+        "lastModified": 1.544315117609e15,
+        "id": 5954,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://accessibility.digital.gov/"
+      }, {
+        "guid": "wWh1R7J0KBBb",
+        "title": "minimal web mnmlist",
+        "index": 14,
+        "dateAdded": 1.535054267996e15,
+        "lastModified": 1.544315117622e15,
+        "id": 6094,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "http://mnmlist.com/w/"
+      }, {
+        "guid": "L1W9QSMQiYXF",
+        "title": "The Web I Want - DEV Community",
+        "index": 15,
+        "dateAdded": 1.535123023903e15,
+        "lastModified": 1.54431511764e15,
+        "id": 6029,
+        "typeCode": 1,
+        "iconuri": "https://practicaldev-herokuapp-com.freetls.fastly.net/assets/android-icon-192x192-6811870d496c3bcac25db2e002b136df9d95a00d17a53c6e0fabce74c733c7d1.png",
+        "type": "text/x-moz-place",
+        "uri": "https://dev.to/quii/the-web-i-want-43o"
+      }, {
+        "guid": "GPcWKNX9I2el",
+        "title": "DIY Accessibility Checklists | Web Access",
+        "index": 16,
+        "dateAdded": 1.537377290982e15,
+        "lastModified": 1.544315117657e15,
+        "id": 6196,
+        "typeCode": 1,
+        "iconuri": "https://webaccess.berkeley.edu/profiles/openberkeley/themes/openberkeley_theme_brand/favicon.ico",
+        "type": "text/x-moz-place",
+        "uri": "https://webaccess.berkeley.edu/evaluating/self-assessment/diy-accessibility-checklists"
+      }, {
+        "guid": "ppk4gvZKKZf2",
+        "title": "Introducing Trashy.css | CSS-Tricks",
+        "index": 17,
+        "dateAdded": 1.53840247978e15,
+        "lastModified": 1.544315117674e15,
+        "id": 6247,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://css-tricks.com/introducing-trashy-css/"
+      }, {
+        "guid": "o2pf4-H-MTd1",
+        "title": "hidden content",
+        "index": 18,
+        "dateAdded": 1.538402497641e15,
+        "lastModified": 1.544315117701e15,
+        "id": 6246,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "http://stevefaulkner.github.io/HTML5accessibility/tests/hidden-2016.html"
+      }, {
+        "guid": "dM02cROWGU17",
+        "title": "BBC - My Web My Way - Home",
+        "index": 19,
+        "dateAdded": 1.539286373491e15,
+        "lastModified": 1.544315117723e15,
+        "id": 6265,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "http://www.bbc.co.uk/accessibility/"
+      }, {
+        "guid": "IVs_B6kT11vl",
+        "title": "Assistive technology tools you can test with at no cost - Accessibility in government",
+        "index": 20,
+        "dateAdded": 1.539658033874e15,
+        "lastModified": 1.544315117752e15,
+        "id": 6276,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://accessibility.blog.gov.uk/2018/09/27/assistive-technology-tools-you-can-use-at-no-cost/"
+      }, {
+        "guid": "i8OqVSn4ewEC",
+        "title": "Accessibility is Not What You Think",
+        "index": 21,
+        "dateAdded": 1.541185235607e15,
+        "lastModified": 1.544315117776e15,
+        "id": 6319,
+        "typeCode": 1,
+        "iconuri": "https://boagworld.com/wp-content/themes/boagworld-2016/img/fav-boagworld-320.png",
+        "type": "text/x-moz-place",
+        "uri": "https://boagworld.com/accessibility/accessibility-is-not-what-you-think/"
+      }, {
+        "guid": "svLNnk5wZNDH",
+        "title": "Accessibility is not a feature. - Ethan Marcotte",
+        "index": 22,
+        "dateAdded": 1.541185240089e15,
+        "lastModified": 1.544315117785e15,
+        "id": 6320,
+        "typeCode": 1,
+        "iconuri": "https://ethanmarcotte.com/touchicon-196.png",
+        "type": "text/x-moz-place",
+        "uri": "https://ethanmarcotte.com/wrote/accessibility-is-not-a-feature/"
+      }, {
+        "guid": "a01KYTw6ZEjw",
+        "title": "Design for Real Life: An Interview with Sara Wachter-Boettcher - An A List Apart Article",
+        "index": 23,
+        "dateAdded": 1.541185247622e15,
+        "lastModified": 1.544315117803e15,
+        "id": 6321,
+        "typeCode": 1,
+        "iconuri": "https://alistapart.com/components/assets/img/favicons/apple-touch-icon-152x152.png",
+        "type": "text/x-moz-place",
+        "uri": "https://alistapart.com/article/design-for-real-life-interview-with-sara-wachter-boettcher"
+      }, {
+        "guid": "G7usP5CQP34N",
+        "title": "Microsoft Design",
+        "index": 24,
+        "dateAdded": 1.54118525374e15,
+        "lastModified": 1.544315117818e15,
+        "id": 6322,
+        "typeCode": 1,
+        "iconuri": "https://www.microsoft.com/design/icons/apple-touch-icon-180x180.png",
+        "type": "text/x-moz-place",
+        "uri": "https://www.microsoft.com/design/inclusive/"
       }]
     }, {
-      "guid": "QyD-eO1lTTus",
-      "title": "software development",
-      "index": 3,
-      "dateAdded": 1.518980957533e15,
-      "lastModified": 1.488862912849e15,
-      "id": 141,
+      "guid": "kICS3UUz5T9s",
+      "title": "Codes of Conduct",
+      "index": 2,
+      "dateAdded": 1.52726150001e15,
+      "lastModified": 1.54431527041e15,
+      "id": 5834,
       "typeCode": 2,
       "type": "text/x-moz-place-container",
       "links": [{
-        "guid": "TRxkuihHfeyv",
-        "title": "Software Development Processes | Udacity",
+        "guid": "Rig45KxqGJv1",
+        "title": "Code of conduct evaluations | Geek Feminism Wiki | FANDOM powered by Wikia",
         "index": 0,
-        "dateAdded": 1.488862912849e15,
-        "lastModified": 1.488862912849e15,
-        "id": 3907,
+        "dateAdded": 1.52726149465e15,
+        "lastModified": 1.52726149465e15,
+        "id": 5838,
         "typeCode": 1,
-        "tags": "code study",
         "type": "text/x-moz-place",
-        "uri": "https://www.udacity.com/course/software-development-process--ud805"
+        "uri": "http://geekfeminism.wikia.com/wiki/Code_of_Conduct"
       }, {
-        "guid": "BvFSkfGDDBiE",
-        "title": "How to Design Programs, Second Edition",
+        "guid": "4pkWw5gz5Gl2",
+        "title": "Vox Product Code of Conduct",
         "index": 1,
-        "dateAdded": 1.510242591841e15,
-        "lastModified": 1.510242591841e15,
-        "id": 1333,
+        "dateAdded": 1.52726148244e15,
+        "lastModified": 1.52726148244e15,
+        "id": 5835,
         "typeCode": 1,
         "type": "text/x-moz-place",
-        "uri": "http://www.ccs.neu.edu/home/matthias/HtDP2e/"
-      }]
-    }, {
-      "guid": "IO7qEx8V0b8l",
-      "title": "functional programming",
-      "index": 4,
-      "dateAdded": 1.519850864259e15,
-      "lastModified": 1.512799726471e15,
-      "id": 123,
-      "typeCode": 2,
-      "type": "text/x-moz-place-container",
-      "links": [{
-        "guid": "40EYRBZRjMV3",
-        "title": "Functional Programming in Ruby for people who don\xE2\x80\x99t know what functional programming is",
-        "index": 0,
-        "dateAdded": 1.519850876622e15,
-        "lastModified": 1.519850876622e15,
-        "id": 316,
-        "typeCode": 1,
-        "type": "text/x-moz-place",
-        "uri": "https://medium.com/craft-academy/functional-programming-in-ruby-for-people-who-dont-know-what-functional-programming-is-f0c4ab7dc68c"
+        "uri": "http://code-of-conduct.voxmedia.com/"
       }, {
-        "guid": "iO0EpSM8tafn",
-        "title": "Pure Functional Programming",
-        "index": 1,
-        "dateAdded": 1.512799726471e15,
-        "lastModified": 1.512799726471e15,
-        "id": 2108,
+        "guid": "9Ah2VLjYIkvb",
+        "title": "HOWTO design a code of conduct for your community | Ada Initiative",
+        "index": 2,
+        "dateAdded": 1.52726150001e15,
+        "lastModified": 1.52726150001e15,
+        "id": 5836,
         "typeCode": 1,
         "type": "text/x-moz-place",
-        "uri": "https://www.aomran.com/pure-functional-programming/"
+        "uri": "https://adainitiative.org/2014/02/18/howto-design-a-code-of-conduct-for-your-community/"
+      }, {
+        "guid": "ISzRf10vuKmM",
+        "title": "Contributor Covenant: A Code of Conduct for Open Source Projects",
+        "index": 3,
+        "dateAdded": 1.5272614901e15,
+        "lastModified": 1.5272614901e15,
+        "id": 5837,
+        "typeCode": 1,
+        "type": "text/x-moz-place",
+        "uri": "https://www.contributor-covenant.org/"
       }]
     }]
   }]
@@ -29766,17 +33014,379 @@ var _reduxDevtoolsExtension = require("redux-devtools-extension");
 
 var _storage = require("./storage");
 
-var _bookmarkDataSample = _interopRequireDefault(require("./bookmarkDataSample.json"));
+var _bookmarkData = _interopRequireDefault(require("./bookmarkData.json"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // there is surely a better way to do this, but for now it magically works. on assignment, it loads the result into localStorage.
-var linkData = (0, _storage.saveLinks)(_bookmarkDataSample.default);
+var linkData = (0, _storage.saveLinks)(_bookmarkData.default);
 var persistedState = (0, _storage.loadLinks)();
 var store = (0, _redux.createStore)(_bookmarksReducer.default, persistedState, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 var _default = store;
 exports.default = _default;
-},{"redux":"../node_modules/redux/es/redux.js","./reducers/bookmarksReducer":"reducers/bookmarksReducer.ts","redux-devtools-extension":"../node_modules/redux-devtools-extension/index.js","./storage":"storage.ts","./bookmarkDataSample.json":"bookmarkDataSample.json"}],"../node_modules/warning/browser.js":[function(require,module,exports) {
+},{"redux":"../node_modules/redux/es/redux.js","./reducers/bookmarksReducer":"reducers/bookmarksReducer.ts","redux-devtools-extension":"../node_modules/redux-devtools-extension/index.js","./storage":"storage.ts","./bookmarkData.json":"bookmarkData.json"}],"../node_modules/react-onclickoutside/dist/react-onclickoutside.es.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.IGNORE_CLASS_NAME = void 0;
+
+var _react = require("react");
+
+var _reactDom = require("react-dom");
+
+function _inheritsLoose(subClass, superClass) {
+  subClass.prototype = Object.create(superClass.prototype);
+  subClass.prototype.constructor = subClass;
+  subClass.__proto__ = superClass;
+}
+
+function _objectWithoutProperties(source, excluded) {
+  if (source == null) return {};
+  var target = {};
+  var sourceKeys = Object.keys(source);
+  var key, i;
+
+  for (i = 0; i < sourceKeys.length; i++) {
+    key = sourceKeys[i];
+    if (excluded.indexOf(key) >= 0) continue;
+    target[key] = source[key];
+  }
+
+  if (Object.getOwnPropertySymbols) {
+    var sourceSymbolKeys = Object.getOwnPropertySymbols(source);
+
+    for (i = 0; i < sourceSymbolKeys.length; i++) {
+      key = sourceSymbolKeys[i];
+      if (excluded.indexOf(key) >= 0) continue;
+      if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue;
+      target[key] = source[key];
+    }
+  }
+
+  return target;
+}
+/**
+ * Check whether some DOM node is our Component's node.
+ */
+
+
+function isNodeFound(current, componentNode, ignoreClass) {
+  if (current === componentNode) {
+    return true;
+  } // SVG <use/> elements do not technically reside in the rendered DOM, so
+  // they do not have classList directly, but they offer a link to their
+  // corresponding element, which can have classList. This extra check is for
+  // that case.
+  // See: http://www.w3.org/TR/SVG11/struct.html#InterfaceSVGUseElement
+  // Discussion: https://github.com/Pomax/react-onclickoutside/pull/17
+
+
+  if (current.correspondingElement) {
+    return current.correspondingElement.classList.contains(ignoreClass);
+  }
+
+  return current.classList.contains(ignoreClass);
+}
+/**
+ * Try to find our node in a hierarchy of nodes, returning the document
+ * node as highest node if our node is not found in the path up.
+ */
+
+
+function findHighest(current, componentNode, ignoreClass) {
+  if (current === componentNode) {
+    return true;
+  } // If source=local then this event came from 'somewhere'
+  // inside and should be ignored. We could handle this with
+  // a layered approach, too, but that requires going back to
+  // thinking in terms of Dom node nesting, running counter
+  // to React's 'you shouldn't care about the DOM' philosophy.
+
+
+  while (current.parentNode) {
+    if (isNodeFound(current, componentNode, ignoreClass)) {
+      return true;
+    }
+
+    current = current.parentNode;
+  }
+
+  return current;
+}
+/**
+ * Check if the browser scrollbar was clicked
+ */
+
+
+function clickedScrollbar(evt) {
+  return document.documentElement.clientWidth <= evt.clientX || document.documentElement.clientHeight <= evt.clientY;
+} // ideally will get replaced with external dep
+// when rafrex/detect-passive-events#4 and rafrex/detect-passive-events#5 get merged in
+
+
+var testPassiveEventSupport = function testPassiveEventSupport() {
+  if (typeof window === 'undefined' || typeof window.addEventListener !== 'function') {
+    return;
+  }
+
+  var passive = false;
+  var options = Object.defineProperty({}, 'passive', {
+    get: function get() {
+      passive = true;
+    }
+  });
+
+  var noop = function noop() {};
+
+  window.addEventListener('testPassiveEventSupport', noop, options);
+  window.removeEventListener('testPassiveEventSupport', noop, options);
+  return passive;
+};
+
+function autoInc(seed) {
+  if (seed === void 0) {
+    seed = 0;
+  }
+
+  return function () {
+    return ++seed;
+  };
+}
+
+var uid = autoInc();
+var passiveEventSupport;
+var handlersMap = {};
+var enabledInstances = {};
+var touchEvents = ['touchstart', 'touchmove'];
+var IGNORE_CLASS_NAME = 'ignore-react-onclickoutside';
+/**
+ * Options for addEventHandler and removeEventHandler
+ */
+
+exports.IGNORE_CLASS_NAME = IGNORE_CLASS_NAME;
+
+function getEventHandlerOptions(instance, eventName) {
+  var handlerOptions = null;
+  var isTouchEvent = touchEvents.indexOf(eventName) !== -1;
+
+  if (isTouchEvent && passiveEventSupport) {
+    handlerOptions = {
+      passive: !instance.props.preventDefault
+    };
+  }
+
+  return handlerOptions;
+}
+/**
+ * This function generates the HOC function that you'll use
+ * in order to impart onOutsideClick listening to an
+ * arbitrary component. It gets called at the end of the
+ * bootstrapping code to yield an instance of the
+ * onClickOutsideHOC function defined inside setupHOC().
+ */
+
+
+function onClickOutsideHOC(WrappedComponent, config) {
+  var _class, _temp;
+
+  return _temp = _class =
+  /*#__PURE__*/
+  function (_Component) {
+    _inheritsLoose(onClickOutside, _Component);
+
+    function onClickOutside(props) {
+      var _this;
+
+      _this = _Component.call(this, props) || this;
+
+      _this.__outsideClickHandler = function (event) {
+        if (typeof _this.__clickOutsideHandlerProp === 'function') {
+          _this.__clickOutsideHandlerProp(event);
+
+          return;
+        }
+
+        var instance = _this.getInstance();
+
+        if (typeof instance.props.handleClickOutside === 'function') {
+          instance.props.handleClickOutside(event);
+          return;
+        }
+
+        if (typeof instance.handleClickOutside === 'function') {
+          instance.handleClickOutside(event);
+          return;
+        }
+
+        throw new Error('WrappedComponent lacks a handleClickOutside(event) function for processing outside click events.');
+      };
+
+      _this.enableOnClickOutside = function () {
+        if (typeof document === 'undefined' || enabledInstances[_this._uid]) {
+          return;
+        }
+
+        if (typeof passiveEventSupport === 'undefined') {
+          passiveEventSupport = testPassiveEventSupport();
+        }
+
+        enabledInstances[_this._uid] = true;
+        var events = _this.props.eventTypes;
+
+        if (!events.forEach) {
+          events = [events];
+        }
+
+        handlersMap[_this._uid] = function (event) {
+          if (_this.props.disableOnClickOutside) return;
+          if (_this.componentNode === null) return;
+
+          if (_this.props.preventDefault) {
+            event.preventDefault();
+          }
+
+          if (_this.props.stopPropagation) {
+            event.stopPropagation();
+          }
+
+          if (_this.props.excludeScrollbar && clickedScrollbar(event)) return;
+          var current = event.target;
+
+          if (findHighest(current, _this.componentNode, _this.props.outsideClickIgnoreClass) !== document) {
+            return;
+          }
+
+          _this.__outsideClickHandler(event);
+        };
+
+        events.forEach(function (eventName) {
+          document.addEventListener(eventName, handlersMap[_this._uid], getEventHandlerOptions(_this, eventName));
+        });
+      };
+
+      _this.disableOnClickOutside = function () {
+        delete enabledInstances[_this._uid];
+        var fn = handlersMap[_this._uid];
+
+        if (fn && typeof document !== 'undefined') {
+          var events = _this.props.eventTypes;
+
+          if (!events.forEach) {
+            events = [events];
+          }
+
+          events.forEach(function (eventName) {
+            return document.removeEventListener(eventName, fn, getEventHandlerOptions(_this, eventName));
+          });
+          delete handlersMap[_this._uid];
+        }
+      };
+
+      _this.getRef = function (ref) {
+        return _this.instanceRef = ref;
+      };
+
+      _this._uid = uid();
+      return _this;
+    }
+    /**
+     * Access the WrappedComponent's instance.
+     */
+
+
+    var _proto = onClickOutside.prototype;
+
+    _proto.getInstance = function getInstance() {
+      if (!WrappedComponent.prototype.isReactComponent) {
+        return this;
+      }
+
+      var ref = this.instanceRef;
+      return ref.getInstance ? ref.getInstance() : ref;
+    };
+    /**
+     * Add click listeners to the current document,
+     * linked to this component's state.
+     */
+
+
+    _proto.componentDidMount = function componentDidMount() {
+      // If we are in an environment without a DOM such
+      // as shallow rendering or snapshots then we exit
+      // early to prevent any unhandled errors being thrown.
+      if (typeof document === 'undefined' || !document.createElement) {
+        return;
+      }
+
+      var instance = this.getInstance();
+
+      if (config && typeof config.handleClickOutside === 'function') {
+        this.__clickOutsideHandlerProp = config.handleClickOutside(instance);
+
+        if (typeof this.__clickOutsideHandlerProp !== 'function') {
+          throw new Error('WrappedComponent lacks a function for processing outside click events specified by the handleClickOutside config option.');
+        }
+      }
+
+      this.componentNode = (0, _reactDom.findDOMNode)(this.getInstance());
+      this.enableOnClickOutside();
+    };
+
+    _proto.componentDidUpdate = function componentDidUpdate() {
+      this.componentNode = (0, _reactDom.findDOMNode)(this.getInstance());
+    };
+    /**
+     * Remove all document's event listeners for this component
+     */
+
+
+    _proto.componentWillUnmount = function componentWillUnmount() {
+      this.disableOnClickOutside();
+    };
+    /**
+     * Can be called to explicitly enable event listening
+     * for clicks and touches outside of this element.
+     */
+
+    /**
+     * Pass-through render
+     */
+
+
+    _proto.render = function render() {
+      // eslint-disable-next-line no-unused-vars
+      var _props = this.props,
+          excludeScrollbar = _props.excludeScrollbar,
+          props = _objectWithoutProperties(_props, ["excludeScrollbar"]);
+
+      if (WrappedComponent.prototype.isReactComponent) {
+        props.ref = this.getRef;
+      } else {
+        props.wrappedRef = this.getRef;
+      }
+
+      props.disableOnClickOutside = this.disableOnClickOutside;
+      props.enableOnClickOutside = this.enableOnClickOutside;
+      return (0, _react.createElement)(WrappedComponent, props);
+    };
+
+    return onClickOutside;
+  }(_react.Component), _class.displayName = "OnClickOutside(" + (WrappedComponent.displayName || WrappedComponent.name || 'Component') + ")", _class.defaultProps = {
+    eventTypes: ['mousedown', 'touchstart'],
+    excludeScrollbar: config && config.excludeScrollbar || false,
+    outsideClickIgnoreClass: IGNORE_CLASS_NAME,
+    preventDefault: false,
+    stopPropagation: false
+  }, _class.getClass = function () {
+    return WrappedComponent.getClass ? WrappedComponent.getClass() : WrappedComponent;
+  }, _temp;
+}
+
+var _default = onClickOutsideHOC;
+exports.default = _default;
+},{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js"}],"../node_modules/warning/browser.js":[function(require,module,exports) {
 /**
  * Copyright 2014-2015, Facebook, Inc.
  * All rights reserved.
@@ -31502,12 +35112,12 @@ function (_react_1$default$Comp) {
           links = _this$props.links,
           handleClick = _this$props.handleClick,
           parent = _this$props.parent,
-          typeCode = _this$props.typeCode;
+          typeCode = _this$props.typeCode,
+          toggleNav = _this$props.toggleNav;
       var guid = this.props.links[0].guid;
       var kids = links.filter(function (item) {
         return item.links;
       });
-      console.log(kids.length);
 
       if (typeCode === 2 && kids.length !== 0) {
         return react_1.default.createElement(react_1.default.Fragment, {
@@ -31518,6 +35128,7 @@ function (_react_1$default$Comp) {
           id: "link=" + guid,
           onClick: function onClick() {
             handleClick(_this.props);
+            toggleNav();
           }
         }, title), kids && kids.map(function (kid) {
           return react_1.default.createElement(react_1.default.Fragment, {
@@ -31525,6 +35136,7 @@ function (_react_1$default$Comp) {
           }, react_1.default.createElement("div", null, react_1.default.createElement(SubFolderList, {
             guid: kid.guid,
             handleClick: handleClick,
+            toggleNav: toggleNav,
             links: kid.links,
             parent: title,
             title: kid.title,
@@ -31540,6 +35152,7 @@ function (_react_1$default$Comp) {
           id: "link=" + guid,
           onClick: function onClick() {
             handleClick(_this.props);
+            toggleNav();
           }
         }, title));
       } else {
@@ -31549,6 +35162,7 @@ function (_react_1$default$Comp) {
           return react_1.default.createElement(SubFolderList, {
             guid: kid.guid,
             handleClick: handleClick,
+            toggleNav: toggleNav,
             key: kid.guid,
             links: kid.links,
             parent: parent,
@@ -31622,22 +35236,25 @@ function (_react_1$default$Comp) {
           links = _this$props.links,
           handleClick = _this$props.handleClick,
           parent = _this$props.parent,
-          typeCode = _this$props.typeCode;
+          typeCode = _this$props.typeCode,
+          toggleNav = _this$props.toggleNav;
       var guid = this.props.links[0].guid;
       var kids = links.filter(function (item) {
         return item.links;
       });
-      console.log(kids.length);
 
       if (typeCode === 2 && kids.length !== 0) {
         return react_1.default.createElement(react_1.default.Fragment, {
           key: "fragment-" + guid
-        }, react_1.default.createElement(router_1.Link, {
+        }, react_1.default.createElement("hr", {
+          className: "navbar-divider"
+        }), react_1.default.createElement(router_1.Link, {
           className: "navbar-item",
           to: "/" + parent + "/" + title,
           id: "link=" + guid,
           onClick: function onClick() {
             handleClick(_this.props);
+            toggleNav();
           }
         }, title), kids && kids.map(function (kid) {
           return react_1.default.createElement(react_1.default.Fragment, {
@@ -31645,27 +35262,27 @@ function (_react_1$default$Comp) {
           }, react_1.default.createElement("div", null, react_1.default.createElement(SubFolderList_1.default, {
             guid: kid.guid,
             handleClick: handleClick,
+            toggleNav: toggleNav,
             links: kid.links,
             parent: title,
             title: kid.title,
             typeCode: kid.typeCode
           })));
-        }), react_1.default.createElement("hr", {
-          className: "navbar-divider"
         }));
       } else if (typeCode === 2) {
         return react_1.default.createElement(react_1.default.Fragment, {
           key: "fragment-" + guid
-        }, react_1.default.createElement(router_1.Link, {
+        }, react_1.default.createElement("hr", {
+          className: "navbar-divider"
+        }), react_1.default.createElement(router_1.Link, {
           className: "navbar-item",
           to: "/" + parent + "/" + title,
           id: "link=" + guid,
           onClick: function onClick() {
             handleClick(_this.props);
+            toggleNav();
           }
-        }, title), react_1.default.createElement("hr", {
-          className: "navbar-divider"
-        }));
+        }, title));
       } else {
         return react_1.default.createElement(react_1.default.Fragment, {
           key: guid
@@ -31673,6 +35290,7 @@ function (_react_1$default$Comp) {
           return react_1.default.createElement(FolderList, {
             guid: kid.guid,
             handleClick: handleClick,
+            toggleNav: toggleNav,
             key: kid.guid,
             links: kid.links,
             parent: parent,
@@ -31737,6 +35355,8 @@ Object.defineProperty(exports, "__esModule", {
 
 var react_1 = __importDefault(require("react"));
 
+var react_onclickoutside_1 = __importDefault(require("react-onclickoutside"));
+
 var FolderList_1 = __importDefault(require("../FolderList"));
 
 var FoldersDropdown =
@@ -31766,6 +35386,13 @@ function (_react_1$default$Comp) {
   }
 
   _createClass(FoldersDropdown, [{
+    key: "handleClickOutside",
+    value: function handleClickOutside() {
+      this.setState({
+        showMenu: false
+      });
+    }
+  }, {
     key: "render",
     value: function render() {
       return react_1.default.createElement("div", {
@@ -31781,6 +35408,8 @@ function (_react_1$default$Comp) {
         links: this.props.folder.links,
         guid: this.props.folder.guid,
         handleClick: this.props.handleClick,
+        toggleNav: this.toggleNav,
+        toggleNavbar: this.props.toggleNavBar,
         typeCode: this.props.folder.typeCode
       })));
     }
@@ -31789,9 +35418,9 @@ function (_react_1$default$Comp) {
   return FoldersDropdown;
 }(react_1.default.Component);
 
-exports.default = FoldersDropdown; // https://stackoverflow.com/questions/42630473/react-toggle-class-onclick
+exports.default = react_onclickoutside_1.default(FoldersDropdown); // https://stackoverflow.com/questions/42630473/react-toggle-class-onclick
 // https://blog.campvanilla.com/reactjs-dropdown-menus-b6e06ae3a8fe
-},{"react":"../node_modules/react/index.js","../FolderList":"components/FolderList/index.ts"}],"components/Folders/Folders.tsx":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-onclickoutside":"../node_modules/react-onclickoutside/dist/react-onclickoutside.es.js","../FolderList":"components/FolderList/index.ts"}],"components/Folders/Folders.tsx":[function(require,module,exports) {
 "use strict";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -31832,26 +35461,42 @@ function (_react_1$default$Comp) {
   _inherits(Folders, _react_1$default$Comp);
 
   function Folders() {
+    var _this;
+
     _classCallCheck(this, Folders);
 
-    return _possibleConstructorReturn(this, _getPrototypeOf(Folders).apply(this, arguments));
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(Folders).apply(this, arguments));
+    _this.state = {
+      showNavbar: false
+    };
+
+    _this.toggleNavBar = function () {
+      var navvisibility = _this.state.showNavbar === false ? true : false;
+
+      _this.setState({
+        showNavbar: navvisibility
+      });
+    };
+
+    return _this;
   }
 
   _createClass(Folders, [{
     key: "render",
     value: function render() {
-      var _this = this;
+      var _this2 = this;
 
       return react_1.default.createElement("nav", {
-        className: "navbar"
+        className: "navbar is-light is-size-7"
       }, react_1.default.createElement("div", {
         className: "navbar-brand"
       }, react_1.default.createElement("a", {
         role: "button",
-        className: "navbar-burger burger",
+        className: "navbar-burger burger " + (this.state.showNavbar ? "is-active" : ""),
         "aria-label": "menu",
         "aria-expanded": "false",
-        "data-target": "navbarBasicExample"
+        "data-target": "navbarBasicExample",
+        onClick: this.toggleNavBar
       }, react_1.default.createElement("span", {
         "aria-hidden": "true"
       }), react_1.default.createElement("span", {
@@ -31860,13 +35505,14 @@ function (_react_1$default$Comp) {
         "aria-hidden": "true"
       }))), react_1.default.createElement("div", {
         id: "navbarBasicExample",
-        className: "navbar-menu"
+        className: "navbar-menu " + (this.state.showNavbar ? "is-active" : "")
       }, react_1.default.createElement("div", {
         className: "navbar-start"
       }, this.props.links.map(function (folder) {
         return react_1.default.createElement(FoldersDropdown_1.default, {
+          key: folder.id,
           folder: folder,
-          handleClick: _this.props.handleClick
+          handleClick: _this2.props.handleClick
         });
       }))));
     }
@@ -32339,9 +35985,7 @@ function (_react_1$default$Comp) {
         className: "title"
       }, "Web Development Resources"), react_1.default.createElement("h2", {
         className: "subtitle"
-      }, "Last updated: 11.27.18"), react_1.default.createElement("p", null, "These are the resources that I've found most useful over the years."), react_1.default.createElement("p", null, "They cover a wide range of topics I've studied while deepening my knowledge and developing my skills.")))), react_1.default.createElement("div", {
-        className: "notification"
-      }, react_1.default.createElement("p", null, "This site is currently in development as I reorganize and refine the presentation. It was built with React, Redux, and Bulma.")), react_1.default.createElement(Folders_1.default, null), react_1.default.createElement("section", {
+      }, "Last updated: 11.27.18"), react_1.default.createElement("p", null, "These are the resources that I've found most useful over the years. They cover a wide range of topics I've studied while deepening my knowledge and developing my skills. This site is currently in development as I reorganize and refine the presentation. It was built with React, Redux, and Bulma.")))), react_1.default.createElement(Folders_1.default, null), react_1.default.createElement("section", {
         className: "section"
       }, react_1.default.createElement(Topic_1.default, null))));
     }
@@ -32406,7 +36050,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "33325" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "33017" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

@@ -18,21 +18,14 @@ class App extends React.Component<{}, {}> {
                 <h2 className="subtitle">Last updated: 11.27.18</h2>
                 <p>
                   These are the resources that I've found most useful over the
-                  years.
-                </p>
-                <p>
-                  They cover a wide range of topics I've studied while deepening
-                  my knowledge and developing my skills.
+                  years. They cover a wide range of topics I've studied while
+                  deepening my knowledge and developing my skills. This site is
+                  currently in development as I reorganize and refine the
+                  presentation. It was built with React, Redux, and Bulma.
                 </p>
               </div>
             </div>
           </section>
-          <div className="notification">
-            <p>
-              This site is currently in development as I reorganize and refine
-              the presentation. It was built with React, Redux, and Bulma.
-            </p>
-          </div>
           <Folders />
           <section className="section">
             <Topic />
