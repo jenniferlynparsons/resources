@@ -35676,14 +35676,28 @@ function (_react_1$default$Comp) {
   }
 
   _createClass(LinkList, [{
+    key: "linkElement",
+    value: function linkElement(linkURI, linkTitle) {
+      if (linkURI) {
+        return react_1.default.createElement("a", {
+          href: linkURI
+        }, linkTitle);
+      } else {
+        return react_1.default.createElement("a", {
+          href: "/" + this.props.parentTitle + "/" + linkTitle
+        }, linkTitle);
+      }
+    }
+  }, {
     key: "render",
     value: function render() {
+      var _this = this;
+
+      console.log(this.props);
       return react_1.default.createElement("ul", null, this.props.links.map(function (link) {
         return react_1.default.createElement("li", {
           key: link.id
-        }, react_1.default.createElement("a", {
-          href: link.uri
-        }, link.title));
+        }, _this.linkElement(link.uri, link.title));
       }));
     }
   }]);
@@ -35734,7 +35748,9 @@ exports.Topic = function (props) {
     }, react_1.default.createElement("h2", {
       className: "is-size-4 has-text-weight-bold"
     }, props.folder, " - ", props.title), react_1.default.createElement(LinkList_1.default, {
-      links: props.links
+      links: props.links,
+      parentFolder: props.folder,
+      parentTitle: props.title
     })));
   } else {
     return react_1.default.createElement("div", {
@@ -35985,7 +36001,7 @@ function (_react_1$default$Comp) {
         className: "title"
       }, "Web Development Resources"), react_1.default.createElement("h2", {
         className: "subtitle"
-      }, "Last updated: 11.27.18"), react_1.default.createElement("p", null, "These are the resources that I've found most useful over the years. They cover a wide range of topics I've studied while deepening my knowledge and developing my skills. This site is currently in development as I reorganize and refine the presentation. It was built with React, Redux, and Bulma.")))), react_1.default.createElement(Folders_1.default, null), react_1.default.createElement("section", {
+      }, "Last updated: 12.10.18"), react_1.default.createElement("p", null, "These are the resources that I've found most useful over the years. They cover a wide range of topics I've studied while deepening my knowledge and developing my skills. This site is currently in development as I reorganize and refine the presentation. It was built with React, Redux, and Bulma.")))), react_1.default.createElement(Folders_1.default, null), react_1.default.createElement("section", {
         className: "section"
       }, react_1.default.createElement(Topic_1.default, null))));
     }
