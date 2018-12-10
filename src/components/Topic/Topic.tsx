@@ -10,11 +10,7 @@ export const Topic: SFC<TopicProps> = props => {
           <h2 className="is-size-4 has-text-weight-bold">
             {props.folder} - {props.title}
           </h2>
-          <LinkList
-            links={props.links}
-            parentFolder={props.folder}
-            parentTitle={props.title}
-          />
+          <LinkList links={props.links} parentTitle={props.title} />
         </section>
       </div>
     );

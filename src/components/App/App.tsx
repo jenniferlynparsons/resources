@@ -1,4 +1,5 @@
 import React from "react";
+import { Router } from "@reach/router";
 import { Provider } from "react-redux";
 import store from "../../store";
 import Folders from "../Folders";
@@ -28,7 +29,9 @@ class App extends React.Component<{}, {}> {
           </section>
           <Folders />
           <section className="section">
-            <Topic />
+            <Router>
+              <Topic path=":linkPath" />
+            </Router>
           </section>
         </div>
       </Provider>

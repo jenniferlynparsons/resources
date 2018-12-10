@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "@reach/router";
 import { LinkListProps } from "../../interfaces";
 
 class LinkList extends React.Component<LinkListProps, {}> {
@@ -7,12 +8,13 @@ class LinkList extends React.Component<LinkListProps, {}> {
       return <a href={linkURI}>{linkTitle}</a>;
     } else {
       return (
-        <a href={"/" + this.props.parentTitle + "/" + linkTitle}>{linkTitle}</a>
+        <Link to={"/" + this.props.parentTitle + "/" + linkTitle}>
+          {linkTitle}
+        </Link>
       );
     }
   }
   render() {
-    console.log(this.props);
     return (
       <ul>
         {this.props.links.map(link => {
