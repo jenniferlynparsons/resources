@@ -50,3 +50,4 @@ Upload the contents of the `dist` folder to any static web hosting you like!
 - Refine instructions
 - Refine mobile menu interaction
 - Increase test coverage
+- Assess accessibility & performance
