@@ -1,8 +1,7 @@
 import React from "react";
-import { FolderProps } from "../../interfaces";
 import FoldersDropdown from "./FoldersDropdown";
 
-class Folders extends React.Component<FolderProps, {}> {
+class Folders extends React.Component {
   state = {
     showNavbar: false
   };

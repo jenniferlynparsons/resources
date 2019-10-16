@@ -1,9 +1,6 @@
 import React from "react";
-import { Link } from "@reach/router";
-import { FolderListProps } from "../../interfaces";
-import SubFolderList from "./SubFolderList";
 
-class FolderList extends React.Component<FolderListProps, {}> {
+class SubFolderList extends React.Component {
   render() {
     const {
       title,
@@ -19,10 +16,20 @@ class FolderList extends React.Component<FolderListProps, {}> {
     });
 
     if (typeCode === 2 && kids.length !== 0) {
-      return <React.Fragment key={"fragment-" + guid}>
-          <hr className="navbar-divider" />
-          <p className="navbar-item has-text-grey">{title}</p>
-          {kids && kids.map(kid => (
+      return (
+        <React.Fragment key={"fragment-" + guid}>
+          <a
+            className="navbar-item"
+            id={"link=" + guid}
+            onClick={() => {
+              handleClick(this.props);
+              toggleNav();
+            }}
+          >
+            {title}
+          </a>
+          {kids &&
+            kids.map(kid => (
               <React.Fragment key={"nested-li-folder-" + kid.guid}>
                 <div>
                   <SubFolderList
@@ -37,11 +44,11 @@ class FolderList extends React.Component<FolderListProps, {}> {
                 </div>
               </React.Fragment>
             ))}
-        </React.Fragment>;
+        </React.Fragment>
+      );
     } else if (typeCode === 2) {
       return (
         <React.Fragment key={"fragment-" + guid}>
-          <hr className="navbar-divider" />
           <a
             className="navbar-item"
             id={"link=" + guid}
@@ -59,7 +66,7 @@ class FolderList extends React.Component<FolderListProps, {}> {
         <React.Fragment key={guid}>
           {kids &&
             kids.map(kid => (
-              <FolderList
+              <SubFolderList
                 guid={kid.guid}
                 handleClick={handleClick}
                 toggleNav={toggleNav}
@@ -76,4 +83,4 @@ class FolderList extends React.Component<FolderListProps, {}> {
   }
 }
 
-export default FolderList;
+export default SubFolderList;

@@ -1,9 +1,8 @@
 import React from "react";
 import onClickOutside from "react-onclickoutside";
-import { FolderProps } from "../../interfaces";
 import FolderList from "../FolderList";
 
-class FoldersDropdown extends React.Component<FolderProps, {}> {
+class FoldersDropdown extends React.Component {
   state = {
     showMenu: false
   };
