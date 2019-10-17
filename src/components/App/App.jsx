@@ -15,7 +15,7 @@ class App extends React.Component {
             <div className="hero-body">
               <div className="container">
                 <h1 className="title">Web Development Resources</h1>
-                <h2 className="subtitle">Last updated: 12.10.18</h2>
+                <h2 className="subtitle">Last updated: 10.17.19</h2>
                 <p>
                   These are the resources that I've found most useful over the
                   years. They cover a wide range of topics I've studied while
