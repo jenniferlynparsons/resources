@@ -1,9 +1,9 @@
 import React from "react";
 import { connect } from "react-redux";
-import { TopicContainerProps, AppState } from "../../interfaces";
+
 import { Topic } from "./Topic";
 
-class TopicContainer extends React.Component<TopicContainerProps> {
+class TopicContainer extends React.Component {
   render() {
     return (
       <Topic
@@ -16,7 +16,7 @@ class TopicContainer extends React.Component<TopicContainerProps> {
   }
 }
 
-const mapStateToProps = (state: AppState) => ({
+const mapStateToProps = state => ({
   links: state.topic.links,
   topic: state.topic || "",
   folder: state.topic.parent || ""

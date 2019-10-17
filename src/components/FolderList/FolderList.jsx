@@ -1,8 +1,7 @@
 import React from "react";
-import { Link } from "@reach/router";
-import { FolderListProps } from "../../interfaces";
+import SubFolderList from "./SubFolderList";
 
-class SubFolderList extends React.Component<FolderListProps, {}> {
+class FolderList extends React.Component {
   render() {
     const {
       title,
@@ -20,16 +19,8 @@ class SubFolderList extends React.Component<FolderListProps, {}> {
     if (typeCode === 2 && kids.length !== 0) {
       return (
         <React.Fragment key={"fragment-" + guid}>
-          <a
-            className="navbar-item"
-            id={"link=" + guid}
-            onClick={() => {
-              handleClick(this.props);
-              toggleNav();
-            }}
-          >
-            {title}
-          </a>
+          <hr className="navbar-divider" />
+          <p className="navbar-item has-text-grey">{title}</p>
           {kids &&
             kids.map(kid => (
               <React.Fragment key={"nested-li-folder-" + kid.guid}>
@@ -51,6 +42,7 @@ class SubFolderList extends React.Component<FolderListProps, {}> {
     } else if (typeCode === 2) {
       return (
         <React.Fragment key={"fragment-" + guid}>
+          <hr className="navbar-divider" />
           <a
             className="navbar-item"
             id={"link=" + guid}
@@ -68,7 +60,7 @@ class SubFolderList extends React.Component<FolderListProps, {}> {
         <React.Fragment key={guid}>
           {kids &&
             kids.map(kid => (
-              <SubFolderList
+              <FolderList
                 guid={kid.guid}
                 handleClick={handleClick}
                 toggleNav={toggleNav}
@@ -85,4 +77,4 @@ class SubFolderList extends React.Component<FolderListProps, {}> {
   }
 }
 
-export default SubFolderList;
+export default FolderList;

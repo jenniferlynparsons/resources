@@ -1,13 +1,9 @@
 import React from "react";
-import { FoldersContainerProps, AppState } from "../../interfaces";
 import { connect } from "react-redux";
 import Folders from "./Folders";
 import { filterLinks } from "../../actions";
 
-class FoldersContainer extends React.Component<
-  FoldersContainerProps,
-  AppState
-> {
+class FoldersContainer extends React.Component {
   render() {
     return (
       <Folders links={this.props.links} handleClick={this.props.handleClick} />
@@ -21,8 +17,8 @@ const mapStateToProps = (state: AppState) => ({
   folder: state.folder
 });
 
-const mapDispatchToProps = (dispatch: any) => ({
-  handleClick: (t: any) => {
+const mapDispatchToProps = dispatch => ({
+  handleClick: t => {
     dispatch(filterLinks(t));
   }
 });
