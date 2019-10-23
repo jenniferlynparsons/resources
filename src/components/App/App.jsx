@@ -1,8 +1,8 @@
 import React from "react";
 import { Provider } from "react-redux";
 import store from "../../store";
-import Folders from "../Folders";
-import Topic from "../Topic";
+import Folders from "../Navigation/Folders";
+import Topic from "../Page/Topic";
 import "../../../node_modules/bulma/bulma.sass";
 import "../../common_styles/global.scss";
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import Folders from "./Folders";
-import { filterLinks } from "../../actions";
+import { filterLinks } from "../../../actions";
 
 class FoldersContainer extends React.Component {
   render() {
@@ -11,7 +11,7 @@ class FoldersContainer extends React.Component {
   }
 }
 
-const mapStateToProps = (state: AppState) => ({
+const mapStateToProps = state => ({
   links: state.links,
   topic: state.topic,
   folder: state.folder
