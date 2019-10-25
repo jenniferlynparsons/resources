@@ -1,4 +1,4 @@
-import React, { SFC } from "react";
+import React from "react";
 import LinkList from "../LinkList";
 
 export const Topic = props => {
@@ -7,7 +7,7 @@ export const Topic = props => {
       <div className="column is-three-quarters">
         <section className="content">
           <h2 className="is-size-4 has-text-weight-bold">
-            {props.folder} - {props.title}
+            {props.parent} - {props.title}
           </h2>
           <LinkList links={props.links} />
         </section>

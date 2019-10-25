@@ -1,25 +1,10 @@
 import React from "react";
-import { connect } from "react-redux";
+import { useSelector } from "react-redux";
 
 import { Topic } from "./Topic";
 
-class TopicContainer extends React.Component {
-  render() {
-    return (
-      <Topic
-        links={this.props.links}
-        title={this.props.topic.title}
-        guid={this.props.topic.guid}
-        folder={this.props.folder}
-      />
-    );
-  }
-}
+export default () => {
+  const { links, title, guid, parent } = useSelector(state => state.topic);
 
-const mapStateToProps = state => ({
-  links: state.topic.links,
-  topic: state.topic || "",
-  folder: state.topic.parent || ""
-});
-
-export default connect(mapStateToProps)(TopicContainer);
+  return <Topic links={links} title={title} guid={guid} parent={parent} />;
+};

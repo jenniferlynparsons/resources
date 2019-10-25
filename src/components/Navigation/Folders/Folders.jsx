@@ -3,7 +3,6 @@ import React from "react";
 import FolderList from "../FolderList";
 
 export default function Folders(props) {
-  console.log(props);
   return (
     <nav className="navbar is-light is-size-7">
       <div className="navbar-brand">
@@ -27,8 +26,6 @@ export default function Folders(props) {
       >
         <div className="navbar-start">
           {props.links.map(folder => {
-            console.log(folder.title);
-            console.log(props.showMenu);
             return (
               <div
                 key={folder.guid}

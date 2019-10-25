@@ -41,7 +41,7 @@ export default function FolderList(props) {
           className="navbar-item a"
           id={"link-" + props.guid}
           onClick={() => {
-            props.handleClick(props);
+            props.handleClick(props.title);
             props.toggleNav();
           }}
         >

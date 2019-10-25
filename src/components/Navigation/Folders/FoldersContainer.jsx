@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
+import { filterLinks } from "../../../actions";
 import Folders from "./Folders";
 
 export default () => {
@@ -8,16 +9,19 @@ export default () => {
 
   const links = useSelector(state => state.links);
 
+  const dispatch = useDispatch();
+
   const toggleNavBar = () => {
-    setShowNavbar(showNavbar === false ? true : false);
+    setShowNavbar(showNavbar ? false : true);
   };
 
   const toggleNav = title => {
     setShowMenu(title !== showMenu ? title : "");
   };
 
-  const handleClick = () => {
+  const handleClick = topic => {
     setShowMenu("");
+    dispatch(filterLinks(topic));
   };
 
   return (
@@ -31,20 +35,3 @@ export default () => {
     />
   );
 };
-
-// const mapStateToProps = state => ({
-//   links: state.links,
-//   topic: state.topic,
-//   folder: state.folder
-// });
-
-// const mapDispatchToProps = dispatch => ({
-//   handleClick: t => {
-//     dispatch(filterLinks(t));
-//   }
-// });
-
-// export default connect(
-//   mapStateToProps,
-//   mapDispatchToProps
-// )(FoldersContainer);
