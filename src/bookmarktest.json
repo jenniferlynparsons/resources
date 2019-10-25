@@ -1,0 +1,169 @@
+{
+  "folder": "",
+  "topic": {},
+  "links": [
+    {
+      "guid": "Mot7SUSCbfHh",
+      "title": "General Resources",
+      "index": 0,
+      "dateAdded": 1544314055661000,
+      "lastModified": 1570665796993000,
+      "id": 6460,
+      "typeCode": 3,
+      "type": "text/x-moz-place-container",
+      "links": [
+        {
+          "guid": "4G6HHI2JF4yJ",
+          "title": "Evergreen",
+          "index": 0,
+          "dateAdded": 1544314226349000,
+          "lastModified": 1557692407757000,
+          "id": 6465,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "links": [
+            {
+              "guid": "qyUhrWdH3l3S",
+              "title": "Online regex tester and debugger: PHP, PCRE, Python, Golang and JavaScript",
+              "index": 0,
+              "dateAdded": 1536266123579000,
+              "lastModified": 1544315466750000,
+              "id": 6177,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://regex101.com/"
+            },
+            {
+              "guid": "j8n6JFx2YQ8m",
+              "title": "repl.it - JavaScript Compiler",
+              "index": 1,
+              "dateAdded": 1470958280627000,
+              "lastModified": 1544315466776000,
+              "id": 4888,
+              "typeCode": 1,
+              "tags": "compsci",
+              "type": "text/x-moz-place",
+              "uri": "https://repl.it/languages/javascript"
+            }
+          ]
+        },
+        {
+          "guid": "FGXUZ_Dkg9nH",
+          "title": "Design",
+          "index": 1,
+          "dateAdded": 1521835930990000,
+          "lastModified": 1570665796993000,
+          "id": 114,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "links": [
+            {
+              "guid": "lbxm2ZEvQaIR",
+              "title": "Fonts",
+              "index": 0,
+              "dateAdded": 1564399927336000,
+              "lastModified": 1564400004307000,
+              "id": 6987,
+              "typeCode": 2,
+              "type": "text/x-moz-place-container",
+              "links": [
+                {
+                  "guid": "iaRxmCc00CEc",
+                  "title": "Inter UI font family",
+                  "index": 0,
+                  "dateAdded": 1539658625490000,
+                  "lastModified": 1564399968020000,
+                  "id": 6274,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "https://rsms.me/inter/"
+                },
+                {
+                  "guid": "9YBprt2KoJwu",
+                  "title": "â LIBRE FONTS BY WOMXN",
+                  "index": 1,
+                  "dateAdded": 1564399998924000,
+                  "lastModified": 1564399998924000,
+                  "id": 6989,
+                  "typeCode": 1,
+                  "type": "text/x-moz-place",
+                  "uri": "http://design-research.be/by-womxn/"
+                }
+              ]
+            },
+            {
+              "guid": "GsdRZQxYP4px",
+              "title": "General",
+              "index": 1,
+              "dateAdded": 1564399937169000,
+              "lastModified": 1570665796993000,
+              "id": 6988,
+              "typeCode": 2,
+              "type": "text/x-moz-place-container",
+              "links": [
+                {
+                  "guid": "8TnjPEZza-gk",
+                  "title": "UI / UX Design | Coursera",
+                  "index": 0,
+                  "dateAdded": 1570665796993000,
+                  "lastModified": 1570665796993000,
+                  "id": 7407,
+                  "typeCode": 1,
+                  "iconuri": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/icon-194x194.png",
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.coursera.org/specializations/ui-ux-design"
+                },
+                {
+                  "guid": "aDskmq9DfxB8",
+                  "title": "Design for Developers: Specific Steps to Improve Your Website Design | Tania Rascia",
+                  "index": 1,
+                  "dateAdded": 1521835927080000,
+                  "lastModified": 1564399981411000,
+                  "id": 1001,
+                  "typeCode": 1,
+                  "iconuri": "https://www.taniarascia.com/logos/logo-1024.png",
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.taniarascia.com/design-for-developers/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "guid": "BY8-zOMspT_B",
+          "title": "Career",
+          "index": 2,
+          "dateAdded": 1536679053334000,
+          "lastModified": 1544315509434000,
+          "id": 6178,
+          "typeCode": 2,
+          "type": "text/x-moz-place-container",
+          "links": [
+            {
+              "guid": "F3KvpBODhUi2",
+              "title": "https://snowflake.medium.com/#1,2,3,2,4,1,1,4,3,2,0,4,2,2,3,0,Cersei%20Lannister,Staff%20Engineer",
+              "index": 0,
+              "dateAdded": 1539286171880000,
+              "lastModified": 1544315167051000,
+              "id": 6261,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://snowflake.medium.com/#1,2,3,2,4,1,1,4,3,2,0,4,2,2,3,0,Cersei%20Lannister,Staff%20Engineer"
+            },
+            {
+              "guid": "c--_mQKrD-jO",
+              "title": "career-development-framework.md",
+              "index": 1,
+              "dateAdded": 1539286179964000,
+              "lastModified": 1544315167089000,
+              "id": 6262,
+              "typeCode": 1,
+              "type": "text/x-moz-place",
+              "uri": "https://gist.github.com/cecyc/6365ebb46ec408907a62f1d4d1336111"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

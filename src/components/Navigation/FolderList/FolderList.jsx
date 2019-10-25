@@ -1,80 +1,71 @@
 import React from "react";
 import SubFolderList from "./SubFolderList";
 
-class FolderList extends React.Component {
-  render() {
-    const {
-      title,
-      links,
-      handleClick,
-      parent,
-      typeCode,
-      toggleNav
-    } = this.props;
-    const guid = this.props.links[0].guid;
-    const kids = links.filter(item => {
-      return item.links;
-    });
-
-    if (typeCode === 2 && kids.length !== 0) {
-      return (
-        <React.Fragment key={"fragment-" + guid}>
-          <hr className="navbar-divider" />
-          <p className="navbar-item has-text-grey">{title}</p>
-          {kids &&
-            kids.map(kid => (
-              <React.Fragment key={"nested-li-folder-" + kid.guid}>
-                <div>
-                  <SubFolderList
-                    guid={kid.guid}
-                    handleClick={handleClick}
-                    toggleNav={toggleNav}
-                    links={kid.links}
-                    parent={title}
-                    title={kid.title}
-                    typeCode={kid.typeCode}
-                  />
-                </div>
-              </React.Fragment>
-            ))}
-        </React.Fragment>
-      );
-    } else if (typeCode === 2) {
-      return (
-        <React.Fragment key={"fragment-" + guid}>
-          <hr className="navbar-divider" />
-          <a
-            className="navbar-item"
-            id={"link=" + guid}
-            onClick={() => {
-              handleClick(this.props);
-              toggleNav();
-            }}
-          >
-            {title}
-          </a>
-        </React.Fragment>
-      );
-    } else {
-      return (
-        <React.Fragment key={guid}>
-          {kids &&
-            kids.map(kid => (
-              <FolderList
-                guid={kid.guid}
-                handleClick={handleClick}
-                toggleNav={toggleNav}
-                key={kid.guid}
-                links={kid.links}
-                parent={parent}
-                title={kid.title}
-                typeCode={kid.typeCode}
-              />
-            ))}
-        </React.Fragment>
-      );
-    }
+export default function FolderList(props) {
+  if (
+    props.typeCode === 2 &&
+    props.links.length !== 0 &&
+    props.links[0].type === "text/x-moz-place-container"
+  ) {
+    return (
+      <React.Fragment key={"fragment-" + props.guid}>
+        <hr className="navbar-divider" />
+        <p className="navbar-item has-text-grey">{props.title}</p>
+        {props.links &&
+          props.links.map(kid => (
+            <React.Fragment key={"nested-li-folder-" + kid.guid}>
+              <div>
+                <SubFolderList
+                  guid={kid.guid}
+                  links={kid.links}
+                  parent={props.title}
+                  title={kid.title}
+                  typeCode={kid.typeCode}
+                  handleClick={props.handleClick}
+                  toggleNav={props.toggleNav}
+                />
+              </div>
+            </React.Fragment>
+          ))}
+      </React.Fragment>
+    );
+  } else if (
+    props.typeCode === 2 &&
+    props.links &&
+    props.links[0].type === "text/x-moz-place"
+  ) {
+    return (
+      <React.Fragment key={"fragment-" + props.guid}>
+        <hr className="navbar-divider" />
+        <a
+          className="navbar-item"
+          id={"link-" + props.guid}
+          onClick={() => {
+            props.handleClick(props);
+            props.toggleNav();
+          }}
+        >
+          {props.title}
+        </a>
+      </React.Fragment>
+    );
+  } else {
+    return (
+      <React.Fragment key={props.guid}>
+        {props.links &&
+          props.links.map(kid => (
+            <FolderList
+              guid={kid.guid}
+              handleClick={props.handleClick}
+              toggleNav={props.toggleNav}
+              key={kid.guid}
+              links={kid.links}
+              parent={props.parent}
+              title={kid.title}
+              typeCode={kid.typeCode}
+            />
+          ))}
+      </React.Fragment>
+    );
   }
 }
-
-export default FolderList;
