@@ -17,9 +17,9 @@ class App extends React.Component {
                 <h1 className="title">Web Development Resources</h1>
                 <h2 className="subtitle">Last updated: 10.17.19</h2>
                 <p>
-                  These are the resources that I've found most useful over the
-                  years. They cover a wide range of topics I've studied while
-                  deepening my knowledge and developing my skills.
+                  These are the resources that I&apos;ve found most useful over
+                  the years. They cover a wide range of topics I&apos;ve studied
+                  while deepening my knowledge and developing my skills.
                 </p>
                 <p>
                   {" "}

@@ -1,55 +1,50 @@
-import React from "react";
-import { connect } from "react-redux";
+import React, { useState } from "react";
+import { useSelector } from "react-redux";
 import Folders from "./Folders";
-import { filterLinks } from "../../../actions";
 
-class FoldersContainer extends React.Component {
-  state = {
-    showNavbar: false,
-    showMenu: ""
+export default () => {
+  const [showNavbar, setShowNavbar] = useState(false);
+  const [showMenu, setShowMenu] = useState("");
+
+  const links = useSelector(state => state.links);
+
+  const toggleNavBar = () => {
+    setShowNavbar(showNavbar === false ? true : false);
   };
 
-  toggleNavBar = () => {
-    const navvisibility = this.state.showNavbar === false ? true : false;
-    this.setState({ showNavbar: navvisibility });
+  const toggleNav = title => {
+    setShowMenu(title !== showMenu ? title : "");
   };
 
-  handleClickOutside() {
-    this.setState({ showMenu: false });
-  }
-
-  toggleNav = title => {
-    const currentMenu = this.state.showMenu;
-    this.setState({ showMenu: title !== currentMenu ? title : "" });
+  const handleClick = () => {
+    setShowMenu("");
   };
 
-  render() {
-    return (
-      <Folders
-        links={this.props.links}
-        handleClick={this.props.handleClick}
-        toggleNav={this.toggleNav}
-        toggleNavBar={this.toggleNavBar}
-        showNavbar={this.state.showNavbar}
-        showMenu={this.state.showMenu}
-      />
-    );
-  }
-}
+  return (
+    <Folders
+      links={links}
+      showNavbar={showNavbar}
+      showMenu={showMenu}
+      handleClick={handleClick}
+      toggleNavBar={toggleNavBar}
+      toggleNav={toggleNav}
+    />
+  );
+};
 
-const mapStateToProps = state => ({
-  links: state.links,
-  topic: state.topic,
-  folder: state.folder
-});
+// const mapStateToProps = state => ({
+//   links: state.links,
+//   topic: state.topic,
+//   folder: state.folder
+// });
 
-const mapDispatchToProps = dispatch => ({
-  handleClick: t => {
-    dispatch(filterLinks(t));
-  }
-});
+// const mapDispatchToProps = dispatch => ({
+//   handleClick: t => {
+//     dispatch(filterLinks(t));
+//   }
+// });
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(FoldersContainer);
+// export default connect(
+//   mapStateToProps,
+//   mapDispatchToProps
+// )(FoldersContainer);

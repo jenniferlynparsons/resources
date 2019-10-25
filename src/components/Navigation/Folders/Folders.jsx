@@ -1,20 +1,20 @@
+/* eslint-disable react/prop-types */
 import React from "react";
-import onClickOutside from "react-onclickoutside";
 import FolderList from "../FolderList";
 
 export default function Folders(props) {
+  console.log(props);
   return (
     <nav className="navbar is-light is-size-7">
       <div className="navbar-brand">
         <a
-          role="button"
           className={
             "navbar-burger burger " + (props.showNavbar ? "is-active" : "")
           }
           aria-label="menu"
           aria-expanded="false"
           data-target="navbarBasicExample"
-          onClick={props.toggleNavBar}
+          onClick={() => props.toggleNavBar()}
         >
           <span aria-hidden="true" />
           <span aria-hidden="true" />
@@ -27,6 +27,8 @@ export default function Folders(props) {
       >
         <div className="navbar-start">
           {props.links.map(folder => {
+            console.log(folder.title);
+            console.log(props.showMenu);
             return (
               <div
                 key={folder.guid}

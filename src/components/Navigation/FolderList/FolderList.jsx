@@ -38,7 +38,7 @@ export default function FolderList(props) {
       <React.Fragment key={"fragment-" + props.guid}>
         <hr className="navbar-divider" />
         <a
-          className="navbar-item"
+          className="navbar-item a"
           id={"link-" + props.guid}
           onClick={() => {
             props.handleClick(props);

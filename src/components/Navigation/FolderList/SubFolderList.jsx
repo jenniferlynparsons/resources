@@ -34,18 +34,15 @@ export default function SubFolderList(props) {
     );
   } else if (props.typeCode === 2) {
     return (
-      <React.Fragment>
-        <a
-          className="navbar-item"
-          id={"link=" + props.guid}
-          onClick={() => {
-            props.handleClick(props);
-            props.toggleNav();
-          }}
-        >
-          {props.title}
-        </a>
-      </React.Fragment>
+      <a
+        className="navbar-item"
+        id={"link=" + props.guid}
+        onClick={() => {
+          props.toggleNav();
+        }}
+      >
+        {props.title}
+      </a>
     );
   } else {
     return (
