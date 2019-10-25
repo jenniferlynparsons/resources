@@ -7,7 +7,7 @@ export const loadLinks = () => {
   }
 };
 
-export const saveLinks = (data: any) => {
+export const saveLinks = data => {
   try {
     localStorage.setItem("state", JSON.stringify(data));
   } catch (err) {
