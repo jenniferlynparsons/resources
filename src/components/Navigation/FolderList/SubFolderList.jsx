@@ -1,19 +1,21 @@
 import React from "react";
+import { Link } from "@reach/router";
 
 function SubFolderList(props) {
   if (props.typeCode === 2 && (props.links && props.links.length !== 0)) {
     return (
       <React.Fragment key={"fragment-" + props.guid}>
-        <a
+        <Link
           className="navbar-item"
           id={"link=" + props.guid}
+          to={props.parent + "/" + props.title}
           onClick={() => {
             props.handleClick(props);
             props.toggleNav();
           }}
         >
           {props.title}
-        </a>
+        </Link>
         {props.links &&
           props.links.map(kid => (
             <React.Fragment key={"nested-li-folder-" + kid.guid}>

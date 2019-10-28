@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "@reach/router";
 import SubFolderList from "./SubFolderList";
 
 function FolderList(props) {
@@ -33,16 +34,17 @@ function FolderList(props) {
     return (
       <React.Fragment key={"fragment-" + props.guid}>
         <hr className="navbar-divider" />
-        <a
+        <Link
           className="navbar-item a"
-          id={"link-" + props.guid}
+          id={"link=" + props.guid}
+          to={props.parent + "/" + props.title}
           onClick={() => {
             props.handleClick(props);
             props.toggleNav();
           }}
         >
           {props.title}
-        </a>
+        </Link>
       </React.Fragment>
     );
   } else {

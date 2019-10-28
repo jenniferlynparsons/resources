@@ -1,12 +1,13 @@
 import React from "react";
 import { Provider } from "react-redux";
 import store from "../../store";
+import { Router, Location } from "@reach/router";
 import Folders from "../Navigation/Folders";
 import Topic from "../Page/Topic";
 import "../../../node_modules/bulma/bulma.sass";
 import "../../common_styles/global.scss";
 
-function App() {
+function App(props) {
   return (
     <Provider store={store}>
       <div className="container">
@@ -36,7 +37,12 @@ function App() {
         </section>
         <Folders />
         <section className="section">
-          <Topic />
+          <Location>
+            {console.log(props.location)}
+            <Router>
+              <Topic path="/:parent/:title" />
+            </Router>
+          </Location>
         </section>
       </div>
     </Provider>
