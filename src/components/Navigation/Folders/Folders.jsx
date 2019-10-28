@@ -2,7 +2,7 @@
 import React from "react";
 import FolderList from "../FolderList";
 
-export default function Folders(props) {
+function Folders(props) {
   return (
     <nav className="navbar is-light is-size-7">
       <div className="navbar-brand">
@@ -62,3 +62,5 @@ export default function Folders(props) {
     </nav>
   );
 }
+
+export default Folders;

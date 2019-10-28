@@ -1,7 +1,7 @@
 import React from "react";
 import LinkList from "../LinkList";
 
-export const Topic = props => {
+function Topic(props) {
   if (props.guid) {
     return (
       <div className="column is-three-quarters">
@@ -23,4 +23,6 @@ export const Topic = props => {
       </div>
     );
   }
-};
+}
+
+export default Topic;

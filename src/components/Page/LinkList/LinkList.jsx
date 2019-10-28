@@ -1,6 +1,6 @@
 import React from "react";
 
-export default props => {
+function LinkList(props) {
   return (
     <ul>
       {props.links.map(link => (
@@ -10,4 +10,6 @@ export default props => {
       ))}
     </ul>
   );
-};
+}
+
+export default LinkList;

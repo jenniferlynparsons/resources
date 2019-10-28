@@ -1,7 +1,7 @@
 import React from "react";
 import SubFolderList from "./SubFolderList";
 
-export default function FolderList(props) {
+function FolderList(props) {
   if (
     props.typeCode === 2 &&
     props.links.length !== 0 &&
@@ -69,3 +69,5 @@ export default function FolderList(props) {
     );
   }
 }
+
+export default FolderList;

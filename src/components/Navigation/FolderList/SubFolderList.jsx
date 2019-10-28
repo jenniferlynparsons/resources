@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function SubFolderList(props) {
+function SubFolderList(props) {
   if (props.typeCode === 2 && (props.links && props.links.length !== 0)) {
     return (
       <React.Fragment key={"fragment-" + props.guid}>
@@ -64,3 +64,5 @@ export default function SubFolderList(props) {
     );
   }
 }
+
+export default SubFolderList;
