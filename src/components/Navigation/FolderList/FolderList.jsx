@@ -29,11 +29,7 @@ function FolderList(props) {
           ))}
       </React.Fragment>
     );
-  } else if (
-    props.typeCode === 2 &&
-    props.links &&
-    props.links[0].type === "text/x-moz-place"
-  ) {
+  } else if (props.typeCode === 2 && props.links) {
     return (
       <React.Fragment key={"fragment-" + props.guid}>
         <hr className="navbar-divider" />
@@ -41,7 +37,7 @@ function FolderList(props) {
           className="navbar-item a"
           id={"link-" + props.guid}
           onClick={() => {
-            props.handleClick(props.title);
+            props.handleClick(props);
             props.toggleNav();
           }}
         >
