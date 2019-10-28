@@ -1,7 +1,8 @@
 import React from "react";
+import { Link } from "@reach/router";
 import SubFolderList from "./SubFolderList";
 
-export default function FolderList(props) {
+function FolderList(props) {
   if (
     props.typeCode === 2 &&
     props.links.length !== 0 &&
@@ -29,24 +30,21 @@ export default function FolderList(props) {
           ))}
       </React.Fragment>
     );
-  } else if (
-    props.typeCode === 2 &&
-    props.links &&
-    props.links[0].type === "text/x-moz-place"
-  ) {
+  } else if (props.typeCode === 2 && props.links) {
     return (
       <React.Fragment key={"fragment-" + props.guid}>
         <hr className="navbar-divider" />
-        <a
+        <Link
           className="navbar-item a"
-          id={"link-" + props.guid}
+          id={"link=" + props.guid}
+          to={props.parent + "/" + props.title}
           onClick={() => {
-            props.handleClick(props.title);
+            props.handleClick(props);
             props.toggleNav();
           }}
         >
           {props.title}
-        </a>
+        </Link>
       </React.Fragment>
     );
   } else {
@@ -69,3 +67,5 @@ export default function FolderList(props) {
     );
   }
 }
+
+export default FolderList;

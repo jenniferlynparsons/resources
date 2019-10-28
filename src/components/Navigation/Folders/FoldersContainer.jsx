@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { filterLinks } from "../../../actions";
 import Folders from "./Folders";
 
-export default () => {
+function FoldersContainer() {
   const [showNavbar, setShowNavbar] = useState(false);
   const [showMenu, setShowMenu] = useState("");
 
@@ -34,4 +34,6 @@ export default () => {
       toggleNav={toggleNav}
     />
   );
-};
+}
+
+export default FoldersContainer;
